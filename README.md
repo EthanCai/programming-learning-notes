@@ -3,9 +3,8 @@
 这是一本手册，帮助你使用（但不仅限于）dotNET开发更好的应用。内容广泛，但没有糟粕。
 
 备注：
-- [website-attack-and-defense.md](./website-attack-and-defense.md)：常见的网络攻击手段和防御方法
-
-
+- [website-attack-and-defense.md](./website-attack-and-defense.md): 常见的网络攻击手段和防御方法
+- [magic-fsharp](./magic-fsharp/md): F#学习资料
 
 # Articles
 
@@ -141,18 +140,6 @@ MassTransit
 
 
 
-# "F#"
-
-- [F# at Microsoft Research](http://research.microsoft.com/en-us/projects/fsharp/)
-- [Try F#](http://www.tryfsharp.org/)
-- [F# Software Foundation](http://fsharp.org/)
-- [Fslab](http://fslab.org/)
-- [Data Sciense with F#](http://fsharp.org/guides/data-science/index.html)
-- [F# for fun and profit](http://fsharpforfunandprofit.com/): This site will introduce you to F# and show you ways that F# can help in day-to-day development of mainstream commercial business software.
-- [The F# Community Space for incubating open community projects](http://fsprojects.github.io/)
-
-
-
 # Books
 
 - [CLR via C#](http://book.douban.com/subject/4924165/)
@@ -218,7 +205,6 @@ MassTransit
 - [ASP.net Web API 2](http://www.asp.net/web-api): ASP.NET Web API is a framework that makes it easy to build HTTP services that reach a broad range of clients, including browsers and mobile devices. ASP.NET Web API is an ideal platform for building RESTful applications on the .NET Framework.
 - [ServiceStack](https://github.com/ServiceStack/ServiceStack): Simple, Fast, Versatile and full-featured Services Framework
 - [Nancy](http://nancyfx.org/): Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono
-- [Suave.IO](http://suave.io/): Framework/library/web server that makes you cry tears of joy after finishing your project ahead-of-time when you look at the beautiful code you've written in `[F#]`.
 - [Apworks](https://github.com/daxnet/Apworks): Apworks is a flexible, scalable, configurable and efficient .NET based application development framework that helps software developers to easily build enterprise applications by applying either Classic Layering or Command-Query Responsibility Segregation (CQRS) architectural patterns.
 
 ## Template Engine
@@ -235,7 +221,6 @@ MassTransit
 - [Jexus](http://www.jexus.org/): 強勁、堅固、免費、易用的Linux ASP.NET服務器
 - [XSP](https://github.com/mono/xsp): Mono's ASP.NET hosting server. This module includes an Apache Module, a FastCGI module that can be hooked to other web servers as well as a standalone server used for testing (similar to Microsoft's Cassini)
 - [EmbedIO](https://github.com/unosquare/embedio): A tiny, cross-platform, module based web server
-- [Frack](https://github.com/fractureio/frack): An implementation of the Open Web Interface for .NET (OWIN), a .NET Web Server Gateway Interface, written in F#.
 - [Nginx](http://wiki.nginx.org/Main): a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
 - [Tengine](http://tengine.taobao.org/): Tengine是由淘宝网发起的Web服务器项目。它在Nginx的基础上，针对大访问量网站的需求，添加了很多高级功能和特性。Tengine的性能和稳定性已经在大型的网站如淘宝网，天猫商城等得到了很好的检验。它的最终目标是打造一个高效、稳定、安全、易用的Web平台。
 
@@ -260,7 +245,7 @@ MassTransit
 
 - [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis): a high performance general purpose redis client for .NET languages (C# etc)
 - [SolrNet](https://github.com/mausch/SolrNet): SolrNet is an Apache Solr client for .NET
-- [EasyNetQ](https://github.com/EasyNetQ/EasyNetQ): An easy to use .NET API for RabbitMQ, not offical rabbitmq .net client
+- [EasyNetQ](https://github.com/EasyNetQ/EasyNetQ): An easynet to use .NET API for RabbitMQ, not offical rabbitmq .net client
 - [DbUtility](https://github.com/Ivony/DbUtility):  a light database access tool
 
 **ORM framework**
@@ -354,7 +339,6 @@ MassTransit
 
 - [Command Line Parser](https://github.com/gsscoder/commandline) - The Command Line Parser Library offers to CLR applications a clean and concise API for manipulating command line arguments and related tasks
 - [Power Args](https://github.com/adamabdelhamed/PowerArgs) - PowerArgs converts command line arguments into .NET objects that are easy to program against. It also provides a ton of optional capabilities such as argument validation, auto generated usage, tab completion, and plenty of extensibility
-- [UnionArgParser](https://github.com/nessos/UnionArgParser) - Declarative CLI argument & XML configuration parser for F# applications.
 
 ## Manipulate Documents
 
@@ -383,7 +367,6 @@ MassTransit
 
 ## Tools
 
-- [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/): the community-provided Visual F# Power Tools, for use with Visual Studio 2012 and 2013 (Community or higher, not Express, see above).
 - [CS-Script](http://www.csscript.net/index.html): CS-Script is a CLR (Common Language Runtime) based scripting system which uses ECMA-compliant C# as a programming language. CS-Script currently targets Microsoft implementation of CLR (.NET 2.0/3.0/3.5/4.0/4.5) with full support on Mono.
 - [Scriptcs](http://scriptcs.net/): Unleash your C# from Visual Studio.
 - [dotPeek](https://www.jetbrains.com/decompiler/): Free .NET Decompiler and Assembly Browser
@@ -551,10 +534,6 @@ This is a site for the BCL Team to get features to customers to try out without 
 - [Accord.NET](http://accord-framework.net/) - Machine learning framework combined with audio and image processing libraries (computer vision, computer audition, signal processing and statistics).
 - [Accord.NET Extensions](https://github.com/dajuric/accord-net-extensions) - Advanced image processing and computer vision algorithms made as fluent extensions.
 - [AForge.NET](http://www.aforgenet.com/) - Framework for developers and researchers in the fields of Computer Vision and Artificial Intelligence (image processing, neural networks, genetic algorithms, machine learning, robotics).
-- [Deedle](http://bluemountaincapital.github.io/Deedle/) - Data frame and (time) series library for exploratory data manipulation with C# and F# support
-- [FsLab](http://www.fslab.org) - A collection of data science and machine learning libraries for F# and .NET
-- [R Provider](http://bluemountaincapital.github.io/FSharpRProvider/) - Type provider that exposes R packages and functions in a type-safe way to F# callers
-- [F# Data](http://fsharp.github.io/FSharp.Data/) - F# type providers for accessing XML, JSON, CSV and HTML files (based on sample documents) and for accessing WorldBank data
 - [PredictionIO](https://prediction.io/): An open-source machine learning server for developers and data scientists to create predictive engines for production environments, with zero downtime training and deployment.
 - [Apache Mahout](https://mahout.apache.org/): The Apache Mahout™ project's goal is to build an environment for quickly creating scalable performant machine learning applications.
 - [Aerosolve - Airbnb](http://airbnb.io/aerosolve/): A machine learning package built for humans.
@@ -585,12 +564,10 @@ This is a site for the BCL Team to get features to customers to try out without 
 
 - [Sandcastle](http://shfb.codeplex.com/) - Sandcastle Help File Builder similar to NDoc
 - [SharpDox](https://github.com/Geaz/sharpDox) - A c# documentation tool
-- [F# Formatting](http://tpetricek.github.io/FSharp.Formatting/) - Tools for documenting F# and C# projects from F# Script files, Markdown documents and inline XML or Markdown comments
 
 ## Build Automation
 
 - [Psake](https://github.com/psake/psake) - .NET-based build automation tool written in PowerShell
-- [FAKE](https://github.com/fsharp/FAKE) - F# Make, a cross platform build automation system
 - [Invoke-Build](https://github.com/nightroman/Invoke-Build) - PowerShell build and test automation tool inspired by Psake.
 - [MSBuild](https://github.com/Microsoft/msbuild) - The Microsoft Build Engine (MSBuild) is the build platform for .NET and Visual Studio
 - [Wixtoolset](http://wixtoolset.org/): The WiX toolset builds Windows installation packages from XML source code. The toolset integrates seamlessly into build processes.
@@ -616,7 +593,6 @@ This is a site for the BCL Team to get features to customers to try out without 
 - [Fluent Assertions](https://github.com/dennisdoomen/fluentassertions) - A set of .NET extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style test
 - [NSubstitute](http://nsubstitute.github.io/) - A friendly substitute for .NET mocking frameworks
 - [NBuilder](https://github.com/garethdown44/nbuilder) - Rapid generation of test objects
-- [Fuchu](https://github.com/mausch/Fuchu) - A unit-testing library for F# with tests-as-values which makes DSLs extemely easy to create.
 
 ## Database Testing
 
@@ -679,3 +655,4 @@ This is a site for the BCL Team to get features to customers to try out without 
 - [Open Source Testing](http://www.opensourcetesting.org/)
 - [NoSQL Database](http://nosql-database.org/)
 - [amplab - UC BERKELEY](https://amplab.cs.berkeley.edu/)
+- [A Complete List of .NET Open Source Developer Projects](http://scottge.net/2015/07/08/a-complete-list-of-net-open-source-developer-projects/)
