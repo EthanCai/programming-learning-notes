@@ -5,6 +5,8 @@
 备注：
 - [website-attack-and-defense.md](./website-attack-and-defense.md)：常见的网络攻击手段和防御方法
 
+
+
 # Articles
 
 ## Fundamental
@@ -15,6 +17,7 @@
 - 2014-12-04: [Introducing .NET Core](http://blogs.msdn.com/b/dotnet/archive/2014/12/04/introducing-net-core.aspx)
 - 2015-06-02: [系统架构领域的一些学习材料](http://www.wtoutiao.com/p/f04hok.html)
 - 2015-07-12: [CLR 这些年有啥变化吗？](http://mp.weixin.qq.com/s?__biz=MzAwNTMxMzg1MA==&mid=207498378&idx=1&sn=f4f83454ae2c706ffe55b9dfd883a4cd#rd)
+
 
 ## Web Development
 
@@ -30,9 +33,17 @@
 - 2015-02-23: [Introducing ASP.NET 5 - scottgu](https://weblogs.asp.net/scottgu/introducing-asp-net-5)
 - 2015-05-20: [How to Use Azure Redis Cache](https://azure.microsoft.com/en-us/documentation/articles/cache-dotnet-how-to-use-azure-redis-cache/)
 
+
 ## Distributed Architecture
 
+### Common
+
 - 2013-03-31: [分布式系统编程，你到哪一级了？](http://blog.jobbole.com/20304/)
+
+Message Exchange Format:
+
+- 2011-08-01: [Protocol Buffers, Avro, Thrift & MessagePack](https://www.igvita.com/2011/08/01/protocol-buffers-avro-thrift-messagepack/)
+- 2013-05-16: [PB vs Thrift vs Avro](http://www.cnblogs.com/fxjwind/archive/2013/05/16/3082219.html)
 
 ### Load Balance
 
@@ -88,9 +99,11 @@ MassTransit
 - 2015-06-30: [浅谈《【原创】深度分析Twitter Heron》](http://maosongfu.roughdraft.io/c3aeb1bb5eb7b39fcdc5-)
 - 2015-07-16: [学习笔记：The Log（我所读过的最好的一篇分布式技术文章）](http://www.cnblogs.com/foreach-break/p/notes_about_distributed_system_and_The_log.html)
 
+
 ## Mono
 
 - 2012-07-28: [国内 Mono 相关文章汇总](http://www.cnblogs.com/shanyou/archive/2012/07/28/2612919.html)
+
 
 ## DevOps
 
@@ -138,6 +151,8 @@ MassTransit
 - [F# for fun and profit](http://fsharpforfunandprofit.com/): This site will introduce you to F# and show you ways that F# can help in day-to-day development of mainstream commercial business software.
 - [The F# Community Space for incubating open community projects](http://fsprojects.github.io/)
 
+
+
 # Books
 
 - [CLR via C#](http://book.douban.com/subject/4924165/)
@@ -146,6 +161,8 @@ MassTransit
 - [Concurrency in C# Cookbook](http://book.douban.com/subject/25899958/)
 - [Windows并发编程指南](http://book.douban.com/subject/4214617/)
 
+
+
 # Code Style Guide
 
 - [NET设计规范：约定、惯用法与模式](http://book.douban.com/subject/4231292/)
@@ -153,16 +170,36 @@ MassTransit
 - [Style guides for Google-originated open-source projects](https://github.com/google/styleguide)
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
-# Foundation, Organization, Standard
 
-- [OWIN - Open Web Interface for .NET](http://owin.org/)
-- [OData](http://odata.github.io/): OData is an OASIS standard for creating and consuming RESTful APIs.
+
+# Foundation, Organization, Specification
+
+## Organization
+
 - [.NET Foundation](http://www.dotnetfoundation.org)
 - [patterns & practices](https://msdn.microsoft.com/en-us/library/ff921345.aspx)
 - [ServiceStack](https://servicestack.net/)
 - [StackExchange](https://github.com/StackExchange)
 - [Castle Projects](http://www.castleproject.org)
 - [Mono Projects](https://github.com/mono)
+
+## Specification
+
+- [OWIN - Open Web Interface for .NET](http://owin.org/)
+- [OData](http://odata.github.io/): OData is an OASIS standard for creating and consuming RESTful APIs.
+- HTTP
+    - [HTTP/2 Protocol](http://http2.github.io/): HTTP/2 is a replacement for how HTTP is expressed “on the wire.” It is not a ground-up rewrite of the protocol; HTTP methods, status codes and semantics are the same, and it should be possible to use the same APIs as HTTP/1.x (possibly with some small additions) to represent the protocol.
+    - [HTTP/2 explained](http://daniel.haxx.se/http2/): http2 explained describes the protocol HTTP/2 at a technical and protocol level. Background, the protocol, the implementations and the future. Written by Daniel Stenberg.
+- Data Exchange Format
+    - [Portocol Buffer](https://developers.google.com/protocol-buffers/): Protocol buffers are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data – think XML, but smaller, faster, and simpler. 
+    - [Message Pack](http://msgpack.org/): MessagePack is an efficient binary serialization format. It lets you exchange data among multiple languages like JSON. But it's faster and smaller. Small integers are encoded into a single byte, and typical short strings require only one extra byte in addition to the strings themselves.
+    - [Apache Thrift](http://thrift.apache.org/): Thrift源于大名鼎鼎的facebook之手，在2007年facebook提交Apache基金会将Thrift作为一个开源项目，对于当时的facebook来说创造thrift是为了解决facebook系统中各系统间大数据量的传输通信以及系统之间语言环境不同需要跨平台的特性。所以thrift可以支持多种程序语言，例如: C++, C#, Cocoa, Erlang Haskell, Java, Ocami, Perl, PHP, Python, Ruby, Smalltalk. 在多种不同的语言之间通信thrift可以作为二进制的高性能的通讯中间件，支持数据(对象)序列化和多种类型的RPC服务。Thrift适用于程序对程序静态的数据交换，需要先确定好他的数据结构，他是完全静态化的，当数据结构发生变化时，必须重新编辑IDL文件，代码生成，再编译载入的流程，跟其他IDL工具相比较可以视为是Thrift的弱项，Thrift适用于搭建大型数据交换及存储的通用工具，对于大型系统中的内部数据传输相对于JSON和xml无论在性能、传输大小上有明显的优势。
+    - [Apache Avro](http://avro.apache.org/): Apache Avro™ is a data serialization system.
+    - [Cap’n Proto](https://capnproto.org/index.html): Cap’n Proto is an insanely fast data interchange format and capability-based RPC system. Think JSON, except binary. Or think Protocol Buffers, except faster. In fact, in benchmarks, Cap’n Proto is INFINITY TIMES faster than Protocol Buffers.
+    - [Microsoft bond](https://github.com/Microsoft/bond): Bond is a cross-platform framework for working with schematized data. It supports cross-language de/serialization and powerful generic mechanisms for efficiently manipulating data. Bond is broadly used at Microsoft in high scale services.
+    - [JSON](http://json.org/): JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
+        - [JSON Schema](http://json-schema.org/)
+        - [JSON Schema Generator](http://jsonschema.net/)
 
 -------------------------------------------------------------------------------
 
@@ -183,7 +220,6 @@ MassTransit
 - [Nancy](http://nancyfx.org/): Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono
 - [Suave.IO](http://suave.io/): Framework/library/web server that makes you cry tears of joy after finishing your project ahead-of-time when you look at the beautiful code you've written in `[F#]`.
 - [Apworks](https://github.com/daxnet/Apworks): Apworks is a flexible, scalable, configurable and efficient .NET based application development framework that helps software developers to easily build enterprise applications by applying either Classic Layering or Command-Query Responsibility Segregation (CQRS) architectural patterns.
-
 
 ## Template Engine
 
@@ -214,22 +250,27 @@ MassTransit
 
 - [Fracture](https://github.com/fractureio/fracture): A high-performance socket I/O message pipeline library.
 - [SuperSocket](http://www.supersocket.net/): SuperSocket 是一个轻量级, 跨平台而且可扩展的 .Net/Mono Socket 服务器程序框架。你无须了解如何使用 Socket, 如何维护 Socket 连接和 Socket 如何工作，但是你却可以使用 SuperSocket 很容易的开发出一款 Socket 服务器端软件，例如游戏服务器，GPS 服务器, 工业控制服务和数据采集服务器等等。
-- [Zyan Communication Framework](http://zyan.com.de/): Easy to use distributed application framework for .NET, Mono and Xamarin.Android.
+- [RestSharper](http://restsharp.org/): Simple REST and HTTP API Client for .NET
 
 ## Authentication && Authorization
 
 - [DotNetOpenAuth](https://github.com/DotNetOpenAuth/DotNetOpenAuth) - A C# implementation of the OpenID, OAuth and InfoCard protocols
 
-## Data Access Driver
+## Data Access
 
-- [MyBatis](https://mybatis.github.io/): MyBatis is a first class persistence framework with support for custom SQL, stored procedures and advanced mappings. MyBatis eliminates almost all of the JDBC code and manual setting of parameters and retrieval of results. MyBatis can use simple XML or Annotations for configuration and map primitives, Map interfaces and Java POJOs (Plain Old Java Objects) to database records.
 - [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis): a high performance general purpose redis client for .NET languages (C# etc)
+- [SolrNet](https://github.com/mausch/SolrNet): SolrNet is an Apache Solr client for .NET
+- [EasyNetQ](https://github.com/EasyNetQ/EasyNetQ): An easy to use .NET API for RabbitMQ, not offical rabbitmq .net client
+- [DbUtility](https://github.com/Ivony/DbUtility):  a light database access tool
 
-## ORM
+**ORM framework**
 
 - [Drapper](https://github.com/StackExchange/dapper-dot-net): a simple object mapper for .Net
 - [Entity Framework](https://github.com/aspnet/EntityFramework): Microsoft's recommended data access technology for new applications in .NET.
+- [MyBatis](https://mybatis.github.io/): MyBatis is a first class persistence framework with support for custom SQL, stored procedures and advanced mappings. MyBatis eliminates almost all of the JDBC code and manual setting of parameters and retrieval of results. MyBatis can use simple XML or Annotations for configuration and map primitives, Map interfaces and Java POJOs (Plain Old Java Objects) to database records.
 - [ServiceStack.OrmLite](https://github.com/ServiceStack/ServiceStack.OrmLite): Fast, Simple, Typed ORM for .NET
+- [nhibernate](http://nhibernate.info/): NHibernate is a mature, open source object-relational mapper for the .NET framework. It's actively developed, fully featured and used in thousands of successful projects.
+- [fluent-nhibernate](https://github.com/jagregory/fluent-nhibernate): Fluent, XML-less, compile safe, automated, convention-based mappings for NHibernate. Get your fluent on.
 
 ## Serialization & Deserialization
 
@@ -265,29 +306,29 @@ MassTransit
 
 ## Interoperability
 
-* [CppSharp](https://github.com/mono/CppSharp) - Tools to surface C++ APIs to C#
-* [Sharpen](https://github.com/mono/sharpen) - Sharpen is an Eclipse plugin created by db4o that allows you to convert your Java project into C#
-* [CXXI](https://github.com/mono/cxxi) - C++ interop framework
+- [CppSharp](https://github.com/mono/CppSharp) - Tools to surface C++ APIs to C#
+- [Sharpen](https://github.com/mono/sharpen) - Sharpen is an Eclipse plugin created by db4o that allows you to convert your Java project into C#
+- [CXXI](https://github.com/mono/cxxi) - C++ interop framework
 
 ## IoC
 
-* [Castle Windsor](https://github.com/castleproject/Windsor) - Castle Windsor is best of breed, mature Inversion of Control container available for .NET and Silverlight
-* [Unity](https://unity.codeplex.com/) - Lightweight extensible dependency injection container with support for constructor, property, and method call injection
-* [Autofac](https://github.com/autofac/Autofac) - An addictive .NET IoC container
-* [Ninject](https://github.com/ninject/ninject) - The ninja of .net dependency injectors
-* [StructureMap](https://structuremap.github.io/) - The original IoC/DI Container for .Net
-* [Spring.Net](https://github.com/spring-projects/spring-net) - Spring.NET is an open source application framework that makes building  enterprise .NET applications easier
-* [LightInject](https://github.com/seesharper/LightInject) - A ultra lightweight IoC container
-* [TinyIoC](https://github.com/grumpydev/TinyIoC) - Single-file, easy and cross-platform IoC container
+- [Castle Windsor](https://github.com/castleproject/Windsor) - Castle Windsor is best of breed, mature Inversion of Control container available for .NET and Silverlight
+- [Unity](https://unity.codeplex.com/) - Lightweight extensible dependency injection container with support for constructor, property, and method call injection
+- [Autofac](https://github.com/autofac/Autofac) - An addictive .NET IoC container
+- [Ninject](https://github.com/ninject/ninject) - The ninja of .net dependency injectors
+- [StructureMap](https://structuremap.github.io/) - The original IoC/DI Container for .Net
+- [Spring.Net](https://github.com/spring-projects/spring-net) - Spring.NET is an open source application framework that makes building  enterprise .NET applications easier
+- [LightInject](https://github.com/seesharper/LightInject) - A ultra lightweight IoC container
+- [TinyIoC](https://github.com/grumpydev/TinyIoC) - Single-file, easy and cross-platform IoC container
 
 ## Logging
 
-* [Essential Diagnostics](http://essentialdiagnostics.codeplex.com/) - Extends the inbuilt features of System.Diagnostics namespace to provide flexible logging
-* [NLog](https://github.com/nlog/NLog/) - NLog - Advanced .NET and Silverlight Logging
-* [Logary](http://logary.github.io/) - Logary is a high performance, multi-target logging, metric, tracing and health-check library for mono and .Net. .Net's answer to DropWizard. Supports many targets, built for micro-services.
-* [Log4Net](https://logging.apache.org/log4net/) - The Apache log4net library is a tool to help the programmer output log statements to a variety of output targets
-* [Serilog](https://github.com/serilog/serilog) - A no-nonsense logging library for the NoSQL era. Combines the best of traditional and structured diagnostic logging in an easy-to-use package.
-* [StackExchange.Exceptional](https://github.com/NickCraver/StackExchange.Exceptional) - Error handler used for the Stack Exchange network
+- [Essential Diagnostics](http://essentialdiagnostics.codeplex.com/) - Extends the inbuilt features of System.Diagnostics namespace to provide flexible logging
+- [NLog](https://github.com/nlog/NLog/) - NLog - Advanced .NET and Silverlight Logging
+- [Logary](http://logary.github.io/) - Logary is a high performance, multi-target logging, metric, tracing and health-check library for mono and .Net. .Net's answer to DropWizard. Supports many targets, built for micro-services.
+- [Log4Net](https://logging.apache.org/log4net/) - The Apache log4net library is a tool to help the programmer output log statements to a variety of output targets
+- [Serilog](https://github.com/serilog/serilog) - A no-nonsense logging library for the NoSQL era. Combines the best of traditional and structured diagnostic logging in an easy-to-use package.
+- [StackExchange.Exceptional](https://github.com/NickCraver/StackExchange.Exceptional) - Error handler used for the Stack Exchange network
 
 ## Cryptography
 
@@ -304,10 +345,10 @@ MassTransit
 
 ## Mail
 
-* [FluentEmail](https://github.com/lukencode/FluentEmail): A Fluent Wrapper for System.Net.Mail with razor templating support.
-* [MailKit](https://github.com/jstedfast/MailKit): A complete cross-platform mail stack including IMAP, POP3, SMTP, authentication and more. Built on top of MimeKit.
-* [MimeKit](https://github.com/jstedfast/MimeKit): A cross-platform .NET MIME creation and parser library with support for S/MIME, PGP, TNEF and Unix mbox spools.
-* [MailSystem.NET](https://mailsystem.codeplex.com/): MailSystem is a suite of .NET components that provide users with an extensive set of email tools. MailSystem provides full support for SMTP, POP3, IMAP4, NNTP, MIME, S/MIME, OpenPGP, DNS, vCard, vCalendar, Anti-Spam (Bayesian , RBL, DomainKeys), Queueing, Mail Merge and WhoIs. If you wish to use this code in non GPLv3 software, you must acquire a commercial license. Please send your request to the coordinator of this project.
+- [FluentEmail](https://github.com/lukencode/FluentEmail): A Fluent Wrapper for System.Net.Mail with razor templating support.
+- [MailKit](https://github.com/jstedfast/MailKit): A complete cross-platform mail stack including IMAP, POP3, SMTP, authentication and more. Built on top of MimeKit.
+- [MimeKit](https://github.com/jstedfast/MimeKit): A cross-platform .NET MIME creation and parser library with support for S/MIME, PGP, TNEF and Unix mbox spools.
+- [MailSystem.NET](https://mailsystem.codeplex.com/): MailSystem is a suite of .NET components that provide users with an extensive set of email tools. MailSystem provides full support for SMTP, POP3, IMAP4, NNTP, MIME, S/MIME, OpenPGP, DNS, vCard, vCalendar, Anti-Spam (Bayesian , RBL, DomainKeys), Queueing, Mail Merge and WhoIs. If you wish to use this code in non GPLv3 software, you must acquire a commercial license. Please send your request to the coordinator of this project.
 
 ## CLI
 
@@ -346,17 +387,35 @@ MassTransit
 - [CS-Script](http://www.csscript.net/index.html): CS-Script is a CLR (Common Language Runtime) based scripting system which uses ECMA-compliant C# as a programming language. CS-Script currently targets Microsoft implementation of CLR (.NET 2.0/3.0/3.5/4.0/4.5) with full support on Mono.
 - [Scriptcs](http://scriptcs.net/): Unleash your C# from Visual Studio.
 - [dotPeek](https://www.jetbrains.com/decompiler/): Free .NET Decompiler and Assembly Browser
+- [FastFileFinder](https://github.com/Wintellect/FastFileFinder): Find files and directory names FAST!
+
+## Math
+
+- [Math.NET Numerics: numerical computing](http://numerics.mathdotnet.com/): Math.NET Numerics aims to provide methods and algorithms for numerical computations in science, engineering and every day use. Covered topics include special functions, linear algebra, probability models, random numbers, interpolation, integration, regression, optimization problems and more.
+- [Math.NET Symbolics: computer algebra](http://symbolics.mathdotnet.com/): Math.NET Symbolics is a basic open source computer algebra library for .Net and Mono written in F#.
+- [Math.NET Filtering: signal processing](http://filtering.mathdotnet.com/): Filtering aims to provide a toolkit for digital signal processing, offering an infrastructure for digital filter design, applying those filters to data streams using data converters, as well as digital signal generators.
+- [Math.NET Spatial](http://spatial.mathdotnet.com/): Math.NET Spatial is aiming to become a geometry library for .Net and Mono.
+
+## Image Processing
+
+- [nQuant .net Color Quantizer](https://nquant.codeplex.com/): nQuant is a .net color quantizer producing high quality 256 color 8 bit PNG images using an algorithm optimized for the highest quality possible.
+- [OpenCV](http://opencv.org/): OpenCV is released under a BSD license and hence it’s free for both academic and commercial use. It has C++, C, Python and Java interfaces and supports Windows, Linux, Mac OS, iOS and Android. OpenCV was designed for computational efficiency and with a strong focus on real-time applications. Written in optimized C/C++, the library can take advantage of multi-core processing. Enabled with OpenCL, it can take advantage of the hardware acceleration of the underlying heterogeneous compute platform. Adopted all around the world, OpenCV has more than 47 thousand people of user community and estimated number of downloads exceeding 9 million. Usage ranges from interactive art, to mines inspection, stitching maps on the web or through advanced robotics.
+    - [Emgu CV](http://www.emgu.com/wiki/index.php/Emgu_CV): Emgu CV is a cross platform .Net wrapper to the OpenCV image processing library. Allowing OpenCV functions to be called from .NET compatible languages such as C#, VB, VC++, IronPython etc. The wrapper can be compiled by Visual Studio, Xamarin Studio and Unity, it can run on Windows, Linux, Mac OS X, iOS, Android and Windows Phone.
+- [AForge.NET](http://www.aforgenet.com/): AForge.NET is a C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics, etc.
+- [ImageMagick](http://www.imagemagick.org): ImageMagick® is a software suite to create, edit, compose, or convert bitmap images. It can read and write images in a variety of formats (over 200) including PNG, JPEG, JPEG-2000, GIF, TIFF, DPX, EXR, WebP, Postscript, PDF, and SVG. Use ImageMagick to resize, flip, mirror, rotate, distort, shear and transform images, adjust image colors, apply various special effects, or draw text, lines, polygons, ellipses and Bézier curves.
+- [ImageProcessor](http://imageprocessor.org/): ImageProcessor is a collection of lightweight libraries written in C# that allows you to manipulate images on-the-fly using .NET 4.5+
+- [Hugin](http://sourceforge.net/projects/hugin): Panorama photo stitcher
+- [Luminance HDR](http://sourceforge.net/projects/qtpfsgui): Complete solution for HDR photography
+- $[Pano2VR && Object2VR](http://ggnome.com/): software for interactive panoramas and object movies.
 
 ## Misc Libraries
 
 - [AutoMapper](http://automapper.org/): a simple little library built to solve a deceptively complex problem - getting rid of code that mapped one object to another.
 - [UrlRewriter](https://github.com/sethyates/urlrewriter): UrlRewriter.NET is an open-source, light-weight, highly configurable URL rewriting component for ASP.NET 1.1 – 4.0.
 - [Fast Reflection Library](http://fastreflectionlib.codeplex.com/): FastReflectionLib provide the same as part of the refection features like executing method dynamically but give simple and faster implementations. It can be use as the foundation of reflection-based scenarios such as ORM framework.
-- [RestSharper](http://restsharp.org/): Simple REST and HTTP API Client for .NET
 - [FluentValidation](https://github.com/JeremySkinner/FluentValidation): A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules. Written by Jeremy Skinner (http://www.jeremyskinner.co.uk) and licensed under Apache 2.
 - [.NET Extensions Methods Library for C# and VB.NET (ASP.NET, MVC, SL, WPF, EF)](https://dnpextensions.codeplex.com/)
 - [Html Agility Pack](https://htmlagilitypack.codeplex.com/): This is an agile HTML parser that builds a read/write DOM and supports plain XPATH or XSLT (you actually don't HAVE to understand XPATH nor XSLT to use it, don't worry...). It is a .NET code library that allows you to parse "out of the web" HTML files. The parser is very tolerant with "real world" malformed HTML. The object model is very similar to what proposes System.Xml, but for HTML documents (or streams). 
-- [nQuant .net Color Quantizer](https://nquant.codeplex.com/): nQuant is a .net color quantizer producing high quality 256 color 8 bit PNG images using an algorithm optimized for the highest quality possible.
 - [Base Class Libraries](https://bcl.codeplex.com/): The Base Class Libraries site hosts samples, previews, and prototypes from the BCL team.
 This is a site for the BCL Team to get features to customers to try out without requiring a Beta or CTP of the .NET Framework. Our goal is to put generally useful functionality here, and to get feedback on it and have the chance to iterate on the design.
 - [CommonLibrary.NET](https://commonlibrarynet.codeplex.com/): A collection of very reusable code and components in C# 4.0 ranging from ActiveRecord, Csv, Command Line Parsing, Configuration, Validation, Logging, Collections, Authentication, and much more. This is ideal for C# developer looking for a Utility library, Java developers looking for a C# version of Java Commons.
@@ -364,6 +423,7 @@ This is a site for the BCL Team to get features to customers to try out without 
 - [Wintellect's Power Collections for .NET](http://powercollections.codeplex.com/): Power Collections makes heavy use of .NET Generics. The goal of the project is to provide generic collection classes that are not available in the .NET framework. Some of the collections included are the Deque, MultiDictionary, Bag, OrderedBag, OrderedDictionary, Set, OrderedSet, and OrderedMultiDictionary.
 - [ShouldBe](https://github.com/shouldly/shouldly): Should testing for .net - the way Asserting *Should* be!
 - [Humanizer](https://github.com/MehdiK/Humanizer): Humanizer meets all your .NET needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities
+- [Wintellect PowerThreading](https://github.com/Wintellect/PowerThreading): Jeffrey Richter's Power Threading Library
 
 -------------------------------------------------------------------------------
 
@@ -374,6 +434,7 @@ This is a site for the BCL Team to get features to customers to try out without 
 - [Microsoft Project Orleans](http://dotnet.github.io/orleans/): Orleans is a framework that provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns.
 - [akka.net](http://getakka.net/): a toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on .NET & Mono.
 - [akka](http://akka.io/): Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM. The power of Akka is also available on the .NET Framework and Mono via the Akka.NET project.
+- [Zyan Communication Framework](http://zyan.com.de/): Easy to use distributed application framework for .NET, Mono and Xamarin.Android.
 
 ## Distributed realtime computation system
 
@@ -487,19 +548,19 @@ This is a site for the BCL Team to get features to customers to try out without 
 
 ## Machine Learning and Data Science
 
-* [Accord.NET](http://accord-framework.net/) - Machine learning framework combined with audio and image processing libraries (computer vision, computer audition, signal processing and statistics).
-* [Accord.NET Extensions](https://github.com/dajuric/accord-net-extensions) - Advanced image processing and computer vision algorithms made as fluent extensions.
-* [AForge.NET](http://www.aforgenet.com/) - Framework for developers and researchers in the fields of Computer Vision and Artificial Intelligence (image processing, neural networks, genetic algorithms, machine learning, robotics).
-* [Deedle](http://bluemountaincapital.github.io/Deedle/) - Data frame and (time) series library for exploratory data manipulation with C# and F# support
-* [FsLab](http://www.fslab.org) - A collection of data science and machine learning libraries for F# and .NET
-* [R Provider](http://bluemountaincapital.github.io/FSharpRProvider/) - Type provider that exposes R packages and functions in a type-safe way to F# callers
-* [F# Data](http://fsharp.github.io/FSharp.Data/) - F# type providers for accessing XML, JSON, CSV and HTML files (based on sample documents) and for accessing WorldBank data
-* [PredictionIO](https://prediction.io/): An open-source machine learning server for developers and data scientists to create predictive engines for production environments, with zero downtime training and deployment.
-* [Apache Mahout](https://mahout.apache.org/): The Apache Mahout™ project's goal is to build an environment for quickly creating scalable performant machine learning applications.
-* [Aerosolve - Airbnb](http://airbnb.io/aerosolve/): A machine learning package built for humans.
-* [Caffe](http://caffe.berkeleyvision.org/): Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by the Berkeley Vision and Learning Center (BVLC) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.
-* [golearn](https://github.com/sjwhitworth/golearn): Machine Learning for Go
-* [shogun](https://github.com/shogun-toolbox/shogun): The Shogun Machine learning toolbox provides a wide range of unified and efficient Machine Learning (ML) methods. The toolbox seamlessly allows to easily combine multiple data representations, algorithm classes, and general purpose tools. This enables both rapid prototyping of data pipelines and extensibility in terms of new algorithms. We combine modern software architecture in C++ with both efficient low-level computing backends and cutting edge algorithm implementations to solve large-scale Machine Learning problems (yet) on single machines.
+- [Accord.NET](http://accord-framework.net/) - Machine learning framework combined with audio and image processing libraries (computer vision, computer audition, signal processing and statistics).
+- [Accord.NET Extensions](https://github.com/dajuric/accord-net-extensions) - Advanced image processing and computer vision algorithms made as fluent extensions.
+- [AForge.NET](http://www.aforgenet.com/) - Framework for developers and researchers in the fields of Computer Vision and Artificial Intelligence (image processing, neural networks, genetic algorithms, machine learning, robotics).
+- [Deedle](http://bluemountaincapital.github.io/Deedle/) - Data frame and (time) series library for exploratory data manipulation with C# and F# support
+- [FsLab](http://www.fslab.org) - A collection of data science and machine learning libraries for F# and .NET
+- [R Provider](http://bluemountaincapital.github.io/FSharpRProvider/) - Type provider that exposes R packages and functions in a type-safe way to F# callers
+- [F# Data](http://fsharp.github.io/FSharp.Data/) - F# type providers for accessing XML, JSON, CSV and HTML files (based on sample documents) and for accessing WorldBank data
+- [PredictionIO](https://prediction.io/): An open-source machine learning server for developers and data scientists to create predictive engines for production environments, with zero downtime training and deployment.
+- [Apache Mahout](https://mahout.apache.org/): The Apache Mahout™ project's goal is to build an environment for quickly creating scalable performant machine learning applications.
+- [Aerosolve - Airbnb](http://airbnb.io/aerosolve/): A machine learning package built for humans.
+- [Caffe](http://caffe.berkeleyvision.org/): Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by the Berkeley Vision and Learning Center (BVLC) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.
+- [golearn](https://github.com/sjwhitworth/golearn): Machine Learning for Go
+- [shogun](https://github.com/shogun-toolbox/shogun): The Shogun Machine learning toolbox provides a wide range of unified and efficient Machine Learning (ML) methods. The toolbox seamlessly allows to easily combine multiple data representations, algorithm classes, and general purpose tools. This enables both rapid prototyping of data pipelines and extensibility in terms of new algorithms. We combine modern software architecture in C++ with both efficient low-level computing backends and cutting edge algorithm implementations to solve large-scale Machine Learning problems (yet) on single machines.
 
 -------------------------------------------------------------------------------
 
@@ -518,6 +579,7 @@ This is a site for the BCL Team to get features to customers to try out without 
 - [StyleCop](https://stylecop.codeplex.com/) - StyleCop analyzes C# source code to enforce a set of style and consistency rules
 - [FoxCop](https://msdn.microsoft.com/en-us/library/bb429476(v=vs.80).aspx) - FxCop is an application that analyzes managed code assemblies (code that targets the .NET Framework common language runtime) and reports information about the assemblies, such as possible design, localization, performance, and security improvements.
 - [SonarQube](http://www.sonarqube.org/): SonarQube is an open platform to manage code quality. As such, it covers the 7 axes of code quality:
+- [OpenCover](https://github.com/OpenCover/opencover): A code coverage tool for .NET 2 and above, support for 32 and 64 processes with both branch and sequence points; roots proudly based in PartCover
 
 ## Documentation
 
@@ -544,31 +606,31 @@ This is a site for the BCL Team to get features to customers to try out without 
 
 ## Unit Testing
 
-* [NUnit](https://github.com/nunit/nunit-framework)
-* [xUnit](https://github.com/xunit/xunit) - xUnit.net is a free, open source, community-focused unit testing tool for the .NET Framework
-* [SpecFlow](https://github.com/techtalk/SpecFlow/) - Binding business requirements to .Net code
-* [AutoFixture](https://github.com/AutoFixture/AutoFixture) - AutoFixture is an open source framework for .NET designed to minimize the 'Arrange' phase of your unit tests
-* [Moq](https://github.com/Moq/moq4) - The most popular and friendly mocking framework for .NET
-* [Machine.Specifications](https://github.com/machine/machine.specifications) - Machine.Specifications (MSpec) is a context/specification framework that removes language noise and simplifies tests.
-* [Rhino Mocks](https://github.com/ayende/rhino-mocks) - Dynamic Mocking Framework for .NET
-* [Fluent Assertions](https://github.com/dennisdoomen/fluentassertions) - A set of .NET extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style test
-* [NSubstitute](http://nsubstitute.github.io/) - A friendly substitute for .NET mocking frameworks
-* [NBuilder](https://github.com/garethdown44/nbuilder) - Rapid generation of test objects
-* [Fuchu](https://github.com/mausch/Fuchu) - A unit-testing library for F# with tests-as-values which makes DSLs extemely easy to create.
+- [NUnit](https://github.com/nunit/nunit-framework)
+- [xUnit](https://github.com/xunit/xunit) - xUnit.net is a free, open source, community-focused unit testing tool for the .NET Framework
+- [SpecFlow](https://github.com/techtalk/SpecFlow/) - Binding business requirements to .Net code
+- [AutoFixture](https://github.com/AutoFixture/AutoFixture) - AutoFixture is an open source framework for .NET designed to minimize the 'Arrange' phase of your unit tests
+- [Moq](https://github.com/Moq/moq4) - The most popular and friendly mocking framework for .NET
+- [Machine.Specifications](https://github.com/machine/machine.specifications) - Machine.Specifications (MSpec) is a context/specification framework that removes language noise and simplifies tests.
+- [Rhino Mocks](https://github.com/ayende/rhino-mocks) - Dynamic Mocking Framework for .NET
+- [Fluent Assertions](https://github.com/dennisdoomen/fluentassertions) - A set of .NET extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style test
+- [NSubstitute](http://nsubstitute.github.io/) - A friendly substitute for .NET mocking frameworks
+- [NBuilder](https://github.com/garethdown44/nbuilder) - Rapid generation of test objects
+- [Fuchu](https://github.com/mausch/Fuchu) - A unit-testing library for F# with tests-as-values which makes DSLs extemely easy to create.
 
 ## Database Testing
 
-* [dbUnit](http://dbunit.sourceforge.net/intro.html): database unit testing
-* [TSQLT](http://tsqlt.org/): tSQLt is a database unit testing framework for Microsoft SQL Server. tSQLt is compatible with SQL Server 2005 (service pack 2 required) and above on all editions.
-* [DbFit](http://dbfit.github.io/dbfit/index.html): Test-driven database development. Write readable, easy-to-maintain unit and integration tests for your database code.
+- [dbUnit](http://dbunit.sourceforge.net/intro.html): database unit testing
+- [TSQLT](http://tsqlt.org/): tSQLt is a database unit testing framework for Microsoft SQL Server. tSQLt is compatible with SQL Server 2005 (service pack 2 required) and above on all editions.
+- [DbFit](http://dbfit.github.io/dbfit/index.html): Test-driven database development. Write readable, easy-to-maintain unit and integration tests for your database code.
 
 ## Automated Acceptance Testing
 
-* [fitnesse](http://www.fitnesse.org/FrontPage): The fully integrated standalone wiki and acceptance testing framework
-* [Cumuber](https://cucumber.io/): Cucumber is a software tool that computer programmers use for testing other software. It runs automated acceptance tests written in a behavior-driven development (BDD) style.
-* [SpecFlow](http://www.specflow.org/): SpecFlow aims at bridging the communication gap between domain experts and developers by binding business readable behavior specifications and examples to the underlying implementation.
-* [Selenium](http://www.seleniumhq.org/): Selenium is a suite of tools to automate web browsers across many platforms.
-* [ROBOT FRAMEWORK](http://robotframework.org/): Robot Framework is a generic test automation framework for acceptance testing and acceptance test-driven development (ATDD).
+- [fitnesse](http://www.fitnesse.org/FrontPage): The fully integrated standalone wiki and acceptance testing framework
+- [Cumuber](https://cucumber.io/): Cucumber is a software tool that computer programmers use for testing other software. It runs automated acceptance tests written in a behavior-driven development (BDD) style.
+- [SpecFlow](http://www.specflow.org/): SpecFlow aims at bridging the communication gap between domain experts and developers by binding business readable behavior specifications and examples to the underlying implementation.
+- [Selenium](http://www.seleniumhq.org/): Selenium is a suite of tools to automate web browsers across many platforms.
+- [ROBOT FRAMEWORK](http://robotframework.org/): Robot Framework is a generic test automation framework for acceptance testing and acceptance test-driven development (ATDD).
 
 ## Performance Testing
 
