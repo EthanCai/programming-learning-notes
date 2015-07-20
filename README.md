@@ -70,14 +70,23 @@ MassTransit
 
 - [Apache Solr vs ElasticSearch](http://solr-vs-elasticsearch.com/)
 
+### Recommender System
+
+- [Recommender systems, Part 1: Introduction to approaches and algorithms](http://www.ibm.com/developerworks/library/os-recommender1/index.html)
+- [Recommender systems, Part 2: Introducing open source engines](http://www.ibm.com/developerworks/library/os-recommender2/index.html)
+- [TOP 10开源的推荐系统简介](http://ibillxia.github.io/blog/2014/03/10/top-10-open-source-recommendation-systems/)
+- [ 推荐系统开源软件列表汇总和点评](http://blog.csdn.net/cserchen/article/details/14231153)
+
 ### NoSQL Database
 
 - [TokuMX使用小计](http://blogread.cn/it/article/6959)
 
 ### Distributed realtime computation system
 
+- 2013-12-16: [The Log: What every software engineer should know about real-time data's unifying abstraction](http://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 - 2015-03-22: [Where do Apache Samza and Apache Storm differ in their use cases?](http://stackoverflow.com/questions/29111549/where-do-apache-samza-and-apache-storm-differ-in-their-use-cases)
 - 2015-06-30: [浅谈《【原创】深度分析Twitter Heron》](http://maosongfu.roughdraft.io/c3aeb1bb5eb7b39fcdc5-)
+- 2015-07-16: [学习笔记：The Log（我所读过的最好的一篇分布式技术文章）](http://www.cnblogs.com/foreach-break/p/notes_about_distributed_system_and_The_log.html)
 
 ## Mono
 
@@ -428,16 +437,23 @@ This is a site for the BCL Team to get features to customers to try out without 
 - [WebScaleSQL](http://webscalesql.org/)
 - [SQLlite](http://www.sqlite.org/index.html)
 
-## Data Analytics
-
-- [infobright community edition](https://www.infobright.com/)
-
 ## Cache
 
 - [Redis](http://redis.io/): Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs.
 - [Memcached](http://memcached.org/): Free & open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load. Memcached is an in-memory key-value store for small chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page rendering. Memcached is simple yet powerful. Its simple design promotes quick deployment, ease of development, and solves many problems facing large data caches. Its API is available for most popular languages.
 - [twemproxy](https://github.com/twitter/twemproxy): A fast, light-weight proxy for memcached and redis
 - [shared cache](http://www.sharedcache.com/cms/homepage.aspx): high performance distributed and replication cache system built for .Net applications running in server farms.
+
+## NoSQL Database
+
+- [MongoDB](https://www.mongodb.org/)
+- [TokuMX](http://www.tokutek.com/): High-Performance MongoDB
+- [InfluxDB](https://influxdb.com/index.html): An open-source distributed time series database with no external dependencies.
+- [RavenDB](http://ravendb.net/): A linq enabled document database for .NET
+
+## Data Analytics
+
+- [infobright community edition](https://www.infobright.com/)
 
 ## Search
 
@@ -456,12 +472,13 @@ This is a site for the BCL Team to get features to customers to try out without 
 - [Apache Nutch](http://nutch.apache.org/): Apache Nutch是一个用Java编写的开源网络爬虫。Apache Nutch对于Solr已经支持得很好，这大大简化了Nutch与Solr的整合。
 - [Apache Tika](http://tika.apache.org/): The Apache Tika™ toolkit detects and extracts metadata and text from over a thousand different file types (such as PPT, XLS, and PDF). All of these file types can be parsed through a single interface, making Tika useful for search engine indexing, content analysis, translation, and much more.
 
-## NoSQL Database
+## Recommender System
 
-- [MongoDB](https://www.mongodb.org/)
-- [TokuMX](http://www.tokutek.com/): High-Performance MongoDB
-- [InfluxDB](https://influxdb.com/index.html): An open-source distributed time series database with no external dependencies.
-- [RavenDB](http://ravendb.net/): A linq enabled document database for .NET
+- [SUGGEST: Recommendation Engine](http://glaros.dtc.umn.edu/gkhome/suggest/overview): SUGGEST is a Top-N recommendation engine that implements a variety of recommendation algorithms. Top-N recommender systems, a personalized information filtering technology, are used to identify a set of N items that will be of interest to a certain user. In recent years, top-N recommender systems have been used in a number of different applications such to recommend products a customer will most likely buy; recommend movies, TV programs, or music a user will find enjoyable; identify web-pages that will be of interest; or even suggest alternate ways of searching for information.
+- [easyrec](http://easyrec.org/): With the open source recommendation engine easyrec you can add recommendations to your website within minutes. easyrec is a web application written in Java that provides personalized recommendations using RESTful Web Services ready to be integrated in your web enabled applications.
+- [MyMediaLite](https://github.com/zenogantner/MyMediaLite): recommender system library for the CLR (.NET)
+- [LensKit](http://lenskit.org/): Open-Source Tools for Recommender Systems
+- [Crab](http://muricoca.github.io/crab/): A Recommender Framework in Python
 
 ## Big Data
 
@@ -482,6 +499,7 @@ This is a site for the BCL Team to get features to customers to try out without 
 * [Aerosolve - Airbnb](http://airbnb.io/aerosolve/): A machine learning package built for humans.
 * [Caffe](http://caffe.berkeleyvision.org/): Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by the Berkeley Vision and Learning Center (BVLC) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.
 * [golearn](https://github.com/sjwhitworth/golearn): Machine Learning for Go
+* [shogun](https://github.com/shogun-toolbox/shogun): The Shogun Machine learning toolbox provides a wide range of unified and efficient Machine Learning (ML) methods. The toolbox seamlessly allows to easily combine multiple data representations, algorithm classes, and general purpose tools. This enables both rapid prototyping of data pipelines and extensibility in terms of new algorithms. We combine modern software architecture in C++ with both efficient low-level computing backends and cutting edge algorithm implementations to solve large-scale Machine Learning problems (yet) on single machines.
 
 -------------------------------------------------------------------------------
 
