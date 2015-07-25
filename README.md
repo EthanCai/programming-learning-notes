@@ -15,6 +15,8 @@
 - [Threading in C#](http://www.albahari.com/threading/)
 - [Concurrency in C# Cookbook](http://book.douban.com/subject/25899958/)
 - [Windows并发编程指南](http://book.douban.com/subject/4214617/)
+- [Pro .NET Best Practices](http://www.amazon.com/NET-Best-Practices-Experts-Voice/dp/1430240237/ref=sr_1_1)
+- [Pro C# 5.0 and the .NET 4.5 Framework, 6th Edition](http://www.amazon.com/Pro-NET-Framework-Experts-Voice/dp/1430242337/ref=sr_1_1)
 
 -------------------------------------------------------------------------------
 
@@ -65,6 +67,7 @@
 - [.NET Framewrok](https://msdn.microsoft.com/en-us/vstudio/aa496123.aspx)
 - [.NET Core](http://dotnet.github.io/core/): A general purpose managed framework
 - [Mono](http://www.mono-project.com/): Cross platform, open source .NET framework
+- [Roslyn](https://github.com/dotnet/roslyn): The .NET Compiler Platform ("Roslyn") provides open-source C# and Visual Basic compilers with rich code analysis APIs.
 
 ## Web Frameworks/Application Frameworks
 
@@ -523,8 +526,11 @@ This is a site for the BCL Team to get features to customers to try out without 
 
 - 2010-04-03: [编程语言的发展趋势及未来方向(系列文章)](http://blog.zhaojie.me/2010/04/trends-and-future-directions-in-programming-languages-by-anders-1-history-and-trends.html)
 - 2010-08-18: [C# 4动态编程新特性与DLR剖析](http://www.cnblogs.com/bitfan/archive/2010/08/18/1802769.html)
+- 2014-04-03: [The Next Generation of .NET - At Build 2014](http://blogs.msdn.com/b/dotnet/archive/2014/04/03/the-next-generation-of-net.aspx)
 - 2014-12-04: [Introducing .NET Core](http://blogs.msdn.com/b/dotnet/archive/2014/12/04/introducing-net-core.aspx)
+- 2015-04-29: [.NET Announcements at Build 2015](http://blogs.msdn.com/b/dotnet/archive/2015/04/29/net-announcements-at-build-2015.aspx)
 - 2015-07-12: [CLR 这些年有啥变化吗？](http://www.cnblogs.com/HQFZ/p/4638239.html)
+- 2015-07-20: [Announcing .NET Framework 4.6](http://blogs.msdn.com/b/dotnet/archive/2015/07/20/announcing-net-framework-4-6.aspx)
 - 2015-07-22: [.NET技术大系概览 （迄今为止最全的.NET技术栈）](http://www.cnblogs.com/unruledboy/p/NetStack.html)
 
 Mono:  
@@ -653,11 +659,11 @@ MassTransit
 - 2015-07-11: [Web 应用性能和压力测试工具 Gor](http://mp.weixin.qq.com/s?__biz=MjM5NjQ4MjYwMQ==&mid=208024569&idx=4&sn=168cf756825bc205866d541a2bdd3878&scene=1&from=groupmessage&isappinstalled=0#rd)
 
 
-
 -------------------------------------------------------------------------------
 
 # References
 
+- [official home of .NET on GitHub](https://github.com/microsoft/dotnet): dotnet is the official home of .NET on GitHub. It's a great starting point to find many .NET OSS projects from Microsoft and the community, including many that are part of the .NET Foundation.
 - [Patterns & Practices](https://msdn.microsoft.com/en-us/library/ff921345.aspx)
 - [Awesome dotNET](https://github.com/quozd/awesome-dotnet)
 - [Open Source Testing](http://www.opensourcetesting.org/)

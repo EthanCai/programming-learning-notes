@@ -31,7 +31,7 @@
 # Articles
 
 - 2011-11-20: [F#学习体会](http://blog.csdn.net/jostey/article/details/6994354)
-
+- 2015-07-20: [Announcing the RTM of Visual F# 4.0](http://blogs.msdn.com/b/dotnet/archive/2015/07/20/announcing-the-rtm-of-visual-f-4-0.aspx)
 
 # Projects
 
