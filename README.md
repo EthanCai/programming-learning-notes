@@ -77,6 +77,7 @@
 - [ServiceStack](https://github.com/ServiceStack/ServiceStack): Simple, Fast, Versatile and full-featured Services Framework
 - [Nancy](http://nancyfx.org/): Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono
 - [Apworks](https://github.com/daxnet/Apworks): Apworks is a flexible, scalable, configurable and efficient .NET based application development framework that helps software developers to easily build enterprise applications by applying either Classic Layering or Command-Query Responsibility Segregation (CQRS) architectural patterns.
+- [ReactJS.NET](http://reactjs.net/): ReactJS.NET makes it easier to use Facebook's React and JSX from C# and other .NET languages, focusing specifically on ASP.NET MVC (although it also works in other environments). It assumes you already have some basic knowledge about React. It is cross-platform and can run on Linux via Mono. Now with support for ASP.NET 5 Beta! 
 
 ## Template Engine
 
