@@ -455,6 +455,13 @@ This is a site for the BCL Team to get features to customers to try out without 
 - [Go Continuous Delivery](http://www.go.cd/): Automate and streamline the build-test-release cycle for worry-free, continuous delivery of your product.
 - [janky](https://github.com/github/janky): Continuous integration server built on top of Jenkins and Hubot
 
+## Bug/Issue Management
+
+- [BugZilla](http://www.bugzilla.org/): Bugzilla is server software designed to help you manage software development.
+- [Mantis Bug Tracker](http://www.mantisbt.org/index.php): MantisBT makes collaboration with team members & clients easy, fast, and professional
+- [BugTracker.NET](http://ifdefined.com/bugtrackernet.html): BugTracker.NET is a free, open-source, web-based bug tracking and general purpose issue tracking application. It is in daily use by thousands of development, customer support, and help desk teams around the world.
+- [BugNET](http://www.bugnetproject.com/): An open source issue tracking & project management application
+
 ## Unit Testing
 
 - [NUnit](https://github.com/nunit/nunit-framework)
