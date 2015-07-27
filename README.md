@@ -322,6 +322,7 @@ This is a site for the BCL Team to get features to customers to try out without 
 
 - [LVS](http://www.linuxvirtualserver.org/): The Linux Virtual Server is a highly scalable and highly available server built on a cluster of real servers, with the load balancer running on the Linux operating system. The architecture of the server cluster is fully transparent to end users, and the users interact as if it were a single high-performance virtual server.
 - [HAProxy](http://www.haproxy.org/): HAProxy is a free, very fast and reliable solution offering high availability, load balancing, and proxying for TCP and HTTP-based applications.
+    - [Bamboo](https://github.com/QubitProducts/bamboo): HAProxy auto configuration and auto service discovery for Mesos Marathon
 - [Nginx](http://wiki.nginx.org/Main): Nginx (pronounced engine-x) is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
 - [Pen](http://siag.nu/pen/): Pen is a load balancer for "simple" TCP-based protocols such as HTTP or SMTP. It allows several servers to appear as one to the outside. It automatically detects servers that are down and distributes clients among the available servers. This gives high availability and scalable performance.
 - [Balance](http://www.inlab.de/balance.html): Balance is a simple but powerful generic TCP proxy with round-robin load balancing and failover mechanisms. Its behavior can be controlled at runtime using a simple command line syntax. Balance supports IPv6 on the listening side, which makes it a very useful tool for IPv6 migration of IPv4 only services and servers.
@@ -341,6 +342,12 @@ This is a site for the BCL Team to get features to customers to try out without 
 - [XtreeFS](http://xtreemfs.org/index.php): XtreemFS is a general purpose storage system and covers most storage needs in a single deployment. It is open-source, requires no special hardware or kernel modules, and can be mounted on Linux, Windows and OS X.
 - [Ceph](http://ceph.com/): Ceph is a distributed object store and file system designed to provide excellent performance, reliability and scalability. - See more at: http://ceph.com/#sthash.46aGKE2z.dpuf
 - [Taobao File System](http://tfs.taobao.org/): TFS（Taobao !FileSystem）是一个高可扩展、高可用、高性能、面向互联网服务的分布式文件系统，主要针对海量的非结构化数据，它构筑在普通的Linux机器集群上，可为外部提供高可靠和高并发的存储访问。TFS为淘宝提供海量小文件存储，通常文件大小不超过1M，满足了淘宝对小文件存储的需求，被广泛地应用在淘宝各项应用中。它采用了HA架构和平滑扩容，保证了整个文件系统的可用性和扩展性。同时扁平化的数据组织结构，可将文件名映射到文件的物理地址，简化了文件的访问流程，一定程度上为TFS提供了良好的读写性能。
+
+## Configuration & Service Discovery
+
+- [Apache Zookeeper](http://zookeeper.apache.org/): ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. All of these kinds of services are used in some form or another by distributed applications. Each time they are implemented there is a lot of work that goes into fixing the bugs and race conditions that are inevitable. Because of the difficulty of implementing these kinds of services, applications initially usually skimp on them ,which make them brittle in the presence of change and difficult to manage. Even when done correctly, different implementations of these services lead to management complexity when the applications are deployed.
+- [etcd](https://github.com/coreos/etcd): A distributed consistent key-value store for shared configuration and service discovery
+- [Serf](https://www.serfdom.io/): Serf 是一个去中心化的服务发现和编排的解决方案，特点是轻量级和高可用，同时具备容错的特性。
 
 -------------------------------------------------------------------------------
 
