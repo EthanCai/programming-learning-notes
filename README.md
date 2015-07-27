@@ -439,7 +439,7 @@ This is a site for the BCL Team to get features to customers to try out without 
 - [Sandcastle](http://shfb.codeplex.com/) - Sandcastle Help File Builder similar to NDoc
 - [SharpDox](https://github.com/Geaz/sharpDox) - A c# documentation tool
 
-## Build Automation
+## Build
 
 - [Psake](https://github.com/psake/psake) - .NET-based build automation tool written in PowerShell
 - [Invoke-Build](https://github.com/nightroman/Invoke-Build) - PowerShell build and test automation tool inspired by Psake.
@@ -503,9 +503,13 @@ This is a site for the BCL Team to get features to customers to try out without 
 
 ## System Monitor
 
-- [Opserver](https://github.com/opserver/opserver): Opserver is a monitoring system by the team at Stack Exchange, home of Stack Overflow.
-- [Zabbix](http://www.zabbix.com/): Zabbix is the ultimate enterprise-level software designed for real-time monitoring of millions of metrics collected from tens of thousands of servers, virtual machines and network devices.
 - [Nagios](https://www.nagios.org/): Nagios Is The Industry Standard In IT Infrastructure Monitoring. Achieve instant awareness of IT infrastructure problems, so downtime doesn't adversely affect your business.
+- [Zabbix](http://www.zabbix.com/): Zabbix is the ultimate enterprise-level software designed for real-time monitoring of millions of metrics collected from tens of thousands of servers, virtual machines and network devices.
+- [Opserver](https://github.com/opserver/opserver): Opserver is a monitoring system by the team at Stack Exchange, home of Stack Overflow.
+- [Ganglia Monitoring System](http://ganglia.info/): Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids. It is based on a hierarchical design targeted at federations of clusters. It leverages widely used technologies such as XML for data representation, XDR for compact, portable data transport, and RRDtool for data storage and visualization. It uses carefully engineered data structures and algorithms to achieve very low per-node overheads and high concurrency. The implementation is robust, has been ported to an extensive set of operating systems and processor architectures, and is currently in use on thousands of clusters around the world. It has been used to link clusters across university campuses and around the world and can scale to handle clusters with 2000 nodes.
+- [Tsar - Taobao System Activity Reporter](https://github.com/kongjian/tsar): Tsar (Taobao System Activity Reporter) is a monitoring tool, which can be used to gather and summarize system information, e.g. CPU, load, IO, and application information, e.g. nginx, HAProxy, Squid, etc. The results can be stored at local disk or sent to Nagios.
+- [collectd - The system statistics collection daemon](http://collectd.org/): collectd is a daemon which collects system performance statistics periodically and provides mechanisms to store the values in a variety of ways, for example in RRD files.
+- [osquery](https://github.com/facebook/osquery): SQL powered operating system instrumentation, monitoring, and analytics.
 
 ## Deployment
 
@@ -522,10 +526,18 @@ This is a site for the BCL Team to get features to customers to try out without 
 
 - [Apache Mesos](http://mesos.apache.org/): Apache Mesos abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively.
 
+## Automamtion
+
+- [Chef](http://www.getchef.com/chef/): Infrastructure as Code
+- [Puppet](http://puppetlabs.com/): IT Automation Software of System Administrators
+- [Ansible](http://www.ansible.com/): Deploy apps. Manage systems. Crush complexity. Ansible is a powerful automation tool that you can learn quickly.
+- [Capistrano](http://capistranorb.com/): A remote server automation and deployment tool written in Ruby.
+
 ## Misc
 
 - [Apache Flume](http://flume.apache.org/): Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data. It has a simple and flexible architecture based on streaming data flows. It is robust and fault tolerant with tunable reliability mechanisms and many failover and recovery mechanisms. It uses a simple extensible data model that allows for online analytic application.
 - [twill](http://twill.idyll.org/): a simple scripting language for Web browsing
+- [vagrantup](https://www.vagrantup.com/): Create and configure lightweight, reproducible, and portable development environments.
 
 -------------------------------------------------------------------------------
 
