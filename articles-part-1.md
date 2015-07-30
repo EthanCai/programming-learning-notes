@@ -30,3 +30,4 @@ Misc:
 - 2014-05-18: [The Future of .NET on the Server: ASP.NET vNext content and videos from TechEd 2014](http://www.hanselman.com/blog/TheFutureOfNETOnTheServerASPNETVNextContentAndVideosFromTechEd2014.aspx)
 - 2015-02-23: [Introducing ASP.NET 5 - scottgu](https://weblogs.asp.net/scottgu/introducing-asp-net-5)
 - 2015-05-20: [How to Use Azure Redis Cache](https://azure.microsoft.com/en-us/documentation/articles/cache-dotnet-how-to-use-azure-redis-cache/)
+- 2015-07-20: [Released Today: Visual Studio 2015, ASP.NET 4.6, ASP.NET 5 & EF 7 Previews](http://weblogs.asp.net/scottgu/released-today-visual-studio-2015-asp-net-4-6-asp-net-5-ef-7-previews)
