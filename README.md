@@ -43,11 +43,12 @@
 
 ## Specification
 
-- [OWIN - Open Web Interface for .NET](http://owin.org/)
-- [OData](http://odata.github.io/): OData is an OASIS standard for creating and consuming RESTful APIs.
 - HTTP
     - [HTTP/2 Protocol](http://http2.github.io/): HTTP/2 is a replacement for how HTTP is expressed “on the wire.” It is not a ground-up rewrite of the protocol; HTTP methods, status codes and semantics are the same, and it should be possible to use the same APIs as HTTP/1.x (possibly with some small additions) to represent the protocol.
     - [HTTP/2 explained](http://daniel.haxx.se/http2/): http2 explained describes the protocol HTTP/2 at a technical and protocol level. Background, the protocol, the implementations and the future. Written by Daniel Stenberg.
+- [OWIN - Open Web Interface for .NET](http://owin.org/)
+- [JSON API](http://jsonapi.org/): A SPECIFICATION FOR BUILDING APIS IN JSON. 
+- [OData](http://www.odata.org/): OData is an OASIS standard for creating and consuming RESTful APIs.
 
 -------------------------------------------------------------------------------
 
