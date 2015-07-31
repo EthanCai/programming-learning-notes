@@ -28,6 +28,7 @@
 - 2011-10-02: [行为驱动开发之五，迅雷模式与笨蛋](http://www.cnblogs.com/jarodzz/archive/2011/10/03/2198620.html)
 - 2012-07-02: [Cucumber入门1 - 传统流程下的使用](http://www.cnblogs.com/jarodzz/archive/2012/07/02/2573014.html)
 - 2012-07-26: [Cucumber入门2 - 啥是BDD？](http://www.cnblogs.com/jarodzz/archive/2012/07/26/2610617.html)
+- 2014-05-06: [单元测试和测试驱动开发的一些常见问题总结](http://www.cnblogs.com/EthanCai/p/3710940.html)
 - 2014-05-09: [自动化单元测试实践之路](http://www.infoq.com/cn/articles/road-of-automated-unit-testing-practices)
 - 2014-05-11: [几个性能测试工具](http://www.cnblogs.com/EthanCai/p/3721656.html)
 - 2015-07-11: [Web 应用性能和压力测试工具 Gor](http://mp.weixin.qq.com/s?__biz=MjM5NjQ4MjYwMQ==&mid=208024569&idx=4&sn=168cf756825bc205866d541a2bdd3878&scene=1&from=groupmessage&isappinstalled=0#rd)
