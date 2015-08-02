@@ -5,7 +5,9 @@
 备注：
 
 - [website-attack-and-defense.md](./website-attack-and-defense.md): 常见的网络攻击手段和防御方法
-- [magic-fsharp](./magic-fsharp/md): F#学习资料
+- [magic-fsharp](./magic-fsharp.md): F#学习资料
+- [tech conference](./tech-conference.md): 技术大会介绍和资料
+- [paper](./papers.md): 论文
 
 -------------------------------------------------------------------------------
 
