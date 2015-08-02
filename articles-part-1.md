@@ -9,7 +9,11 @@
 - 2015-07-20: [Announcing .NET Framework 4.6](http://blogs.msdn.com/b/dotnet/archive/2015/07/20/announcing-net-framework-4-6.aspx)
 - 2015-07-22: [.NET技术大系概览 （迄今为止最全的.NET技术栈）](http://www.cnblogs.com/unruledboy/p/NetStack.html)
 
-Mono:  
+Reflection:
+
+- 2010-11-04: [Dynamic Type Using Reflection.Emit](http://www.codeproject.com/Articles/121568/Dynamic-Type-Using-Reflection-Emit)
+
+Mono: 
 
 - 2012-07-28: [国内 Mono 相关文章汇总](http://www.cnblogs.com/shanyou/archive/2012/07/28/2612919.html)
 

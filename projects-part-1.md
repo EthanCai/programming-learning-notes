@@ -219,3 +219,4 @@ This is a site for the BCL Team to get features to customers to try out without 
 - [ShouldBe](https://github.com/shouldly/shouldly): Should testing for .net - the way Asserting *Should* be!
 - [Humanizer](https://github.com/MehdiK/Humanizer): Humanizer meets all your .NET needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities
 - [Wintellect PowerThreading](https://github.com/Wintellect/PowerThreading): Jeffrey Richter's Power Threading Library
+- [Sigil](https://github.com/kevin-montrose/Sigil): A fail-fast validating helper for .NET CIL generation
