@@ -13,6 +13,10 @@ Reflection:
 
 - 2010-11-04: [Dynamic Type Using Reflection.Emit](http://www.codeproject.com/Articles/121568/Dynamic-Type-Using-Reflection-Emit)
 
+DLR & Dynamic:
+
+- 2012-02-08: [Creating a dynamic, extensible C# Expando Object](http://weblog.west-wind.com/posts/2012/Feb/08/Creating-a-dynamic-extensible-C-Expando-Object)
+
 Mono: 
 
 - 2012-07-28: [国内 Mono 相关文章汇总](http://www.cnblogs.com/shanyou/archive/2012/07/28/2612919.html)
