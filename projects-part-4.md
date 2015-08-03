@@ -112,6 +112,7 @@
 - [Chef](http://www.getchef.com/chef/): Infrastructure as Code
 - [Ansible](http://www.ansible.com/): Deploy apps. Manage systems. Crush complexity. Ansible is a powerful automation tool that you can learn quickly.
 - [Puppet](http://puppetlabs.com/): IT Automation Software of System Administrators
+- [SaltStack](http://saltstack.com/): SaltStack software orchestrates and automates the visualization, build and management of any legacy or modern infrastructure. SaltStack is known as the fastest, most scalable systems and configuration management software for CloudOps, ITOps and DevOps.
 - [Capistrano](http://capistranorb.com/): A remote server automation and deployment tool written in Ruby.
 
 ## Misc
