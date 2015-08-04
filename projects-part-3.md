@@ -55,10 +55,10 @@
 ## Big Data
 
 - [Hadoop and related projects](http://hadoop.apache.org/)
-    - **Common**: The common utilities that support the other Hadoop modules.
-    - **HDFS**: A distributed file system that provides high-throughput access to application data.
-    - **YARN**: A framework for job scheduling and cluster resource management.
-    - **MapReduce**: A YARN-based system for parallel processing of large data sets.
+    - [**Common**](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/CLIMiniCluster.html): The common utilities that support the other Hadoop modules.
+    - [**HDFS**](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html): A distributed file system that provides high-throughput access to application data.
+    - [**YARN**](http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html): A framework for job scheduling and cluster resource management.
+    - [**MapReduce**](http://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html): A YARN-based system for parallel processing of large data sets.
 - [basho](http://basho.com/): Introducing the Basho Data Platform. The most powerful way to manage today’s active workloads for Big Data.
 
 ## Machine Learning and Data Science

@@ -91,6 +91,7 @@
 - [Tsar - Taobao System Activity Reporter](https://github.com/kongjian/tsar): Tsar (Taobao System Activity Reporter) is a monitoring tool, which can be used to gather and summarize system information, e.g. CPU, load, IO, and application information, e.g. nginx, HAProxy, Squid, etc. The results can be stored at local disk or sent to Nagios.
 - [collectd - The system statistics collection daemon](http://collectd.org/): collectd is a daemon which collects system performance statistics periodically and provides mechanisms to store the values in a variety of ways, for example in RRD files.
 - [osquery](https://github.com/facebook/osquery): SQL powered operating system instrumentation, monitoring, and analytics.
+- [Graphite - Scalable Realtime Graphing](http://graphite.wikidot.com/): Graphite 是一个用于采集网站实时信息并进行统计的开源项目，可用于采集多种网站服务运行状态信息。Graphite服务平均每分钟有4800次更新操作。实践已经证实要监测网站发发生什么是非常有用的，它的简单文本协议和绘图功能可以方便地即插即 用的方式用于任何需要监控的系统上。
 
 ## Deployment
 
