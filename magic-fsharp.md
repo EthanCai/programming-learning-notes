@@ -13,7 +13,7 @@
 	- [Data Sciense with F#](http://fsharp.org/guides/data-science/index.html)
 - Learn F#
 	- [Learning F#](http://fsharp.org/about/learning.html)
-	- [Try F#](http://www.tryfsharp.org/)
+	- [Visual F# - MSDN](https://msdn.microsoft.com/en-us/library/dd233154.aspx)
 	- [F# for fun and profit](http://fsharpforfunandprofit.com/): This site will introduce you to F# and show you ways that F# can help in day-to-day development of mainstream commercial business software.
 	- [F# Cheatsheet](http://dungpa.github.io/fsharp-cheatsheet/): This cheatsheet glances over some of the common syntax of F# 3.0.
 - Blog
@@ -24,9 +24,15 @@
 	
 # Books
 
-- Apress.Expert.F.Sharp
-- Apress.Foundations.of.F.Sharp
-- Programming.Fsharp.3.0 (2nd,2012.10)
+- Apress.Expert.F.Sharp.Dec.2007
+- Apress.Foundations.of.F.Sharp.May.2007
+- F# for Scientists
+- Packt.F.Sharp.For.Quantitative.Finance.Dec.2013
+- Packt.Learning.Fsharp.Functional.Data.Structures.and.Algorithms
+- Real-World Functional Programming- With Examples in F# and C#
+- The Book of F#
+- Programming.Fsharp.3.0(2nd,2012.10)
+- [F# Wikibook](https://en.wikibooks.org/wiki/Programming:F_Sharp)
 
 # Articles
 
