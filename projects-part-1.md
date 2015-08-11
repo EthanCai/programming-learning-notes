@@ -88,6 +88,7 @@
 - [Gearman](http://gearman.org/): Gearman provides a generic application framework to farm out work to other machines or processes that are better suited to do the work. It allows you to do work in parallel, to load balance processing, and to call functions between languages. It can be used in a variety of applications, from high-availability web sites to the transport of database replication events.
 - [schedulix - open source enterprise job scheduling](https://github.com/schedulix/schedulix): schedulix is an open source enterprise job scheduling system.
 - [resque-schedule](https://github.com/resque/resque-scheduler): A light-weight job scheduling system built on top of resque
+- [rundeck](http://rundeck.org/index.html): job scheduler and runbook automation
 
 ## State Machine
 
