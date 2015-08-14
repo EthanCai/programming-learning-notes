@@ -35,6 +35,7 @@
 - [Jenkins-CI](http://jenkins-ci.org/): An extensible open source continuous integration server
 - [Go Continuous Delivery](http://www.go.cd/): Automate and streamline the build-test-release cycle for worry-free, continuous delivery of your product.
 - [janky](https://github.com/github/janky): Continuous integration server built on top of Jenkins and Hubot
+- [Buildbot](http://buildbot.net/index.html): Python-based continuous integration testing framework; your pull requests are more than welcome!
 
 ## Bug/Issue Management
 
@@ -115,7 +116,6 @@
 - [Ansible](http://www.ansible.com/): Deploy apps. Manage systems. Crush complexity. Ansible is a powerful automation tool that you can learn quickly.
 - [Puppet](http://puppetlabs.com/): IT Automation Software of System Administrators
 - [SaltStack](http://saltstack.com/): SaltStack software orchestrates and automates the visualization, build and management of any legacy or modern infrastructure. SaltStack is known as the fastest, most scalable systems and configuration management software for CloudOps, ITOps and DevOps.
-- [Capistrano](http://capistranorb.com/): A remote server automation and deployment tool written in Ruby.
 
 ## Misc
 
