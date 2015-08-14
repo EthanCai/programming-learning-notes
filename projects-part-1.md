@@ -89,6 +89,7 @@
 - [schedulix - open source enterprise job scheduling](https://github.com/schedulix/schedulix): schedulix is an open source enterprise job scheduling system.
 - [resque-schedule](https://github.com/resque/resque-scheduler): A light-weight job scheduling system built on top of resque
 - [rundeck](http://rundeck.org/index.html): job scheduler and runbook automation
+- [celery](http://www.celeryproject.org/): Celery is an asynchronous task queue/job queue based on distributed message passing.	It is focused on real-time operation, but supports scheduling as well.
 
 ## State Machine
 
