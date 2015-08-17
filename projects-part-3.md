@@ -22,6 +22,7 @@
 - [TokuMX](http://www.tokutek.com/): High-Performance MongoDB
 - [InfluxDB](https://influxdb.com/index.html): An open-source distributed time series database with no external dependencies.
 - [RavenDB](http://ravendb.net/): A linq enabled document database for .NET
+- [EventStore](https://github.com/EventStore/EventStore): The open-source, functional database with Complex Event Processing in JavaScript.
 
 ## Data Analytics
 

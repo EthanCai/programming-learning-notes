@@ -15,7 +15,8 @@
 - [ServiceStack](https://github.com/ServiceStack/ServiceStack): Simple, Fast, Versatile and full-featured Services Framework
 - [Nancy](http://nancyfx.org/): Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono
 - [Apworks](https://github.com/daxnet/Apworks): Apworks is a flexible, scalable, configurable and efficient .NET based application development framework that helps software developers to easily build enterprise applications by applying either Classic Layering or Command-Query Responsibility Segregation (CQRS) architectural patterns.
-- [ReactJS.NET](http://reactjs.net/): ReactJS.NET makes it easier to use Facebook's React and JSX from C# and other .NET languages, focusing specifically on ASP.NET MVC (although it also works in other environments). It assumes you already have some basic knowledge about React. It is cross-platform and can run on Linux via Mono. Now with support for ASP.NET 5 Beta! 
+- [ReactJS.NET](http://reactjs.net/): ReactJS.NET makes it easier to use Facebook's React and JSX from C# and other .NET languages, focusing specifically on ASP.NET MVC (although it also works in other environments). It assumes you already have some basic knowledge about React. It is cross-platform and can run on Linux via Mono. Now with support for ASP.NET 5 Beta!
+- [Nelibur](https://github.com/Nelibur/Nelibur): Nelibur is message based web service framework on the pure WCF. Nelibur simplifies creating high-performance and message based web services and you certainly have all the power of the WCF
 
 ## Template Engine
 
@@ -186,6 +187,7 @@
 - [Scriptcs](http://scriptcs.net/): Unleash your C# from Visual Studio.
 - [dotPeek](https://www.jetbrains.com/decompiler/): Free .NET Decompiler and Assembly Browser
 - [FastFileFinder](https://github.com/Wintellect/FastFileFinder): Find files and directory names FAST!
+- [Rant2](https://github.com/TheBerkin/Rant): Rant is a language for procedurally generating text, written in C#. It combines a markup language with functional and imperative programming concepts to deliver a powerful, but easy-to-use tool for adding rich variations to your text. The ultimate goal of Rant is to augment your creativity with the boundless potential of randomness, helping you consider your next great idea as not just a static concept, but a seed for countless possibilities.
 
 ## Math
 
