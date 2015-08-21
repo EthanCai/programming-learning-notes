@@ -118,6 +118,7 @@
 - [Ansible](http://www.ansible.com/): Deploy apps. Manage systems. Crush complexity. Ansible is a powerful automation tool that you can learn quickly.
 - [Puppet](http://puppetlabs.com/): IT Automation Software of System Administrators
 - [SaltStack](http://saltstack.com/): SaltStack software orchestrates and automates the visualization, build and management of any legacy or modern infrastructure. SaltStack is known as the fastest, most scalable systems and configuration management software for CloudOps, ITOps and DevOps.
+- [cfengine](http://cfengine.com/): Lightweight agent system. Configuration state is specified via a declarative language. 
 
 ## Misc
 
