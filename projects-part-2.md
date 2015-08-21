@@ -79,7 +79,3 @@
 - [etcd](https://github.com/coreos/etcd): A distributed consistent key-value store for shared configuration and service discovery
 - [Serf](https://www.serfdom.io/): Serf 是一个去中心化的服务发现和编排的解决方案，特点是轻量级和高可用，同时具备容错的特性。
 - [consul](https://www.consul.io/): Consul 简化了分布式环境中的服务的注册和发现流程，通过 HTTP 或者 DNS 接口发现。支持外部 SaaS 提供者等。
-
-## Resource Management
-
-- [Apache Mesos](http://mesos.apache.org/): Apache Mesos abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively.
