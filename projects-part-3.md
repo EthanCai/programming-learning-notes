@@ -75,6 +75,8 @@
 
 - [nflabs](http://www.nflabs.com/): Introducing a new way to do big data analysis, Visualize, analyze, and collaborate on big data without the hassle of big data
     - [Apache Zeppelin](https://zeppelin.incubator.apache.org/): A web-based notebook that enables interactive data analytics. You can make beautiful data-driven, interactive and collaborative documents with SQL, Scala and more.
+- [kibana](https://www.elastic.co/products/kibana): Kibana 是一个为 Logstash 和 ElasticSearch 提供的日志分析的 Web 接口。可使用它对日志进行高效的搜索、可视化、分析等各种操作。
+- [Grafana](http://grafana.org/): Grafana is a leading open source application for visualizing large-scale measurement data.
 
 ## Machine Learning and Data Science
 
@@ -92,3 +94,4 @@
 
 - [Apache Flume](http://flume.apache.org/): Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data. It has a simple and flexible architecture based on streaming data flows. It is robust and fault tolerant with tunable reliability mechanisms and many failover and recovery mechanisms. It uses a simple extensible data model that allows for online analytic application.
 - [Logstash](https://www.elastic.co/products/logstash): Logstash 是一个应用程序日志、事件的传输、处理、管理和搜索的平台。你可以用它来统一对应用程序日志进行收集管理，提供 Web 接口用于查询和统计。
+- [FluentD](http://www.fluentd.org/): Fluentd是一个日志收集系统，它的特点在于其各部分均是可定制化的，你可以通过简单的配置，将日志收集到不同的地方。
