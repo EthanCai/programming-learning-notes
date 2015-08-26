@@ -124,3 +124,4 @@
 
 - [twill](http://twill.idyll.org/): a simple scripting language for Web browsing
 - [vagrantup](https://www.vagrantup.com/): Create and configure lightweight, reproducible, and portable development environments.
+- [sqitch](http://sqitch.org/): Sqitch is a database change management application.
