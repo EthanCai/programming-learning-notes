@@ -50,6 +50,10 @@
 - [Suave.IO](http://suave.io/): Framework/library/web server that makes you cry tears of joy after finishing your project ahead-of-time when you look at the beautiful code you've written in `[F#]`.
 - [WebSharper](http://websharper.com/): A fundamentally different web framework for developing functional and reactive .NET applications
 
+## Authentication and Authorization
+
+- [Logibit Hawk](https://github.com/logibit/logibit.hawk/) - A F# [Hawk](https://github.com/hueniverse/hawk#usage-example) authentication library
+
 ## CLI
 
 - [UnionArgParser](https://github.com/nessos/UnionArgParser) - Declarative CLI argument & XML configuration parser for F# applications.

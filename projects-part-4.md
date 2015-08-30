@@ -56,6 +56,7 @@
 - [Fluent Assertions](https://github.com/dennisdoomen/fluentassertions) - A set of .NET extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style test
 - [NSubstitute](http://nsubstitute.github.io/) - A friendly substitute for .NET mocking frameworks
 - [NBuilder](https://github.com/garethdown44/nbuilder) - Rapid generation of test objects
+- [Shouldly](https://github.com/shouldly/shouldly): Should testing for .net - the way Asserting *Should* be!
 
 ## Database Testing
 

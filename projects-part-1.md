@@ -7,13 +7,22 @@
 - [Mono](http://www.mono-project.com/): Cross platform, open source .NET framework
 - [Roslyn](https://github.com/dotnet/roslyn): The .NET Compiler Platform ("Roslyn") provides open-source C# and Visual Basic compilers with rich code analysis APIs.
 
+## Assembly Manipulation
+
+- [Fody](https://github.com/Fody/Fody) - Extensible tool for weaving .net assemblies
+- [Mono.Cecil](https://github.com/jbevain/cecil) - Cecil is a library to generate and inspect programs and libraries in the ECMA CIL form.
+
 ## Web Frameworks/Application Frameworks
 
-- [ASP.net MVC 6](https://github.com/aspnet/Mvc): Model view controller framework for building dynamic web sites with clean separation of concerns, including the merged MVC, Web API, and Web Pages, Razor.
-- [ASP.net MVC 5](http://aspnetwebstack.codeplex.com/): ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that gives you full control over markup for enjoyable, agile development. ASP.NET MVC includes many features that enable fast, TDD-friendly development for creating sophisticated applications that use the latest web standards.
+- ASP.NET MVC
+    - [ASP.net MVC 6](https://github.com/aspnet/Mvc): Model view controller framework for building dynamic web sites with clean separation of concerns, including the merged MVC, Web API, and Web Pages, Razor.
+    - [ASP.net MVC 5](http://aspnetwebstack.codeplex.com/): ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that gives you full control over markup for enjoyable, agile development. ASP.NET MVC includes many features that enable fast, TDD-friendly development for creating sophisticated applications that use the latest web standards.
+    - [ASP.NET Boilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate) - A starting point for new modern ASP.NET MVC web applications with best practices and most popular tools.
 - [ASP.net Web API 2](http://www.asp.net/web-api): ASP.NET Web API is a framework that makes it easy to build HTTP services that reach a broad range of clients, including browsers and mobile devices. ASP.NET Web API is an ideal platform for building RESTful applications on the .NET Framework.
+    - [WebAPI Contrib](https://github.com/WebApiContrib/WebAPIContrib) - Collection of open source projects to help improve your work with ASP.NET Web API
+- [Orleans](http://dotnet.github.io/orleans/): Orleans is a framework that provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns.
 - [ServiceStack](https://github.com/ServiceStack/ServiceStack): Simple, Fast, Versatile and full-featured Services Framework
-- [Nancy](http://nancyfx.org/): Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono
+- [NancyFx](http://nancyfx.org/): Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono
 - [Apworks](https://github.com/daxnet/Apworks): Apworks is a flexible, scalable, configurable and efficient .NET based application development framework that helps software developers to easily build enterprise applications by applying either Classic Layering or Command-Query Responsibility Segregation (CQRS) architectural patterns.
 - [ReactJS.NET](http://reactjs.net/): ReactJS.NET makes it easier to use Facebook's React and JSX from C# and other .NET languages, focusing specifically on ASP.NET MVC (although it also works in other environments). It assumes you already have some basic knowledge about React. It is cross-platform and can run on Linux via Mono. Now with support for ASP.NET 5 Beta!
 - [Nelibur](https://github.com/Nelibur/Nelibur): Nelibur is message based web service framework on the pure WCF. Nelibur simplifies creating high-performance and message based web services and you certainly have all the power of the WCF
@@ -51,7 +60,12 @@
 
 ## Authentication && Authorization
 
+- [ASP.NET Identity](https://aspnetidentity.codeplex.com/) - New membership system for ASP.NET applications
 - [DotNetOpenAuth](https://github.com/DotNetOpenAuth/DotNetOpenAuth) - A C# implementation of the OpenID, OAuth and InfoCard protocols
+- [Logibit Hawk](https://github.com/logibit/logibit.hawk/) - A F# [Hawk](https://github.com/hueniverse/hawk#usage-example) authentication library
+- [IdentityModel](https://github.com/IdentityModel) - Helper library for identity & access control in .NET 4.5 and MVC4/Web API.
+- [IdentityServer](https://github.com/IdentityServer) - Extensible OAuth2 and OpenID Connect provider framework.
+- [OAuth](https://github.com/danielcrenna/oauth) - A very lightweight library for generating OAuth 1.0a signatures written in C#
 
 ## Data Access
 
@@ -60,7 +74,7 @@
 - [EasyNetQ](https://github.com/EasyNetQ/EasyNetQ): An easynet to use .NET API for RabbitMQ, not offical rabbitmq .net client
 - [DbUtility](https://github.com/Ivony/DbUtility):  a light database access tool
 
-**ORM framework**
+## ORM framework
 
 - [Drapper](https://github.com/StackExchange/dapper-dot-net): a simple object mapper for .Net
 - [Entity Framework](https://github.com/aspnet/EntityFramework): Microsoft's recommended data access technology for new applications in .NET.
@@ -76,7 +90,7 @@
 - [Json.net](http://www.newtonsoft.com/json): Popular high-performance JSON framework for .NET
 - [fastjson](https://fastjson.codeplex.com/): Smallest, fastest polymorphic JSON serializer
 
-## Windows services
+## Windows Services
 
 - [Topshelf](http://topshelf-project.com/): Put Your Apps on the Topshelf
 
@@ -221,7 +235,6 @@ This is a site for the BCL Team to get features to customers to try out without 
 - [CommonLibrary.NET](https://commonlibrarynet.codeplex.com/): A collection of very reusable code and components in C# 4.0 ranging from ActiveRecord, Csv, Command Line Parsing, Configuration, Validation, Logging, Collections, Authentication, and much more. This is ideal for C# developer looking for a Utility library, Java developers looking for a C# version of Java Commons.
 - [Craig-s-Utility-Library](http://jacraig.github.io/Craig-s-Utility-Library/): With .Net we have a number of built in classes and functions to help make a programmer's life easier, but let's face facts, they didn't think of everything. Craig's Utility Library tries to fill in some of those gaps (or at least the ones that I've run into). It comes with a couple hundred extension methods, built in data types such as a BTree, priority queue, ring buffer, etc. And that's just the DataTypes namespace. When you add it all up, Craig's Utility Library is one of the largest set of utilities for .Net out there.
 - [Wintellect's Power Collections for .NET](http://powercollections.codeplex.com/): Power Collections makes heavy use of .NET Generics. The goal of the project is to provide generic collection classes that are not available in the .NET framework. Some of the collections included are the Deque, MultiDictionary, Bag, OrderedBag, OrderedDictionary, Set, OrderedSet, and OrderedMultiDictionary.
-- [ShouldBe](https://github.com/shouldly/shouldly): Should testing for .net - the way Asserting *Should* be!
 - [Humanizer](https://github.com/MehdiK/Humanizer): Humanizer meets all your .NET needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities
 - [Wintellect PowerThreading](https://github.com/Wintellect/PowerThreading): Jeffrey Richter's Power Threading Library
 - [Sigil](https://github.com/kevin-montrose/Sigil): A fail-fast validating helper for .NET CIL generation
