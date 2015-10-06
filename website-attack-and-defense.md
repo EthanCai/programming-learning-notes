@@ -1,4 +1,5 @@
-# Common Website Attack Methods
+# Common Attack Methods 常见攻击方式
+
 
 ## DNS Spoofing
 
@@ -13,6 +14,7 @@
 - [DNS Cache Poisoning And Prevention](https://techtrigger.wordpress.com/2012/01/11/dns-cache-poisoning-and-prevention/)
 - [DNSPod](https://www.dnspod.cn/)
 
+
 ## DDOS
 
 ### Principle
@@ -22,6 +24,7 @@
 ### Defense
 
 - [360网站卫士](http://wzb.360.cn/)
+
 
 ## SQL Injection
 
@@ -36,6 +39,7 @@
 - [Avoid SQL Injection attacks](http://forums.asp.net/p/777624/2942861.aspx#2942861)
 - [Coding techniques for protecting against Sql injection](http://forums.asp.net/t/1254125.aspx)
 
+
 ## XSS
 
 ### Principle
@@ -48,6 +52,7 @@
 - [AntiXSS Library in .NET v4.5](http://forums.asp.net/t/1863558.aspx?AntiXSS+Library+in+NET+v4+5)
 - [.NET AntiXSS Library](https://www.owasp.org/index.php/.NET_AntiXSS_Library)
 
+
 ## CSRF
 
 ### Principle
@@ -58,6 +63,7 @@
 
 - [csurf](https://www.npmjs.com/package/csurf): Node.js CSRF protection middleware.
 - [Preventing Cross-Site Request Forgery (CSRF) Attacks in ASP.NET Web API](http://www.asp.net/web-api/overview/security/preventing-cross-site-request-forgery-attacks)
+
 
 ## HTTP Packet Sniffer
 
@@ -80,12 +86,6 @@ Programming
 - [在 ASP.NET MVC 中使用 HTTPS (SSL/TLS)](http://www.cnblogs.com/snowdream/archive/2009/08/07/use-https-in-aspnet-mvc.html)
 - [SSL pages under ASP.NET MVC](http://stackoverflow.com/questions/156748/ssl-pages-under-asp-net-mvc)
 
-# Reference
-
-- [The Open Web Application Security Project Foundation](https://www.owasp.org/index.php/Main_Page)
-- [SSL 证书服务，大家用哪家的？](http://www.zhihu.com/question/19578422)
-- [Why is it possible to sniff an HTTPS / SSL request?](http://security.stackexchange.com/questions/19616/why-is-it-possible-to-sniff-an-https-ssl-request)
-- [Hyperfox](https://hyperfox.org/): Hyperfox is a security tool for proxying and recording HTTP and HTTPs communications on a LAN.
 
 ## Man-in-the-middle attack
 
@@ -93,3 +93,11 @@ Programming
 
 - [Man-in-the-middle attack](https://en.wiki2.org/wiki/Man-in-the-middle_attack)
 - [Github被墙事件](https://en.greatfire.org/blog/2013/jan/china-github-and-man-middle)
+
+
+# Reference
+
+- [The Open Web Application Security Project Foundation](https://www.owasp.org/index.php/Main_Page)
+- [SSL 证书服务，大家用哪家的？](http://www.zhihu.com/question/19578422)
+- [Why is it possible to sniff an HTTPS / SSL request?](http://security.stackexchange.com/questions/19616/why-is-it-possible-to-sniff-an-https-ssl-request)
+- [Hyperfox](https://hyperfox.org/): Hyperfox is a security tool for proxying and recording HTTP and HTTPs communications on a LAN.
