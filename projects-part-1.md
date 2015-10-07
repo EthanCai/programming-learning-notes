@@ -43,6 +43,7 @@
 - [EmbedIO](https://github.com/unosquare/embedio): A tiny, cross-platform, module based web server
 - [Nginx](http://wiki.nginx.org/Main): a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
 - [Tengine](http://tengine.taobao.org/): Tengine是由淘宝网发起的Web服务器项目。它在Nginx的基础上，针对大访问量网站的需求，添加了很多高级功能和特性。Tengine的性能和稳定性已经在大型的网站如淘宝网，天猫商城等得到了很好的检验。它的最终目标是打造一个高效、稳定、安全、易用的Web平台。
+- [OpenResty](http://openresty.org/): OpenResty (aka. ngx_openresty) is a full-fledged web application server by bundling the standard Nginx core, lots of 3rd-party Nginx modules, as well as most of their external dependencies.
 - [lightttpd](http://www.lighttpd.net/): Security, speed, compliance, and flexibility -- all of these describe lighttpd (pron. lighty) which is rapidly redefining efficiency of a webserver; as it is designed and optimized for high performance environments. With a small memory footprint compared to other web-servers, effective management of the cpu-load, and advanced feature set (FastCGI, SCGI, Auth, Output-Compression, URL-Rewriting and many more) lighttpd is the perfect solution for every server that is suffering load problems. And best of all it's Open Source licensed under the revised BSD license.
 
 ## WebSocket
@@ -219,6 +220,7 @@
 - [ImageProcessor](http://imageprocessor.org/): ImageProcessor is a collection of lightweight libraries written in C# that allows you to manipulate images on-the-fly using .NET 4.5+
 - [Hugin](http://sourceforge.net/projects/hugin): Panorama photo stitcher
 - [Luminance HDR](http://sourceforge.net/projects/qtpfsgui): Complete solution for HDR photography
+- [scikit-image](http://scikit-image.org/): scikit-image is a collection of algorithms for image processing. It is available free of charge and free of restriction.
 - $[Pano2VR && Object2VR](http://ggnome.com/): software for interactive panoramas and object movies.
 
 ## Misc Libraries
