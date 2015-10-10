@@ -72,11 +72,20 @@
 - [seaweedfs](https://github.com/chrislusf/seaweedfs): Seaweed-FS is a simple and highly scalable distributed file system. There are two objectives: to store billions of files! to serve the files fast! Instead of supporting full POSIX file system semantics, Seaweed-FS choose to implement only a key~file mapping. Similar to the word "NoSQL", you can call it as "NoFS".
 - [GlusterFS](http://www.gluster.org/): GlusterFS is a scalable network filesystem. Using common off-the-shelf hardware, you can create large, distributed storage solutions for media streaming, data analysis, and other data- and bandwidth-intensive tasks. GlusterFS is free and open source software. 
 
-## Configuration & Service Discovery
+## Configuration Management
+
+- [Confd](https://github.com/kelseyhightower/confd): Manage local application configuration files using templates and data from etcd or consul
+- [Consul Template](https://github.com/hashicorp/consul-template): This project provides a convenient way to populate values from Consul into the filesystem using the consul-template daemon.
+- [disconf](https://github.com/knightliao/disconf): Distributed Configuration Management Platform(分布式配置管理平台)
+- [Qconf](https://github.com/Qihoo360/QConf): Qihoo Distrubuted Configuration Management System
+- [super diamond](https://github.com/melin/super-diamond): 配置管理系统
+- [XDiamond](https://github.com/hengyunabc/xdiamond): 全局配置中心，存储应用的配置项，解决配置混乱分散的问题。名字来源于淘宝的开源项目diamond，前面加上一个字母X以示区别。
+- [archaius](https://github.com/Netflix/archaius): Library for configuration management API
+
+## 分布式协调(Service Discovery, Name Service)
 
 - [Apache Zookeeper](http://zookeeper.apache.org/): ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. All of these kinds of services are used in some form or another by distributed applications. Each time they are implemented there is a lot of work that goes into fixing the bugs and race conditions that are inevitable. Because of the difficulty of implementing these kinds of services, applications initially usually skimp on them ,which make them brittle in the presence of change and difficult to manage. Even when done correctly, different implementations of these services lead to management complexity when the applications are deployed.
 - [etcd](https://github.com/coreos/etcd): A distributed consistent key-value store for shared configuration and service discovery
 - [SkyDNS](https://github.com/skynetservices/skydns): SkyDNS is a distributed service for announcement and discovery of services built on top of etcd. It utilizes DNS queries to discover available services. This is done by leveraging SRV records in DNS, with special meaning given to subdomains, priorities and weights.
-- [Serf](https://www.serfdom.io/): Serf 是一个去中心化的服务发现和编排的解决方案，特点是轻量级和高可用，同时具备容错的特性。
 - [consul](https://www.consul.io/): Consul 简化了分布式环境中的服务的注册和发现流程，通过 HTTP 或者 DNS 接口发现。支持外部 SaaS 提供者等。
-- [Confd](https://github.com/kelseyhightower/confd): Manage local application configuration files using templates and data from etcd or consul
+
