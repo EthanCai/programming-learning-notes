@@ -129,3 +129,4 @@
 - [vagrantup](https://www.vagrantup.com/): Create and configure lightweight, reproducible, and portable development environments.
 - [sqitch](http://sqitch.org/): Sqitch is a database change management application.
 - [hubot](https://hubot.github.com/): GitHub, Inc., wrote the first version of Hubot to automate our company chat room. Hubot knew how to deploy the site, automate a lot of tasks, and be a source of fun in the company. Eventually he grew to become a formidable force in GitHub. But he led a private, messy life. So we rewrote him.
+- [Supervisor](http://supervisord.org): Supervisor is a client/server system that allows its users to monitor and control a number of processes on UNIX-like operating systems.
