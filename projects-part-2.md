@@ -62,7 +62,7 @@
 
 ## Distributed File System
 
-- [Ceph](http://ceph.com/): Ceph is a distributed object store and file system designed to provide excellent performance, reliability and scalability. - See more at: http://ceph.com/#sthash.46aGKE2z.dpuf
+- [Ceph](http://ceph.com/): Ceph is a distributed object store and file system designed to provide excellent performance, reliability and scalability. See more at: http://ceph.com/#sthash.46aGKE2z.dpuf
 - [MooseFS](http://www.moosefs.org/): MooseFS is a fault tolerant, network distributed file system. It spreads data over several physical servers which are visible to the user as one resource. 
 - [Glusterfs](http://www.gluster.org/): GlusterFS is a scalable network filesystem. Using common off-the-shelf hardware, you can create large, distributed storage solutions for media streaming, data analysis, and other data- and bandwidth-intensive tasks. GlusterFS is free and open source software.
 - [FastDFS](https://code.google.com/p/fastdfs/): [FastDFS on Google Code](https://code.google.com/p/fastdfs/), FastDFS is an open source high performance distributed file system. It's major functions include: file storing, file syncing and file accessing, and design for high capacity and load balance.
