@@ -65,13 +65,21 @@
 - [TSQLT](http://tsqlt.org/): tSQLt is a database unit testing framework for Microsoft SQL Server. tSQLt is compatible with SQL Server 2005 (service pack 2 required) and above on all editions.
 - [DbFit](http://dbfit.github.io/dbfit/index.html): Test-driven database development. Write readable, easy-to-maintain unit and integration tests for your database code.
 
-## Automated Acceptance Testing
+## Automated Acceptance Testing/BDD
 
 - [fitnesse](http://www.fitnesse.org/FrontPage): The fully integrated standalone wiki and acceptance testing framework
 - [Cumuber](https://cucumber.io/): Cucumber is a software tool that computer programmers use for testing other software. It runs automated acceptance tests written in a behavior-driven development (BDD) style.
+    - [cucumber.js](https://github.com/cucumber/cucumber-js): Cucumber, the popular Behaviour-Driven Development tool, brought to your JavaScript stack.It runs on both Node.js and modern web browsers.
 - [SpecFlow](http://www.specflow.org/): SpecFlow aims at bridging the communication gap between domain experts and developers by binding business readable behavior specifications and examples to the underlying implementation.
 - [Selenium](http://www.seleniumhq.org/): Selenium is a suite of tools to automate web browsers across many platforms.
 - [ROBOT FRAMEWORK](http://robotframework.org/): Robot Framework is a generic test automation framework for acceptance testing and acceptance test-driven development (ATDD).
+- [JBehave](http://jbehave.org): JBehave is a framework for Behaviour-Driven Development (BDD). BDD is an evolution of test-driven development (TDD) and acceptance-test driven design, and is intended to make these practices more accessible and intuitive to newcomers and experts alike. It shifts the vocabulary from being test-based to behaviour-based, and positions itself as a design philosophy.
+
+## RESTful API Auto Test
+
+- [Supertest](https://visionmedia.github.com/superagent/): Super Agent is light-weight progressive ajax API crafted for flexibility, readability, and a low learning curve after being frustrated with many of the existing request APIs. It also works with Node.js!
+- [Frisby.js](http://frisbyjs.com/docs/api/): Frisby is a REST API testing framework built on node.js and Jasmine that makes
+testing API endpoints easy, fast, and fun.  
 
 ## Performance Testing
 
@@ -121,7 +129,7 @@
 - [Ansible](http://www.ansible.com/): Deploy apps. Manage systems. Crush complexity. Ansible is a powerful automation tool that you can learn quickly.
 - [Puppet](http://puppetlabs.com/): IT Automation Software of System Administrators
 - [SaltStack](http://saltstack.com/): SaltStack software orchestrates and automates the visualization, build and management of any legacy or modern infrastructure. SaltStack is known as the fastest, most scalable systems and configuration management software for CloudOps, ITOps and DevOps.
-- [cfengine](http://cfengine.com/): Lightweight agent system. Configuration state is specified via a declarative language. 
+- [cfengine](http://cfengine.com/): Lightweight agent system. Configuration state is specified via a declarative language.
 
 ## Misc
 
