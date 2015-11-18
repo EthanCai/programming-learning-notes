@@ -74,6 +74,7 @@
 - [Selenium](http://www.seleniumhq.org/): Selenium is a suite of tools to automate web browsers across many platforms.
 - [ROBOT FRAMEWORK](http://robotframework.org/): Robot Framework is a generic test automation framework for acceptance testing and acceptance test-driven development (ATDD).
 - [JBehave](http://jbehave.org): JBehave is a framework for Behaviour-Driven Development (BDD). BDD is an evolution of test-driven development (TDD) and acceptance-test driven design, and is intended to make these practices more accessible and intuitive to newcomers and experts alike. It shifts the vocabulary from being test-based to behaviour-based, and positions itself as a design philosophy.
+- [Jasmine](https://github.com/jasmine/jasmine): Jasmine is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js projects, or anywhere that JavaScript can run.
 
 ## RESTful API Auto Test
 
