@@ -57,3 +57,10 @@
 	- [Mathjax](https://www.mathjax.org/)
 - [LaTeX](http://www.latex-project.org)
 	- [MacTeX](http://www.tug.org/mactex/index.html)
+
+## 其它工具
+
+- [Alfred](http://www.alfredforum.com)
+	- [Packal](http://www.packal.org)
+	- [Alfred Workflow](http://alfredworkflow.com)
+	- [借助Alfred 2的Workflows功能可以做哪些好玩的事情？](http://www.zhihu.com/question/20656680)
