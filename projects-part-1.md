@@ -244,3 +244,4 @@ This is a site for the BCL Team to get features to customers to try out without 
 - [Sigil](https://github.com/kevin-montrose/Sigil): A fail-fast validating helper for .NET CIL generation
 - [Shielded](https://github.com/jbakic/Shielded): A strict and mostly lock-free Software Transactional Memory (STM) for .NET
 - [NodaTime](https://github.com/nodatime/nodatime): A better date and time API for .NET
+- [Peasy.NET](https://github.com/peasy/Peasy.NET): An easy to use middle tier framework for .net
