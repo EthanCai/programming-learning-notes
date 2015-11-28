@@ -39,6 +39,7 @@
 - [Katana](http://katanaproject.codeplex.com/): As Web application development takes its next evolutionary step into the world of cloud computing, project Katana provides the underlying set of components to ASP.NET applications, enabling them to be flexible, portable, lightweight, and provide better performance – put another way, project Katana cloud optimizes your ASP.NET applications.
 - [Nowin](https://github.com/Bobris/Nowin): Fast and scalable Owin Web Server in pure .Net 4.5 (it does not use HttpListener). Current status is usable for testing, not for production, nobody did any security review, you have been warned. On Windows speed is better than NodeJs and in some cases even better than HttpListener.
 - [Jexus](http://www.jexus.org/): 強勁、堅固、免費、易用的Linux ASP.NET服務器
+    - [Jexus](https://jexus.codeplex.com): Jexus web server is a Linux based, easy-to-use, and high performance web server with full ASP.NET stack support. Jexus Manager is its management console.
 - [XSP](https://github.com/mono/xsp): Mono's ASP.NET hosting server. This module includes an Apache Module, a FastCGI module that can be hooked to other web servers as well as a standalone server used for testing (similar to Microsoft's Cassini)
 - [EmbedIO](https://github.com/unosquare/embedio): A tiny, cross-platform, module based web server
 - [Nginx](http://wiki.nginx.org/Main): a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
@@ -52,6 +53,8 @@
 - [Fleck](https://github.com/statianzo/Fleck) - Fleck is a WebSocket server implementation in C#. Branched from the Nugget project
 - [Websocket-Sharp](https://github.com/sta/websocket-sharp) - A C# implementation of the WebSocket protocol client and server
 - [WebSocket4NET](https://websocket4net.codeplex.com/) - WebSocket client for .NET 2.0+, Xamarin, Mono, Silverlight, Windows Phone, & WinRT
+- [XSockets](https://xsockets.net/) - Provides a great set of tools for you to build real-time applications on the Microsoft.NET plattform and much more
+- [WampSharp](https://github.com/Code-Sharp/WampSharp) - A C# implementation of [The Web Application Messaging Protocol](http://wamp-proto.org/) - a protocol that provides messaging patterns of Remote Procedure Calls and Publish/Subscribe over WebSockets.
 
 ## Network
 

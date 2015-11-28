@@ -50,7 +50,12 @@
     - [HTTP/2 explained](http://daniel.haxx.se/http2/): http2 explained describes the protocol HTTP/2 at a technical and protocol level. Background, the protocol, the implementations and the future. Written by Daniel Stenberg.
 - [OWIN - Open Web Interface for .NET](http://owin.org/)
 - [JSON API](http://jsonapi.org/): A SPECIFICATION FOR BUILDING APIS IN JSON. 
-- [OData](http://www.odata.org/): OData is an OASIS standard for creating and consuming RESTful APIs.
+- [RESTful API](https://en.wikipedia.org/wiki/Representational_state_transfer)
+    - [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html)
+    - [OData](http://www.odata.org/): OData is an OASIS standard for creating and consuming RESTful APIs.
+- [WebSocket](https://developer.mozilla.org/zh-CN/docs/WebSockets)
+    - [WAMP - The Web Application Messaging Protocol](http://wamp-proto.org): WAMP is an open standard WebSocket subprotocol that provides two application messaging patterns in one unified protocol:
+Remote Procedure Calls + Publish & Subscribe.
 
 -------------------------------------------------------------------------------
 
