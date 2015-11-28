@@ -243,3 +243,4 @@ This is a site for the BCL Team to get features to customers to try out without 
 - [Wintellect PowerThreading](https://github.com/Wintellect/PowerThreading): Jeffrey Richter's Power Threading Library
 - [Sigil](https://github.com/kevin-montrose/Sigil): A fail-fast validating helper for .NET CIL generation
 - [Shielded](https://github.com/jbakic/Shielded): A strict and mostly lock-free Software Transactional Memory (STM) for .NET
+- [NodaTime](https://github.com/nodatime/nodatime): A better date and time API for .NET
