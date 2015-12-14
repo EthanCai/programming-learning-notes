@@ -108,6 +108,11 @@ testing API endpoints easy, fast, and fun.
 - [Graphite - Scalable Realtime Graphing](http://graphite.wikidot.com/): Graphite 是一个用于采集网站实时信息并进行统计的开源项目，可用于采集多种网站服务运行状态信息。Graphite服务平均每分钟有4800次更新操作。实践已经证实要监测网站发发生什么是非常有用的，它的简单文本协议和绘图功能可以方便地即插即 用的方式用于任何需要监控的系统上。
 - [Prometheus](http://prometheus.io/): An open-source service monitoring system and time series database.
 
+## Process Supervisor
+
+- [Supervisor](http://supervisord.org): Supervisor is a client/server system that allows its users to control a number of processes on UNIX-like operating systems.
+- [PM2](https://github.com/Unitech/pm2): Production process manager for Node.js applications with a built-in load balancer https://app.keymetrics.io/ 
+
 ## Deployment
 
 - [Unfold](https://github.com/thomasvm/unfold) - Powershell-based deployment solution for .net web applications
@@ -139,4 +144,3 @@ testing API endpoints easy, fast, and fun.
 - [vagrantup](https://www.vagrantup.com/): Create and configure lightweight, reproducible, and portable development environments.
 - [sqitch](http://sqitch.org/): Sqitch is a database change management application.
 - [hubot](https://hubot.github.com/): GitHub, Inc., wrote the first version of Hubot to automate our company chat room. Hubot knew how to deploy the site, automate a lot of tasks, and be a source of fun in the company. Eventually he grew to become a formidable force in GitHub. But he led a private, messy life. So we rewrote him.
-- [Supervisor](http://supervisord.org): Supervisor is a client/server system that allows its users to monitor and control a number of processes on UNIX-like operating systems.
