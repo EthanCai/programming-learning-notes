@@ -57,6 +57,12 @@
 	- [Mathjax](https://www.mathjax.org/)
 - [LaTeX](http://www.latex-project.org)
 	- [MacTeX](http://www.tug.org/mactex/index.html)
+	
+## RESTful API Design
+
+- [RAML](http://raml.org): RESTful API Modeling Language (RAML) makes it easy to manage the whole API lifecycle from design to sharing. It's concise - you only write what you need to define - and reusable. It is machine readable API design that is actually human friendly.
+- [apiblueprint](https://apiblueprint.org): A powerful high-level API design language for web APIs.
+- [Swagger](http://swagger.io): Swagger is a simple yet powerful representation of your RESTful API. 
 
 ## 其它工具
 
