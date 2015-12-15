@@ -5,6 +5,8 @@
 	- [国内视频镜像访问地址](http://boolan.com/build)
 - Microsoft Build 2014, 2014-04-02 ~ 2014-04-04, The Moscone Center, San Francisco, CA:
 	- [PPT下载地址](http://wenku.it168.com/wenji/2096)
+- Microsoft Ignite China 2015
+	- [视频访问地址](https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-China-2015)
 	
 # Oreilly Velocity Web性能和运维大会
 
