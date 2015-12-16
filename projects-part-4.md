@@ -20,6 +20,10 @@
 - [Sandcastle](http://shfb.codeplex.com/) - Sandcastle Help File Builder similar to NDoc
 - [SharpDox](https://github.com/Geaz/sharpDox) - A c# documentation tool
 
+## scaffolding
+
+- [Yeoman](http://yeoman.io): The Yeoman workflow is comprised of three core tools for improving your productivity and satisfaction when building a web app. 
+
 ## Build
 
 - [Psake](https://github.com/psake/psake) - .NET-based build automation tool written in PowerShell
