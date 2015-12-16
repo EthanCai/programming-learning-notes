@@ -35,6 +35,7 @@
 - [Bad Data Guide](https://github.com/Quartz/bad-data-guide): An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.
 - [Google Developers - Web Fundamentals](https://developers.google.com/web/fundamentals/): WebFundamentals is a comprehensive resource for web development best practices, designed to help you add the right features and experiences to your web project. If you’re new to web development or just looking to make your project better, we’ve got you covered.
 - [JavaScriptKit](http://www.javascriptkit.com)
+- [w3schools](http://www.w3schools.com)
 
 -------------------------------------------------------------------------------
 
