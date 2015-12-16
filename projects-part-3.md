@@ -9,7 +9,11 @@
 - [MariaDB](http://mariadb.org/)
 - [WebScaleSQL](http://webscalesql.org/)
 - [SQLlite](http://www.sqlite.org/index.html)
+
+## Geo Database
+
 - [Apache GEODE](http://geode.incubator.apache.org): Geode is an open source , distributed, in-memory database for scale-out applications.
+- [Gaffer](https://github.com/GovernmentCommunicationsHeadquarters/Gaffer): Gaffer is a framework that makes it easy to store large-scale graphs in which the nodes and edges have statistics such as counts, histograms and sketches. These statistics summarise the properties of the nodes and edges over time windows, and they can be dynamically updated over time.
 
 ## Database Engine
 
@@ -40,6 +44,10 @@
 - [LevelDB](https://github.com/google/leveldb): LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
     - [eLevelDB](https://github.com/basho/eleveldb): eLevelDB 是一个 Erlang 应用程序，封装了 LevelDB
 - [Cassandra](http://cassandra.apache.org/): The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data. Cassandra's support for replicating across multiple datacenters is best-in-class, providing lower latency for your users and the peace of mind of knowing that you can survive regional outages.
+
+## JSON Storage
+
+- [Kinto](http://kinto.readthedocs.org/en/latest/overview.html): Kinto is a lightweight JSON storage service with synchronisation and sharing abilities. It is meant to be easy to use and easy to self-host.
 
 ## Data Warehouse
 
