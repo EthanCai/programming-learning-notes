@@ -27,14 +27,28 @@
 
 - [NET设计规范：约定、惯用法与模式](http://book.douban.com/subject/4231292/)
 - [C# 3.0, C# 4.0 and C# 5.0 Coding Guidelines](http://csharpguidelines.codeplex.com/)
-- [Style guides for Google-originated open-source projects](https://github.com/google/styleguide)
+- [Google Style Guide](https://github.com/google/styleguide):  Style guides for Google-originated open-source projects
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+
+# Other Guide
+
+- [Bad Data Guide](https://github.com/Quartz/bad-data-guide): An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.
+- [Google Developers - Web Fundamentals](https://developers.google.com/web/fundamentals/): WebFundamentals is a comprehensive resource for web development best practices, designed to help you add the right features and experiences to your web project. If you’re new to web development or just looking to make your project better, we’ve got you covered.
+- [JavaScriptKit](http://www.javascriptkit.com)
 
 -------------------------------------------------------------------------------
 
 # Foundation, Organization, Specification
 
 ## Organization
+
+Web:
+
+- [MDN - Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+- [China W3C](http://www.chinaw3c.org)
+- [Web Platform Docs](https://docs.webplatform.org/wiki/Main_Page)
+
+.NET:
 
 - [.NET Foundation](http://www.dotnetfoundation.org)
 - [patterns & practices](https://msdn.microsoft.com/en-us/library/ff921345.aspx)
@@ -45,25 +59,67 @@
 
 ## Specification
 
+Web：
+
+- HTML
+    - [HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - [HTML5 - MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+    - [HTML - WebPlantformDocs](https://docs.webplatform.org/wiki/html) 
+- CSS
+    - [CSS - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
+    - [CSS3 - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
+    - [CSS - WebPlantformDocs](https://docs.webplatform.org/wiki/css)
+- JavaScript
+    - [JavaScript - MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+    - [ECMAScript Specification List](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Language_Resources)
+- DOM
+    - [DOM - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+- SVG
+    - [SVG - MDN](https://developer.mozilla.org/en-US/docs/Web/SVG)
+- WebGL
+    - [WebGL - MDN](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
+
+通信协议：
+
 - HTTP
     - [HTTP/2 Protocol](http://http2.github.io/): HTTP/2 is a replacement for how HTTP is expressed “on the wire.” It is not a ground-up rewrite of the protocol; HTTP methods, status codes and semantics are the same, and it should be possible to use the same APIs as HTTP/1.x (possibly with some small additions) to represent the protocol.
-    - [HTTP/2 explained](http://daniel.haxx.se/http2/): http2 explained describes the protocol HTTP/2 at a technical and protocol level. Background, the protocol, the implementations and the future. Written by Daniel Stenberg.
-- [OWIN - Open Web Interface for .NET](http://owin.org/)
-- [JSON API](http://jsonapi.org/): A SPECIFICATION FOR BUILDING APIS IN JSON. 
-- [RESTful API](https://en.wikipedia.org/wiki/Representational_state_transfer)
-    - [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html)
-    - [OData](http://www.odata.org/): OData is an OASIS standard for creating and consuming RESTful APIs.
-- [WebSocket](https://developer.mozilla.org/zh-CN/docs/WebSockets)
+    - [HTTP/2 explained](http://http2-explained.readthedocs.org/en/latest/index.html): http2 explained describes the protocol HTTP/2 at a technical and protocol level. Background, the protocol, the implementations and the future. Written by Daniel Stenberg.
+    - [HTTP 1.1 Protocol](http://www.w3.org/Protocols/): Hypertext Transfer Protocol 1.1 Specification
+- WebSocket
+    - [MDN - WebSockets](https://developer.mozilla.org/zh-CN/docs/WebSockets)
+    - [HTML Living Standard - WebSocket](https://html.spec.whatwg.org/multipage/comms.html#network): this specification introduces the WebSocket interface
+    - [RFC 6455 - The WebSocket Protocol](http://tools.ietf.org/html/rfc6455): The WebSocket Protocol
+- Web Application Messaging Protocol
     - [WAMP - The Web Application Messaging Protocol](http://wamp-proto.org): WAMP is an open standard WebSocket subprotocol that provides two application messaging patterns in one unified protocol:
-Remote Procedure Calls + Publish & Subscribe.
-- [Internet of Things Protocols & Standards](http://postscapes.com/internet-of-things-protocols)
+- RESTful API
+    - [Wikipedia - RESTful API](https://en.wikipedia.org/wiki/Representational_state_transfer)
+    - [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html)
+- JSON
+    - [JSON](http://json.org): JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999.
+    - [JSON API](http://jsonapi.org/): A SPECIFICATION FOR BUILDING APIS IN JSON.
+    - [JSON Schema & JSON Hyper-Schema](http://json-schema.org): JSON Schema: describes your JSON data format; JSON Hyper-Schema: turns your JSON data into hyper-text.
+- OWIN
+    - [OWIN - Open Web Interface for .NET](http://owin.org/)
+- OData
+    - [OData](http://www.odata.org/): OData is an OASIS standard for creating and consuming RESTful APIs.
+- IPFS - The InterPlanetary File System
+    - [IPFS](http://ipfs.io): The InterPlanetary File System (IPFS) is a new hypermedia distribution protocol, addressed by content and identities. IPFS enables the creation of completely distributed applications. It aims to make the web faster, safer, and more open.
+
+参考：
+
+- IoT
+    - [Internet of Things Protocols & Standards](http://postscapes.com/internet-of-things-protocols)
     - [Understanding The Protocols Behind The Internet Of Things](http://electronicdesign.com/iot/understanding-protocols-behind-internet-things)
+- Bitcoin
+    - [Bitcoin Network](https://en.wikipedia.org/wiki/Bitcoin_network)
+    - [Bitcoin wiki](https://en.bitcoin.it/wiki/Main_Page)
+    - [Bitcoin](https://bitcoin.org/en/): Bitcoin is an innovative payment network and a new kind of money.
 
 -------------------------------------------------------------------------------
 
 # Projects
 
-- [.NET Framework & Libs](./projects-part-1.md)
+- [Framework & Libs](./projects-part-1.md)
 - [Distributed Architecture](./projects-part-2.md)
 - [Data Storage and Analysis](./projects-part-3.md)
 - [DevOps](./projects-part-4.md)
