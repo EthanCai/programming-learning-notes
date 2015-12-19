@@ -8,12 +8,21 @@
 - [MySQL](http://www.mysql.com/)
 - [MariaDB](http://mariadb.org/)
 - [WebScaleSQL](http://webscalesql.org/)
+
+## Memory Database
+
 - [SQLlite](http://www.sqlite.org/index.html)
+- [LMDB](https://github.com/clibs/lmdb): Symas Lightning Memory-Mapped Database
 
 ## Geo Database
 
 - [Apache GEODE](http://geode.incubator.apache.org): Geode is an open source , distributed, in-memory database for scale-out applications.
 - [Gaffer](https://github.com/GovernmentCommunicationsHeadquarters/Gaffer): Gaffer is a framework that makes it easy to store large-scale graphs in which the nodes and edges have statistics such as counts, histograms and sketches. These statistics summarise the properties of the nodes and edges over time windows, and they can be dynamically updated over time.
+
+## Graph Database
+
+- [Neo4j](http://neo4j.com): Neo4j is an open-source NoSQL graph database implemented in Java and Scala.
+- [GraphView](https://github.com/Microsoft/GraphView): GraphView is a DLL library that enables users to use SQL Server or Azure SQL Database to manage graphs. It connects to a SQL database locally or in the cloud, stores graph data in tables and queries graphs through a SQL-extended language. It is not an independent database, but a middleware that accepts graph operations and translates them to T-SQL executed in SQL Server or Azure SQL Database.
 
 ## Database Engine
 
@@ -123,7 +132,7 @@
 - [golearn](https://github.com/sjwhitworth/golearn): Machine Learning for Go
 - [shogun](https://github.com/shogun-toolbox/shogun): The Shogun Machine learning toolbox provides a wide range of unified and efficient Machine Learning (ML) methods. The toolbox seamlessly allows to easily combine multiple data representations, algorithm classes, and general purpose tools. This enables both rapid prototyping of data pipelines and extensibility in terms of new algorithms. We combine modern software architecture in C++ with both efficient low-level computing backends and cutting edge algorithm implementations to solve large-scale Machine Learning problems (yet) on single machines.
 - [Microsoft DMTK](https://github.com/Microsoft/DMTK): Microsoft Distributed Machine Learning Toolkit
-- [Google Tensorflow](https://github.com/tensorflow/tensorflow): TensorFlow is an open source software library for numerical computation using data flow graphs. Nodes in the graph represent mathematical operations, while the graph edges represent the multidimensional data arrays (tensors) that flow between them. 
+- [Google Tensorflow](https://github.com/tensorflow/tensorflow): TensorFlow is an open source software library for numerical computation using data flow graphs. Nodes in the graph represent mathematical operations, while the graph edges represent the multidimensional data arrays (tensors) that flow between them.
 
 ## Log Process
 
