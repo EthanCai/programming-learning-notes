@@ -65,7 +65,7 @@ Web：
 - HTML
     - [HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
     - [HTML5 - MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-    - [HTML - WebPlantformDocs](https://docs.webplatform.org/wiki/html) 
+    - [HTML - WebPlantformDocs](https://docs.webplatform.org/wiki/html)
 - CSS
     - [CSS - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
     - [CSS3 - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
@@ -73,6 +73,7 @@ Web：
 - JavaScript
     - [JavaScript - MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
     - [ECMAScript Specification List](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Language_Resources)
+    - [ECMAScript 6 入门](http://es6.ruanyifeng.com)
 - DOM
     - [DOM - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 - SVG
