@@ -1,4 +1,11 @@
-# Operating Systems
+
+# 参考
+
+- [Papers from the computer science community to read and discuss](https://github.com/papers-we-love/papers-we-love)
+
+# 分类
+
+## Operating Systems
 
 Mach [Intro: http://www-2.cs.cmu.edu/afs/cs/project/mach/public/www/mach.html,Paper: http://www-2.cs.cmu.edu/afs/cs/project/mach/public/www/doc/publications.html]
 
@@ -23,7 +30,7 @@ Singularity在microkernel的基础上，通过.Net构建了一套type-safed asse
 
 这种设计目前还处于实验室阶段，是否能最终胜出，还需要有当年UNIX的机遇。
 
-# Virtual Machines
+## Virtual Machines
 
 VMWare ["MemoryResource Management in VMware ESX Server"，OSDI’02,Best paper award]
 耳熟能详的vmware，无需多说。
@@ -37,7 +44,7 @@ Denali [“Scaleand Performance in the Denali Isolation Kernel”, OSDI’02, UW
 Entropia [“The Entropia VirtualMachine for Desktop Grids”, VEE’05]
 要统一利用公司内桌面机器资源来进行计算，需要对计算任务进行良好的包装，以保证不影响机器正常使用并与用户数据隔离。Entropia就提供了这样的一个计算环境，基于windows实现了一个application level virtual machine。其基本做法就是对计算任务所调用的syscall进行重定向以保证隔离。类似的工作还有FVM：“AFeather-weight Virtual Machine for Windows Applications”。
 
-# Design Revisited
+## Design Revisited
 
 “Are Virtual Machine Monitors Microkernels Done Right?”，HotOS’05
 
@@ -47,7 +54,7 @@ Entropia [“The Entropia VirtualMachine for Desktop Grids”, VEE’05]
 
 C可能是这个世界上最成功的编程语言，但其缺点也十分明显。比如不支持thread，在今天高度并行的硬件结构中显得有点力不从心，而这方面则是functional programming language的长处，如何结合二者的优点，是一个很promising的领域。
 
-# Programming Model
+## Programming Model
 
 “Why Threads Are a Bad Idea”
 
@@ -61,7 +68,7 @@ Thread不好，但event也没法解决所有问题，于是我们寻找一个结
 
 如果内存可以提供transaction语义，那么我们面对的世界将完全两样，language, compiler, OS, runtime都将发生根本变化。虽然intel现在正在做hardware transactional memory，但估计可预见的将来不会商用，所以人们转而寻求软件解决方案。可想而知，这个方案无法base在native assembly上，目前有C#,haskell等语言的实现版本。资料比较多，参见Wikipedia。
 
-# Distributed Algorithms
+## Distributed Algorithms
 
 **Logical clock**, [“Time,clocks, and the ordering of events in a distributed system”, Leslie Lamport, 1978]
 
@@ -79,7 +86,7 @@ Thread不好，但event也没法解决所有问题，于是我们寻找一个结
 
 关于Lamport的其他成就，还可以参见这篇向他60岁生日献礼的paper：“Lamport on mutual exclusion: 27 years of planting seeds”, PODC’01。
 
-# Overlay Networking, and P2P DHT
+## Overlay Networking, and P2P DHT
 
 RON [“Resilient Overlay Networks”, SOSP’01]
 
@@ -102,12 +109,12 @@ P2P的出现改变了网络。按照各种P2P网络的结构，可以分为三�
 
 典型的DHT有CAN, Chord,Pastry, Tapestry等四种。这些研究主要在算法层面，系统方面的工作主要是在其上建立广域网存储系统。还有一些人在机制层面进行研究，例如如何激励用户共享、防止作弊等。
 
-# Distributed Systems
+## Distributed Systems
 
 GFS/MapReduce/BigTable/Chubby/Sawzall
 Google的系列paper，大家比较熟悉，不再多说。在此可查。
 
-## Storage
+### Storage
 
 Distributed storage system的paper太多了。下面列出几篇最相关的。
 
@@ -119,11 +126,11 @@ Distributed storage system的paper太多了。下面列出几篇最相关的。
 
 “PacificA: Replication inLog-Based Distributed Storage Systems”, MSR-TR。
 
-## Distributed Simulation
+### Distributed Simulation
 
 “Simulating Large-Scale P2P Systems with the WiDS Toolkit”, MASCOTS’05。Distributed simulation有意思的地方是simulated protocol是distributed的，而这个simulation engine本身也是distributed的。Logical和physical的time和event交杂在系统中，需要仔细处理。
 
-# Controversial Computing Models
+## Controversial Computing Models
 
 现在的软件系统已经复杂到了人已经无法掌握的程度，很多系统在发布时都仍然带着许多确定性(deterministic)或非确定性(non-deterministic)的bugs，只能不断的patch。既然作为人类，不够精细的特性决定了我们无法把系统的bug fix干净，我们只能从其他角度入手研究一种让系统在这令人沮丧的环境中仍能工作的方法。这就像一个分布式系统，故障无法避免，我们选择让系统作为整体来提供高可靠性。
 
@@ -135,7 +142,7 @@ Failure oblivious computing, OSDI’04
 
 Treating Bugs as Allergies, SOSP’05
 
-# Debugging
+## Debugging
 
 系统很复杂，人类无法从逻辑上直接分析，只能通过data mining的方法在宏观上进行观察。
 Black box debugging[“Performance debugging for distributed systems of black boxes”, SOSP’03]
@@ -144,18 +151,18 @@ Black box debugging[“Performance debugging for distributed systems of black bo
 CP-miner [“A Tool for Finding Copy-paste and Related Bugs in Operating System Code”, OSDI’04]
 很多人在重用代码的时候，都使用copy-paste。但有时候简单的CP会带来严重的问题，例如局部变量的重名等。CP-miner通过分析代码，建立语法树结构，然后mine出这类错误。
 
-# Software Architecture
+## Software Architecture
 
 - Architecture, Design, Implementation
 - Orleans: Distributed Virtual Actors for Programmability and Scalability
 
-# Big Data
+## Big Data
 
 - [Twitter Heron: Stream Processing at Scale](http://dl.acm.org/citation.cfm?id=2742788)
 - Bigtable: A Distributed Storage System for Structured Data
 - The Google File System
 - MapReduce: Simplified Data Processing on Large Clusters
 
-# Image Process
+## Image Process
 
 - [Image Deblurring using Inertial Measurement Sensors](http://research.microsoft.com/en-us/um/redmond/groups/ivm/imudeblurring/)

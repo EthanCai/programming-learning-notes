@@ -23,19 +23,35 @@
 
 -------------------------------------------------------------------------------
 
-# Code Style Guide
+# Guide
+
+## Coding Style Guide
 
 - [NET设计规范：约定、惯用法与模式](http://book.douban.com/subject/4231292/)
 - [C# 3.0, C# 4.0 and C# 5.0 Coding Guidelines](http://csharpguidelines.codeplex.com/)
 - [Google Style Guide](https://github.com/google/styleguide):  Style guides for Google-originated open-source projects
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
-# Other Guide
+## Data Schema Design Guide
 
 - [Bad Data Guide](https://github.com/Quartz/bad-data-guide): An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.
+
+## Web Development Guide
+
+- [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS): This is a series of books diving deep into the core mechanisms of the JavaScript language.
 - [Google Developers - Web Fundamentals](https://developers.google.com/web/fundamentals/): WebFundamentals is a comprehensive resource for web development best practices, designed to help you add the right features and experiences to your web project. If you’re new to web development or just looking to make your project better, we’ve got you covered.
-- [JavaScriptKit](http://www.javascriptkit.com)
-- [w3schools](http://www.w3schools.com)
+- [You Don't Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery): Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript. This project summarizes most of the jQuery method alternatives in native implementation, with IE 10+ support.
+- [Microsoft + Node.js Guidelines](https://github.com/Microsoft/nodejs-guidelines): Tips, tricks, and resources for working with Node.js, and the start of an ongoing conversation on how we can improve the Node.js experience on Microsoft platforms.
+- [Learn javascript in one picture](https://github.com/coodict/javascript-in-one-pic)
+- [Mars - mobile needs a hero](https://github.com/AlloyTeam/Mars): 面向亿万用户级的移动端Web解决方案
+- [Frontend Development Bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks): A huge list of frontend development resources I collected over time. Sorted from general knowledge at the top to concrete problems at the bottom.
+- [The Elements of HTML](http://w3c.github.io/elements-of-html/)
+- [A JavaScript Quality Guide](https://github.com/bevacqua/js)
+- [Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions): A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.
+
+## Design Guide
+
+- [Google Material Design](https://www.google.com/design/spec/material-design/introduction.html)
 
 -------------------------------------------------------------------------------
 
@@ -144,3 +160,4 @@ Web：
 - [NoSQL Database](http://nosql-database.org/)
 - [amplab - UC BERKELEY](https://amplab.cs.berkeley.edu/)
 - [A Complete List of .NET Open Source Developer Projects](http://scottge.net/2015/07/08/a-complete-list-of-net-open-source-developer-projects/)
+- [Essential JavaScript website](https://github.com/ericelliott/essential-javascript-links)
