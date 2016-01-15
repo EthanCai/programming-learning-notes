@@ -8,6 +8,7 @@
 - [gitosis](https://github.com/res0nat0r/gitosis): software for hosting git repositories
 - [gitolite](https://github.com/sitaramc/gitolite): Hosting git repositories -- Gitolite allows you to setup git hosting on a central server, with very fine-grained access control and many (many!) more powerful features.
 
+
 ## Code Analysis and Metrics
 
 - [StyleCop](https://stylecop.codeplex.com/) - StyleCop analyzes C# source code to enforce a set of style and consistency rules
@@ -15,9 +16,11 @@
 - [SonarQube](http://www.sonarqube.org/): SonarQube is an open platform to manage code quality. As such, it covers the 7 axes of code quality:
 - [OpenCover](https://github.com/OpenCover/opencover): A code coverage tool for .NET 2 and above, support for 32 and 64 processes with both branch and sequence points; roots proudly based in PartCover
 
+
 ## scaffolding
 
 - [Yeoman](http://yeoman.io): The Yeoman workflow is comprised of three core tools for improving your productivity and satisfaction when building a web app.
+
 
 ## Build
 
@@ -28,6 +31,7 @@
 - [gradle](http://gradle.org/): OPEN SOURCE BUILD AUTOMATION. Get started with: Java / JVM | Android | Native (C / C++) | Web and many more!
 - [Bazel](http://bazel.io/): Bazel is Google's own build tool, now publicly available in Beta. Bazel has built-in support for building both client and server software, including client applications for both Android and iOS platforms. It also provides an extensible framework that you can use to develop your own build rules.
 
+
 ## Continuous Integration
 
 - [CruiseControl.NET](http://www.cruisecontrolnet.org/) - an Automated Continuous Integration server, implemented using the .NET Framework
@@ -37,12 +41,14 @@
 - [janky](https://github.com/github/janky): Continuous integration server built on top of Jenkins and Hubot
 - [Buildbot](http://buildbot.net/index.html): Python-based continuous integration testing framework; your pull requests are more than welcome!
 
+
 ## Bug/Issue Management
 
 - [BugZilla](http://www.bugzilla.org/): Bugzilla is server software designed to help you manage software development.
 - [Mantis Bug Tracker](http://www.mantisbt.org/index.php): MantisBT makes collaboration with team members & clients easy, fast, and professional
 - [BugTracker.NET](http://ifdefined.com/bugtrackernet.html): BugTracker.NET is a free, open-source, web-based bug tracking and general purpose issue tracking application. It is in daily use by thousands of development, customer support, and help desk teams around the world.
 - [BugNET](http://www.bugnetproject.com/): An open source issue tracking & project management application
+
 
 ## Unit Testing
 
@@ -58,6 +64,7 @@
 - [NBuilder](https://github.com/garethdown44/nbuilder) - Rapid generation of test objects
 - [Shouldly](https://github.com/shouldly/shouldly): Should testing for .net - the way Asserting *Should* be!
 
+
 ## Database Testing
 
 - [dbUnit](http://dbunit.sourceforge.net/intro.html): database unit testing
@@ -67,6 +74,7 @@
 ## Database Management
 
 - [SqlPad](http://rickbergfalk.github.io/sqlpad/): Run SQL in your browser...Supports Postgres, MySQL, SQL Server and Vertica.
+- [sqitch](http://sqitch.org/): Sqitch is a database change management application.
 
 ## Automated Acceptance Testing/BDD
 
@@ -79,11 +87,13 @@
 - [JBehave](http://jbehave.org): JBehave is a framework for Behaviour-Driven Development (BDD). BDD is an evolution of test-driven development (TDD) and acceptance-test driven design, and is intended to make these practices more accessible and intuitive to newcomers and experts alike. It shifts the vocabulary from being test-based to behaviour-based, and positions itself as a design philosophy.
 - [Jasmine](https://github.com/jasmine/jasmine): Jasmine is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js projects, or anywhere that JavaScript can run.
 
+
 ## RESTful API Auto Test
 
 - [Supertest](https://visionmedia.github.com/superagent/): Super Agent is light-weight progressive ajax API crafted for flexibility, readability, and a low learning curve after being frustrated with many of the existing request APIs. It also works with Node.js!
 - [Frisby.js](http://frisbyjs.com/docs/api/): Frisby is a REST API testing framework built on node.js and Jasmine that makes
 testing API endpoints easy, fast, and fun.  
+
 
 ## Performance Testing
 
@@ -98,6 +108,7 @@ testing API endpoints easy, fast, and fun.
 - [West Wind Websurge](http://websurge.west-wind.com/): We believe that testing HTTP requests and load testing a site should be easy - something that takes a few minutes to set up and then runs on a regular basis during the development process, so that you can monitor performance of your site while you are building it. To this end we built West Wind WebSurge with the developer and testers in mind to make it easy to create HTTP requests or entire sessions, and then easily play back either individual URLs for development response testing, or for full-on testing under heavy load. Sessions are stored in plain text files so that they can be easily stored with projects or shared via source control for all users to have access.
 - [toxy](https://github.com/h2non/toxy): Hackable HTTP proxy to simulate server failure scenarios and network conditions
 
+
 ## System Monitor
 
 - [Nagios](https://www.nagios.org/): Nagios Is The Industry Standard In IT Infrastructure Monitoring. Achieve instant awareness of IT infrastructure problems, so downtime doesn't adversely affect your business.
@@ -111,14 +122,17 @@ testing API endpoints easy, fast, and fun.
 - [Graphite - Scalable Realtime Graphing](http://graphite.wikidot.com/): Graphite 是一个用于采集网站实时信息并进行统计的开源项目，可用于采集多种网站服务运行状态信息。Graphite服务平均每分钟有4800次更新操作。实践已经证实要监测网站发发生什么是非常有用的，它的简单文本协议和绘图功能可以方便地即插即 用的方式用于任何需要监控的系统上。
 - [Prometheus](http://prometheus.io/): An open-source service monitoring system and time series database.
 
+
 ## Process Supervisor
 
 - [Supervisor](http://supervisord.org): Supervisor is a client/server system that allows its users to control a number of processes on UNIX-like operating systems.
 - [PM2](https://github.com/Unitech/pm2): Production process manager for Node.js applications with a built-in load balancer https://app.keymetrics.io/
 
+
 ## Deployment
 
 - [Unfold](https://github.com/thomasvm/unfold) - Powershell-based deployment solution for .net web applications
+
 
 ## User Behavior Collection & Analysis
 
@@ -127,11 +141,13 @@ testing API endpoints easy, fast, and fun.
 - [Snowplow - the event analytics platform](http://snowplowanalytics.com/): Have every single event, from your websites, mobile apps, desktop applications and server-side systems, stored in your own data warehouse and available to action in real-time.
 - [tracking.js](http://trackingjs.com/): The tracking.js library brings different computer vision algorithms and techniques into the browser environment. By using modern HTML5 specifications, we enable you to do real-time color tracking, face detection and much more — all that with a lightweight core (~7 KB) and intuitive interface.
 
+
 ## Infrastructure Management
 
 - [Apache Mesos](http://mesos.apache.org/): Apache Mesos abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively.
 - [Marathon](https://mesosphere.github.io/marathon/): A cluster-wide init and control system for services in cgroups or Docker containers
 - [Chronos](http://mesos.github.io/chronos/): Chronos is Airbnb's replacement for cron. It is a distributed and fault-tolerant scheduler that runs on top of Apache Mesos that can be used for job orchestration. It supports custom Mesos executors as well as the default command executor. Thus by default, Chronos executes sh (on most systems bash) scripts.
+
 
 ## Automamtion
 
@@ -141,9 +157,9 @@ testing API endpoints easy, fast, and fun.
 - [SaltStack](http://saltstack.com/): SaltStack software orchestrates and automates the visualization, build and management of any legacy or modern infrastructure. SaltStack is known as the fastest, most scalable systems and configuration management software for CloudOps, ITOps and DevOps.
 - [cfengine](http://cfengine.com/): Lightweight agent system. Configuration state is specified via a declarative language.
 
+
 ## Misc
 
 - [twill](http://twill.idyll.org/): a simple scripting language for Web browsing
 - [vagrantup](https://www.vagrantup.com/): Create and configure lightweight, reproducible, and portable development environments.
-- [sqitch](http://sqitch.org/): Sqitch is a database change management application.
 - [hubot](https://hubot.github.com/): GitHub, Inc., wrote the first version of Hubot to automate our company chat room. Hubot knew how to deploy the site, automate a lot of tasks, and be a source of fun in the company. Eventually he grew to become a formidable force in GitHub. But he led a private, messy life. So we rewrote him.
