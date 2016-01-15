@@ -31,6 +31,7 @@
 - [C# 3.0, C# 4.0 and C# 5.0 Coding Guidelines](http://csharpguidelines.codeplex.com/)
 - [Google Style Guide](https://github.com/google/styleguide):  Style guides for Google-originated open-source projects
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+    - [JSCS — JavaScript Code Style](http://jscs.info/): JSCS is a code style linter/formatter for programmatically enforcing your style guide. You can configure JSCS for your project/company using over 150 validation rules, including presets from popular style guides like jQuery, Airbnb, Google, and more.
 
 ## Data Schema Design Guide
 
