@@ -15,14 +15,9 @@
 - [SonarQube](http://www.sonarqube.org/): SonarQube is an open platform to manage code quality. As such, it covers the 7 axes of code quality:
 - [OpenCover](https://github.com/OpenCover/opencover): A code coverage tool for .NET 2 and above, support for 32 and 64 processes with both branch and sequence points; roots proudly based in PartCover
 
-## Documentation
-
-- [Sandcastle](http://shfb.codeplex.com/) - Sandcastle Help File Builder similar to NDoc
-- [SharpDox](https://github.com/Geaz/sharpDox) - A c# documentation tool
-
 ## scaffolding
 
-- [Yeoman](http://yeoman.io): The Yeoman workflow is comprised of three core tools for improving your productivity and satisfaction when building a web app. 
+- [Yeoman](http://yeoman.io): The Yeoman workflow is comprised of three core tools for improving your productivity and satisfaction when building a web app.
 
 ## Build
 
@@ -68,6 +63,10 @@
 - [dbUnit](http://dbunit.sourceforge.net/intro.html): database unit testing
 - [TSQLT](http://tsqlt.org/): tSQLt is a database unit testing framework for Microsoft SQL Server. tSQLt is compatible with SQL Server 2005 (service pack 2 required) and above on all editions.
 - [DbFit](http://dbfit.github.io/dbfit/index.html): Test-driven database development. Write readable, easy-to-maintain unit and integration tests for your database code.
+
+## Database Management
+
+- [SqlPad](http://rickbergfalk.github.io/sqlpad/): Run SQL in your browser...Supports Postgres, MySQL, SQL Server and Vertica.
 
 ## Automated Acceptance Testing/BDD
 
@@ -115,7 +114,7 @@ testing API endpoints easy, fast, and fun.
 ## Process Supervisor
 
 - [Supervisor](http://supervisord.org): Supervisor is a client/server system that allows its users to control a number of processes on UNIX-like operating systems.
-- [PM2](https://github.com/Unitech/pm2): Production process manager for Node.js applications with a built-in load balancer https://app.keymetrics.io/ 
+- [PM2](https://github.com/Unitech/pm2): Production process manager for Node.js applications with a built-in load balancer https://app.keymetrics.io/
 
 ## Deployment
 

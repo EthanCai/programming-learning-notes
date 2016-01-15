@@ -56,7 +56,7 @@
 
 ## JSON Storage
 
-- [Kinto](http://kinto.readthedocs.org/en/latest/overview.html): Kinto is a lightweight JSON storage service with synchronisation and sharing abilities. It is meant to be easy to use and easy to self-host.
+- [Kinto](https://github.com/Kinto/kinto): Kinto is a lightweight JSON storage service with synchronisation and sharing abilities. It is meant to be easy to use and easy to self-host.
 
 ## Data Warehouse
 
