@@ -54,6 +54,10 @@
 
 - [Google Material Design](https://www.google.com/design/spec/material-design/introduction.html)
 
+## DevOps
+
+- [Logging best practices](http://dev.splunk.com/view/logging-best-practices/SP-CAAADP6)
+
 -------------------------------------------------------------------------------
 
 # Foundation, Organization, Specification
