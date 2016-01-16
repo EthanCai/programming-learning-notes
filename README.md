@@ -1,13 +1,18 @@
 # 说明
 
-这是一本手册，帮助你使用（但不仅限于）dotNET开发更好的应用。
+这是我的编程语言学习笔记。如果能对你有所帮助，不胜荣幸。
 
-备注：
+目录（其它文件）：
 
-- [website-attack-and-defense.md](./website-attack-and-defense.md): 常见的网络攻击手段和防御方法
-- [magic-fsharp](./magic-fsharp.md): F#学习资料
-- [tech conference](./tech-conference.md): 技术大会介绍和资料
-- [paper](./papers.md): 论文
+- [F#学习笔记](./magic-fsharp.md)
+- [Golang学习笔记](./golang-learning-notes.md)
+- [Python学习笔记](./python-learning-notes.md)
+- [C语言学习笔记](./c-learning-notes.md)
+- [Elixir语言学习笔记](./elixir-learning-notes.md)
+- [系统设计学习笔记](./system-design-reference.md)
+- [常见的网络攻击手段和防御方法](./website-attack-and-defense.md)
+- [技术大会介绍和资料](./tech-conference.md)
+- [技术论文](./papers.md)
 
 -------------------------------------------------------------------------------
 
