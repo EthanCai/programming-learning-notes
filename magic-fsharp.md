@@ -2,26 +2,26 @@
 
 - [F# at Microsoft Research](http://research.microsoft.com/en-us/projects/fsharp/)
 - [F# Software Foundation](http://fsharp.org/)
-	- [The F# Core Engineering Group](http://fsharp.github.io/)
-	- [F# Compiler and Components](https://github.com/fsharp)
-	- [F# Community Project Incubation Space](https://github.com/fsprojects)
+    - [The F# Core Engineering Group](http://fsharp.github.io/)
+    - [F# Compiler and Components](https://github.com/fsharp)
+    - [F# Community Project Incubation Space](https://github.com/fsprojects)
 - Community
-	- [F# Discussions - Google Groups](https://groups.google.com/forum/#!forum/fsharp-opensource)
-	- [Community for F#](http://c4fsharp.net/)
+    - [F# Discussions - Google Groups](https://groups.google.com/forum/#!forum/fsharp-opensource)
+    - [Community for F#](http://c4fsharp.net/)
 - F# in Data Science
-	- [Fslab](http://fslab.org/)
-	- [Data Sciense with F#](http://fsharp.org/guides/data-science/index.html)
+    - [Fslab](http://fslab.org/)
+    - [Data Sciense with F#](http://fsharp.org/guides/data-science/index.html)
 - Learn F#
-	- [Learning F#](http://fsharp.org/about/learning.html)
-	- [Visual F# - MSDN](https://msdn.microsoft.com/en-us/library/dd233154.aspx)
-	- [F# for fun and profit](http://fsharpforfunandprofit.com/): This site will introduce you to F# and show you ways that F# can help in day-to-day development of mainstream commercial business software.
-	- [F# Cheatsheet](http://dungpa.github.io/fsharp-cheatsheet/): This cheatsheet glances over some of the common syntax of F# 3.0.
+    - [Learning F#](http://fsharp.org/about/learning.html)
+    - [Visual F# - MSDN](https://msdn.microsoft.com/en-us/library/dd233154.aspx)
+    - [F# for fun and profit](http://fsharpforfunandprofit.com/): This site will introduce you to F# and show you ways that F# can help in day-to-day development of mainstream commercial business software.
+    - [F# Cheatsheet](http://dungpa.github.io/fsharp-cheatsheet/): This cheatsheet glances over some of the common syntax of F# 3.0.
 - Blog
-	- [http://fpish.net/](http://fpish.net/): online community for functional developers
-	- [Tomas Petricek's blog](http://tomasp.net/blog/)
-	- [Inside F#](https://lorgonblog.wordpress.com/)
+    - [http://fpish.net/](http://fpish.net/): online community for functional developers
+    - [Tomas Petricek's blog](http://tomasp.net/blog/)
+    - [Inside F#](https://lorgonblog.wordpress.com/)
 
-	
+
 # Books
 
 - Apress.Expert.F.Sharp.Dec.2007
@@ -65,6 +65,7 @@
 - [F# Data](http://fsharp.github.io/FSharp.Data/): F# type providers for accessing XML, JSON, CSV and HTML files (based on sample documents) and for accessing WorldBank data
 - [F# Charting](http://fslab.org/FSharp.Charting/): The F# Charting library implements charting suitable for use from F# scripting.
 - [F# Data Toolbox](http://fsprojects.github.io/FSharp.Data.Toolbox/): F# Data Toolbox is a library for various data access APIs based on FSharp.Data. It will contain individual packages for each data source.
+- [XPlot](https://github.com/TahaHachana/XPlot): A plotting library for the F# programming language.
 
 ## Documentation
 
