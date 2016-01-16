@@ -11,15 +11,25 @@
 
 -------------------------------------------------------------------------------
 
-# Books
+# Books that I Have Read
+
+## Common
+
+- [Head First Object-Oriented Analysis and Design](https://book.douban.com/subject/1761742/)
+- [Head First Design Patterns](https://book.douban.com/subject/1400656/)
+- [重构 - Martin Fowler](https://book.douban.com/subject/4262627/)
+
+## .NET Framework
 
 - [CLR via C#](http://book.douban.com/subject/4924165/)
-- [C# in Depth](http://book.douban.com/subject/3133747/) - [图书官网](http://csharpindepth.com/)
+- [微软应用架构指南](https://book.douban.com/subject/5362857/)
 - [Threading in C#](http://www.albahari.com/threading/)
-- [Concurrency in C# Cookbook](http://book.douban.com/subject/25899958/)
-- [Windows并发编程指南](http://book.douban.com/subject/4214617/)
-- [Pro .NET Best Practices](http://www.amazon.com/NET-Best-Practices-Experts-Voice/dp/1430240237/ref=sr_1_1)
-- [Pro C# 5.0 and the .NET 4.5 Framework, 6th Edition](http://www.amazon.com/Pro-NET-Framework-Experts-Voice/dp/1430242337/ref=sr_1_1)
+- [.NET设计规范](https://book.douban.com/subject/4231292/)
+
+## Golang
+
+- [Go语言编程](https://book.douban.com/subject/11577300/)
+- [An Introduction to Programming in Go](https://book.douban.com/subject/19897704/)
 
 -------------------------------------------------------------------------------
 
