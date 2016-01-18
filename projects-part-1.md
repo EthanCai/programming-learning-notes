@@ -12,6 +12,10 @@
 - [Fody](https://github.com/Fody/Fody) - Extensible tool for weaving .net assemblies
 - [Mono.Cecil](https://github.com/jbevain/cecil) - Cecil is a library to generate and inspect programs and libraries in the ECMA CIL form.
 
+## Web Server
+
+- [KestrelHttpServer](https://github.com/aspnet/KestrelHttpServer): A web server for ASP.NET 5 based on libuv.
+
 ## Web Frameworks/Application Frameworks
 
 - ASP.NET MVC
