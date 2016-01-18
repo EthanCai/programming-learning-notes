@@ -22,6 +22,7 @@
 
 - [Awesome NodeJs](https://github.com/sindresorhus/awesome-nodejs)
 
+
 ## Related JS Language
 
 - [TypeScript](http://www.typescriptlang.org/)
@@ -36,6 +37,7 @@
 
 - [ExpressJS](http://expressjs.com/)
 - [Koa](http://koajs.com/)
+- [Connect](https://github.com/senchalabs/connect): Express的前身
 
 ## Promise
 
@@ -45,6 +47,17 @@
 
 - [es6-shim](https://github.com/paulmillr/es6-shim)
 - [shimmer](https://github.com/othiym23/shimmer)
+
+## Message Queue & Job Queue
+
+- [Kue](https://github.com/Automattic/kue): Kue is a priority job queue backed by redis, built for node.js.
+
+## Job Schedule
+
+- [node-schedule](https://github.com/node-schedule/node-schedule): A cron-like and not-cron-like job scheduler for Node.
+- [node-cron](https://github.com/ncb000gt/node-cron): Cron for NodeJS.
+- [Agenda](https://github.com/rschmukler/agenda): Lightweight job scheduling for node
+- [Later](https://github.com/bunkat/later): A javascript library for defining recurring schedules and calculating future (or past) occurrences for them. Includes support for using English phrases and Cron schedules. Works in Node and in the browser.
 
 --------------------------------
 

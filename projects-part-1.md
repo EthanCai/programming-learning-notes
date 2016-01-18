@@ -112,11 +112,7 @@
 - [C: Gearman](http://gearman.org/): Gearman provides a generic application framework to farm out work to other machines or processes that are better suited to do the work. It allows you to do work in parallel, to load balance processing, and to call functions between languages. It can be used in a variety of applications, from high-availability web sites to the transport of database replication events.
 - [Ruby: resque-schedule](https://github.com/resque/resque-scheduler): A light-weight job scheduling system built on top of resque
 - [Python: celery](http://www.celeryproject.org/): Celery is an asynchronous task queue/job queue based on distributed message passing.	It is focused on real-time operation, but supports scheduling as well.
-- [NodeJS: Kue](https://github.com/Automattic/kue): Kue is a priority job queue backed by redis, built for node.js.
-- [NodeJS: node-schedule](https://github.com/node-schedule/node-schedule): A cron-like and not-cron-like job scheduler for Node.
-- [NodeJS: node-cron](https://github.com/ncb000gt/node-cron): Cron for NodeJS.
-- [NodeJS: Agenda](https://github.com/rschmukler/agenda): Lightweight job scheduling for node
-- [NodeJS: Later](https://github.com/bunkat/later): A javascript library for defining recurring schedules and calculating future (or past) occurrences for them. Includes support for using English phrases and Cron schedules. Works in Node and in the browser.
+
 
 ## State Machine
 
