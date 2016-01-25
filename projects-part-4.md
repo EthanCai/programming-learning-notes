@@ -88,13 +88,6 @@
 - [Jasmine](https://github.com/jasmine/jasmine): Jasmine is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js projects, or anywhere that JavaScript can run.
 
 
-## RESTful API Auto Test
-
-- [Supertest](https://visionmedia.github.com/superagent/): Super Agent is light-weight progressive ajax API crafted for flexibility, readability, and a low learning curve after being frustrated with many of the existing request APIs. It also works with Node.js!
-- [Frisby.js](http://frisbyjs.com/docs/api/): Frisby is a REST API testing framework built on node.js and Jasmine that makes
-testing API endpoints easy, fast, and fun.  
-
-
 ## Performance Testing
 
 - [Gor](https://github.com/buger/gor): Gor is a simple http traffic replication tool written in Go. Its main goal is to replay traffic from production servers to staging and dev environments.

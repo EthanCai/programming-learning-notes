@@ -5,11 +5,10 @@
 - [An Introduction to Programming in Go](http://www.golang-book.com/): 一本介绍Go语言的书籍，内容非常简洁，便于快速掌握Go语法。
 - [The Way to Go](http://book.douban.com/subject/10558892/):  a Thorough Introduction to the Go Programming Language 2012.3.8
 - [Go语言编程](http://book.douban.com/subject/11577300/): 对个Go语言几个主要的主题进行了介绍，但内容不系统，不适合作为入门读物。更多见[豆瓣点评](http://book.douban.com/subject/11577300/reviews)
-- [Go Programming Blueprints 2015](http://www.amazon.com/Go-Programming-Blueprints-Development-Challenges/dp/1783988029/ref=sr_1_1?ie=UTF8&qid=1438760964&sr=8-1&keywords=golang): Amazon评价很高，这本书介绍了很多高级主题
-- Network programming with Go.(2012)
-- [Programming in Go 2012.5.14](http://www.amazon.com/Programming-Go-Creating-Applications-Developers/dp/0321774639/ref=sr_1_4?ie=UTF8&qid=1438760964&sr=8-4&keywords=golang): 这本书的三个优点：High quality code samples；Idiomatic Go code；Details that aren't in the docs
-- Ready to Go
-- The Go Programming Language Phrasebook.(2012)
+- [Go Programming Blueprints](http://book.douban.com/subject/26331858/): [亚马逊产品页面](http://www.amazon.com/Go-Programming-Blueprints-Development-Challenges/dp/1783988029/ref=sr_1_1)，Amazon评价很高，这本书介绍了很多高级主题
+- [Network programming with Go](https://jan.newmarch.name/golang/)
+- [Programming in Go](http://book.douban.com/subject/7070565/): [亚马逊产品页面](http://www.amazon.com/Programming-Go-Creating-Applications-Developers/dp/0321774639/ref=sr_1_4)，这本书的三个优点：High quality code samples；Idiomatic Go code；Details that aren't in the docs
+- [The Go Programming Language Phrasebook](http://book.douban.com/subject/7952516/)
 - [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang)
 
 
@@ -17,25 +16,31 @@
 
 官方资源：
 
-- [golang](http://golang.org/)
-- [golang国内镜像](http://docscn.studygolang.com/)
-
-个人资料收集：
-
-- [golang资料集](https://github.com/ty4z2008/Qix/blob/master/golang.md)
-- [Go语言资料收集](https://github.com/wonderfo/wonderfogo/wiki)
-
-社区：
-
-- [Go邮件组](http://groups.google.com/group/golang-nuts)
-- [Go的中文邮件组](http://groups.google.com/group/golang-china)
+- [Golang](http://golang.org/)
+- [Golang国内镜像](http://docscn.studygolang.com/)
 
 工具：
 
 - [Go Packages](https://godoc.org/): Search for Go Packages
 - [Go-search](http://go-search.org/): 查找Go packages
 - [Go Walker](https://gowalker.org/): Go Walker 是一个可以在线生成并浏览 Go 项目 API 文档的 Web 服务器，目前已支持包括 GitHub 等代码托管平台。
-- [Go by Example](https://gobyexample.com/): Go by Example is a hands-on introduction to Go using annotated example programs.
+
+个人资料收集：
+
+- [Golang资料集](https://github.com/ty4z2008/Qix/blob/master/golang.md)
+- [Golang资料收集](https://github.com/wonderfo/wonderfogo/wiki)
+- [Go语言示例](https://gobyexample.com/): Go by Example is a hands-on introduction to Go using annotated example programs.
+
+社区：
+
+- [Golang社区](http://studygolang.com/)
+- [Go邮件组](http://groups.google.com/group/golang-nuts)
+- [Go的中文邮件组](http://groups.google.com/group/golang-china)
+
+项目目录：
+
+- [Golang Projects - OSChina](http://www.oschina.net/project/lang/358/go)
+- [Awesome Go](https://github.com/avelino/awesome-go)
 
 
 # 学习路径
@@ -87,27 +92,24 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 更多的标准库说明参考[Go语言Package文档](http://golang.org/pkg/)
 
+
 ### 输入输出
 
 #### fmt
 
-点击这里查看[官方文档](https://golang.org/pkg/fmt/)
-
-其它相关内容：
-
+参考：
+- [package fmt](https://golang.org/pkg/fmt/)
 - [1.3 fmt — 格式化IO](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter01/01.3.md)
 - [fmt包中的函数和方法](http://www.cnblogs.com/golove/archive/2013/08/28/3286303.html)
 
-
 #### io、io/ioutil
 
-点击这里查看[io](https://golang.org/pkg/io/)、[io/ioutil](https://golang.org/pkg/io/)的官方文档
+参考：
 
-其它相关内容：
-
+- [package io](https://golang.org/pkg/io/)
+- [package io/ioutil](https://golang.org/pkg/io/)
 - [1.1 io — 基本的IO接口](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter01/01.1.md)
 - [1.2 ioutil — 方便的IO操作函数集](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter01/01.2.md)
-
 
 #### bufio
 
@@ -121,9 +123,8 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 点击这里查看[log](https://golang.org/pkg/log/)、[log/syslog](https://golang.org/pkg/log/syslog/)的官方文档
 
-
-
 #### flag
+
 
 
 ### 文本处理
@@ -192,7 +193,7 @@ str := string([]byte{'t','e','s','t'})
 
 ### 网络
 
-### net
+#### net
 
 first take a look at how to create a TCP server:
 
@@ -384,11 +385,6 @@ This program is similar to the TCP example, except now we created an object to h
 ------------------------------
 
 # Basic Projects
-
-参考：
-
-- [Golang Projects - OSChina](http://www.oschina.net/project/lang/358/go)
-- [Awesome Go](https://github.com/avelino/awesome-go#continuous-integration)
 
 ## Project Dependency and Build
 
