@@ -95,292 +95,49 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 ### 输入输出
 
-#### fmt
-
-参考：
-- [package fmt](https://golang.org/pkg/fmt/)
-- [1.3 fmt — 格式化IO](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter01/01.3.md)
-- [fmt包中的函数和方法](http://www.cnblogs.com/golove/archive/2013/08/28/3286303.html)
-
-#### io、io/ioutil
-
-参考：
-
-- [package io](https://golang.org/pkg/io/)
-- [package io/ioutil](https://golang.org/pkg/io/)
-- [1.1 io — 基本的IO接口](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter01/01.1.md)
-- [1.2 ioutil — 方便的IO操作函数集](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter01/01.2.md)
-
-#### bufio
-
-点击这里查看[官方文档](https://golang.org/pkg/bufio/)
-
-其它相关内容：
-
-- [1.4 bufio — 缓存IO](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter01/01.4.md)
-
-#### log、log/syslog
-
-点击这里查看[log](https://golang.org/pkg/log/)、[log/syslog](https://golang.org/pkg/log/syslog/)的官方文档
-
-#### flag
-
-
+| Package Name                                     | Introduction                                                               | More Reference                                                                                                                  |
+|:-------------------------------------------------|:---------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
+| [fmt](https://golang.org/pkg/fmt/)               | implements formatted I/O with functions analogous to C's printf and scanf. | [fmt — formated IO](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter01/01.3.md)        |
+| [io](https://golang.org/pkg/io/)                 | provides basic interfaces to I/O primitives                                | [io — basic io interfaces](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter01/01.1.md) |
+| [io/ioutil](https://golang.org/pkg/io/ioutil/)   | implements some I/O utility functions.                                     | [ioutil](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter01/01.2.md)                   |
+| [bufio](https://golang.org/pkg/bufio/)           | buffered I/O                                                               | [bufio](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter01/01.4.md)                    |
+| [log](https://golang.org/pkg/log/)               |                                                                            |                                                                                                                                 |
+| [log/syslog](https://golang.org/pkg/log/syslog/) |                                                                            |                                                                                                                                 |
+| [flag](https://golang.org/pkg/flag/)             |                                                                            |                                                                                                                                 |
 
 ### 文本处理
 
-#### encoding
-
-#### bytes
-
-#### strings
-
-```go
-package main
-
-import (
-    "fmt"
-    "strings"
-)
-
-func main() {
-    fmt.Println(
-        // true
-        strings.Contains("test", "es"),
-        // 2
-        strings.Count("test", "t"),
-        // true
-        strings.HasPrefix("test", "te"),
-        // true
-        strings.HasSuffix("test", "st"),
-        // 1
-        strings.Index("test", "e"),
-        // "a-b"
-        strings.Join([]string{"a","b"}, "-"),
-        // == "aaaaa"
-        strings.Repeat("a", 5),
-        // "bbaa"
-        strings.Replace("aaaa", "a", "b", 2),
-        // []string{"a","b","c","d","e"}
-        strings.Split("a-b-c-d-e", "-"),
-        // "test"
-        strings.ToLower("TEST"),
-        // "TEST"
-        strings.ToUpper("test"),
-    )
-}
-```
-
-Sometimes we need to work with strings as binary data. To convert a string to a slice of bytes (and vice- versa) do this:
-
-```go
-arr := []byte("test")
-str := string([]byte{'t','e','s','t'})
-```
-
-#### strconv
-
-#### text
-
-#### mime
-
-#### regexp
-
-#### index
-
-#### path
-
+| Package Name                                 | Introduction                                                                  | More Reference |
+|:---------------------------------------------|:------------------------------------------------------------------------------|:---------------|
+| [encoding](https://golang.org/pkg/encoding/) |                                                                               |                |
+| [bytes](https://golang.org/pkg/bytes/)       |                                                                               |                |
+| [strings](https://golang.org/pkg/strings/)   |                                                                               |                |
+| [strconv](https://golang.org/pkg/strconv/)   | implements conversions to and from string representations of basic data types |                |
+| [text](https://golang.org/pkg/)              |                                                                               |                |
+| [mime](https://golang.org/pkg/mime/)         | implements parts of the MIME spec                                             |                |
+| [regexp](https://golang.org/pkg/regexp/)     |                                                                               |                |
+| [index](https://golang.org/pkg/index/)       |                                                                               |                |
+| [path](https://golang.org/pkg/path/)         |                                                                               |                |
 
 ### 网络
 
-#### net
-
-first take a look at how to create a TCP server:
-
-```go
-package main
-
-import (
-    "encoding/gob"
-    "fmt"
-    "net"
-)
-
-func server() {
-    // listen on a port
-    ln, err := net.Listen("tcp", ":9999")
-    if err != nil {
-        fmt.Println(err)
-        return
-    }
-    for {
-        // accept a connection
-        c, err := ln.Accept()
-        if err != nil {
-            fmt.Println(err)
-            continue
-        }
-        // handle the connection
-        go handleServerConnection(c)
-     }
-}
-
-func handleServerConnection(c net.Conn) {
-    // receive the message
-    var msg string
-    err := gob.NewDecoder(c).Decode(&msg)
-    if err != nil {
-       fmt.Println(err)
-    } else {
-       fmt.Println("Received", msg)
-    }
-    c.Close()
-}
-
-func client() {
-    // connect to the server
-    c, err := net.Dial("tcp", "127.0.0.1:9999")
-    if err != nil {
-       fmt.Println(err)
-        return
-    }
-    // send the message
-    msg := "Hello World"
-    fmt.Println("Sending", msg)
-    err = gob.NewEncoder(c).Encode(msg)
-    if err != nil {
-       fmt.Println(err)
-    }
-    c.Close()
-}
-
-func main() {
-     go server()
-     go client()
-     var input string
-     fmt.Scanln(&input)
-}
-```
-
-This example uses the `encoding/gob` package which makes it easy to encode Go values so that other Go programs (or the same Go program in this case) can read them. Additional encodings are available in packages underneath `encoding` (like `encoding/json`) as well as in 3rd party packages. (for example we could use labix.org/v2/mgo/bson for bson support)
-
-#### HTTP
-
-HTTP servers are even easier to setup and use:
-
-```go
-package main
-
-import ("net/http" ; "io")
-
-func hello(res http.ResponseWriter, req *http.Request) {
-     res.Header().Set(
-           "Content-Type",
-           "text/html",
-     )
-     io.WriteString(
-           res,
-           `<doctype html>
-<html>
-     <head>
-           <title>Hello World</title>
-     </head>
-     <body>
-           Hello World!
-     </body>
-</html>`)
-}
-
-func main() {
-    http.HandleFunc("/hello", hello)
-    http.ListenAndServe(":9000", nil)
-}
-```
-
-`HandleFunc` handles a URL route (/hello) by calling the given function. We can also handle static files by using `FileServer`:
-
-```go
-http.Handle(
-    "/assets/",
-    http.StripPrefix(
-        "/assets/",
-        http.FileServer(http.Dir("assets"))
-    ),
-)
-```
-
-#### RPC
-
-The `net/rpc` (remote procedure call) and `net/rpc/jsonrpc` packages provide an easy way to expose methods so they can be invoked over a network. (rather than just in the program running them)
-
-```go
-package main
-
-import (
-    "fmt"
-    "net"
-    "net/rpc"
-)
-
-type Server struct {}
-
-func (this *Server) Negate(i int64, reply *int64) error {
-    *reply = -i
-    return nil
-}
-
-func server() {
-    rpc.Register(new(Server))
-    ln, err := net.Listen("tcp", ":9999")
-    if err != nil {
-        fmt.Println(err)
-        return
-    }
-    for {
-        c, err := ln.Accept()
-        if err != nil {
-            continue
-        }
-        go rpc.ServeConn(c)
-    }
-}
-
-func client() {
-    c, err := rpc.Dial("tcp", "127.0.0.1:9999")
-    if err != nil {
-        fmt.Println(err)
-        return
-    }
-    var result int64
-    err = c.Call("Server.Negate", int64(999), &result)
-    if err != nil {
-       fmt.Println(err)
-    } else {
-       fmt.Println("Server.Negate(999) =", result)
-    }
-}
-
-func main() {
-     go server()
-     go client()
-     var input string
-     fmt.Scanln(&input)
-}
-```
-
-This program is similar to the TCP example, except now we created an object to hold all the methods we want to expose and we call the `Negate` method from the client. See the documentation in `net/rpc` for more details.
-
-#### expvar
-
-
+| Package Name                             | Introduction | More Reference |
+|:-----------------------------------------|:-------------|:---------------|
+| [net](https://golang.org/pkg/net/)       |              |                |
+| [HTTP](https://golang.org/pkg/net/http/) |              |                |
+| [RPC](https://golang.org/pkg/net/rpc/)   |              |                |
+| [expvar](https://golang.org/pkg/expvar/) |              |                |
 
 ### 系统
 
-#### os
-#### syscall
-#### sync
-#### time
-#### unsafe
+| Package Name                               | Introduction | More Reference |
+|:-------------------------------------------|:-------------|:---------------|
+| [os](https://golang.org/pkg/os/)           |              |                |
+| [syscall](https://golang.org/pkg/syscall/) |              |                |
+| [sync](https://golang.org/pkg/sync/)       |              |                |
+| [time](https://golang.org/pkg/time/)       |              |                |
+| [unsafe](https://golang.org/pkg/unsafe/)   |              |                |
+
 
 ------------------------------
 
@@ -391,6 +148,7 @@ This program is similar to the TCP example, except now we created an object to h
 - [Godep](https://github.com/tools/godep): dependency tool for go
 - [GoPM](https://github.com/gpmgo/gopm): Go Package Manager (gopm) is a package manager and build tool for Go
 - [gb](https://github.com/constabulary/gb): the project based build tool for Go
+- [goviz](https://github.com/hirokidaichi/goviz): a visualization tool for golang project dependency
 
 ## Language
 
@@ -504,7 +262,7 @@ This program is similar to the TCP example, except now we created an object to h
 
 - [Gogs](http://gogs.io/): 极易搭建的自助 Git 服务
 - [Gitea - a self-hosted Git service](https://github.com/go-gitea/gitea)
-- [git-appraise](https://github.com/google/git-appraise): Distributed Code Review For Git
+- [git - appraise](https://github.com/google/git-appraise): Distributed Code Review For Git
 
 ## Backup
 
