@@ -103,6 +103,13 @@
 - [node-fibers](https://github.com/laverdet/node-fibers): Fiber/coroutine support for v8 and node.
 - [node-webworker](https://github.com/pgriess/node-webworker): node-webworkers is an implementation of the Web Workers API for node.js.
 
+## Stream
+
+- [node-trumpet](https://github.com/substack/node-trumpet): parse and transform streaming html using css selectors
+- [csv-stream](https://github.com/klaemo/csv-stream): Streaming CSV Parser for Node. Small and made entirely out of streams.
+- [event-stream](https://github.com/dominictarr/event-stream): EventStream is like functional programming meets IO
+- [JSONStream](https://github.com/dominictarr/JSONStream): rawStream.pipe(JSONStream.parse()).pipe(streamOfObjects)
+
 ## Shim
 
 - [es6-shim](https://github.com/paulmillr/es6-shim)
