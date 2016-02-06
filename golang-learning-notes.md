@@ -233,7 +233,7 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [restful](https://github.com/devcamcar/restful): Restful HTTP Client package in golang
 - [robpike.io/filter](https://godoc.org/robpike.io/filter): Package filter contains utility functions for filtering slices through the distributed application of a filter function.
 - [Parallel](https://github.com/wangkuiyi/parallel): Some OpenMP like syntax for Go
-
+- [goerlang/node](https://github.com/goerlang/node): Implementation of Erlang node
 
 # System Administration
 

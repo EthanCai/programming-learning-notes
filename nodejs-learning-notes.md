@@ -1,19 +1,28 @@
 # Books
 
-
+- [Node入门](http://www.nodebeginner.org/index-zh-cn.html)
 
 
 # Resources
 
-官方资源：
-
-- [NodeJs官网](https://nodejs.org/)
-- [ECMAScript 2015 (ES6) in Node.js](https://nodejs.org/en/docs/es6/)
-
-社区：
+工具：
 
 - [NPM](https://www.npmjs.com/)
 - [CNPM](http://cnpmjs.org/)
+
+文档：
+
+- [NodeJs官网](https://nodejs.org/)
+- [ECMAScript 2015 (ES6) in Node.js](https://nodejs.org/en/docs/es6/)
+- [Tools and techniques we use at Joyent to operate Node.js in production](https://www.joyent.com/developers/node)
+
+社区：
+
+- [CNode](https://cnodejs.org/)
+
+企业级Node:
+
+- [Node Source](https://nodesource.com/)
 
 --------------------------------
 
@@ -50,15 +59,16 @@
 - [RequireJS](http://requirejs.org/)
 - [Sea.js](http://seajs.org/docs/)
 - [SystemJS](https://github.com/systemjs/systemjs)
+- [Webpack](https://webpack.github.io/)
+    - [Webpack-howto](https://github.com/petehunt/webpack-howto)
+- [Browsify](http://browserify.org/)
 
 ## Build & Scaffolding
 
 - [Grunt](http://gruntjs.com/)
 - [Gulp](http://gulpjs.com/)
     - [SlushJS](http://slushjs.github.io/#/): The streaming scaffolding system. Gulp as a replacement for Yeoman
-- [Webpack](https://webpack.github.io/)
 - [Yeoman](http://yeoman.io/)
-- [Browsify](http://browserify.org/)
 
 ## Documentation
 
@@ -82,6 +92,7 @@
 - [jasmine](https://github.com/jasmine/jasmine): DOM-less simple JavaScript testing framework
 - [Supertest](https://visionmedia.github.com/superagent/): Super Agent is light-weight progressive ajax API crafted for flexibility, readability, and a low learning curve after being frustrated with many of the existing request APIs. It also works with Node.js!
 - [Frisby.js](http://frisbyjs.com/docs/api/): Frisby is a REST API testing framework built on node.js and Jasmine that makes testing API endpoints easy, fast, and fun.  
+- [Istanbul](https://github.com/gotwarlost/istanbul): Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests and browser tests. Built for scale.
 
 ## Web Framework
 
@@ -137,6 +148,9 @@
 
 - [JXCore](http://jxcore.com/home/): JXcore extends Node.JS™ with additional features for developing mobile and embedded applications using JavaScript and leveraging the Node ecosystem.
 - [Immuable.js](http://facebook.github.io/immutable-js/): Immutable collections for JavaScript
+- [Cheerio](https://github.com/cheeriojs/cheerio): Fast, flexible, and lean implementation of core jQuery designed specifically for the server.
+- [Request](https://github.com/request/request): Simplified HTTP request client
+    - [Request-promise](https://github.com/request/request-promise)
 
 --------------------------------
 
