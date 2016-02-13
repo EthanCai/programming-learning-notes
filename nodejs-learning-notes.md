@@ -92,7 +92,9 @@
 - [jasmine](https://github.com/jasmine/jasmine): DOM-less simple JavaScript testing framework
 - [Supertest](https://visionmedia.github.com/superagent/): Super Agent is light-weight progressive ajax API crafted for flexibility, readability, and a low learning curve after being frustrated with many of the existing request APIs. It also works with Node.js!
 - [Frisby.js](http://frisbyjs.com/docs/api/): Frisby is a REST API testing framework built on node.js and Jasmine that makes testing API endpoints easy, fast, and fun.  
+- [Vows](https://github.com/vowsjs/vows): Asynchronous BDD & continuous testing for node.js
 - [Istanbul](https://github.com/gotwarlost/istanbul): Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests and browser tests. Built for scale.
+- [Should.js](http://shouldjs.github.io/): BDD style assertions for node.js -- test framework agnostic
 
 ## Web Framework
 
@@ -100,6 +102,11 @@
     - [node-toobusy](https://github.com/lloyd/node-toobusy): Build Node.JS servers that don't fall over.
 - [Koa](http://koajs.com/)
 - [Connect](https://github.com/senchalabs/connect): Express的前身
+
+## Websocket
+
+- [socket.io](http://socket.io/): Socket.IO enables real-time bidirectional event-based communication. It works on every platform, browser or device, focusing equally on reliability and speed.
+- [socket.js](https://github.com/boyers/socket.js): A realtime communication framework for Node.js.
 
 ## Async & Promise
 
@@ -143,6 +150,11 @@
 - [NW.js](http://nwjs.io/): NW.js (previously known as node-webkit) lets you call all Node.js modules directly from DOM and enables a new way of writing applications with all Web technologies.
 - [slimerjs](https://github.com/laurentj/slimerjs)
 - [node-qt](https://github.com/arturadib/node-qt): C++ Qt bindings for Node.js
+
+## Process Supervisor
+
+- [PM2](https://github.com/Unitech/pm2): Production process manager for Node.js applications with a built-in load balancer https://app.keymetrics.io/
+- [Nodemon](http://nodemon.io/): Nodemon is a utility that will monitor for any changes in your source and automatically restart your server. **Perfect for development.**
 
 ## Others
 

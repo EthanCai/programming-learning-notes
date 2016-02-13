@@ -63,6 +63,7 @@
 ### Principle
 
 - [CSRF/XSRF - Cross-site request forgery](https://en.wiki2.org/wiki/Cross-site_request_forgery)
+- [XSS和CSRF的比较](http://www.cnblogs.com/songhan/archive/2012/07/16/2592917.html)
 
 ### Defense
 
