@@ -6,12 +6,14 @@ Python 2.x文档：https://docs.python.org/2/
 Python的包索引：https://pypi.python.org/pypi
 Python Wiki：https://wiki.python.org/moin/FrontPage
 
+------------------------
 
 # 相关学习站点
 
 - [Awesome-python](https://github.com/vinta/awesome-python)
 - [Community for Python Developer](http://oss.io/)
 
+------------------------
 
 # 学习书籍
 
@@ -28,6 +30,7 @@ Python Wiki：https://wiki.python.org/moin/FrontPage
 - [Python源码剖析](http://book.douban.com/subject/3117898/)：作为主流的动态语言，Python不仅简单易学、移植性好，而且拥有强大丰富的库的支持。此外，Python强大的可扩展性，让开发人员既可以非常容易地利用C/C++编写Python的扩展模块，还能将Python嵌入到C/C++程序中，为自己的系统添加动态扩展和动态编程的能力。为了更好地利用Python语言，无论是使用Python语言本身，还是将Python与C/C++交互使用，深刻理解Python的运行原理都是非常重要的。本书以CPython为研究对象，在C代码一级，深入细致地剖析了Python的实现。书中不仅包括了对大量Python内置对象的剖析，更将大量的篇幅用于对Python虚拟机及Python高级特性的剖析。通过此书，读者能够透彻地理解Python中的一般表达式、控制结构、异常机制、类机制、多线程机制、模块的动态加载机制、内存管理机制等核心技术的运行原理，同时，本书所揭示的动态语言的核心技术对于理解其他动态语言，如 Javascript、Ruby等也有较大的参考价值。本书适合于Python程序员、动态语言爱好者、C程序员阅读
 - [Foundations of Python Network Programming](https://github.com/brandon-rhodes/fopnp)
 
+------------------------
 
 # 如何搭建开发环境
 
@@ -125,6 +128,7 @@ pip是推荐的包管理工具。从Python3.4开始，它自动包含在Python�
 
 //TODO:
 
+------------------------
 
 # 关注的Python Module
 
@@ -144,7 +148,7 @@ pip是推荐的包管理工具。从Python3.4开始，它自动包含在Python�
 - [pyunit](http://pyunit.sourceforge.net/pyunit.html): Python Unit Testing Framework
 - [ROBOT FRAMEWORK](http://robotframework.org): Robot Framework is a generic test automation framework for acceptance testing and acceptance test-driven development (ATDD).
 - [Twill](https://pypi.python.org/pypi/twill): A scripting system for automating Web browsing. Useful for testing Web pages or grabbing data from password-protected sites automatically.
-- [Ghost.py](https://github.com/jeanphix/Ghost.py): Webkit based scriptable web browser for python. 
+- [Ghost.py](https://github.com/jeanphix/Ghost.py): Webkit based scriptable web browser for python.
 
 ## Network
 

@@ -156,3 +156,4 @@
 - [twill](http://twill.idyll.org/): a simple scripting language for Web browsing
 - [vagrantup](https://www.vagrantup.com/): Create and configure lightweight, reproducible, and portable development environments.
 - [hubot](https://hubot.github.com/): GitHub, Inc., wrote the first version of Hubot to automate our company chat room. Hubot knew how to deploy the site, automate a lot of tasks, and be a source of fun in the company. Eventually he grew to become a formidable force in GitHub. But he led a private, messy life. So we rewrote him.
+- [paperless](https://github.com/danielquinn/paperless): Scan, index, and archive all of your paper documents

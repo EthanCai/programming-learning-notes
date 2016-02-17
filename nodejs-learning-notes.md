@@ -78,6 +78,7 @@
 
 - [node-inspector](https://github.com/node-inspector/node-inspector): Node.js debugger based on Blink Developer Tools
 - [Debug](https://github.com/visionmedia/debug): tiny node.js & browser debugging utility for your libraries and applications
+- [devtool](https://github.com/Jam3/devtool): runs Node.js programs through Chromium DevTools
 
 ## Log
 
@@ -96,12 +97,15 @@
 - [Istanbul](https://github.com/gotwarlost/istanbul): Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests and browser tests. Built for scale.
 - [Should.js](http://shouldjs.github.io/): BDD style assertions for node.js -- test framework agnostic
 
-## Web Framework
+## Network
 
-- [ExpressJS](http://expressjs.com/)
-    - [node-toobusy](https://github.com/lloyd/node-toobusy): Build Node.JS servers that don't fall over.
-- [Koa](http://koajs.com/)
-- [Connect](https://github.com/senchalabs/connect): Express的前身
+- [Request](https://github.com/request/request): Simplified HTTP request client
+    - [Request-promise](https://github.com/request/request-promise)
+
+## Basic Libs
+
+- [Immuable.js](http://facebook.github.io/immutable-js/): Immutable collections for JavaScript
+- [lodash](https://lodash.com/): A modern JavaScript utility library delivering modularity, performance, & extras.
 
 ## Websocket
 
@@ -133,6 +137,13 @@
 - [es6-shim](https://github.com/paulmillr/es6-shim)
 - [shimmer](https://github.com/othiym23/shimmer)
 
+## Web Framework
+
+- [ExpressJS](http://expressjs.com/)
+    - [node-toobusy](https://github.com/lloyd/node-toobusy): Build Node.JS servers that don't fall over.
+- [Koa](http://koajs.com/)
+- [Connect](https://github.com/senchalabs/connect): Express的前身
+
 ## Message Queue & Job Queue
 
 - [Kue](https://github.com/Automattic/kue): Kue is a priority job queue backed by redis, built for node.js.
@@ -150,19 +161,24 @@
 - [NW.js](http://nwjs.io/): NW.js (previously known as node-webkit) lets you call all Node.js modules directly from DOM and enables a new way of writing applications with all Web technologies.
 - [slimerjs](https://github.com/laurentj/slimerjs)
 - [node-qt](https://github.com/arturadib/node-qt): C++ Qt bindings for Node.js
+- [nativefier](https://github.com/jiahaog/nativefier): Nativefier is a command line tool that allows you to easily create a desktop application for any web site with succinct and minimal configuration.
 
 ## Process Supervisor
 
 - [PM2](https://github.com/Unitech/pm2): Production process manager for Node.js applications with a built-in load balancer https://app.keymetrics.io/
 - [Nodemon](http://nodemon.io/): Nodemon is a utility that will monitor for any changes in your source and automatically restart your server. **Perfect for development.**
 
+## App
+
+- [Soundnode](https://github.com/Soundnode/soundnode-app): Soundnode App is an Open-Source project to support Soundcloud for desktop Mac, Windows, and Linux. It's built with NW.js, Node.js, Angular.js, and it uses the Soundcloud API.
+
 ## Others
 
 - [JXCore](http://jxcore.com/home/): JXcore extends Node.JS™ with additional features for developing mobile and embedded applications using JavaScript and leveraging the Node ecosystem.
-- [Immuable.js](http://facebook.github.io/immutable-js/): Immutable collections for JavaScript
+- [NodeCG](http://nodecg.com/): NodeCG is a broadcast graphics framework and application. It is primarily aimed at Twitch broadcasters using Open Broadcaster Software, but is usable in any environment that can render HTML, including CasparCG.
+- [mjml](https://mjml.io/): MJML is a markup language designed to reduce the pain of coding a responsive email.
 - [Cheerio](https://github.com/cheeriojs/cheerio): Fast, flexible, and lean implementation of core jQuery designed specifically for the server.
-- [Request](https://github.com/request/request): Simplified HTTP request client
-    - [Request-promise](https://github.com/request/request-promise)
+
 
 --------------------------------
 
