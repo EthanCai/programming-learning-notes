@@ -56,6 +56,8 @@
     - [ECMAScript 6 入门](http://es6.ruanyifeng.com)
     - [es6-cheatsheet](https://github.com/DrkSephy/es6-cheatsheet)
     - [You-Dont-Need-Lodash-Underscore](https://github.com/cht8687/You-Dont-Need-Lodash-Underscore)
+- Golang
+    - [Go command tutorial](https://github.com/hyper-carrot/go_command_tutorial): Golang command tutorial in Chinese.
 
 ## Data Schema Design Guide
 

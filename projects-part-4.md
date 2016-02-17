@@ -37,9 +37,10 @@
 - [CruiseControl.NET](http://www.cruisecontrolnet.org/) - an Automated Continuous Integration server, implemented using the .NET Framework
 - [MyGet](http://www.myget.org/) - Continuous Integration and Deployment, Hosted Package Repository for NuGet, NPM, Bower and VSIX. [Free for OSS] [$]
 - [Jenkins-CI](http://jenkins-ci.org/): An extensible open source continuous integration server
-- [Go Continuous Delivery](http://www.go.cd/): Automate and streamline the build-test-release cycle for worry-free, continuous delivery of your product.
+- [Go.cd](http://www.go.cd/): Automate and streamline the build-test-release cycle for worry-free, continuous delivery of your product.
 - [janky](https://github.com/github/janky): Continuous integration server built on top of Jenkins and Hubot
 - [Buildbot](http://buildbot.net/index.html): Python-based continuous integration testing framework; your pull requests are more than welcome!
+- [teletraan](https://github.com/pinterest/teletraan): Teletraan is Pinterest's deploy system. It deploys hundreds of Pinterest internal services, supports tens of thousands hosts, and has been running in production for over a year.
 
 
 ## Bug/Issue Management
