@@ -12,8 +12,17 @@
     - [JSON Schema](http://json-schema.org/)
     - [JSON Schema Generator](http://jsonschema.net/)
 
+## RPC
+
+- [gRPC](http://www.grpc.io/): A high performance, open source, general RPC framework that puts mobile and HTTP/2 first.
+- [zeroC](https://zeroc.com/): Ice is more than a RPC framework. It also provides a number of complementary services for your networked applications.
+- [linkerd](https://linkerd.io/): Modern RPC proxy for microservices
+- [Finagle](https://twitter.github.io/finagle/): Finagle is an extensible RPC system for the JVM, used to construct high-concurrency servers. Finagle implements uniform client and server APIs for several protocols, and is designed for high performance and concurrency. Most of Finagle’s code is protocol agnostic, simplifying the implementation of new protocols.
+- [hprose](http://hprose.com/): 一款先进的轻量级、跨语言、跨平台、无侵入式、高性能动态远程对象调用引擎库
+
 ## Distributed Application Framework
 
+- [Dubbo](http://dubbo.io/): DUBBO是一个分布式服务框架，致力于提供高性能和透明化的RPC远程服务调用方案，是阿里巴巴SOA服务化治理方案的核心框架，每天为2,000+个服务提供3,000,000,000+次访问量支持，并被广泛应用于阿里巴巴集团的各成员站点。
 - [akka.net](http://getakka.net/): a toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on .NET & Mono.
 - [akka](http://akka.io/): Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM. The power of Akka is also available on the .NET Framework and Mono via the Akka.NET project.
 - [Zyan Communication Framework](http://zyan.com.de/): Easy to use distributed application framework for .NET, Mono and Xamarin.Android.

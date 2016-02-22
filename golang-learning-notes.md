@@ -24,6 +24,8 @@
 - [Go Packages](https://godoc.org/): Search for Go Packages
 - [Go-search](http://go-search.org/): 查找Go packages
 - [Go Walker](https://gowalker.org/): Go Walker 是一个可以在线生成并浏览 Go 项目 API 文档的 Web 服务器，目前已支持包括 GitHub 等代码托管平台。
+- [Go by Example](https://github.com/mmcgrana/gobyexample): The Go by Example site is built by extracting code and comments from source files in examples and rendering them via the templates into a static public directory. The programs implementing this build process are in tools, along with some vendor'd dependencies in vendor.
+- [JSON to Go](https://mholt.github.io/json-to-go/): Convert JSON to Go struct
 
 个人资料收集：
 
@@ -185,6 +187,7 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 ## Data Access
 
+- [gorm](https://github.com/jinzhu/gorm): The fantastic ORM library for Golang, aims to be developer friendly
 - [xorm](https://github.com/go-xorm/xorm): Simple and Powerful ORM for Go, support mysql/sqlite3/postgres/mssql/oracle/tidb/ql
 - [Go-MySQL-Driver](https://github.com/go-sql-driver/mysql): Go-MySQL-Driver is a lightweight and fast MySQL-Driver for Go's (golang) database/sql package
 
@@ -215,6 +218,7 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 ## Micro Services
 
 - [goa](http://goa.design/): goa is a Go framework for developing RESTful microservices.
+- [micro](https://github.com/micro/micro): A microservice toolkit
 - [Gizmo Microservice Toolkit](https://github.com/NYTimes/gizmo): This toolkit provides packages to put together server and pubsub daemons
 
 ## Cache

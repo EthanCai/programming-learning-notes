@@ -27,9 +27,7 @@
 - [Orleans](http://dotnet.github.io/orleans/): Orleans is a framework that provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns.
 - [ServiceStack](https://github.com/ServiceStack/ServiceStack): Simple, Fast, Versatile and full-featured Services Framework
 - [NancyFx](http://nancyfx.org/): Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono
-- [Apworks](https://github.com/daxnet/Apworks): Apworks is a flexible, scalable, configurable and efficient .NET based application development framework that helps software developers to easily build enterprise applications by applying either Classic Layering or Command-Query Responsibility Segregation (CQRS) architectural patterns.
 - [ReactJS.NET](http://reactjs.net/): ReactJS.NET makes it easier to use Facebook's React and JSX from C# and other .NET languages, focusing specifically on ASP.NET MVC (although it also works in other environments). It assumes you already have some basic knowledge about React. It is cross-platform and can run on Linux via Mono. Now with support for ASP.NET 5 Beta!
-- [Nelibur](https://github.com/Nelibur/Nelibur): Nelibur is message based web service framework on the pure WCF. Nelibur simplifies creating high-performance and message based web services and you certainly have all the power of the WCF
 
 ## Template Engine
 
@@ -44,13 +42,13 @@
     - [OpenResty](http://openresty.org/): OpenResty (aka. ngx_openresty) is a full-fledged web application server by bundling the standard Nginx core, lots of 3rd-party Nginx modules, as well as most of their external dependencies.
     - [Tengine](http://tengine.taobao.org/): Tengine是由淘宝网发起的Web服务器项目。它在Nginx的基础上，针对大访问量网站的需求，添加了很多高级功能和特性。Tengine的性能和稳定性已经在大型的网站如淘宝网，天猫商城等得到了很好的检验。它的最终目标是打造一个高效、稳定、安全、易用的Web平台。
     - [VeryNginx](https://github.com/alexazhou/VeryNginx): 功能强大并且拥有对人类友好界面的Nginx, 提供防火墙，自定义行为和统计功能
-- [Katana](http://katanaproject.codeplex.com/): As Web application development takes its next evolutionary step into the world of cloud computing, project Katana provides the underlying set of components to ASP.NET applications, enabling them to be flexible, portable, lightweight, and provide better performance – put another way, project Katana cloud optimizes your ASP.NET applications.
-- [Nowin](https://github.com/Bobris/Nowin): Fast and scalable Owin Web Server in pure .Net 4.5 (it does not use HttpListener). Current status is usable for testing, not for production, nobody did any security review, you have been warned. On Windows speed is better than NodeJs and in some cases even better than HttpListener.
-- [Jexus](http://www.jexus.org/): 強勁、堅固、免費、易用的Linux ASP.NET服務器
-    - [Jexus](https://jexus.codeplex.com): Jexus web server is a Linux based, easy-to-use, and high performance web server with full ASP.NET stack support. Jexus Manager is its management console.
-- [XSP](https://github.com/mono/xsp): Mono's ASP.NET hosting server. This module includes an Apache Module, a FastCGI module that can be hooked to other web servers as well as a standalone server used for testing (similar to Microsoft's Cassini)
-- [EmbedIO](https://github.com/unosquare/embedio): A tiny, cross-platform, module based web server
+- [Katana](http://katanaproject.codeplex.com/): As Web application development takes its next evolutionary step into the world of cloud computing, project Katana provides the underlying set of components to ASP.NET applications, enabling them to be flexible, portable, lightweight, and provide better performance – put another way, project Katana cloud optimizes your
 - [lightttpd](http://www.lighttpd.net/): Security, speed, compliance, and flexibility -- all of these describe lighttpd (pron. lighty) which is rapidly redefining efficiency of a webserver; as it is designed and optimized for high performance environments. With a small memory footprint compared to other web-servers, effective management of the cpu-load, and advanced feature set (FastCGI, SCGI, Auth, Output-Compression, URL-Rewriting and many more) lighttpd is the perfect solution for every server that is suffering load problems. And best of all it's Open Source licensed under the revised BSD license.
+
+## API Gateway
+
+- [Kong](https://github.com/Mashape/kong): Open-source, Microservice & API Management Layer built on top of NGINX
+- [Tyk](https://tyk.io/): An open source, fast and scalable API management platform featuring an API gateway, analytics, developer portal and dashboard.
 
 ## WebSocket
 

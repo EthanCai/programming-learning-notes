@@ -17,7 +17,7 @@
 - [OpenCover](https://github.com/OpenCover/opencover): A code coverage tool for .NET 2 and above, support for 32 and 64 processes with both branch and sequence points; roots proudly based in PartCover
 
 
-## scaffolding
+## Scaffolding
 
 - [Yeoman](http://yeoman.io): The Yeoman workflow is comprised of three core tools for improving your productivity and satisfaction when building a web app.
 
@@ -72,10 +72,12 @@
 - [TSQLT](http://tsqlt.org/): tSQLt is a database unit testing framework for Microsoft SQL Server. tSQLt is compatible with SQL Server 2005 (service pack 2 required) and above on all editions.
 - [DbFit](http://dbfit.github.io/dbfit/index.html): Test-driven database development. Write readable, easy-to-maintain unit and integration tests for your database code.
 
+
 ## Database Management
 
 - [SqlPad](http://rickbergfalk.github.io/sqlpad/): Run SQL in your browser...Supports Postgres, MySQL, SQL Server and Vertica.
 - [sqitch](http://sqitch.org/): Sqitch is a database change management application.
+
 
 ## Automated Acceptance Testing/BDD
 

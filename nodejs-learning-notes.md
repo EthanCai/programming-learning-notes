@@ -102,6 +102,10 @@
 - [Request](https://github.com/request/request): Simplified HTTP request client
     - [Request-promise](https://github.com/request/request-promise)
 
+## RPC
+
+- [DNode](https://github.com/substack/dnode): dnode is an asynchronous rpc system for node.js that lets you call remote functions.
+
 ## Basic Libs
 
 - [Immuable.js](http://facebook.github.io/immutable-js/): Immutable collections for JavaScript
@@ -143,6 +147,7 @@
     - [node-toobusy](https://github.com/lloyd/node-toobusy): Build Node.JS servers that don't fall over.
 - [Koa](http://koajs.com/)
 - [Connect](https://github.com/senchalabs/connect): Express的前身
+- [Micro](https://github.com/zeithq/micro): Async HTTP microservices
 
 ## Message Queue & Job Queue
 
@@ -172,12 +177,15 @@
 
 - [Soundnode](https://github.com/Soundnode/soundnode-app): Soundnode App is an Open-Source project to support Soundcloud for desktop Mac, Windows, and Linux. It's built with NW.js, Node.js, Angular.js, and it uses the Soundcloud API.
 
+## Tools
+
+- [Browsersync](https://browsersync.io/): Time-saving synchronised browser testing.
+
 ## Others
 
 - [JXCore](http://jxcore.com/home/): JXcore extends Node.JS™ with additional features for developing mobile and embedded applications using JavaScript and leveraging the Node ecosystem.
 - [NodeCG](http://nodecg.com/): NodeCG is a broadcast graphics framework and application. It is primarily aimed at Twitch broadcasters using Open Broadcaster Software, but is usable in any environment that can render HTML, including CasparCG.
 - [mjml](https://mjml.io/): MJML is a markup language designed to reduce the pain of coding a responsive email.
-- [Cheerio](https://github.com/cheeriojs/cheerio): Fast, flexible, and lean implementation of core jQuery designed specifically for the server.
 
 
 --------------------------------
