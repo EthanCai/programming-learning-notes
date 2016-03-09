@@ -38,10 +38,11 @@
 - [Golang资料集](https://github.com/ty4z2008/Qix/blob/master/golang.md)
 - [Golang资料收集](https://github.com/wonderfo/wonderfogo/wiki)
 
-# 文章、演示文档、视频
+# 文章、演示文档、视频、示例
 
 - [Go Concurrency Patterns - Rob Pike](https://talks.golang.org/2012/concurrency.slide)
     - [Google I/O 2012 - Go Concurrency Patterns - Rob Pike](https://www.youtube.com/watch?v=f6kdp27TYZs)
+- [Go Patterns](https://github.com/tmrts/go-patterns): A curated collection of idiomatic design & application patterns for Go language.
 
 
 # 学习路径
@@ -189,6 +190,7 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 - [bleve](https://github.com/blevesearch/bleve): A modern text indexing library for go
 - [Pholcus](https://github.com/henrylee2cn/pholcus): Pholcus（幽灵蛛）是一款纯Go语言编写的高并发、分布式、重量级爬虫软件，支持单机、服务端、客户端三种运行模式，拥有Web、GUI、命令行三种操作界面；规则简单灵活、批量任务并发、输出方式丰富（mysql/mongodb/csv/excel等）、有大量Demo共享；同时她还支持横纵向两种抓取模式，支持模拟登录和任务暂停、取消等一系列高级功能
+- [goquery](https://github.com/PuerkitoBio/goquery): goquery brings a syntax and a set of features similar to jQuery to the Go language. It is based on Go's net/html package and the CSS Selector library cascadia. Since the net/html parser returns nodes, and not a full-featured DOM tree, jQuery's stateful manipulation functions (like height(), css(), detach()) have been left off.
 
 ## Network
 
@@ -291,12 +293,21 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [dkron](https://github.com/victorcoder/dkron): Distributed, fault tolerant job scheduling system
 - [webcron](https://github.com/codeskyblue/webcron): A new crontab that have a web page in order to replace the original crontab. Now it can try on test.
 - [kingtask](https://github.com/kingsoft-wps/kingtask): A lightweight asynchronous timing task system powered by Go
+- [cron](https://github.com/robfig/cron): a cron library for go
 
 ## Code Repository
 
 - [Gogs](http://gogs.io/): 极易搭建的自助 Git 服务
 - [Gitea - a self-hosted Git service](https://github.com/go-gitea/gitea)
 - [git - appraise](https://github.com/google/git-appraise): Distributed Code Review For Git
+
+## Distributed ID Generator
+
+- [sonyflake](https://github.com/sony/sonyflake): A distributed unique ID generator inspired by Twitter's Snowflake
+
+## Database
+
+- [tidb](https://github.com/pingcap/tidb): TiDB is a distributed NewSQL database compatible with MySQL protocol
 
 ## Backup
 
