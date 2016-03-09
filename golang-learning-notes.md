@@ -11,7 +11,6 @@
 - [The Go Programming Language Phrasebook](http://book.douban.com/subject/7952516/)
 - [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang)
 
-
 # Resources
 
 官方资源：
@@ -22,15 +21,10 @@
 工具：
 
 - [Go Packages](https://godoc.org/): Search for Go Packages
-- [Go-search](http://go-search.org/): 查找Go packages
+- [Go Search](http://go-search.org/): 查找Go packages
 - [Go Walker](https://gowalker.org/): Go Walker 是一个可以在线生成并浏览 Go 项目 API 文档的 Web 服务器，目前已支持包括 GitHub 等代码托管平台。
 - [Go by Example](https://github.com/mmcgrana/gobyexample): The Go by Example site is built by extracting code and comments from source files in examples and rendering them via the templates into a static public directory. The programs implementing this build process are in tools, along with some vendor'd dependencies in vendor.
 - [JSON to Go](https://mholt.github.io/json-to-go/): Convert JSON to Go struct
-
-个人资料收集：
-
-- [Golang资料集](https://github.com/ty4z2008/Qix/blob/master/golang.md)
-- [Golang资料收集](https://github.com/wonderfo/wonderfogo/wiki)
 - [Go语言示例](https://gobyexample.com/): Go by Example is a hands-on introduction to Go using annotated example programs.
 
 社区：
@@ -39,10 +33,15 @@
 - [Go邮件组](http://groups.google.com/group/golang-nuts)
 - [Go的中文邮件组](http://groups.google.com/group/golang-china)
 
-项目目录：
+资料集：
 
-- [Golang Projects - OSChina](http://www.oschina.net/project/lang/358/go)
-- [Awesome Go](https://github.com/avelino/awesome-go)
+- [Golang资料集](https://github.com/ty4z2008/Qix/blob/master/golang.md)
+- [Golang资料收集](https://github.com/wonderfo/wonderfogo/wiki)
+
+# 文章、演示文档、视频
+
+- [Go Concurrency Patterns - Rob Pike](https://talks.golang.org/2012/concurrency.slide)
+    - [Google I/O 2012 - Go Concurrency Patterns - Rob Pike](https://www.youtube.com/watch?v=f6kdp27TYZs)
 
 
 # 学习路径
@@ -81,6 +80,7 @@
     - [Golang Memory Module](http://golang.org/ref/mem)
     - [Go语言源代码](https://go.googlesource.com/go/)：在线查看Go语言源代码访问[这里](http://golang.org/src/)
     - [Go语言语法规格](http://golang.org/ref/spec)
+    - [OOPs in Go by William Kennedy](https://www.youtube.com/watch?v=gRpUfjTwSOo)
 
 
 ## Go语言标准库
@@ -143,6 +143,11 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 ------------------------------
 
+# 参考项目列表
+
+- [Golang Projects - OSChina](http://www.oschina.net/project/lang/358/go)
+- [Awesome Go](https://github.com/avelino/awesome-go)
+
 # Basic Projects
 
 ## Project Dependency and Build
@@ -158,15 +163,27 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [otto](https://github.com/robertkrimen/otto): A JavaScript interpreter in Go (golang)
 - [gopherjs](https://github.com/gopherjs/gopherjs): A compiler from Go to JavaScript for running Go code in a browser
 
-## IDE
+## Dev
 
+- [Go metal linter](https://github.com/alecthomas/gometalinter): Concurrently run Go lint tools and normalise their output
 - [Go plugin for IntelliJ](https://github.com/go-lang-plugin-org/go-lang-idea-plugin): Google Go language IDE built using the IntelliJ Platform
 - [Wide](https://github.com/b3log/wide): A Web-based IDE for Teams using Go programming language/Golang
+
+## Command
+
+- [gorc](https://github.com/stretchr/gorc): Recursive go testing, done better.
+- [gvm](https://github.com/moovweb/gvm): Go Version Manager
+
+## Test
+
+- [Testify](https://github.com/stretchr/testify): A sacred extension to the standard go testing package
+- [Go frisby](https://github.com/verdverm/frisby): API testing framework inspired by frisby-js
 
 ## Terminal
 
 - [odin](https://github.com/jwaldrip/odin): A go-lang library to help build self documenting command line applications.
 - [go-flags](https://github.com/jessevdk/go-flags): go command line option parser
+- [kingpin](http://gopkg.in/alecthomas/kingpin.v2):
 
 ## Text Processing & Search
 
@@ -233,6 +250,11 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 - [apex](https://github.com/apex/apex): Minimal AWS Lambda function manager with Go support.
 
+## Data Structure
+
+- [queue](https://github.com/eapache/queue):  not thread-safe queue
+- [safemap](https://github.com/pcrawfor/safemap): A golang channel based access object for shared use of a map of arbitrary objects
+
 ## Misc
 
 - [Gorilla web toolkit](http://www.gorillatoolkit.org/): Gorilla is a web toolkit for the Go programming language.
@@ -243,6 +265,7 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [robpike.io/filter](https://godoc.org/robpike.io/filter): Package filter contains utility functions for filtering slices through the distributed application of a filter function.
 - [Parallel](https://github.com/wangkuiyi/parallel): Some OpenMP like syntax for Go
 - [goerlang/node](https://github.com/goerlang/node): Implementation of Erlang node
+- [topicai/candy](https://github.com/topicai/candy): candy includes a set of easy-to-use Go facilities.
 
 
 # System Administration
@@ -300,9 +323,14 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 - [ln](https://github.com/fogleman/ln): ln is a vector-based 3D renderer written in Go. It is used to produce 2D vector graphics (think SVGs) depicting 3D scenes. The output of an OpenGL pipeline is a rastered image. The output of ln is a set of 2D vector paths.
 
-## Misc
+## Authentication
 
 - [captcha](https://github.com/jianxinio/captcha): Golang实现的验证码服务
+- [Go OTP](https://github.com/hgfischer/go-otp): Package go-otp implements one-time-password generators used in 2-factor authentication systems like RSA-tokens. Currently this supports both HOTP (RFC-4226), TOTP (RFC-6238) and Base32 encoding (RFC-3548) for Google Authenticator compatibility
+    - [Go-otpserver](https://github.com/skyjia/go-otpserver): A golang version OTP server.
+
+## Misc
+
 - [Gor](https://github.com/wendal/gor): Golang编写的静态博客引擎
 - [heim](https://github.com/euphoria-io/heim): A real-time community platform
 - [Mattermost](https://github.com/mattermost/platform): Mattermost is an open-source team communication service. It brings team messaging and file sharing into one place, accessible across PCs and phones, with archiving and search.
