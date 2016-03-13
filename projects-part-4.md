@@ -154,6 +154,12 @@
 - [cfengine](http://cfengine.com/): Lightweight agent system. Configuration state is specified via a declarative language.
 
 
+## Static Websites & Blog
+
+- [Jekyll](http://jekyllrb.com/): Transform your plain text into static websites and blogs.
+    - [Jekyllcn](http://jekyllcn.com/)
+- [Hexo](https://hexo.io/): A fast, simple & powerful blog framework
+
 ## Misc
 
 - [twill](http://twill.idyll.org/): a simple scripting language for Web browsing
