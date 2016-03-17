@@ -99,10 +99,12 @@
 - [ab - Apache HTTP server benchmarking tool](http://jmeter.apache.org/): ab命令会创建很多的并发访问线程，模拟多个访问者同时对某一URL地址进行访问。它的测试目标是基于URL的，因此，既可以用来测试Apache的负载压力，也可以测试nginx、lighthttp、tomcat、IIS等其它Web服务器的压力。ab命令对发出负载的计算机要求很低，既不会占用很高CPU，也不会占用很多内存，但却会给目标服务器造成巨大的负载，其原理类似CC攻击。
 - [TCPCopy](https://github.com/session-replay-tools/tcpcopy): TCPCopy is a TCP stream replay tool to support real testing of Internet server applications.
 - [Apache JMeter](http://jmeter.apache.org/): Apache JMeter是一个专门为运行和服务器装载测试而设计的、100％的纯Java桌面运行程序。原先它是为Web/HTTP测试而设计的，但是它已经扩展以支持各种各样的测试模块。它和用于HTTP和SQL数据库（使用JDBC）的模块一起运送。它可以用来测试静止资料库或者活动资料库中的服务器的运行情况，可以用来模拟对服务器或者网络系统加以重负荷以测试它的抵抗力，或者用来分析不同负荷类型下的所有运行情况。它也提供了一个可替换的界面用来定制数据显示，测试同步及测试的创建和执行。
-- [Badboy](http://www.badboy.com.au/): Badboy is a powerful tool designed to aid in testing and development of complex dynamic applications. Badboy makes web testing and development easier with dozens of features including a simple yet comprehensive capture/replay interface, powerful load testing support, detailed reports, graphs and much more!
+    - [Badboy](http://www.badboy.com.au/): Badboy is a powerful tool designed to aid in testing and development of complex dynamic applications. Badboy makes web testing and development easier with dozens of features including a simple yet comprehensive capture/replay interface, powerful load testing support, detailed reports, graphs and much more!
+    - [ruby-jmeter](https://github.com/flood-io/ruby-jmeter): A Ruby based DSL for building JMeter test plans
 - [Gatling](http://gatling.io/): Gatling is an open-source load testing framework based on Scala, Akka and Netty
 - [West Wind Websurge](http://websurge.west-wind.com/): We believe that testing HTTP requests and load testing a site should be easy - something that takes a few minutes to set up and then runs on a regular basis during the development process, so that you can monitor performance of your site while you are building it. To this end we built West Wind WebSurge with the developer and testers in mind to make it easy to create HTTP requests or entire sessions, and then easily play back either individual URLs for development response testing, or for full-on testing under heavy load. Sessions are stored in plain text files so that they can be easily stored with projects or shared via source control for all users to have access.
 - [toxy](https://github.com/h2non/toxy): Hackable HTTP proxy to simulate server failure scenarios and network conditions
+- [tcpkali](https://github.com/machinezone/tcpkali): Fast multi-core TCP and WebSockets load generator.
 
 
 ## System Monitor

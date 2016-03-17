@@ -129,11 +129,21 @@
 - [node-fibers](https://github.com/laverdet/node-fibers): Fiber/coroutine support for v8 and node.
 - [node-webworker](https://github.com/pgriess/node-webworker): node-webworkers is an implementation of the Web Workers API for node.js.
 
+## Terminal
+
+- [yargs](https://github.com/yargs/yargs): yargs the modern, pirate-themed successor to optimist.
+- [minimist](https://github.com/substack/minimist): parse argument options
+- [Optimist](https://github.com/substack/node-optimist): Light-weight option parsing for node.js
+
+## Yaml
+
+- [js-yaml](https://github.com/nodeca/js-yaml): JavaScript YAML parser and dumper. Very fast.
+
 ## Stream
 
 - [node-trumpet](https://github.com/substack/node-trumpet): parse and transform streaming html using css selectors
 - [csv-stream](https://github.com/klaemo/csv-stream): Streaming CSV Parser for Node. Small and made entirely out of streams.
-- [event-stream](https://github.com/dominictarr/event-stream): EventStream is like functional programming meets IO
+- [event-stream](https://github.com/dominictarr/event-stream): EvJavaScript YAML parser and dumper. Very fast.entStream is like functional programming meets IO
 - [JSONStream](https://github.com/dominictarr/JSONStream): rawStream.pipe(JSONStream.parse()).pipe(streamOfObjects)
 
 ## Shim
