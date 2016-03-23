@@ -156,10 +156,13 @@
 - [cfengine](http://cfengine.com/): Lightweight agent system. Configuration state is specified via a declarative language.
 
 
-## Static Websites & Blog
+## Static Websites Generator
+
+更多参考[StaticGen](https://www.staticgen.com/)
 
 - [Jekyll](http://jekyllrb.com/): Transform your plain text into static websites and blogs.
     - [Jekyllcn](http://jekyllcn.com/)
+    - [Octopress](http://octopress.org/)
 - [Hexo](https://hexo.io/): A fast, simple & powerful blog framework
 
 ## Misc
