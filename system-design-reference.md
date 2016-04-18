@@ -62,6 +62,7 @@
 
 - [PlantUML](http://plantuml.com)
 - [Graphviz](http://www.graphviz.org)
+    - [gravizo](http://gravizo.com/): Gravizo uses Graphviz to render graphs. It supports DOT, PlantUML, UMLGraph syntax and SVG in JSON format.
 - [Markdown](http://daringfireball.net/projects/markdown/)
     - [MacDown](http://macdown.uranusjr.com)
     - [Mathjax](https://www.mathjax.org/)

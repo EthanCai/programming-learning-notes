@@ -5,7 +5,6 @@
 - [Git](http://www.git-scm.com/): Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 - [Gitlab](https://about.gitlab.com/): Open source git server
 - [bonobo git server](https://bonobogitserver.com/): Simple git server for Windows. Set up your own self hosted git server on IIS for Windows. Manage users and have full control over your repositories with a nice user friendly graphical interface.
-- [gitosis](https://github.com/res0nat0r/gitosis): software for hosting git repositories
 - [gitolite](https://github.com/sitaramc/gitolite): Hosting git repositories -- Gitolite allows you to setup git hosting on a central server, with very fine-grained access control and many (many!) more powerful features.
 
 
