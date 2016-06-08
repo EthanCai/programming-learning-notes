@@ -13,19 +13,36 @@
 
 # Resources
 
-官方资源：
+官方网站：
 
 - [Golang](http://golang.org/)
 - [Golang国内镜像](http://docscn.studygolang.com/)
+- [Go语言源代码](https://go.googlesource.com/go/)：在线查看Go语言源代码访问[这里](http://golang.org/src/)
+
+语法：
+
+- [A Tour of Go](https://tour.golang.org): The tour covers the most important features of the language
+- [Go语言示例](https://gobyexample.com/): Go by Example is a hands-on introduction to Go using annotated example programs
+- [The Go Programming Language Specification](https://golang.org/ref/spec)
+
+Go Patterns:
+
+- [Go Design Patterns](https://github.com/monochromegane/go_design_pattern)
+- [go-resiliency](https://github.com/eapache/go-resiliency)
+- [Go Examples of Common Patterns](https://github.com/jbuberel/go-patterns)
+- [Go Patterns](https://github.com/tmrts/go-patterns): A curated collection of idiomatic design & application patterns for Go language.
+
+Go Package：
+
+- [GoDoc](https://godoc.org/): GoDoc hosts documentation for Go packages on Bitbucket, GitHub, Google Project Hosting and Launchpad.
+    - [Go Walker](https://gowalker.org/): Go Walker 是一个可以在线生成并浏览 Go 项目 API 文档的 Web 服务器，目前已支持包括 GitHub 等代码托管平台
+    - [Go Search](http://go-search.org/): 查找Go packages
+- [Go Report Card](https://goreportcard.com): Report for golang package with `go vet`, `gocyclo`, `gofmt`, `golint`, `ineffassign`, `license`, `misspell`.
+- [GoCover.io](https://gocover.io/): See code coverage of any Go package.
 
 工具：
 
-- [Go Packages](https://godoc.org/): Search for Go Packages
-- [Go Search](http://go-search.org/): 查找Go packages
-- [Go Walker](https://gowalker.org/): Go Walker 是一个可以在线生成并浏览 Go 项目 API 文档的 Web 服务器，目前已支持包括 GitHub 等代码托管平台。
-- [Go by Example](https://github.com/mmcgrana/gobyexample): The Go by Example site is built by extracting code and comments from source files in examples and rendering them via the templates into a static public directory. The programs implementing this build process are in tools, along with some vendor'd dependencies in vendor.
 - [JSON to Go](https://mholt.github.io/json-to-go/): Convert JSON to Go struct
-- [Go语言示例](https://gobyexample.com/): Go by Example is a hands-on introduction to Go using annotated example programs.
 
 社区：
 
@@ -33,7 +50,7 @@
 - [Go邮件组](http://groups.google.com/group/golang-nuts)
 - [Go的中文邮件组](http://groups.google.com/group/golang-china)
 
-资料集：
+资料收集：
 
 - [Golang资料集](https://github.com/ty4z2008/Qix/blob/master/golang.md)
 - [Golang资料收集](https://github.com/wonderfo/wonderfogo/wiki)
@@ -42,8 +59,8 @@
 
 - [Go Concurrency Patterns - Rob Pike](https://talks.golang.org/2012/concurrency.slide)
     - [Google I/O 2012 - Go Concurrency Patterns - Rob Pike](https://www.youtube.com/watch?v=f6kdp27TYZs)
-- [Go Patterns](https://github.com/tmrts/go-patterns): A curated collection of idiomatic design & application patterns for Go language.
-
+- [OOPs in Go by William Kennedy](https://www.youtube.com/watch?v=gRpUfjTwSOo)
+- [Golang Memory Module](http://golang.org/ref/mem)
 
 # 学习路径
 
@@ -51,8 +68,7 @@
     - 参考[Get Started](http://golang.org/doc/install)安装Golang runtime，如果OS X通过Homebrew安装
     - IDE
         - 使用Atom，需要安装[Go-Plus Package](https://atom.io/packages/go-plus)
-        - 使用IDEA，需要安装[go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin/wiki/Documentation), 文档见[这里](https://github.com/go-lang-plugin-org/go-lang-idea-plugin/wiki/Documentation)
-        - 使用Sublime，需要[安装GoSublime Package](https://github.com/DisposaBoy/GoSublime)
+        - 使用IDEA Community，需要安装[go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin/wiki/Documentation), 文档见[这里](https://github.com/go-lang-plugin-org/go-lang-idea-plugin/wiki/Documentation)
 1. 练习搭建基本的Workspace，并熟悉Workspace的结构、Go代码结构、编写基本的单元测试、`Go fmt/build/install/run/test`等命名的使用
     - [How to Write Go Code](http://golang.org/doc/code.html)
     - [Go命令文档](http://golang.org/doc/cmd)
@@ -60,28 +76,27 @@
     - 熟悉Golang的编码规范，[Effective Go - Go语言编码规范](http://golang.org/doc/effective_go.html)
     - 熟悉Golang标准库，[Go语言Package文档](http://golang.org/pkg/)
 1. 工程管理
-    - PC如果有多个Workspace，`GoPath`如何设置
-        - `GoPath`支持设置多个目录；如果`GoPath`设置了多个路径，执行`go get`命令，会默认下载到`GoPath`中第一个路径中
-        - Go语言编程一般混合使用第三方和自己开发的package，所以建议创建两个目录，一个用于保存第三方package的workspace，一个用于保存自己开发的package的workspace，把这两个目录都加到`GoPath`中
-        - 参考：
-            - [Go environment setup](http://blog.tideland.biz/2013-07-09-go-environment-setup)
-    - 如何引用第三方Package
+    - 不建议创建多个Workspace，管理起来增加不必要的麻烦
+        - 如果想配置多个Workspace，按照如下方法配置：
+            - 主要配置方法参考[Go environment setup](http://blog.tideland.biz/2013-07-09-go-environment-setup)
+            - `GoPath`支持设置多个目录；如果`GoPath`设置了多个路径，执行`go get`命令，会默认下载到`GoPath`中第一个路径中
+    - 代码检查
+        - [Go metal linter](https://github.com/alecthomas/gometalinter): Concurrently run Go lint tools and normalise their output
+    - 编译
+        - [Package Management Tools - Golang Wiki](https://github.com/golang/go/wiki/PackageManagementTools)
+        - Godep和GoPM的区别：
+            - 使用GoPM方式管理引用的第三方package，引用第三方package的列表保存在`/.gopmfile`文件中，如[这里](https://github.com/gogits/gogs/blob/master/.gopmfile)
+            - 使用Godep方式管理引用的第三方package，引用的第三方package的列表保存在`/Godeps/Godeps.json`文件中，第三方package源代码也需要包含在项目代码中，保存在`/Godeps/_workspace/src`目录下，参考[etcd项目结构](https://github.com/coreos/etcd)
+            - GoPM管理方式更优雅；GoPM的管理命令也比Godep更易用；由于GoPM服务架设在中国，所以在国内使用GoPM访问也更快；但是GoPM管理方式存在安全问题，如果GoPM服务挂掉或者第三方package代码库变更，那么也就无法下载引用的第三方package，从安全角度对于企业是不可接受的
+            - Godeps管理方式虽然不存在安全问题，但是如果第三方package有更新，那么更新`/Godeps`目录下的第三方package代码也不方便
         - 工具
+            - 标准`go get`
             - [Godep](https://github.com/tools/godep): dependency tool for go
-            - [GoPM](https://github.com/gpmgo/gopm): Go Package Manager (gopm) is a package manager and build tool for Go.
-            - [GO15VENDOREXPERIMENT](http://studygolang.com/articles/4607): Go1.5推出的解决包依赖管理问题的实验性feature，缺少官方工具支持，建议[和Godep一起使用](http://ju.outofmemory.cn/entry/196996)
-        - 介绍
-            - [Package Management Tools - Golang Wiki](https://github.com/golang/go/wiki/PackageManagementTools)
-            - Godep和GoPM的区别：
-                - 使用GoPM方式管理引用的第三方package，引用第三方package的列表保存在`/.gopmfile`文件中，如[这里](https://github.com/gogits/gogs/blob/master/.gopmfile)
-                - 使用Godep方式管理引用的第三方package，引用的第三方package的列表保存在`/Godeps/Godeps.json`文件中，第三方package源代码也需要包含在项目代码中，保存在`/Godeps/_workspace/src`目录下，参考[etcd项目结构](https://github.com/coreos/etcd)
-                - GoPM管理方式更优雅；GoPM的管理命令也比Godep更易用；由于GoPM服务架设在中国，所以在国内使用GoPM访问也更快；但是GoPM管理方式存在安全问题，如果GoPM服务挂掉或者第三方package代码库变更，那么也就无法下载引用的第三方package，从安全角度对于企业是不可接受的
-                - Godeps管理方式虽然不存在安全问题，但是如果第三方package有更新，那么更新`/Godeps`目录下的第三方package代码也不方便
-1. 其它
-    - [Golang Memory Module](http://golang.org/ref/mem)
-    - [Go语言源代码](https://go.googlesource.com/go/)：在线查看Go语言源代码访问[这里](http://golang.org/src/)
-    - [Go语言语法规格](http://golang.org/ref/spec)
-    - [OOPs in Go by William Kennedy](https://www.youtube.com/watch?v=gRpUfjTwSOo)
+            - [Glide](https://glide.sh/): Vendor Package Management for Golang
+            - [Go vendor](https://github.com/kardianos/govendor): Go vendor tool that works with the standard vendor file.
+    - 打包
+        - [gb](https://github.com/constabulary/gb): the project based build tool for Go
+
 
 
 ## Go语言标准库
@@ -98,49 +113,40 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 ### 输入输出
 
-| Package Name                                     | Introduction                                                               | More Reference                                                                                                                  |
-|:-------------------------------------------------|:---------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
-| [fmt](https://golang.org/pkg/fmt/)               | implements formatted I/O with functions analogous to C's printf and scanf. | [fmt — formated IO](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter01/01.3.md)        |
-| [io](https://golang.org/pkg/io/)                 | provides basic interfaces to I/O primitives                                | [io — basic io interfaces](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter01/01.1.md) |
-| [io/ioutil](https://golang.org/pkg/io/ioutil/)   | implements some I/O utility functions.                                     | [ioutil](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter01/01.2.md)                   |
-| [bufio](https://golang.org/pkg/bufio/)           | buffered I/O                                                               | [bufio](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter01/01.4.md)                    |
-| [log](https://golang.org/pkg/log/)               |                                                                            |                                                                                                                                 |
-| [log/syslog](https://golang.org/pkg/log/syslog/) |                                                                            |                                                                                                                                 |
-| [flag](https://golang.org/pkg/flag/)             |                                                                            |                                                                                                                                 |
+- [fmt](https://golang.org/pkg/fmt/)
+- [io](https://golang.org/pkg/io/)
+- [io/ioutil](https://golang.org/pkg/io/ioutil/)
+- [bufio](https://golang.org/pkg/bufio/)
+- [log](https://golang.org/pkg/log/)
+- [log/syslog](https://golang.org/pkg/log/syslog/)
+- [flag](https://golang.org/pkg/flag/)
 
 ### 文本处理
 
-| Package Name                                 | Introduction                                                                  | More Reference |
-|:---------------------------------------------|:------------------------------------------------------------------------------|:---------------|
-| [encoding](https://golang.org/pkg/encoding/) |                                                                               |                |
-| [bytes](https://golang.org/pkg/bytes/)       |                                                                               |                |
-| [strings](https://golang.org/pkg/strings/)   |                                                                               |                |
-| [strconv](https://golang.org/pkg/strconv/)   | implements conversions to and from string representations of basic data types |                |
-| [text](https://golang.org/pkg/)              |                                                                               |                |
-| [mime](https://golang.org/pkg/mime/)         | implements parts of the MIME spec                                             |                |
-| [regexp](https://golang.org/pkg/regexp/)     |                                                                               |                |
-| [index](https://golang.org/pkg/index/)       |                                                                               |                |
-| [path](https://golang.org/pkg/path/)         |                                                                               |                |
+- [encoding](https://golang.org/pkg/encoding/)
+- [bytes](https://golang.org/pkg/bytes/)
+- [strings](https://golang.org/pkg/strings/)
+- [strconv](https://golang.org/pkg/strconv/)
+- [text](https://golang.org/pkg/)
+- [mime](https://golang.org/pkg/mime/)
+- [regexp](https://golang.org/pkg/regexp/)
+- [index](https://golang.org/pkg/index/)
+- [path](https://golang.org/pkg/path/)
 
 ### 网络
 
-| Package Name                             | Introduction | More Reference |
-|:-----------------------------------------|:-------------|:---------------|
-| [net](https://golang.org/pkg/net/)       |              |                |
-| [HTTP](https://golang.org/pkg/net/http/) |              |                |
-| [RPC](https://golang.org/pkg/net/rpc/)   |              |                |
-| [expvar](https://golang.org/pkg/expvar/) |              |                |
+- [net](https://golang.org/pkg/net/)
+- [HTTP](https://golang.org/pkg/net/http/)
+- [RPC](https://golang.org/pkg/net/rpc/)
+- [expvar](https://golang.org/pkg/expvar/)
 
 ### 系统
 
-| Package Name                               | Introduction | More Reference |
-|:-------------------------------------------|:-------------|:---------------|
-| [os](https://golang.org/pkg/os/)           |              |                |
-| [syscall](https://golang.org/pkg/syscall/) |              |                |
-| [sync](https://golang.org/pkg/sync/)       |              |                |
-| [time](https://golang.org/pkg/time/)       |              |                |
-| [unsafe](https://golang.org/pkg/unsafe/)   |              |                |
-
+- [os](https://golang.org/pkg/os/)
+- [syscall](https://golang.org/pkg/syscall/)
+- [sync](https://golang.org/pkg/sync/)
+- [time](https://golang.org/pkg/time/)
+- [unsafe](https://golang.org/pkg/unsafe/)
 
 ------------------------------
 
@@ -153,9 +159,6 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 ## Project Dependency and Build
 
-- [Godep](https://github.com/tools/godep): dependency tool for go
-- [GoPM](https://github.com/gpmgo/gopm): Go Package Manager (gopm) is a package manager and build tool for Go
-- [gb](https://github.com/constabulary/gb): the project based build tool for Go
 - [goviz](https://github.com/hirokidaichi/goviz): a visualization tool for golang project dependency
 
 ## Language
@@ -166,8 +169,6 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 ## Dev
 
-- [Go metal linter](https://github.com/alecthomas/gometalinter): Concurrently run Go lint tools and normalise their output
-- [Go plugin for IntelliJ](https://github.com/go-lang-plugin-org/go-lang-idea-plugin): Google Go language IDE built using the IntelliJ Platform
 - [Wide](https://github.com/b3log/wide): A Web-based IDE for Teams using Go programming language/Golang
 
 ## Command
