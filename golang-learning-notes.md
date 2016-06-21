@@ -201,6 +201,11 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [fasthttp](https://github.com/valyala/fasthttp): Fast HTTP implementation for Go.
 - [link](https://github.com/funny/link): Go语言网络层脚手架
 
+## JSON
+
+- [go-simplejson](https://github.com/bitly/go-simplejson): a Go package to interact with arbitrary JSON
+- [Jason](https://github.com/antonholmquist/jason): Easy-to-use JSON Library for Go
+
 ## Robot
 
 - [Gobot](http://gobot.io/): Gobot is a framework for robotics, physical computing, and the Internet of Things, written in the Go programming language.
@@ -226,20 +231,34 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 ## Web Framework
 
+![](https://raw.githubusercontent.com/iris-contrib/website/cf71811e6acb2f9bf1e715e25660392bf090b923/assets/benchmark_horizontal_transparent.png)
+
+**Web Frameworks in the chart:**
+
 - [Beego](http://beego.me/): 一个使用 Go 的思维来帮助您构建并开发 Go 应用程序的开源框架
-- [revel](http://revel.github.io/): A high-productivity web framework for the Go language.
-- [tango](https://github.com/lunny/tango): Micro & pluggable web framework for Go
-- [gokit](https://github.com/go-kit/kit): Go kit is a distributed programming toolkit for building microservices in large organizations. We solve common problems in distributed systems, so you can focus on your business logic.
-- [martini](https://github.com/go-martini/martini): Martini is a powerful package for quickly writing modular web applications/services in Golang.
 - [Gin Web Framework](https://github.com/gin-gonic/gin): Gin is a web framework written in Golang. It features a martini-like API with much better performance, up to 40 times faster thanks to httprouter. If you need performance and good productivity, you will love Gin.
+- [Iris](https://github.com/kataras/iris): The fastest web framework for Go in (THIS) earth
+- [martini](https://github.com/go-martini/martini): Martini is a powerful package for quickly writing modular web applications/services in Golang.
+- [revel](http://revel.github.io/): A high-productivity web framework for the Go language.
+
+**Other Web Frameworks:**
+
+- [tango](https://github.com/lunny/tango): Micro & pluggable web framework for Go
 - [webgo](https://github.com/hoisie/web): web.go is the simplest way to write web applications in the Go programming language. It's ideal for writing simple, performant backend web services.
-- [Webhook](https://github.com/adnanh/webhook): webhook is a lightweight configurable tool written in Go, that allows you to easily create HTTP endpoints (hooks) on your server, which you can use to execute configured commands.
 
 ## Micro Services
 
+- [gokit](https://github.com/go-kit/kit): Go kit is a distributed programming toolkit for building microservices in large organizations. We solve common problems in distributed systems, so you can focus on your business logic.
 - [goa](http://goa.design/): goa is a Go framework for developing RESTful microservices.
 - [micro](https://github.com/micro/micro): A microservice toolkit
 - [Gizmo Microservice Toolkit](https://github.com/NYTimes/gizmo): This toolkit provides packages to put together server and pubsub daemons
+
+## Other Web Related Projects
+
+- [restful](https://github.com/devcamcar/restful): Restful HTTP Client package in golang
+- [Gorilla web toolkit](http://www.gorillatoolkit.org/): Gorilla is a web toolkit for the Go programming language.
+- [GoRazor](https://github.com/sipin/gorazor): Razor view engine for Golang
+- [Webhook](https://github.com/adnanh/webhook): webhook is a lightweight configurable tool written in Go, that allows you to easily create HTTP endpoints (hooks) on your server, which you can use to execute configured commands.
 
 ## Cache
 
@@ -260,11 +279,6 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 ## Misc
 
-- [Gorilla web toolkit](http://www.gorillatoolkit.org/): Gorilla is a web toolkit for the Go programming language.
-- [GoRazor](https://github.com/sipin/gorazor): Razor view engine for Golang
-- [go-simplejson](https://github.com/bitly/go-simplejson): a Go package to interact with arbitrary JSON
-- [Jason](https://github.com/antonholmquist/jason): Easy-to-use JSON Library for Go
-- [restful](https://github.com/devcamcar/restful): Restful HTTP Client package in golang
 - [robpike.io/filter](https://godoc.org/robpike.io/filter): Package filter contains utility functions for filtering slices through the distributed application of a filter function.
 - [Parallel](https://github.com/wangkuiyi/parallel): Some OpenMP like syntax for Go
 - [goerlang/node](https://github.com/goerlang/node): Implementation of Erlang node
