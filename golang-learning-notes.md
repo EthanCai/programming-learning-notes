@@ -155,6 +155,7 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [Golang Projects - OSChina](http://www.oschina.net/project/lang/358/go)
 - [Awesome Go](https://github.com/avelino/awesome-go)
 
+
 # Basic Projects
 
 ## Project Dependency and Build
@@ -169,17 +170,16 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 ## Dev
 
-- [Wide](https://github.com/b3log/wide): A Web-based IDE for Teams using Go programming language/Golang
-
-## Command
-
 - [gorc](https://github.com/stretchr/gorc): Recursive go testing, done better.
 - [gvm](https://github.com/moovweb/gvm): Go Version Manager
+- [Wide](https://github.com/b3log/wide): A Web-based IDE for Teams using Go programming language/Golang
+- [http2curl](https://github.com/moul/http2curl):  Convert Golang's http.Request to CURL command line
 
 ## Test
 
 - [Testify](https://github.com/stretchr/testify): A sacred extension to the standard go testing package
 - [Go frisby](https://github.com/verdverm/frisby): API testing framework inspired by frisby-js
+- [httpexpect](https://github.com/gavv/httpexpect): End-to-end HTTP and REST API testing for Go.
 
 ## Terminal
 
@@ -191,24 +191,24 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 - [bleve](https://github.com/blevesearch/bleve): A modern text indexing library for go
 - [Pholcus](https://github.com/henrylee2cn/pholcus): Pholcus（幽灵蛛）是一款纯Go语言编写的高并发、分布式、重量级爬虫软件，支持单机、服务端、客户端三种运行模式，拥有Web、GUI、命令行三种操作界面；规则简单灵活、批量任务并发、输出方式丰富（mysql/mongodb/csv/excel等）、有大量Demo共享；同时她还支持横纵向两种抓取模式，支持模拟登录和任务暂停、取消等一系列高级功能
+- [sego](https://github.com/huichen/sego): Go中文分词
 - [goquery](https://github.com/PuerkitoBio/goquery): goquery brings a syntax and a set of features similar to jQuery to the Go language. It is based on Go's net/html package and the CSS Selector library cascadia. Since the net/html parser returns nodes, and not a full-featured DOM tree, jQuery's stateful manipulation functions (like height(), css(), detach()) have been left off.
 
 ## Network
 
 - [DNS library in Go](https://github.com/miekg/dns): DNS library in Go
 - [GRPC](http://www.grpc.io/): A high performance, open source, general RPC framework that puts mobile and HTTP/2 first.
-- [tus](http://www.oschina.net/p/tus): 一个开放的协议实现了客户端和服务器之间可恢复的文件上传协议
-- [fasthttp](https://github.com/valyala/fasthttp): Fast HTTP implementation for Go.
+- [fasthttp](https://github.com/valyala/fasthttp): Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http.
 - [link](https://github.com/funny/link): Go语言网络层脚手架
+- [tus](http://www.oschina.net/p/tus): 一个开放的协议实现了客户端和服务器之间可恢复的文件上传协议
 
 ## JSON
 
 - [go-simplejson](https://github.com/bitly/go-simplejson): a Go package to interact with arbitrary JSON
 - [Jason](https://github.com/antonholmquist/jason): Easy-to-use JSON Library for Go
-
-## Robot
-
-- [Gobot](http://gobot.io/): Gobot is a framework for robotics, physical computing, and the Internet of Things, written in the Go programming language.
+- [jsonpath](https://github.com/yalp/jsonpath): a (partial) implementation in Go based on [Stefan Goener JSON Path](http://goessner.net/articles/JsonPath/)
+- [gojsonschema](https://github.com/xeipuuv/gojsonschema): An implementation of JSON Schema, based on IETF's draft v4 - Go language
+- [gojsondiff](https://github.com/yudai/gojsondiff/): Go JSON Diff
 
 ## Data Access
 
@@ -271,6 +271,10 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 ## AWS
 
 - [apex](https://github.com/apex/apex): Minimal AWS Lambda function manager with Go support.
+
+## IoT
+
+- [Gobot](http://gobot.io/): Gobot is a framework for robotics, physical computing, and the Internet of Things, written in the Go programming language.
 
 ## Data Structure
 
