@@ -1,3 +1,40 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Projects about .NET Framework and Libs](#projects-about-net-framework-and-libs)
+	- [Compiler & CLR Framework](#compiler-clr-framework)
+	- [Assembly Manipulation](#assembly-manipulation)
+	- [Web Server](#web-server)
+	- [Web Frameworks/Application Frameworks](#web-frameworksapplication-frameworks)
+	- [Template Engine](#template-engine)
+	- [Web Servers & Hosts](#web-servers-hosts)
+	- [API Gateway](#api-gateway)
+	- [WebSocket](#websocket)
+	- [Network](#network)
+	- [Authentication && Authorization](#authentication-authorization)
+	- [Data Access](#data-access)
+	- [ORM framework](#orm-framework)
+	- [Serialization & Deserialization](#serialization-deserialization)
+	- [Windows Services](#windows-services)
+	- [Schedule Task](#schedule-task)
+	- [State Machine](#state-machine)
+	- [Profiler](#profiler)
+	- [Interoperability](#interoperability)
+	- [IoC](#ioc)
+	- [Logging](#logging)
+	- [Cryptography](#cryptography)
+	- [Compression](#compression)
+	- [Mail](#mail)
+	- [CLI](#cli)
+	- [Manipulate Documents](#manipulate-documents)
+	- [Manipulate Texts](#manipulate-texts)
+	- [Report](#report)
+	- [Tools](#tools)
+	- [Math](#math)
+	- [Image Processing](#image-processing)
+	- [Misc Libraries](#misc-libraries)
+
+<!-- /TOC -->
+
 # Projects about .NET Framework and Libs
 
 ## Compiler & CLR Framework

@@ -1,3 +1,28 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Project about DevOps](#project-about-devops)
+	- [Code Repository](#code-repository)
+	- [Code Analysis and Metrics](#code-analysis-and-metrics)
+	- [Scaffolding](#scaffolding)
+	- [Build](#build)
+	- [Continuous Integration](#continuous-integration)
+	- [Bug/Issue Management](#bugissue-management)
+	- [Unit Testing](#unit-testing)
+	- [Database Testing](#database-testing)
+	- [Database Management](#database-management)
+	- [Automated Acceptance Testing/BDD](#automated-acceptance-testingbdd)
+	- [Performance Testing](#performance-testing)
+	- [System Monitor](#system-monitor)
+	- [Process Supervisor](#process-supervisor)
+	- [Deployment](#deployment)
+	- [User Behavior Collection & Analysis](#user-behavior-collection-analysis)
+	- [Infrastructure Management](#infrastructure-management)
+	- [Automamtion](#automamtion)
+	- [Static Websites Generator](#static-websites-generator)
+	- [Misc](#misc)
+
+<!-- /TOC -->
+
 # Project about DevOps
 
 ## Code Repository
