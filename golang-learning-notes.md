@@ -201,6 +201,9 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [fasthttp](https://github.com/valyala/fasthttp): Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http.
 - [link](https://github.com/funny/link): Go语言网络层脚手架
 - [tus](http://www.oschina.net/p/tus): 一个开放的协议实现了客户端和服务器之间可恢复的文件上传协议
+- [sleuth](https://github.com/ursiform/sleuth): sleuth is a Go library that provides master-less peer-to-peer autodiscovery and RPC between HTTP services that reside on the same network. It works with minimal configuration and provides a mechanism to join a local network both as a client that offers no services and as any service that speaks HTTP. Its primary use case is for microservices on the same network that make calls to one another.
+- [kcp-go](https://github.com/xtaci/kcp-go): A full-featured reliable UDP communication library
+    - [kcptun](https://github.com/xtaci/kcptun): an extremely simple & fast udp tunnel based on kcp protocol
 
 ## JSON
 
@@ -215,6 +218,7 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [gorm](https://github.com/jinzhu/gorm): The fantastic ORM library for Golang, aims to be developer friendly
 - [xorm](https://github.com/go-xorm/xorm): Simple and Powerful ORM for Go, support mysql/sqlite3/postgres/mssql/oracle/tidb/ql
 - [Go-MySQL-Driver](https://github.com/go-sql-driver/mysql): Go-MySQL-Driver is a lightweight and fast MySQL-Driver for Go's (golang) database/sql package
+- [Reform](https://github.com/go-reform/reform): A better ORM for Go, based on non-empty interfaces and code generation.
 
 ## Monitor & Alert
 
@@ -222,6 +226,7 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 ## Log
 
+- [zap](https://github.com/uber-go/zap): Fast, structured, leveled logging in Go
 - [logrus](https://github.com/Sirupsen/logrus): Structured, pluggable logging for Go.
 - [Apex/log](https://github.com/apex/log): Structured logging package for Go.
 
@@ -268,6 +273,10 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 - [uniqush-push](https://github.com/uniqush/uniqush-push): Uniqush is a free and open source software which provides a unified push service for server-side notification to apps on mobile devices.
 
+## Geo Related
+
+- [Geocache](https://github.com/melihmucuk/geocache): geocache is an in-memory cache that is suitable for geolocation based applications. It uses geolocation as a key for storing items. You can specify range on initialization and thats it! You can store any object, it uses interface.
+
 ## AWS
 
 - [apex](https://github.com/apex/apex): Minimal AWS Lambda function manager with Go support.
@@ -276,17 +285,16 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 - [Gobot](http://gobot.io/): Gobot is a framework for robotics, physical computing, and the Internet of Things, written in the Go programming language.
 
-## Data Structure
+## Utilities
 
-- [queue](https://github.com/eapache/queue):  not thread-safe queue
-- [safemap](https://github.com/pcrawfor/safemap): A golang channel based access object for shared use of a map of arbitrary objects
-
-## Misc
-
+- [pointer](https://github.com/AlekSi/pointer): Go package pointer provides helpers to get pointers to values of build-in types.
 - [robpike.io/filter](https://godoc.org/robpike.io/filter): Package filter contains utility functions for filtering slices through the distributed application of a filter function.
 - [Parallel](https://github.com/wangkuiyi/parallel): Some OpenMP like syntax for Go
 - [goerlang/node](https://github.com/goerlang/node): Implementation of Erlang node
 - [topicai/candy](https://github.com/topicai/candy): candy includes a set of easy-to-use Go facilities.
+- [queue](https://github.com/eapache/queue):  not thread-safe queue
+- [safemap](https://github.com/pcrawfor/safemap): A golang channel based access object for shared use of a map of arbitrary objects
+- [form](https://github.com/go-playground/form): Decodes url.Values into struct values and Encodes struct values into url.Values. Dual Array and Full map support.
 
 
 # System Administration
@@ -327,6 +335,8 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 ## Database
 
 - [tidb](https://github.com/pingcap/tidb): TiDB is a distributed NewSQL database compatible with MySQL protocol
+- [influxdb](https://github.com/influxdata/influxdb): Scalable datastore for metrics, events, and real-time analytics
+    - [influxdata](https://influxdata.com/): the platform for collecting/storing/visualizing/managing time-series data
 
 ## Backup
 
