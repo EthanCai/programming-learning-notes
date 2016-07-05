@@ -1,25 +1,25 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Project about DevOps](#project-about-devops)
-	- [Code Repository](#code-repository)
-	- [Code Analysis and Metrics](#code-analysis-and-metrics)
-	- [Scaffolding](#scaffolding)
-	- [Build](#build)
-	- [Continuous Integration](#continuous-integration)
-	- [Bug/Issue Management](#bugissue-management)
-	- [Unit Testing](#unit-testing)
-	- [Database Testing](#database-testing)
-	- [Database Management](#database-management)
-	- [Automated Acceptance Testing/BDD](#automated-acceptance-testingbdd)
-	- [Performance Testing](#performance-testing)
-	- [System Monitor](#system-monitor)
-	- [Process Supervisor](#process-supervisor)
-	- [Deployment](#deployment)
-	- [User Behavior Collection & Analysis](#user-behavior-collection-analysis)
-	- [Infrastructure Management](#infrastructure-management)
-	- [Automamtion](#automamtion)
-	- [Static Websites Generator](#static-websites-generator)
-	- [Misc](#misc)
+    - [Code Repository](#code-repository)
+    - [Code Analysis and Metrics](#code-analysis-and-metrics)
+    - [Scaffolding](#scaffolding)
+    - [Build](#build)
+    - [Continuous Integration](#continuous-integration)
+    - [Bug/Issue Management](#bugissue-management)
+    - [Unit Testing](#unit-testing)
+    - [Database Testing](#database-testing)
+    - [Database Management](#database-management)
+    - [Automated Acceptance Testing/BDD](#automated-acceptance-testingbdd)
+    - [Performance Testing](#performance-testing)
+    - [System Monitor](#system-monitor)
+    - [Process Supervisor](#process-supervisor)
+    - [Deployment](#deployment)
+    - [User Behavior Collection & Analysis](#user-behavior-collection-analysis)
+    - [Infrastructure Management](#infrastructure-management)
+    - [Automamtion](#automamtion)
+    - [Static Websites Generator](#static-websites-generator)
+    - [Misc](#misc)
 
 <!-- /TOC -->
 
@@ -35,9 +35,10 @@
 
 ## Code Analysis and Metrics
 
+- [Gerrit Code Review](https://www.gerritcodereview.com/): Gerrit provides web based code review and repository management for the Git version control system.
+- [SonarQube](http://www.sonarqube.org/): SonarQube is an open platform to manage code quality. As such, it covers the 7 axes of code quality:
 - [StyleCop](https://stylecop.codeplex.com/) - StyleCop analyzes C# source code to enforce a set of style and consistency rules
 - [FoxCop](https://msdn.microsoft.com/en-us/library/bb429476(v=vs.80).aspx) - FxCop is an application that analyzes managed code assemblies (code that targets the .NET Framework common language runtime) and reports information about the assemblies, such as possible design, localization, performance, and security improvements.
-- [SonarQube](http://www.sonarqube.org/): SonarQube is an open platform to manage code quality. As such, it covers the 7 axes of code quality:
 - [OpenCover](https://github.com/OpenCover/opencover): A code coverage tool for .NET 2 and above, support for 32 and 64 processes with both branch and sequence points; roots proudly based in PartCover
 
 
@@ -48,12 +49,13 @@
 
 ## Build
 
+- [Gradle](http://gradle.org/): OPEN SOURCE BUILD AUTOMATION. Get started with: Java / JVM | Android | Native (C / C++) | Web and many more!
+- [Bazel](http://bazel.io/): Bazel is Google's own build tool, now publicly available in Beta. Bazel has built-in support for building both client and server software, including client applications for both Android and iOS platforms. It also provides an extensible framework that you can use to develop your own build rules.
+- [Cmake](https://cmake.org/): CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK.
 - [Psake](https://github.com/psake/psake) - .NET-based build automation tool written in PowerShell
 - [Invoke-Build](https://github.com/nightroman/Invoke-Build) - PowerShell build and test automation tool inspired by Psake.
 - [MSBuild](https://github.com/Microsoft/msbuild) - The Microsoft Build Engine (MSBuild) is the build platform for .NET and Visual Studio
 - [Wixtoolset](http://wixtoolset.org/): The WiX toolset builds Windows installation packages from XML source code. The toolset integrates seamlessly into build processes.
-- [gradle](http://gradle.org/): OPEN SOURCE BUILD AUTOMATION. Get started with: Java / JVM | Android | Native (C / C++) | Web and many more!
-- [Bazel](http://bazel.io/): Bazel is Google's own build tool, now publicly available in Beta. Bazel has built-in support for building both client and server software, including client applications for both Android and iOS platforms. It also provides an extensible framework that you can use to develop your own build rules.
 
 
 ## Continuous Integration

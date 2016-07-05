@@ -111,56 +111,20 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 更多的标准库说明参考[Go语言Package文档](http://golang.org/pkg/)
 
 
-### 输入输出
-
-- [fmt](https://golang.org/pkg/fmt/)
-- [io](https://golang.org/pkg/io/)
-- [io/ioutil](https://golang.org/pkg/io/ioutil/)
-- [bufio](https://golang.org/pkg/bufio/)
-- [log](https://golang.org/pkg/log/)
-- [log/syslog](https://golang.org/pkg/log/syslog/)
-- [flag](https://golang.org/pkg/flag/)
-
-### 文本处理
-
-- [encoding](https://golang.org/pkg/encoding/)
-- [bytes](https://golang.org/pkg/bytes/)
-- [strings](https://golang.org/pkg/strings/)
-- [strconv](https://golang.org/pkg/strconv/)
-- [text](https://golang.org/pkg/)
-- [mime](https://golang.org/pkg/mime/)
-- [regexp](https://golang.org/pkg/regexp/)
-- [index](https://golang.org/pkg/index/)
-- [path](https://golang.org/pkg/path/)
-
-### 网络
-
-- [net](https://golang.org/pkg/net/)
-- [HTTP](https://golang.org/pkg/net/http/)
-- [RPC](https://golang.org/pkg/net/rpc/)
-- [expvar](https://golang.org/pkg/expvar/)
-
-### 系统
-
-- [os](https://golang.org/pkg/os/)
-- [syscall](https://golang.org/pkg/syscall/)
-- [sync](https://golang.org/pkg/sync/)
-- [time](https://golang.org/pkg/time/)
-- [unsafe](https://golang.org/pkg/unsafe/)
-
 ------------------------------
 
 # 参考项目列表
 
 - [Golang Projects - OSChina](http://www.oschina.net/project/lang/358/go)
 - [Awesome Go](https://github.com/avelino/awesome-go)
-
+- [Golang libs](https://golanglibs.com/)
 
 # Basic Projects
 
 ## Project Dependency and Build
 
 - [goviz](https://github.com/hirokidaichi/goviz): a visualization tool for golang project dependency
+- [godepq](https://github.com/google/godepq): A utility for inspecting go import trees
 
 ## Language
 
@@ -170,13 +134,13 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 ## Dev
 
-- [gorc](https://github.com/stretchr/gorc): Recursive go testing, done better.
 - [gvm](https://github.com/moovweb/gvm): Go Version Manager
+- [zoekt](https://github.com/google/zoekt): Fast trigram based code search
 - [Wide](https://github.com/b3log/wide): A Web-based IDE for Teams using Go programming language/Golang
-- [http2curl](https://github.com/moul/http2curl):  Convert Golang's http.Request to CURL command line
 
 ## Test
 
+- [gorc](https://github.com/stretchr/gorc): Recursive go testing, done better.
 - [Testify](https://github.com/stretchr/testify): A sacred extension to the standard go testing package
 - [Go frisby](https://github.com/verdverm/frisby): API testing framework inspired by frisby-js
 - [httpexpect](https://github.com/gavv/httpexpect): End-to-end HTTP and REST API testing for Go.
@@ -204,6 +168,8 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [sleuth](https://github.com/ursiform/sleuth): sleuth is a Go library that provides master-less peer-to-peer autodiscovery and RPC between HTTP services that reside on the same network. It works with minimal configuration and provides a mechanism to join a local network both as a client that offers no services and as any service that speaks HTTP. Its primary use case is for microservices on the same network that make calls to one another.
 - [kcp-go](https://github.com/xtaci/kcp-go): A full-featured reliable UDP communication library
     - [kcptun](https://github.com/xtaci/kcptun): an extremely simple & fast udp tunnel based on kcp protocol
+- [centrifugo](https://github.com/centrifugal/centrifugo): Real-time messaging (Websockets or SockJS) server in Go
+- [http2curl](https://github.com/moul/http2curl):  Convert Golang's http.Request to CURL command line
 
 ## JSON
 
@@ -220,10 +186,6 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [Go-MySQL-Driver](https://github.com/go-sql-driver/mysql): Go-MySQL-Driver is a lightweight and fast MySQL-Driver for Go's (golang) database/sql package
 - [Reform](https://github.com/go-reform/reform): A better ORM for Go, based on non-empty interfaces and code generation.
 
-## Monitor & Alert
-
-- [bosun](https://github.com/bosun-monitor/bosun): Time Series Alerting Framework
-
 ## Log
 
 - [zap](https://github.com/uber-go/zap): Fast, structured, leveled logging in Go
@@ -233,6 +195,7 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 ## Message Queue
 
 - [NSQ](http://nsq.io/): A realtime distributed messaging platform
+- [rmq](https://github.com/adjust/rmq): rmq is short for Redis message queue. It's a message queue system written in Go and backed by Redis. It's similar to redismq, but implemented independently with a different interface in mind.
 
 ## Web Framework
 
@@ -264,29 +227,18 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [Gorilla web toolkit](http://www.gorillatoolkit.org/): Gorilla is a web toolkit for the Go programming language.
 - [GoRazor](https://github.com/sipin/gorazor): Razor view engine for Golang
 - [Webhook](https://github.com/adnanh/webhook): webhook is a lightweight configurable tool written in Go, that allows you to easily create HTTP endpoints (hooks) on your server, which you can use to execute configured commands.
-
-## Cache
-
-- [Groupcahe](https://github.com/golang/groupcache): groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
-
-## Server-side Push Service for Mobile App
-
-- [uniqush-push](https://github.com/uniqush/uniqush-push): Uniqush is a free and open source software which provides a unified push service for server-side notification to apps on mobile devices.
-
-## Geo Related
-
-- [Geocache](https://github.com/melihmucuk/geocache): geocache is an in-memory cache that is suitable for geolocation based applications. It uses geolocation as a key for storing items. You can specify range on initialization and thats it! You can store any object, it uses interface.
-
-## AWS
-
-- [apex](https://github.com/apex/apex): Minimal AWS Lambda function manager with Go support.
-
-## IoT
-
-- [Gobot](http://gobot.io/): Gobot is a framework for robotics, physical computing, and the Internet of Things, written in the Go programming language.
+- [form](https://github.com/go-playground/form): Decodes url.Values into struct values and Encodes struct values into url.Values. Dual Array and Full map support.
 
 ## Utilities
 
+- [i18n4go](https://github.com/maximilien/i18n4go): This is a general purpose internationalization (i18n) tooling for Go language (Golang) programs. It allows you to prepare Go language code for internationalization and localization (l10n).
+- [clipboard](https://github.com/atotto/clipboard): Provide copying and pasting to the Clipboard for Go.
+- [fsnotify](https://github.com/fsnotify/fsnotify): File system notifications for Go.
+- [Groupcahe](https://github.com/golang/groupcache): groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
+- [uniqush-push](https://github.com/uniqush/uniqush-push): Uniqush is a free and open source software which provides a unified push service for server-side notification to apps on mobile devices.
+- [Geocache](https://github.com/melihmucuk/geocache): geocache is an in-memory cache that is suitable for geolocation based applications. It uses geolocation as a key for storing items. You can specify range on initialization and thats it! You can store any object, it uses interface.
+- [apex](https://github.com/apex/apex): Minimal AWS Lambda function manager with Go support.
+- [Gobot](http://gobot.io/): Gobot is a framework for robotics, physical computing, and the Internet of Things, written in the Go programming language.
 - [pointer](https://github.com/AlekSi/pointer): Go package pointer provides helpers to get pointers to values of build-in types.
 - [robpike.io/filter](https://godoc.org/robpike.io/filter): Package filter contains utility functions for filtering slices through the distributed application of a filter function.
 - [Parallel](https://github.com/wangkuiyi/parallel): Some OpenMP like syntax for Go
@@ -294,7 +246,7 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [topicai/candy](https://github.com/topicai/candy): candy includes a set of easy-to-use Go facilities.
 - [queue](https://github.com/eapache/queue):  not thread-safe queue
 - [safemap](https://github.com/pcrawfor/safemap): A golang channel based access object for shared use of a map of arbitrary objects
-- [form](https://github.com/go-playground/form): Decodes url.Values into struct values and Encodes struct values into url.Values. Dual Array and Full map support.
+
 
 --------------------------------
 
@@ -306,6 +258,7 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 ## Monitor
 
+- [bosun](https://github.com/bosun-monitor/bosun): Time Series Alerting Framework
 - [Open-Falcon企业级监控系统解决方案](http://open-falcon.com/): Open-Falcon 是小米运维部开源的一款互联网企业级监控系统解决方案.
 - [Prometheus](https://github.com/prometheus/prometheus): Prometheus is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts if some condition is observed to be true.
 
@@ -333,11 +286,12 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 - [sonyflake](https://github.com/sony/sonyflake): A distributed unique ID generator inspired by Twitter's Snowflake
 
-## Database
+## Data Store
 
 - [tidb](https://github.com/pingcap/tidb): TiDB is a distributed NewSQL database compatible with MySQL protocol
 - [influxdb](https://github.com/influxdata/influxdb): Scalable datastore for metrics, events, and real-time analytics
     - [influxdata](https://influxdata.com/): the platform for collecting/storing/visualizing/managing time-series data
+- [Pachyderm](https://github.com/pachyderm/pachyderm): Containerized Data Analytics
 
 ## Backup
 
@@ -377,7 +331,6 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [heim](https://github.com/euphoria-io/heim): A real-time community platform
 - [Mattermost](https://github.com/mattermost/platform): Mattermost is an open-source team communication service. It brings team messaging and file sharing into one place, accessible across PCs and phones, with archiving and search.
 - [ohlala](https://github.com/QLeelulu/ohlala): 觅链，一个具有社会化媒体属性的链接分享与评论平台。类似Reddit
-- [Pachyderm](https://github.com/pachyderm/pachyderm): Containerized Data Analytics
 
 
 --------------------------------
