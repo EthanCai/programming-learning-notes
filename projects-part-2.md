@@ -1,18 +1,18 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Projects about Distributed Architecture](#projects-about-distributed-architecture)
-	- [Data Exchange Format](#data-exchange-format)
-	- [RPC](#rpc)
-	- [Distributed Application Framework](#distributed-application-framework)
-	- [Service Bus](#service-bus)
-	- [Messsage Queue](#messsage-queue)
-	- [Load Balance](#load-balance)
-	- [Reverse Proxy](#reverse-proxy)
-	- [Distributed File System](#distributed-file-system)
-	- [Configuration Management](#configuration-management)
-	- [分布式协调(Service Discovery, Name Service)](#分布式协调service-discovery-name-service)
-	- [熔断器](#熔断器)
-	- [Distributed Tracing](#distributed-tracing)
+    - [Data Exchange Format](#data-exchange-format)
+    - [RPC](#rpc)
+    - [Distributed Application Framework](#distributed-application-framework)
+    - [Service Bus](#service-bus)
+    - [Messsage Queue](#messsage-queue)
+    - [Load Balance](#load-balance)
+    - [Reverse Proxy](#reverse-proxy)
+    - [Distributed File System](#distributed-file-system)
+    - [Configuration Management](#configuration-management)
+    - [分布式协调(Service Discovery, Name Service)](#分布式协调service-discovery-name-service)
+    - [熔断器](#熔断器)
+    - [Distributed Tracing](#distributed-tracing)
 
 <!-- /TOC -->
 
@@ -60,6 +60,7 @@
 - [RabbitMQ](http://www.rabbitmq.com/): RabbitMQ is a messaging broker - an intermediary for messaging. It gives your applications a common platform to send and receive messages, and your messages a safe place to live until received.
   - [RabbitMQ Internals](https://github.com/rabbitmq/internals): This project aims to explain how RabbitMQ works internally. The goal is to make it easier to contribute for newcomers to the project, and at the same time have a common repository of knowledge to be shared across the project contributors.
 - [ZeroMQ](http://zeromq.org/): ZeroMQ (also known as ØMQ, 0MQ, or zmq) looks like an embeddable networking library but acts like a concurrency framework. It gives you sockets that carry atomic messages across various transports like in-process, inter-process, TCP, and multicast. You can connect sockets N-to-N with patterns like fan-out, pub-sub, task distribution, and request-reply. It's fast enough to be the fabric for clustered products. Its asynchronous I/O model gives you scalable multicore applications, built as asynchronous message-processing tasks. It has a score of language APIs and runs on most operating systems
+- [Apache Kafka](http://kafka.apache.org/): Apache Kafka is publish-subscribe messaging rethought as a distributed commit log.
 - [NetMQ](https://github.com/zeromq/netmq): NetMQ is 100% native C# port of ZeroMQ
 - [beanstalkd](http://kr.github.io/beanstalkd/): Beanstalk is a simple, fast work queue. Its interface is generic, but was originally designed for reducing the latency of page views in high-volume web applications by running time-consuming tasks asynchronously.
 - [Apache ActiveMQ](http://activemq.apache.org/): Apache ActiveMQ ™ is the most popular and powerful open source messaging and Integration Patterns server. Apache ActiveMQ is fast, supports many Cross Language Clients and Protocols, comes with easy to use Enterprise Integration Patterns and many advanced features while fully supporting JMS 1.1 and J2EE 1.4\. Apache ActiveMQ is released under the Apache 2.0 License.

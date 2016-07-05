@@ -1,23 +1,23 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Projects about Data Storage and Analysis](#projects-about-data-storage-and-analysis)
-	- [Database](#database)
-	- [Memory Database](#memory-database)
-	- [Geo Database](#geo-database)
-	- [Graph Database](#graph-database)
-	- [Database Engine](#database-engine)
-	- [Cache](#cache)
-	- [NoSQL Database](#nosql-database)
-	- [JSON Storage](#json-storage)
-	- [Data Warehouse](#data-warehouse)
-	- [Search](#search)
-	- [Recommender System](#recommender-system)
-	- [Big Data](#big-data)
-	- [Distributed realtime computation system](#distributed-realtime-computation-system)
-	- [Data Visualization](#data-visualization)
-	- [Machine Learning and Data Science](#machine-learning-and-data-science)
-	- [Log Process](#log-process)
-	- [Workflow Management](#workflow-management)
+    - [Database](#database)
+    - [Memory Database](#memory-database)
+    - [Geo Database](#geo-database)
+    - [Graph Database](#graph-database)
+    - [Database Engine](#database-engine)
+    - [Cache](#cache)
+    - [NoSQL Database](#nosql-database)
+    - [JSON Storage](#json-storage)
+    - [Data Warehouse](#data-warehouse)
+    - [Search](#search)
+    - [Recommender System](#recommender-system)
+    - [Big Data](#big-data)
+    - [Distributed realtime computation system](#distributed-realtime-computation-system)
+    - [Data Visualization](#data-visualization)
+    - [Machine Learning and Data Science](#machine-learning-and-data-science)
+    - [Log Process](#log-process)
+    - [Workflow Management](#workflow-management)
 
 <!-- /TOC -->
 
@@ -134,10 +134,9 @@
 ## Distributed realtime computation system
 
 - [Apache Storm](http://storm.apache.org/): Storm has many use cases: realtime analytics, online machine learning, continuous computation, distributed RPC, ETL, and more. Storm is fast: a benchmark clocked it at over a million tuples processed per second per node. It is scalable, fault-tolerant, guarantees your data will be processed, and is easy to set up and operate.
-- [jstorm](https://github.com/alibaba/jstorm): JStorm is a distributed and fault-tolerant realtime computation system. Inspired by Apache Storm, JStorm has been completely rewritten in Java and provides many more enhanced features. JStorm has been widely used in many enterprise environments and proved robust and stable.
+    - [jstorm](https://github.com/alibaba/jstorm): JStorm is a distributed and fault-tolerant realtime computation system. Inspired by Apache Storm, JStorm has been completely rewritten in Java and provides many more enhanced features. JStorm has been widely used in many enterprise environments and proved robust and stable.
 - [Twitter Heron](http://dl.acm.org/citation.cfm?id=2742788): 参考[Twitter发布新的大数据实时分析系统Heron](http://geek.csdn.net/news/detail/33750)
 - [Apache Samza](http://samza.apache.org/): Apache Samza is a distributed stream processing framework. It uses Apache Kafka for messaging, and Apache Hadoop YARN to provide fault tolerance, processor isolation, security, and resource management.
-- [Apache Kafka](http://kafka.apache.org/): Apache Kafka is publish-subscribe messaging rethought as a distributed commit log.
 - [Apache Flink](http://flink.apache.org/): Apache Flink is an open source platform for scalable batch and stream data processing.
 - [Data Sketches](https://datasketches.github.io): A Java software library of stochastic(随机的) streaming algorithms
 
