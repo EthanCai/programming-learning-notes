@@ -117,7 +117,9 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 - [Golang Projects - OSChina](http://www.oschina.net/project/lang/358/go)
 - [Awesome Go](https://github.com/avelino/awesome-go)
-- [Golang libs](https://golanglibs.com/)
+- [Golang libs](https://golanglibs.com/o)
+- [Go语言(golang)开源项目大全](http://www.open-open.com/lib/view/open1396063913278.html)
+
 
 # Basic Projects
 
