@@ -231,6 +231,12 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [Webhook](https://github.com/adnanh/webhook): webhook is a lightweight configurable tool written in Go, that allows you to easily create HTTP endpoints (hooks) on your server, which you can use to execute configured commands.
 - [form](https://github.com/go-playground/form): Decodes url.Values into struct values and Encodes struct values into url.Values. Dual Array and Full map support.
 
+## Scheduler
+
+- [cron](https://github.com/robfig/cron): a cron library for go
+- [gocron](https://github.com/jasonlvhit/gocron): A Golang Job Scheduling Package.
+- [scheduler](https://github.com/carlescere/scheduler): Job scheduling made easy.
+
 ## Utilities
 
 - [i18n4go](https://github.com/maximilien/i18n4go): This is a general purpose internationalization (i18n) tooling for Go language (Golang) programs. It allows you to prepare Go language code for internationalization and localization (l10n).
@@ -270,13 +276,6 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [Tyk API Gateway](https://github.com/lonelycode/tyk): Tyk is a lightweight, open source API Gateway and enables you to control who accesses your API, when they access it and how they access it. Tyk will also record detailed analytics on how your users are interacting with your API and when things go wrong.
 - [Gor](https://github.com/buger/gor): Gor is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data. It can be used to increase confidence in code deployments, configuration changes and infrastructure changes.
 - [Seesaw](https://github.com/google/seesaw): Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform.
-
-## Job Schedule
-
-- [dkron](https://github.com/victorcoder/dkron): Distributed, fault tolerant job scheduling system
-- [webcron](https://github.com/codeskyblue/webcron): A new crontab that have a web page in order to replace the original crontab. Now it can try on test.
-- [kingtask](https://github.com/kingsoft-wps/kingtask): A lightweight asynchronous timing task system powered by Go
-- [cron](https://github.com/robfig/cron): a cron library for go
 
 ## Code Repository
 
