@@ -82,6 +82,7 @@
 ## DevOps
 
 - [Logging best practices](http://dev.splunk.com/view/logging-best-practices/SP-CAAADP6)
+- [Open Tracing Project](http://opentracing.io/): Consistent, expressive, vendor-neutral APIs for distributed tracing and context propagation
 
 -------------------------------------------------------------------------------
 

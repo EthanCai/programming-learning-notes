@@ -1,6 +1,6 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Projects about .NET Framework and Libs](#projects-about-net-framework-and-libs)
+- [Projects about Normal Software Development](#projects-about-normal-software-development)
 	- [Compiler & CLR Framework](#compiler-clr-framework)
 	- [Assembly Manipulation](#assembly-manipulation)
 	- [Web Server](#web-server)
@@ -15,7 +15,6 @@
 	- [ORM framework](#orm-framework)
 	- [Serialization & Deserialization](#serialization-deserialization)
 	- [Windows Services](#windows-services)
-	- [Schedule Task](#schedule-task)
 	- [State Machine](#state-machine)
 	- [Profiler](#profiler)
 	- [Interoperability](#interoperability)
@@ -35,7 +34,7 @@
 
 <!-- /TOC -->
 
-# Projects about .NET Framework and Libs
+# Projects about Normal Software Development
 
 ## Compiler & CLR Framework
 
@@ -135,20 +134,7 @@
 
 ## Windows Services
 
-- [Topshelf](http://topshelf-project.com/): Put Your Apps on the Topshelf
-
-## Schedule Task
-
-- [Java: Quartz](http://quartz-scheduler.org/): Quartz is a richly featured, open source job scheduling library that can be integrated within virtually any Java application - from the smallest stand-alone application to the largest e-commerce system. Quartz can be used to create simple or complex schedules for executing tens, hundreds, or even tens-of-thousands of jobs; jobs whose tasks are defined as standard Java components that may execute virtually anything you may program them to do. The Quartz Scheduler includes many enterprise-class features, such as support for JTA transactions and clustering.
-- [Java: rundeck](http://rundeck.org/index.html): job scheduler and runbook automation
-- [Java: schedulix - open source enterprise job scheduling](https://github.com/schedulix/schedulix): schedulix is an open source enterprise job scheduling system.
-- [dotNET: Quartz.Net](https://github.com/quartznet/quartznet): Quartz.NET is a pure .NET library written in C# and is a port of very popular open source Java job scheduling framework, Quartz.
-- [dotNET: FluentScheduler](https://github.com/jgeurts/FluentScheduler): A task scheduler that uses fluent interface to configure schedules. Useful for running cron jobs/automated tasks from your application.
-- [dotNET: Hangfire](https://github.com/HangfireIO/Hangfire): Incredibly easy way to perform fire-and-forget, delayed and recurring tasks inside ASP.NET applications
-- [C: Gearman](http://gearman.org/): Gearman provides a generic application framework to farm out work to other machines or processes that are better suited to do the work. It allows you to do work in parallel, to load balance processing, and to call functions between languages. It can be used in a variety of applications, from high-availability web sites to the transport of database replication events.
-- [Ruby: resque-schedule](https://github.com/resque/resque-scheduler): A light-weight job scheduling system built on top of resque
-- [Python: celery](http://www.celeryproject.org/): Celery is an asynchronous task queue/job queue based on distributed message passing.	It is focused on real-time operation, but supports scheduling as well.
-
+- [C#: Topshelf](http://topshelf-project.com/): Put Your Apps on the Topshelf
 
 ## State Machine
 
