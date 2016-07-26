@@ -1,18 +1,19 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Projects about Distributed Architecture](#projects-about-distributed-architecture)
-    - [Data Exchange Format](#data-exchange-format)
-    - [RPC](#rpc)
-    - [Distributed Application Framework](#distributed-application-framework)
-    - [Service Bus](#service-bus)
-    - [Messsage Queue](#messsage-queue)
-    - [Load Balance](#load-balance)
-    - [Reverse Proxy](#reverse-proxy)
-    - [Distributed File System](#distributed-file-system)
-    - [Configuration Management](#configuration-management)
-    - [分布式协调(Service Discovery, Name Service)](#分布式协调service-discovery-name-service)
-    - [熔断器](#熔断器)
-    - [Distributed Tracing](#distributed-tracing)
+	- [Data Exchange Format](#data-exchange-format)
+	- [RPC](#rpc)
+	- [Distributed Application Framework](#distributed-application-framework)
+	- [Service Bus](#service-bus)
+	- [Messsage Queue](#messsage-queue)
+	- [Job Schedule](#job-schedule)
+	- [Load Balance](#load-balance)
+	- [Reverse Proxy](#reverse-proxy)
+	- [Distributed File System](#distributed-file-system)
+	- [Configuration Management](#configuration-management)
+	- [分布式协调(Service Discovery, Name Service)](#分布式协调service-discovery-name-service)
+	- [熔断器](#熔断器)
+	- [Distributed Tracing](#distributed-tracing)
 
 <!-- /TOC -->
 
@@ -27,7 +28,6 @@
 - [Cap'n Proto](https://capnproto.org/index.html): Cap'n Proto is an insanely fast data interchange format and capability-based RPC system. Think JSON, except binary. Or think Protocol Buffers, except faster. In fact, in benchmarks, Cap'n Proto is INFINITY TIMES faster than Protocol Buffers.
 - [Microsoft bond](https://github.com/Microsoft/bond): Bond is a cross-platform framework for working with schematized data. It supports cross-language de/serialization and powerful generic mechanisms for efficiently manipulating data. Bond is broadly used at Microsoft in high scale services.
 - [JSON](http://json.org/): JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999\. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
-
   - [JSON Schema](http://json-schema.org/)
   - [JSON Schema Generator](http://jsonschema.net/)
 
@@ -41,11 +41,11 @@
 
 ## Distributed Application Framework
 
-- [Dubbo](http://dubbo.io/): DUBBO是一个分布式服务框架，致力于提供高性能和透明化的RPC远程服务调用方案，是阿里巴巴SOA服务化治理方案的核心框架，每天为2,000+个服务提供3,000,000,000+次访问量支持，并被广泛应用于阿里巴巴集团的各成员站点。
 - [akka.net](http://getakka.net/): a toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on .NET & Mono.
 - [akka](http://akka.io/): Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM. The power of Akka is also available on the .NET Framework and Mono via the Akka.NET project.
-- [Zyan Communication Framework](http://zyan.com.de/): Easy to use distributed application framework for .NET, Mono and Xamarin.Android.
 - [Vert.x](http://vertx.io): Vert.x is a tool-kit for building reactive applications on the JVM.
+- [Zyan Communication Framework](http://zyan.com.de/): Easy to use distributed application framework for .NET, Mono and Xamarin.Android.
+- [Dubbo](http://dubbo.io/): DUBBO是一个分布式服务框架，致力于提供高性能和透明化的RPC远程服务调用方案，是阿里巴巴SOA服务化治理方案的核心框架，每天为2,000+个服务提供3,000,000,000+次访问量支持，并被广泛应用于阿里巴巴集团的各成员站点。
 
 ## Service Bus
 
@@ -67,21 +67,29 @@
 - [Apache ActiveMQ](http://activemq.apache.org/): Apache ActiveMQ ™ is the most popular and powerful open source messaging and Integration Patterns server. Apache ActiveMQ is fast, supports many Cross Language Clients and Protocols, comes with easy to use Enterprise Integration Patterns and many advanced features while fully supporting JMS 1.1 and J2EE 1.4\. Apache ActiveMQ is released under the Apache 2.0 License.
 - [NSQ](https://github.com/bitly/nsq): NSQ is a realtime distributed messaging platform designed to operate at scale, handling billions of messages per day.
 
+## Job Schedule
+
+- [Java: Quartz](http://quartz-scheduler.org/): Quartz is a richly featured, open source job scheduling library that can be integrated within virtually any Java application - from the smallest stand-alone application to the largest e-commerce system. Quartz can be used to create simple or complex schedules for executing tens, hundreds, or even tens-of-thousands of jobs; jobs whose tasks are defined as standard Java components that may execute virtually anything you may program them to do. The Quartz Scheduler includes many enterprise-class features, such as support for JTA transactions and clustering.
+- [Java: rundeck](http://rundeck.org/index.html): job scheduler and runbook automation
+- [Java: schedulix - open source enterprise job scheduling](https://github.com/schedulix/schedulix): schedulix is an open source enterprise job scheduling system.
+- [C#: Quartz.Net](https://github.com/quartznet/quartznet): Quartz.NET is a pure .NET library written in C# and is a port of very popular open source Java job scheduling framework, Quartz.
+- [C#: FluentScheduler](https://github.com/jgeurts/FluentScheduler): A task scheduler that uses fluent interface to configure schedules. Useful for running cron jobs/automated tasks from your application.
+- [C#: Hangfire](https://github.com/HangfireIO/Hangfire): Incredibly easy way to perform fire-and-forget, delayed and recurring tasks inside ASP.NET applications
+- [C: Gearman](http://gearman.org/): Gearman provides a generic application framework to farm out work to other machines or processes that are better suited to do the work. It allows you to do work in parallel, to load balance processing, and to call functions between languages. It can be used in a variety of applications, from high-availability web sites to the transport of database replication events.
+- [Ruby: resque-schedule](https://github.com/resque/resque-scheduler): A light-weight job scheduling system built on top of resque
+- [Python: celery](http://www.celeryproject.org/): Celery is an asynchronous task queue/job queue based on distributed message passing.	It is focused on real-time operation, but supports scheduling as well.
+- [Go: kala](https://github.com/ajvb/kala): Kala is a simplistic, modern, and performant job scheduler written in Go. It lives in a single binary and does not have any dependencies. (Currently in Alpha stage. Do not use in production environments.)
+- [Go: dkron](https://github.com/victorcoder/dkron): Distributed, fault tolerant job scheduling system
+
 ## Load Balance
 
 - [LVS](http://www.linuxvirtualserver.org/): The Linux Virtual Server is a highly scalable and highly available server built on a cluster of real servers, with the load balancer running on the Linux operating system. The architecture of the server cluster is fully transparent to end users, and the users interact as if it were a single high-performance virtual server.
 - [HAProxy](http://www.haproxy.org/): HAProxy is a free, very fast and reliable solution offering high availability, load balancing, and proxying for TCP and HTTP-based applications.
-
   - [Bamboo](https://github.com/QubitProducts/bamboo): HAProxy auto configuration and auto service discovery for Mesos Marathon
-
 - [keepalived](http://www.keepalived.org/): Keepalived is a routing software written in C. The main goal of this project is to provide simple and robust facilities for loadbalancing and high-availability to Linux system and Linux based infrastructures.
-
 - [Seesaw](https://github.com/google/seesaw): Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform.
-
 - [Nginx](http://wiki.nginx.org/Main): Nginx (pronounced engine-x) is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
-
 - [Pen](http://siag.nu/pen/): Pen is a load balancer for "simple" TCP-based protocols such as HTTP or SMTP. It allows several servers to appear as one to the outside. It automatically detects servers that are down and distributes clients among the available servers. This gives high availability and scalable performance.
-
 - [Balance](http://www.inlab.de/balance.html): Balance is a simple but powerful generic TCP proxy with round-robin load balancing and failover mechanisms. Its behavior can be controlled at runtime using a simple command line syntax. Balance supports IPv6 on the listening side, which makes it a very useful tool for IPv6 migration of IPv4 only services and servers.
 
 ## Reverse Proxy
