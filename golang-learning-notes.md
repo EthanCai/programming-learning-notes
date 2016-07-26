@@ -237,6 +237,7 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [cron](https://github.com/robfig/cron): a cron library for go
 - [gocron](https://github.com/jasonlvhit/gocron): A Golang Job Scheduling Package.
 - [scheduler](https://github.com/carlescere/scheduler): Job scheduling made easy.
+- [jobber](https://github.com/dshearer/jobber): A replacement for cron, with sophisticated status-reporting and error-handling.
 
 ## Utilities
 
