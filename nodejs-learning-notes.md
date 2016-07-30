@@ -1,7 +1,7 @@
 # Books
 
 - [Node入门](http://www.nodebeginner.org/index-zh-cn.html)
-
+- [Node Production Practice](https://www.joyent.com/node-js/production)
 
 # Resources
 
@@ -31,6 +31,7 @@
 参考：
 
 - [Awesome NodeJs](https://github.com/sindresorhus/awesome-nodejs)
+- [Awesome JavaScript](https://github.com/sorrycc/awesome-javascript)
 
 ## Related JS Language
 
@@ -52,6 +53,12 @@
 - [node](https://github.com/nodejs/node): Node.js JavaScript runtime
 - [Alinode](http://alinode.aliyun.com/): alinode 是阿里云出品的 Node.js 应用服务解决方案，是一套基于社区 Node 改进的运行时环境和服务平台。在社区的基础上我们内建了强大的支持功能，帮助开发者迅速洞见性能细节，快速定位疑难杂症，直探问题根源。
 - [Alinode Node Profiler](http://profiler.alinode.aliyun.com/): Node Profiler是一款JavaScript的性能调优工具，它不仅知道您的哪些代码慢，还知道为什么慢，能更深度地洞悉性能问题所在
+
+## Debug
+
+- [node-inspector](https://github.com/node-inspector/node-inspector): Node.js debugger based on Blink Developer Tools
+- [Debug](https://github.com/visionmedia/debug): tiny node.js & browser debugging utility for your libraries and applications
+- [devtool](https://github.com/Jam3/devtool): runs Node.js programs through Chromium DevTools
 
 ## Package Manager
 
@@ -77,12 +84,6 @@
 ## Documentation
 
 - [JSDoc](http://usejsdoc.org/)
-
-## Debug
-
-- [node-inspector](https://github.com/node-inspector/node-inspector): Node.js debugger based on Blink Developer Tools
-- [Debug](https://github.com/visionmedia/debug): tiny node.js & browser debugging utility for your libraries and applications
-- [devtool](https://github.com/Jam3/devtool): runs Node.js programs through Chromium DevTools
 
 ## Log
 
