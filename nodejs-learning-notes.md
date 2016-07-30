@@ -35,17 +35,21 @@
 ## Related JS Language
 
 - [TypeScript](http://www.typescriptlang.org/)
+- [CoffeScript](http://coffeescript.org/)
+- [elm](http://elm-lang.org/): the best of functional programming in your browser
 
 ## Compiler
 
 - [node-gyp](https://github.com/nodejs/node-gyp): Node.js native add-on build tool.
 - [Babel](https://babeljs.io/): Babel is a JavaScript compiler.
-- [asm.js](http://asmjs.org/)
-- [Jison](http://zaach.github.io/jison/)
+- [asm.js](http://asmjs.org/): Asm.js是JavaScript的一个子集，来源于Mozilla’s Emscripten project的项目，是将C/C++程序最终编译成JavaScript。
+- [Jison](http://zaach.github.io/jison/): Jison takes a context-free grammar as input and outputs a JavaScript file capable of parsing the language described by that grammar.
 - [ES6 Module Transpiler](http://esnext.github.io/es6-module-transpiler/): ES6 Module Transpiler is a JavaScript library for converting JavaScript files written using the ES6 draft specification module syntax for use in existing JavaScript environments.
 
 ## Runtime
 
+- [v8 javascript engine](https://github.com/v8/v8): Google's open source JavaScript engine.
+- [node](https://github.com/nodejs/node): Node.js JavaScript runtime
 - [Alinode](http://alinode.aliyun.com/): alinode 是阿里云出品的 Node.js 应用服务解决方案，是一套基于社区 Node 改进的运行时环境和服务平台。在社区的基础上我们内建了强大的支持功能，帮助开发者迅速洞见性能细节，快速定位疑难杂症，直探问题根源。
 - [Alinode Node Profiler](http://profiler.alinode.aliyun.com/): Node Profiler是一款JavaScript的性能调优工具，它不仅知道您的哪些代码慢，还知道为什么慢，能更深度地洞悉性能问题所在
 
