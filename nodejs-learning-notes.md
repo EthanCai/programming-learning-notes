@@ -52,11 +52,16 @@
 - [v8 javascript engine](https://github.com/v8/v8): Google's open source JavaScript engine.
 - [node](https://github.com/nodejs/node): Node.js JavaScript runtime
 - [Alinode](http://alinode.aliyun.com/): alinode 是阿里云出品的 Node.js 应用服务解决方案，是一套基于社区 Node 改进的运行时环境和服务平台。在社区的基础上我们内建了强大的支持功能，帮助开发者迅速洞见性能细节，快速定位疑难杂症，直探问题根源。
+
+## Profiling
+
+- [V8 profiler](https://github.com/node-inspector/v8-profiler): node bindings for the v8 profiler
+- [node-inspector](https://github.com/node-inspector/node-inspector): Node.js debugger based on Blink Developer Tools
 - [Alinode Node Profiler](http://profiler.alinode.aliyun.com/): Node Profiler是一款JavaScript的性能调优工具，它不仅知道您的哪些代码慢，还知道为什么慢，能更深度地洞悉性能问题所在
+- [Node heapdump](https://github.com/bnoordhuis/node-heapdump): Make a dump of the V8 heap for later inspection.
 
 ## Debug
 
-- [node-inspector](https://github.com/node-inspector/node-inspector): Node.js debugger based on Blink Developer Tools
 - [Debug](https://github.com/visionmedia/debug): tiny node.js & browser debugging utility for your libraries and applications
 - [devtool](https://github.com/Jam3/devtool): runs Node.js programs through Chromium DevTools
 
