@@ -123,35 +123,56 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 # Basic Projects
 
-## Project Dependency and Build
+## Embeddable Scripting Languages
+
+- [otto](https://github.com/robertkrimen/otto): A JavaScript interpreter in Go (golang)
+
+## Dev Tools
+
+**Compiler**
+
+- [gopherjs](https://github.com/gopherjs/gopherjs): A compiler from Go to JavaScript for running Go code in a browser
+
+**Debugger**
+
+- [Delve](https://github.com/derekparker/delve/): Delve is a debugger for the Go programming language.
+
+**Analysis**
 
 - [goviz](https://github.com/hirokidaichi/goviz): a visualization tool for golang project dependency
 - [godepq](https://github.com/google/godepq): A utility for inspecting go import trees
 
-## Language
+**Code Repository**
 
-- [Delve](https://github.com/derekparker/delve/): Delve is a debugger for the Go programming language.
-- [otto](https://github.com/robertkrimen/otto): A JavaScript interpreter in Go (golang)
-- [gopherjs](https://github.com/gopherjs/gopherjs): A compiler from Go to JavaScript for running Go code in a browser
+- [Gogs](http://gogs.io/): 极易搭建的自助 Git 服务
+- [Gitea - a self-hosted Git service](https://github.com/go-gitea/gitea)
 
-## Dev
+**Code Review**
 
-- [gvm](https://github.com/moovweb/gvm): Go Version Manager
-- [zoekt](https://github.com/google/zoekt): Fast trigram based code search
-- [Wide](https://github.com/b3log/wide): A Web-based IDE for Teams using Go programming language/Golang
+- [Git - appraise](https://github.com/google/git-appraise): Distributed Code Review For Git
 
 ## Test
+
+**testing framework**
 
 - [gorc](https://github.com/stretchr/gorc): Recursive go testing, done better.
 - [Testify](https://github.com/stretchr/testify): A sacred extension to the standard go testing package
 - [Go frisby](https://github.com/verdverm/frisby): API testing framework inspired by frisby-js
 - [httpexpect](https://github.com/gavv/httpexpect): End-to-end HTTP and REST API testing for Go.
 
+## DevOps Tools
+
+- [gvm](https://github.com/moovweb/gvm): Go Version Manager
+- [zoekt](https://github.com/google/zoekt): Fast trigram based code search
+
 ## Terminal
 
 - [odin](https://github.com/jwaldrip/odin): A go-lang library to help build self documenting command line applications.
 - [go-flags](https://github.com/jessevdk/go-flags): go command line option parser
 - [kingpin](http://gopkg.in/alecthomas/kingpin.v2):
+- [termui- Golang terminal dashboard](https://github.com/gizak/termui)
+- [GoTTY](https://github.com/yudai/gotty): Share your terminal as a web application
+- [s](https://github.com/zquestz/s): Open a web search in your terminal.
 
 ## Text Processing & Search
 
@@ -172,6 +193,10 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
     - [kcptun](https://github.com/xtaci/kcptun): an extremely simple & fast udp tunnel based on kcp protocol
 - [centrifugo](https://github.com/centrifugal/centrifugo): Real-time messaging (Websockets or SockJS) server in Go
 - [http2curl](https://github.com/moul/http2curl):  Convert Golang's http.Request to CURL command line
+- [toxy](https://github.com/h2non/toxy): Hackable HTTP proxy to simulate server failure scenarios and unexpected network conditions
+- [Tyk API Gateway](https://github.com/lonelycode/tyk): Tyk is a lightweight, open source API Gateway and enables you to control who accesses your API, when they access it and how they access it. Tyk will also record detailed analytics on how your users are interacting with your API and when things go wrong.
+- [Gor](https://github.com/buger/gor): Gor is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data. It can be used to increase confidence in code deployments, configuration changes and infrastructure changes.
+- [Seesaw](https://github.com/google/seesaw): Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform.
 
 ## JSON
 
@@ -188,6 +213,16 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [Go-MySQL-Driver](https://github.com/go-sql-driver/mysql): Go-MySQL-Driver is a lightweight and fast MySQL-Driver for Go's (golang) database/sql package
 - [Reform](https://github.com/go-reform/reform): A better ORM for Go, based on non-empty interfaces and code generation.
 
+## Database
+
+**Databases implemented in Go**
+
+- [tidb](https://github.com/pingcap/tidb): TiDB is a distributed NewSQL database compatible with MySQL protocol
+- [influxdb](https://github.com/influxdata/influxdb): Scalable datastore for metrics, events, and real-time analytics
+    - [influxdata](https://influxdata.com/): the platform for collecting/storing/visualizing/managing time-series data
+- [Pachyderm](https://github.com/pachyderm/pachyderm): Containerized Data Analytics
+- [Prometheus](https://github.com/prometheus/prometheus): Prometheus is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts if some condition is observed to be true.
+
 ## Log
 
 - [opentracing-go](https://github.com/opentracing/opentracing-go): Go implementation of the OpenTracing API
@@ -200,7 +235,9 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [NSQ](http://nsq.io/): A realtime distributed messaging platform
 - [rmq](https://github.com/adjust/rmq): rmq is short for Redis message queue. It's a message queue system written in Go and backed by Redis. It's similar to redismq, but implemented independently with a different interface in mind.
 
-## Web Framework
+## Web Related Projects
+
+### Web Framework
 
 ![](https://raw.githubusercontent.com/iris-contrib/website/cf71811e6acb2f9bf1e715e25660392bf090b923/assets/benchmark_horizontal_transparent.png)
 
@@ -217,14 +254,14 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [tango](https://github.com/lunny/tango): Micro & pluggable web framework for Go
 - [webgo](https://github.com/hoisie/web): web.go is the simplest way to write web applications in the Go programming language. It's ideal for writing simple, performant backend web services.
 
-## Micro Services
+### Micro Services
 
 - [gokit](https://github.com/go-kit/kit): Go kit is a distributed programming toolkit for building microservices in large organizations. We solve common problems in distributed systems, so you can focus on your business logic.
 - [goa](http://goa.design/): goa is a Go framework for developing RESTful microservices.
 - [micro](https://github.com/micro/micro): A microservice toolkit
 - [Gizmo Microservice Toolkit](https://github.com/NYTimes/gizmo): This toolkit provides packages to put together server and pubsub daemons
 
-## Other Web Related Projects
+### Other
 
 - [restful](https://github.com/devcamcar/restful): Restful HTTP Client package in golang
 - [Gorilla web toolkit](http://www.gorillatoolkit.org/): Gorilla is a web toolkit for the Go programming language.
@@ -236,91 +273,20 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 - [cron](https://github.com/robfig/cron): a cron library for go
 - [gocron](https://github.com/jasonlvhit/gocron): A Golang Job Scheduling Package.
-- [scheduler](https://github.com/carlescere/scheduler): Job scheduling made easy.
 - [jobber](https://github.com/dshearer/jobber): A replacement for cron, with sophisticated status-reporting and error-handling.
+- [hashicorp/Nomad](https://github.com/hashicorp/nomad): Nomad is a cluster manager, designed for both long lived services and short lived batch processing workloads. Developers use a declarative job specification to submit work, and Nomad ensures constraints are satisfied and resource utilization is optimized by efficient task packing
+- [scheduler](https://github.com/carlescere/scheduler): Job scheduling made easy.
 
-## Utilities
+## GEO
 
-- [i18n4go](https://github.com/maximilien/i18n4go): This is a general purpose internationalization (i18n) tooling for Go language (Golang) programs. It allows you to prepare Go language code for internationalization and localization (l10n).
-- [clipboard](https://github.com/atotto/clipboard): Provide copying and pasting to the Clipboard for Go.
-- [fsnotify](https://github.com/fsnotify/fsnotify): File system notifications for Go.
-- [Groupcahe](https://github.com/golang/groupcache): groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
-- [uniqush-push](https://github.com/uniqush/uniqush-push): Uniqush is a free and open source software which provides a unified push service for server-side notification to apps on mobile devices.
 - [Geocache](https://github.com/melihmucuk/geocache): geocache is an in-memory cache that is suitable for geolocation based applications. It uses geolocation as a key for storing items. You can specify range on initialization and thats it! You can store any object, it uses interface.
-- [apex](https://github.com/apex/apex): Minimal AWS Lambda function manager with Go support.
-- [Gobot](http://gobot.io/): Gobot is a framework for robotics, physical computing, and the Internet of Things, written in the Go programming language.
-- [pointer](https://github.com/AlekSi/pointer): Go package pointer provides helpers to get pointers to values of build-in types.
-- [robpike.io/filter](https://godoc.org/robpike.io/filter): Package filter contains utility functions for filtering slices through the distributed application of a filter function.
-- [Parallel](https://github.com/wangkuiyi/parallel): Some OpenMP like syntax for Go
-- [goerlang/node](https://github.com/goerlang/node): Implementation of Erlang node
-- [topicai/candy](https://github.com/topicai/candy): candy includes a set of easy-to-use Go facilities.
-- [queue](https://github.com/eapache/queue):  not thread-safe queue
-- [safemap](https://github.com/pcrawfor/safemap): A golang channel based access object for shared use of a map of arbitrary objects
-
-
---------------------------------
-
-# System Administration
-
-## Service Orchestration and Management
-
-- [serf](https://github.com/hashicorp/serf): Service orchestration and management tool
+- [go.geo](https://github.com/paulmach/go.geo): Go.geo is a geometry/geography library in Go. The primary use case is GIS geometry manipulation on the server side vs. in the browser using javascript. This may be motivated by memory, computation time or data privacy constraints. All objects are defined in a 2D context.
 
 ## Monitor
 
 - [bosun](https://github.com/bosun-monitor/bosun): Time Series Alerting Framework
 - [Open-Falcon企业级监控系统解决方案](http://open-falcon.com/): Open-Falcon 是小米运维部开源的一款互联网企业级监控系统解决方案.
-- [Prometheus](https://github.com/prometheus/prometheus): Prometheus is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts if some condition is observed to be true.
 
-## Network
-
-- [toxy](https://github.com/h2non/toxy): Hackable HTTP proxy to simulate server failure scenarios and unexpected network conditions
-- [Tyk API Gateway](https://github.com/lonelycode/tyk): Tyk is a lightweight, open source API Gateway and enables you to control who accesses your API, when they access it and how they access it. Tyk will also record detailed analytics on how your users are interacting with your API and when things go wrong.
-- [Gor](https://github.com/buger/gor): Gor is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data. It can be used to increase confidence in code deployments, configuration changes and infrastructure changes.
-- [Seesaw](https://github.com/google/seesaw): Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform.
-
-## Code Repository
-
-- [Gogs](http://gogs.io/): 极易搭建的自助 Git 服务
-- [Gitea - a self-hosted Git service](https://github.com/go-gitea/gitea)
-- [git - appraise](https://github.com/google/git-appraise): Distributed Code Review For Git
-
-## Distributed ID Generator
-
-- [sonyflake](https://github.com/sony/sonyflake): A distributed unique ID generator inspired by Twitter's Snowflake
-
-## Data Store
-
-- [tidb](https://github.com/pingcap/tidb): TiDB is a distributed NewSQL database compatible with MySQL protocol
-- [influxdb](https://github.com/influxdata/influxdb): Scalable datastore for metrics, events, and real-time analytics
-    - [influxdata](https://influxdata.com/): the platform for collecting/storing/visualizing/managing time-series data
-- [Pachyderm](https://github.com/pachyderm/pachyderm): Containerized Data Analytics
-
-## Backup
-
-- [restic](https://github.com/restic/restic): restic backup program
-- [syncthing](https://github.com/syncthing/syncthing): Open Source Continuous File Synchronization
-
-## Terminal Enhancement
-
-- [termui- Golang terminal dashboard](https://github.com/gizak/termui)
-- [GoTTY](https://github.com/yudai/gotty): Share your terminal as a web application
-
-## Work Efficiency
-
-- [s](https://github.com/zquestz/s): Open a web search in your terminal.
-
---------------------------------
-
-# Business Applications
-
-## API & SDK
-
-- [weixinmp](https://github.com/sidbusy/weixinmp): 微信公众平台SDK for Go
-
-## 3D
-
-- [ln](https://github.com/fogleman/ln): ln is a vector-based 3D renderer written in Go. It is used to produce 2D vector graphics (think SVGs) depicting 3D scenes. The output of an OpenGL pipeline is a rastered image. The output of ln is a set of 2D vector paths.
 
 ## Authentication
 
@@ -328,13 +294,32 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [Go OTP](https://github.com/hgfischer/go-otp): Package go-otp implements one-time-password generators used in 2-factor authentication systems like RSA-tokens. Currently this supports both HOTP (RFC-4226), TOTP (RFC-6238) and Base32 encoding (RFC-3548) for Google Authenticator compatibility
     - [Go-otpserver](https://github.com/skyjia/go-otpserver): A golang version OTP server.
 
-## Misc
+## Utilities
 
+- [apex](https://github.com/apex/apex): Minimal AWS Lambda function manager with Go support.
+- [clipboard](https://github.com/atotto/clipboard): Provide copying and pasting to the Clipboard for Go.
+- [fsnotify](https://github.com/fsnotify/fsnotify): File system notifications for Go.
+- [Groupcahe](https://github.com/golang/groupcache): groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
+- [i18n4go](https://github.com/maximilien/i18n4go): This is a general purpose internationalization (i18n) tooling for Go language (Golang) programs. It allows you to prepare Go language code for internationalization and localization (l10n).
+- [uniqush-push](https://github.com/uniqush/uniqush-push): Uniqush is a free and open source software which provides a unified push service for server-side notification to apps on mobile devices.
+- [Gobot](http://gobot.io/): Gobot is a framework for robotics, physical computing, and the Internet of Things, written in the Go programming language.
+- [goerlang/node](https://github.com/goerlang/node): Implementation of Erlang node
+- [pointer](https://github.com/AlekSi/pointer): Go package pointer provides helpers to get pointers to values of build-in types.
+- [robpike.io/filter](https://godoc.org/robpike.io/filter): Package filter contains utility functions for filtering slices through the distributed application of a filter function.
+- [Parallel](https://github.com/wangkuiyi/parallel): Some OpenMP like syntax for Go
+- [topicai/candy](https://github.com/topicai/candy): candy includes a set of easy-to-use Go facilities.
+- [queue](https://github.com/eapache/queue):  not thread-safe queue
+- [safemap](https://github.com/pcrawfor/safemap): A golang channel based access object for shared use of a map of arbitrary objects
+- [serf](https://github.com/hashicorp/serf): Service orchestration and management tool
 - [Gor](https://github.com/wendal/gor): Golang编写的静态博客引擎
 - [heim](https://github.com/euphoria-io/heim): A real-time community platform
 - [Mattermost](https://github.com/mattermost/platform): Mattermost is an open-source team communication service. It brings team messaging and file sharing into one place, accessible across PCs and phones, with archiving and search.
 - [ohlala](https://github.com/QLeelulu/ohlala): 觅链，一个具有社会化媒体属性的链接分享与评论平台。类似Reddit
-
+- [ln](https://github.com/fogleman/ln): ln is a vector-based 3D renderer written in Go. It is used to produce 2D vector graphics (think SVGs) depicting 3D scenes. The output of an OpenGL pipeline is a rastered image. The output of ln is a set of 2D vector paths.
+- [sonyflake](https://github.com/sony/sonyflake): A distributed unique ID generator inspired by Twitter's Snowflake
+- [restic](https://github.com/restic/restic): restic backup program
+- [syncthing](https://github.com/syncthing/syncthing): Open Source Continuous File Synchronization
+- [weixinmp](https://github.com/sidbusy/weixinmp): 微信公众平台SDK for Go
 
 --------------------------------
 
