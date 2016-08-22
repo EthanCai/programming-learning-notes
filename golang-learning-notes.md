@@ -91,8 +91,9 @@ Go Package：
             - Godeps管理方式虽然不存在安全问题，但是如果第三方package有更新，那么更新`/Godeps`目录下的第三方package代码也不方便
         - 工具
             - 标准`go get`
-            - [Godep](https://github.com/tools/godep): dependency tool for go
             - [Glide](https://glide.sh/): Vendor Package Management for Golang
+            - [gb](https://getgb.io/): A project based build tool for the Go programming language.
+            - [Godep](https://github.com/tools/godep): dependency tool for go
             - [Go vendor](https://github.com/kardianos/govendor): Go vendor tool that works with the standard vendor file.
     - 打包
         - [gb](https://github.com/constabulary/gb): the project based build tool for Go
@@ -229,6 +230,7 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [zap](https://github.com/uber-go/zap): Fast, structured, leveled logging in Go
 - [logrus](https://github.com/Sirupsen/logrus): Structured, pluggable logging for Go.
 - [Apex/log](https://github.com/apex/log): Structured logging package for Go.
+- [stack](https://github.com/facebookgo/stack): provides utilities to capture and pass around stack traces.
 
 ## Message Queue
 
