@@ -1,28 +1,89 @@
-# Books
+# Books that I Have Read
 
 - [Node入门](http://www.nodebeginner.org/index-zh-cn.html)
 - [Node Production Practice](https://www.joyent.com/node-js/production)
 
-# Resources
+# Guide
 
-工具：
+## Coding Style Guide
 
-- [NPM](https://www.npmjs.com/)
-- [CNPM](http://cnpmjs.org/)
+- JavaScript
+    - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+    - [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
+    - [A JavaScript Quality Guide](https://github.com/bevacqua/js)
+- Html
+    - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml)
 
-文档：
+## Language Guide
 
-- [NodeJs官网](https://nodejs.org/)
-- [ECMAScript 2015 (ES6) in Node.js](https://nodejs.org/en/docs/es6/)
-- [Tools and techniques we use at Joyent to operate Node.js in production](https://www.joyent.com/developers/node)
+- JavaScript
+    - [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS): This is a series of books diving deep into the core mechanisms of the JavaScript language.
+    - [Learn javascript in one picture](https://github.com/coodict/javascript-in-one-pic)
+    - [ECMAScript 6 入门](http://es6.ruanyifeng.com)
+    - [es6-cheatsheet](https://github.com/DrkSephy/es6-cheatsheet)
+    - [You-Dont-Need-Lodash-Underscore](https://github.com/cht8687/You-Dont-Need-Lodash-Underscore)
+    - [You Don't Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery): Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript. This project summarizes most of the jQuery method alternatives in native implementation, with IE 10+ support.
+- HTML
+    - [The Elements of HTML](http://w3c.github.io/elements-of-html/)
+- Node.js
+    - [Official Document](https://nodejs.org/en/docs/)
+    - [Microsoft + Node.js Guidelines](https://github.com/Microsoft/nodejs-guidelines)
+    - [Tools and techniques we use at Joyent to operate Node.js in production](https://www.joyent.com/developers/node)
 
-社区：
+## Web Development Guide
 
-- [CNode](https://cnodejs.org/)
+- [Google Developers - Web](https://developers.google.com/web/): The average user visits more than 100 websites on their mobile device every month, and expectations for speed and quality higher than ever. These resources can help you supercharge your new or existing project with the next generation of web technologies in order to deliver fast, secure, and performant content to any screen.
+- [Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions): A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.
+- [Mars - mobile needs a hero](https://github.com/AlloyTeam/Mars): 面向亿万用户级的移动端Web解决方案
 
-企业级Node:
+-------------------------------------------------------------------------------
 
-- [Node Source](https://nodesource.com/)
+# Foundation, Organization, Specification
+
+## Organization
+
+Web:
+
+- [MDN - Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+- [China W3C](http://www.chinaw3c.org)
+- [Web Platform Docs](https://docs.webplatform.org/wiki/Main_Page)
+
+## Specification
+
+Web：
+
+- HTML
+    - [HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - [HTML5 - MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+    - [HTML - WebPlantformDocs](https://docs.webplatform.org/wiki/html)
+- CSS
+    - [CSS - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
+    - [CSS3 - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
+    - [CSS - WebPlantformDocs](https://docs.webplatform.org/wiki/css)
+- JavaScript
+    - [JavaScript - MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+    - [ECMAScript Specification List](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Language_Resources)
+- DOM
+    - [DOM - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+- SVG
+    - [SVG - MDN](https://developer.mozilla.org/en-US/docs/Web/SVG)
+- WebGL
+    - [WebGL - MDN](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
+
+通信协议：
+
+- HTTP
+    - [HTTP/2 Protocol](http://http2.github.io/): HTTP/2 is a replacement for how HTTP is expressed “on the wire.” It is not a ground-up rewrite of the protocol; HTTP methods, status codes and semantics are the same, and it should be possible to use the same APIs as HTTP/1.x (possibly with some small additions) to represent the protocol.
+    - [HTTP/2 explained](http://http2-explained.readthedocs.org/en/latest/index.html): http2 explained describes the protocol HTTP/2 at a technical and protocol level. Background, the protocol, the implementations and the future. Written by Daniel Stenberg.
+    - [HTTP 1.1 Protocol](http://www.w3.org/Protocols/): Hypertext Transfer Protocol 1.1 Specification
+- WebSocket
+    - [MDN - WebSockets](https://developer.mozilla.org/zh-CN/docs/WebSockets)
+    - [HTML Living Standard - WebSocket](https://html.spec.whatwg.org/multipage/comms.html#network): this specification introduces the WebSocket interface
+    - [RFC 6455 - The WebSocket Protocol](http://tools.ietf.org/html/rfc6455): The WebSocket Protocol
+- JSON
+    - [JSON](http://json.org): JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999.
+    - [JSON API](http://jsonapi.org/): A SPECIFICATION FOR BUILDING APIS IN JSON.
+    - [JSON Schema & JSON Hyper-Schema](http://json-schema.org): JSON Schema: describes your JSON data format; JSON Hyper-Schema: turns your JSON data into hyper-text.
 
 --------------------------------
 
@@ -32,6 +93,7 @@
 
 - [Awesome NodeJs](https://github.com/sindresorhus/awesome-nodejs)
 - [Awesome JavaScript](https://github.com/sorrycc/awesome-javascript)
+- [Frontend Development Bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks): A huge list of frontend development resources I collected over time. Sorted from general knowledge at the top to concrete problems at the bottom.
 
 ## Related JS Language
 
@@ -51,6 +113,7 @@
 
 - [v8 javascript engine](https://github.com/v8/v8): Google's open source JavaScript engine.
 - [node](https://github.com/nodejs/node): Node.js JavaScript runtime
+- [Node Source](https://nodesource.com/): 企业级Node
 - [Alinode](http://alinode.aliyun.com/): alinode 是阿里云出品的 Node.js 应用服务解决方案，是一套基于社区 Node 改进的运行时环境和服务平台。在社区的基础上我们内建了强大的支持功能，帮助开发者迅速洞见性能细节，快速定位疑难杂症，直探问题根源。
 
 ## Profiling
@@ -68,6 +131,7 @@
 ## Package Manager
 
 - [NPM](https://www.npmjs.com/)
+- [CNPM](http://cnpmjs.org/)
 - [Bower](http://bower.io/)
 
 ## Module Loader

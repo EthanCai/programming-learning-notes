@@ -57,6 +57,7 @@ Go Package：
 
 # 文章、演示文档、视频、示例
 
+- [Go command tutorial](https://github.com/hyper-carrot/go_command_tutorial): Golang command tutorial in Chinese.
 - [Go Concurrency Patterns - Rob Pike](https://talks.golang.org/2012/concurrency.slide)
     - [Google I/O 2012 - Go Concurrency Patterns - Rob Pike](https://www.youtube.com/watch?v=f6kdp27TYZs)
 - [OOPs in Go by William Kennedy](https://www.youtube.com/watch?v=gRpUfjTwSOo)
@@ -110,7 +111,6 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - 系统。这个分类包含对系统功能的封装,比如对操作系统的交互以及原子性操作等。对应于此分类的包有os、syscall、sync、time和unsafe等。
 
 更多的标准库说明参考[Go语言Package文档](http://golang.org/pkg/)
-
 
 ------------------------------
 
