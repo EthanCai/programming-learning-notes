@@ -33,7 +33,7 @@
 
 ## RPC
 
-- [gRPC](http://www.grpc.io/): A high performance, open source, general RPC framework that puts mobile and HTTP/2 first.
+- [GRPC](http://www.grpc.io/): A high performance, open source, general RPC framework that puts mobile and HTTP/2 first.
 - [zeroC](https://zeroc.com/): Ice is more than a RPC framework. It also provides a number of complementary services for your networked applications.
 - [linkerd](https://linkerd.io/): Modern RPC proxy for microservices
 - [Finagle](https://twitter.github.io/finagle/): Finagle is an extensible RPC system for the JVM, used to construct high-concurrency servers. Finagle implements uniform client and server APIs for several protocols, and is designed for high performance and concurrency. Most of Finagle's code is protocol agnostic, simplifying the implementation of new protocols.
@@ -57,15 +57,17 @@
 
 ## Messsage Queue
 
-- [RabbitMQ](http://www.rabbitmq.com/): RabbitMQ is a messaging broker - an intermediary for messaging. It gives your applications a common platform to send and receive messages, and your messages a safe place to live until received.
+- [Erlang: RabbitMQ](http://www.rabbitmq.com/): RabbitMQ is a messaging broker - an intermediary for messaging. It gives your applications a common platform to send and receive messages, and your messages a safe place to live until received.
     - [RabbitMQ Internals](https://github.com/rabbitmq/internals): This project aims to explain how RabbitMQ works internally. The goal is to make it easier to contribute for newcomers to the project, and at the same time have a common repository of knowledge to be shared across the project contributors.
-- [ZeroMQ](http://zeromq.org/): ZeroMQ (also known as ØMQ, 0MQ, or zmq) looks like an embeddable networking library but acts like a concurrency framework. It gives you sockets that carry atomic messages across various transports like in-process, inter-process, TCP, and multicast. You can connect sockets N-to-N with patterns like fan-out, pub-sub, task distribution, and request-reply. It's fast enough to be the fabric for clustered products. Its asynchronous I/O model gives you scalable multicore applications, built as asynchronous message-processing tasks. It has a score of language APIs and runs on most operating systems
-    - [NetMQ](https://github.com/zeromq/netmq): NetMQ is 100% native C# port of ZeroMQ
-    - [JeroMQ](https://github.com/zeromq/jeromq): Pure Java implementation of libzmq
-- [Apache Kafka](http://kafka.apache.org/): Apache Kafka is publish-subscribe messaging rethought as a distributed commit log.
-- [beanstalkd](http://kr.github.io/beanstalkd/): Beanstalk is a simple, fast work queue. Its interface is generic, but was originally designed for reducing the latency of page views in high-volume web applications by running time-consuming tasks asynchronously.
-- [Apache ActiveMQ](http://activemq.apache.org/): Apache ActiveMQ ™ is the most popular and powerful open source messaging and Integration Patterns server. Apache ActiveMQ is fast, supports many Cross Language Clients and Protocols, comes with easy to use Enterprise Integration Patterns and many advanced features while fully supporting JMS 1.1 and J2EE 1.4\. Apache ActiveMQ is released under the Apache 2.0 License.
-- [NSQ](https://github.com/bitly/nsq): NSQ is a realtime distributed messaging platform designed to operate at scale, handling billions of messages per day.
+- [C++: ZeroMQ](http://zeromq.org/): ZeroMQ (also known as ØMQ, 0MQ, or zmq) looks like an embeddable networking library but acts like a concurrency framework. It gives you sockets that carry atomic messages across various transports like in-process, inter-process, TCP, and multicast. You can connect sockets N-to-N with patterns like fan-out, pub-sub, task distribution, and request-reply. It's fast enough to be the fabric for clustered products. Its asynchronous I/O model gives you scalable multicore applications, built as asynchronous message-processing tasks. It has a score of language APIs and runs on most operating systems
+    - [C#: NetMQ](https://github.com/zeromq/netmq): NetMQ is 100% native C# port of ZeroMQ
+    - [Java: JeroMQ](https://github.com/zeromq/jeromq): Pure Java implementation of libzmq
+- [Java: Apache Kafka](http://kafka.apache.org/): Apache Kafka is publish-subscribe messaging rethought as a distributed commit log.
+- [C: beanstalkd](http://kr.github.io/beanstalkd/): Beanstalk is a simple, fast work queue. Its interface is generic, but was originally designed for reducing the latency of page views in high-volume web applications by running time-consuming tasks asynchronously.
+- [Java: Apache ActiveMQ](http://activemq.apache.org/): Apache ActiveMQ ™ is the most popular and powerful open source messaging and Integration Patterns server. Apache ActiveMQ is fast, supports many Cross Language Clients and Protocols, comes with easy to use Enterprise Integration Patterns and many advanced features while fully supporting JMS 1.1 and J2EE 1.4\. Apache ActiveMQ is released under the Apache 2.0 License.
+- [Go: NSQ](https://github.com/bitly/nsq): NSQ is a realtime distributed messaging platform designed to operate at scale, handling billions of messages per day.
+- [Go: rmq](https://github.com/adjust/rmq): rmq is short for Redis message queue. It's a message queue system written in Go and backed by Redis. It's similar to redismq, but implemented independently with a different interface in mind.
+- [Node: kue](https://github.com/Automattic/kue): Kue is a priority job queue backed by redis, built for node.js.
 
 ## Job Schedule
 
@@ -87,8 +89,8 @@
 - [HAProxy](http://www.haproxy.org/): HAProxy is a free, very fast and reliable solution offering high availability, load balancing, and proxying for TCP and HTTP-based applications.
   - [Bamboo](https://github.com/QubitProducts/bamboo): HAProxy auto configuration and auto service discovery for Mesos Marathon
 - [keepalived](http://www.keepalived.org/): Keepalived is a routing software written in C. The main goal of this project is to provide simple and robust facilities for loadbalancing and high-availability to Linux system and Linux based infrastructures.
-- [Seesaw](https://github.com/google/seesaw): Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform.
-- [Nginx](http://wiki.nginx.org/Main): Nginx (pronounced engine-x) is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
+- [Go: Seesaw](https://github.com/google/seesaw): Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform.
+- [C: Nginx](http://wiki.nginx.org/Main): Nginx (pronounced engine-x) is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
 - [Pen](http://siag.nu/pen/): Pen is a load balancer for "simple" TCP-based protocols such as HTTP or SMTP. It allows several servers to appear as one to the outside. It automatically detects servers that are down and distributes clients among the available servers. This gives high availability and scalable performance.
 - [Balance](http://www.inlab.de/balance.html): Balance is a simple but powerful generic TCP proxy with round-robin load balancing and failover mechanisms. Its behavior can be controlled at runtime using a simple command line syntax. Balance supports IPv6 on the listening side, which makes it a very useful tool for IPv6 migration of IPv4 only services and servers.
 
@@ -130,12 +132,16 @@
 
 ## 熔断器
 
-- [Polly](https://github.com/App-vNext/Polly): Polly is a .NET 3.5 / 4.0 / 4.5 / PCL library that allows developers to express transient exception handling policies such as Retry, Retry Forever, Wait and Retry or Circuit Breaker in a fluent manner.
-- [Hystrix](https://github.com/Netflix/Hystrix): Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
-- [Hystrix.NET](https://hystrixnet.codeplex.com): Hystrix.NET is a C# port of Hystrix, which is a latency and fault tolerance library for complex distributed systems.
-- [Hystrix-go](https://github.com/afex/hystrix-go): Netflix's Hystrix latency and fault tolerance library, for Go
+- [C#: Polly](https://github.com/App-vNext/Polly): Polly is a .NET 3.5 / 4.0 / 4.5 / PCL library that allows developers to express transient exception handling policies such as Retry, Retry Forever, Wait and Retry or Circuit Breaker in a fluent manner.
+- [Java: Hystrix](https://github.com/Netflix/Hystrix): Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
+- [C#: Hystrix.NET](https://hystrixnet.codeplex.com): Hystrix.NET is a C# port of Hystrix, which is a latency and fault tolerance library for complex distributed systems.
+- [Go: Hystrix-go](https://github.com/afex/hystrix-go): Netflix's Hystrix latency and fault tolerance library, for Go
 
 ## Distributed Tracing
 
 - [Open Tracing](http://opentracing.io/): Consistent, expressive, vendor-neutral APIs for distributed tracing and context propagation
 - [zipkin](https://github.com/openzipkin/zipkin): Zipkin is a distributed tracing system
+
+## 杂项
+
+- [sonyflake](https://github.com/sony/sonyflake): A distributed unique ID generator inspired by Twitter's Snowflake

@@ -84,7 +84,8 @@
 ## API Gateway
 
 - [Kong](https://github.com/Mashape/kong): Open-source, Microservice & API Management Layer built on top of NGINX
-- [Tyk](https://tyk.io/): An open source, fast and scalable API management platform featuring an API gateway, analytics, developer portal and dashboard.
+- [Tyk API Gateway](https://github.com/lonelycode/tyk): Tyk is a lightweight, open source API Gateway and enables you to control who accesses your API, when they access it and how they access it. Tyk will also record detailed analytics on how your users are interacting with your API and when things go wrong.
+    - [Documents](https://tyk.io/tyk-documentation/concepts/)
 
 ## WebSocket
 

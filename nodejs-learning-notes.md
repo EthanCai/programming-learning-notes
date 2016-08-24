@@ -169,10 +169,6 @@
 - [Connect](https://github.com/senchalabs/connect): Express的前身
 - [Micro](https://github.com/zeithq/micro): Async HTTP microservices
 
-## Message Queue & Job Queue
-
-- [Kue](https://github.com/Automattic/kue): Kue is a priority job queue backed by redis, built for node.js.
-
 ## Job Schedule
 
 - [node-schedule](https://github.com/node-schedule/node-schedule): A cron-like and not-cron-like job scheduler for Node.
