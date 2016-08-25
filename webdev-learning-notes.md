@@ -38,7 +38,7 @@
 
 -------------------------------------------------------------------------------
 
-# Foundation, Organization, Specification
+# Organization, Specification
 
 ## Organization
 
@@ -47,6 +47,20 @@ Web:
 - [MDN - Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 - [China W3C](http://www.chinaw3c.org)
 - [Web Platform Docs](https://docs.webplatform.org/wiki/Main_Page)
+
+UED:
+
+- [腾讯AlloyTeam](http://www.alloyteam.com/)
+- [腾讯CDC - 用户研究和用户体验设计中心](http://cdc.tencent.com/)
+- [腾讯社交用户体验设计](https://isux.tencent.com/)
+- [百度Web前端研发部](http://fex.baidu.com/)
+    - [百度前端技术体系](http://efe.baidu.com/)
+- [淘宝前端团队](http://taobaofed.org/)
+
+Blog：
+
+- [张云龙的前端Blog](https://github.com/fouber/blog)
+- [John Resig的Blog](http://ejohn.org/category/blog/)
 
 ## Specification
 
