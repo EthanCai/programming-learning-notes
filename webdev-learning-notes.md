@@ -29,6 +29,8 @@
     - [Official Document](https://nodejs.org/en/docs/)
     - [Microsoft + Node.js Guidelines](https://github.com/Microsoft/nodejs-guidelines)
     - [Tools and techniques we use at Joyent to operate Node.js in production](https://www.joyent.com/developers/node)
+    - [The Art of Node](https://github.com/maxogden/art-of-node)
+    - [faster-than-c](https://github.com/felixge/faster-than-c)
 
 ## Web Development Guide
 
@@ -244,6 +246,7 @@ Web：
 - [ExpressJS](http://expressjs.com/)
     - [node-toobusy](https://github.com/lloyd/node-toobusy): Build Node.JS servers that don't fall over.
 - [Koa](http://koajs.com/)
+- [ThinkJS](https://thinkjs.org/)
 - [Connect](https://github.com/senchalabs/connect): Express的前身
 - [Micro](https://github.com/zeithq/micro): Async HTTP microservices
 
@@ -266,10 +269,6 @@ Web：
 
 - [PM2](https://github.com/Unitech/pm2): Production process manager for Node.js applications with a built-in load balancer https://app.keymetrics.io/
 - [Nodemon](http://nodemon.io/): Nodemon is a utility that will monitor for any changes in your source and automatically restart your server. **Perfect for development.**
-
-## App
-
-- [Soundnode](https://github.com/Soundnode/soundnode-app): Soundnode App is an Open-Source project to support Soundcloud for desktop Mac, Windows, and Linux. It's built with NW.js, Node.js, Angular.js, and it uses the Soundcloud API.
 
 ## Tools
 
