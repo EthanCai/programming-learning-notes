@@ -1,25 +1,26 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Project about DevOps](#project-about-devops)
-    - [Code Repository](#code-repository)
-    - [Code Analysis and Metrics](#code-analysis-and-metrics)
-    - [Scaffolding](#scaffolding)
-    - [Build](#build)
-    - [Continuous Integration](#continuous-integration)
-    - [Bug/Issue Management](#bugissue-management)
-    - [Unit Testing](#unit-testing)
-    - [Database Testing](#database-testing)
-    - [Database Management](#database-management)
-    - [Automated Acceptance Testing/BDD](#automated-acceptance-testingbdd)
-    - [Performance Testing](#performance-testing)
-    - [System Monitor](#system-monitor)
-    - [Process Supervisor](#process-supervisor)
-    - [Deployment](#deployment)
-    - [User Behavior Collection & Analysis](#user-behavior-collection-analysis)
-    - [Infrastructure Management](#infrastructure-management)
-    - [Automamtion](#automamtion)
-    - [Static Websites Generator](#static-websites-generator)
-    - [Misc](#misc)
+	- [Code Repository](#code-repository)
+	- [Code review](#code-review)
+	- [Code Analysis and Metrics](#code-analysis-and-metrics)
+	- [Scaffolding](#scaffolding)
+	- [Build](#build)
+	- [Continuous Integration](#continuous-integration)
+	- [Bug/Issue Management](#bugissue-management)
+	- [Unit Testing](#unit-testing)
+	- [Database Testing](#database-testing)
+	- [Database Management](#database-management)
+	- [Automated Acceptance Testing/BDD](#automated-acceptance-testingbdd)
+	- [Performance Testing](#performance-testing)
+	- [System Monitor](#system-monitor)
+	- [Process Supervisor](#process-supervisor)
+	- [Deployment](#deployment)
+	- [User Behavior Collection & Analysis](#user-behavior-collection-analysis)
+	- [Infrastructure Management](#infrastructure-management)
+	- [Automamtion](#automamtion)
+	- [Static Websites Generator](#static-websites-generator)
+	- [Misc](#misc)
 
 <!-- /TOC -->
 
@@ -33,9 +34,15 @@
 - [gitolite](https://github.com/sitaramc/gitolite): Hosting git repositories -- Gitolite allows you to setup git hosting on a central server, with very fine-grained access control and many (many!) more powerful features.
 
 
-## Code Analysis and Metrics
+## Code review
 
 - [Gerrit Code Review](https://www.gerritcodereview.com/): Gerrit provides web based code review and repository management for the Git version control system.
+
+
+## Code Analysis and Metrics
+
+- [ESlint](http://eslint.org/): The pluggable linting utility for JavaScript and JSX
+    - [JSCS — JavaScript Code Style](http://jscs.info/): **JSCS has merged with ESLint!** JSCS is a code style linter and formatter for your style guide
 - [SonarQube](http://www.sonarqube.org/): SonarQube is an open platform to manage code quality. As such, it covers the 7 axes of code quality:
 - [StyleCop](https://stylecop.codeplex.com/) - StyleCop analyzes C# source code to enforce a set of style and consistency rules
 - [FoxCop](https://msdn.microsoft.com/en-us/library/bb429476(v=vs.80).aspx) - FxCop is an application that analyzes managed code assemblies (code that targets the .NET Framework common language runtime) and reports information about the assemblies, such as possible design, localization, performance, and security improvements.
