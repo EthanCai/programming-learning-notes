@@ -160,6 +160,7 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [Testify](https://github.com/stretchr/testify): A sacred extension to the standard go testing package
 - [Go frisby](https://github.com/verdverm/frisby): API testing framework inspired by frisby-js
 - [httpexpect](https://github.com/gavv/httpexpect): End-to-end HTTP and REST API testing for Go.
+- [govcr](https://github.com/seborama/govcr): Record and replay HTTP interactions for offline unit / behavioural / integration tests thereby acting as an HTTP mock.
 
 ## DevOps Tools
 
