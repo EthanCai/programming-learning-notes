@@ -162,7 +162,8 @@ Web：
 ## Build & Scaffolding
 
 - [Grunt](http://gruntjs.com/)
-- [Gulp](http://gulpjs.com/)
+- [gulp](http://gulpjs.com/)
+    - [gulp - Streaming build systems](http://slides.com/contra/gulp): gulp介绍幻灯片
     - [SlushJS](http://slushjs.github.io/#/): The streaming scaffolding system. Gulp as a replacement for Yeoman
 - [Yeoman](http://yeoman.io/)
 
