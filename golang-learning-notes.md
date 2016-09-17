@@ -224,7 +224,6 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 ## Log
 
-- [opentracing-go](https://github.com/opentracing/opentracing-go): Go implementation of the OpenTracing API
 - [zap](https://github.com/uber-go/zap): Fast, structured, leveled logging in Go
 - [logrus](https://github.com/Sirupsen/logrus): Structured, pluggable logging for Go.
 - [Apex/log](https://github.com/apex/log): Structured logging package for Go.
