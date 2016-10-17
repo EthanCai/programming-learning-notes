@@ -190,18 +190,8 @@
 - [cfengine](http://cfengine.com/): Lightweight agent system. Configuration state is specified via a declarative language.
 
 
-## Static Websites Generator
-
-更多参考[StaticGen](https://www.staticgen.com/)
-
-- [Jekyll](http://jekyllrb.com/): Transform your plain text into static websites and blogs.
-    - [Jekyllcn](http://jekyllcn.com/)
-    - [Octopress](http://octopress.org/)
-- [Hexo](https://hexo.io/): A fast, simple & powerful blog framework
-
 ## Misc
 
 - [twill](http://twill.idyll.org/): a simple scripting language for Web browsing
 - [vagrantup](https://www.vagrantup.com/): Create and configure lightweight, reproducible, and portable development environments.
 - [hubot](https://hubot.github.com/): GitHub, Inc., wrote the first version of Hubot to automate our company chat room. Hubot knew how to deploy the site, automate a lot of tasks, and be a source of fun in the company. Eventually he grew to become a formidable force in GitHub. But he led a private, messy life. So we rewrote him.
-- [paperless](https://github.com/danielquinn/paperless): Scan, index, and archive all of your paper documents
