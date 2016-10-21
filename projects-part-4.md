@@ -1,26 +1,26 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Project about DevOps](#project-about-devops)
-	- [Code Repository](#code-repository)
-	- [Code review](#code-review)
-	- [Code Analysis and Metrics](#code-analysis-and-metrics)
-	- [Scaffolding](#scaffolding)
-	- [Build](#build)
-	- [Continuous Integration](#continuous-integration)
-	- [Bug/Issue Management](#bugissue-management)
-	- [Unit Testing](#unit-testing)
-	- [Database Testing](#database-testing)
-	- [Database Management](#database-management)
-	- [Automated Acceptance Testing/BDD](#automated-acceptance-testingbdd)
-	- [Performance Testing](#performance-testing)
-	- [System Monitor](#system-monitor)
-	- [Process Supervisor](#process-supervisor)
-	- [Deployment](#deployment)
-	- [User Behavior Collection & Analysis](#user-behavior-collection-analysis)
-	- [Infrastructure Management](#infrastructure-management)
-	- [Automamtion](#automamtion)
-	- [Static Websites Generator](#static-websites-generator)
-	- [Misc](#misc)
+    - [Code Repository](#code-repository)
+    - [Code review](#code-review)
+    - [Code Analysis and Metrics](#code-analysis-and-metrics)
+    - [Scaffolding](#scaffolding)
+    - [Build](#build)
+    - [Continuous Integration](#continuous-integration)
+    - [Bug/Issue Management](#bugissue-management)
+    - [Unit Testing](#unit-testing)
+    - [Database Testing](#database-testing)
+    - [Database Management](#database-management)
+    - [Automated Acceptance Testing/BDD](#automated-acceptance-testingbdd)
+    - [Performance Testing](#performance-testing)
+    - [System Monitor](#system-monitor)
+    - [Process Supervisor](#process-supervisor)
+    - [Deployment](#deployment)
+    - [User Behavior Collection & Analysis](#user-behavior-collection-analysis)
+    - [Infrastructure Management](#infrastructure-management)
+    - [Automamtion](#automamtion)
+    - [Static Websites Generator](#static-websites-generator)
+    - [Misc](#misc)
 
 <!-- /TOC -->
 
@@ -67,14 +67,13 @@
 
 ## Continuous Integration
 
-- [CruiseControl.NET](http://www.cruisecontrolnet.org/) - an Automated Continuous Integration server, implemented using the .NET Framework
-- [MyGet](http://www.myget.org/) - Continuous Integration and Deployment, Hosted Package Repository for NuGet, NPM, Bower and VSIX. [Free for OSS] [$]
+- [spinnaker](http://www.spinnaker.io/): Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
 - [Jenkins-CI](http://jenkins-ci.org/): An extensible open source continuous integration server
-- [Go.cd](http://www.go.cd/): Automate and streamline the build-test-release cycle for worry-free, continuous delivery of your product.
 - [janky](https://github.com/github/janky): Continuous integration server built on top of Jenkins and Hubot
+- [CruiseControl.NET](http://www.cruisecontrolnet.org/) - an Automated Continuous Integration server, implemented using the .NET Framework
+- [Go.cd](http://www.go.cd/): Automate and streamline the build-test-release cycle for worry-free, continuous delivery of your product.
 - [Buildbot](http://buildbot.net/index.html): Python-based continuous integration testing framework; your pull requests are more than welcome!
-- [teletraan](https://github.com/pinterest/teletraan): Teletraan is Pinterest's deploy system. It deploys hundreds of Pinterest internal services, supports tens of thousands hosts, and has been running in production for over a year.
-
+- [MyGet](http://www.myget.org/) - Continuous Integration and Deployment, Hosted Package Repository for NuGet, NPM, Bower and VSIX. [Free for OSS] [$]
 
 ## Bug/Issue Management
 
