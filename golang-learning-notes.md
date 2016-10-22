@@ -142,6 +142,7 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 - [goviz](https://github.com/hirokidaichi/goviz): a visualization tool for golang project dependency
 - [godepq](https://github.com/google/godepq): A utility for inspecting go import trees
+- [go-torch](https://github.com/uber/go-torch): Stochastic flame graph profiler for Go programs
 
 **Code Repository**
 
