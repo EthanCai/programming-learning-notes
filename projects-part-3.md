@@ -99,10 +99,19 @@
     - [sphinx-for-chinese](http://sphinx-search.com/): sphinx-for-chinese是一款专注于中文搜索的全文检索软件，在sphinx的基础上添加了中文处理模块并优化了中文搜索效果。
 - [xunsearch](http://www.xunsearch.com/): 开源免费、高性能、多功能, 简单易用的专业全文检索技术方案
 - [bleve](https://github.com/blevesearch/bleve): A modern text indexing library for go
-- [Apache Nutch](http://nutch.apache.org/): Apache Nutch是一个用Java编写的开源网络爬虫。Apache Nutch对于Solr已经支持得很好，这大大简化了Nutch与Solr的整合。
-    - [yahoo/anthelion](https://github.com/yahoo/anthelion): Anthelion is a Nutch plugin for focused crawling of semantic data. The project is an open-source project released under the Apache License 2.0.
 - [Apache Tika](http://tika.apache.org/): The Apache Tika™ toolkit detects and extracts metadata and text from over a thousand different file types (such as PPT, XLS, and PDF). All of these file types can be parsed through a single interface, making Tika useful for search engine indexing, content analysis, translation, and much more.
 - [Toxy - .NET Text/Data Extraction Framework](https://toxy.codeplex.com): Toxy is a .NET data/text extraction framework similar to Apache Tika in Java. It supports a lot of popular formats such as docx, xlsx, xls, pdf, csv, txt, epub, html and so on.
+
+## Crawler
+
+参考：https://github.com/BruceDone/awesome-crawler
+
+- [Apache Nutch](http://nutch.apache.org/): Apache Nutch是一个用Java编写的开源网络爬虫。Apache Nutch对于Solr已经支持得很好，这大大简化了Nutch与Solr的整合。
+    - [yahoo/anthelion](https://github.com/yahoo/anthelion): Anthelion is a Nutch plugin for focused crawling of semantic data. The project is an open-source project released under the Apache License 2.0.
+- [Scrapy](https://scrapy.org/): An open source and collaborative framework for extracting the data you need from websites.
+In a fast, simple, yet extensible way.
+- [Norconex HTTP Collector](http://www.norconex.com/collectors/collector-http/): Open-Source Enterprise Web Crawler
+- [heritrix3](https://github.com/internetarchive/heritrix3): Heritrix is the Internet Archive's open-source, extensible, web-scale, archival-quality web crawler project.
 
 ## Recommender System
 
