@@ -189,6 +189,12 @@
 - [SaltStack](http://saltstack.com/): SaltStack software orchestrates and automates the visualization, build and management of any legacy or modern infrastructure. SaltStack is known as the fastest, most scalable systems and configuration management software for CloudOps, ITOps and DevOps.
 - [cfengine](http://cfengine.com/): Lightweight agent system. Configuration state is specified via a declarative language.
 
+## Kanban
+
+- [LeanLabs - GitLab Kanban Board](http://kanban.leanlabs.io/): Free, open source, self-hosted, Kanban board for GitLab issues
+- [huboard](https://github.com/huboard/huboard): Kanban board for github issues
+- [kanboard](https://github.com/kanboard/kanboard): Kanban project management software
+
 
 ## Misc
 
