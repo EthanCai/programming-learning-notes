@@ -149,6 +149,7 @@ Web：
 - [NPM](https://www.npmjs.com/)
 - [CNPM](http://cnpmjs.org/)
 - [Bower](http://bower.io/)
+- [Nexus](http://www.sonatype.org/nexus/)
 
 ## Module Loader
 
