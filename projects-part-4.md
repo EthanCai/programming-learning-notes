@@ -192,10 +192,11 @@
 
 ## Kanban
 
+- [Taiga.io](https://github.com/taigaio): Your Agile, Free and Open Source Project Management Tool
+- [kanboard](https://github.com/kanboard/kanboard): Kanban project management software
+- [wekan](https://github.com/wekan/wekan): The open-source Trello-like kanban (built with Meteor)
 - [LeanLabs - GitLab Kanban Board](http://kanban.leanlabs.io/): Free, open source, self-hosted, Kanban board for GitLab issues
 - [huboard](https://github.com/huboard/huboard): Kanban board for github issues
-- [kanboard](https://github.com/kanboard/kanboard): Kanban project management software
-
 
 ## Misc
 
