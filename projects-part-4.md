@@ -56,6 +56,7 @@
 
 ## Build
 
+- [Maven](http://maven.apache.org/): Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
 - [Gradle](http://gradle.org/): OPEN SOURCE BUILD AUTOMATION. Get started with: Java / JVM | Android | Native (C / C++) | Web and many more!
 - [Bazel](http://bazel.io/): Bazel is Google's own build tool, now publicly available in Beta. Bazel has built-in support for building both client and server software, including client applications for both Android and iOS platforms. It also provides an extensible framework that you can use to develop your own build rules.
 - [Cmake](https://cmake.org/): CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK.
@@ -188,19 +189,16 @@
 - [SaltStack](http://saltstack.com/): SaltStack software orchestrates and automates the visualization, build and management of any legacy or modern infrastructure. SaltStack is known as the fastest, most scalable systems and configuration management software for CloudOps, ITOps and DevOps.
 - [cfengine](http://cfengine.com/): Lightweight agent system. Configuration state is specified via a declarative language.
 
+## Kanban
 
-## Static Websites Generator
-
-更多参考[StaticGen](https://www.staticgen.com/)
-
-- [Jekyll](http://jekyllrb.com/): Transform your plain text into static websites and blogs.
-    - [Jekyllcn](http://jekyllcn.com/)
-    - [Octopress](http://octopress.org/)
-- [Hexo](https://hexo.io/): A fast, simple & powerful blog framework
+- [Taiga.io](https://github.com/taigaio): Your Agile, Free and Open Source Project Management Tool
+- [kanboard](https://github.com/kanboard/kanboard): Kanban project management software
+- [wekan](https://github.com/wekan/wekan): The open-source Trello-like kanban (built with Meteor)
+- [LeanLabs - GitLab Kanban Board](http://kanban.leanlabs.io/): Free, open source, self-hosted, Kanban board for GitLab issues
+- [huboard](https://github.com/huboard/huboard): Kanban board for github issues
 
 ## Misc
 
 - [twill](http://twill.idyll.org/): a simple scripting language for Web browsing
 - [vagrantup](https://www.vagrantup.com/): Create and configure lightweight, reproducible, and portable development environments.
 - [hubot](https://hubot.github.com/): GitHub, Inc., wrote the first version of Hubot to automate our company chat room. Hubot knew how to deploy the site, automate a lot of tasks, and be a source of fun in the company. Eventually he grew to become a formidable force in GitHub. But he led a private, messy life. So we rewrote him.
-- [paperless](https://github.com/danielquinn/paperless): Scan, index, and archive all of your paper documents
