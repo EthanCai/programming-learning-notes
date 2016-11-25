@@ -54,6 +54,8 @@
 
 ## Web Frameworks/Application Frameworks
 
+**CSharp**
+
 - ASP.NET MVC
     - [ASP.net MVC 6](https://github.com/aspnet/Mvc): Model view controller framework for building dynamic web sites with clean separation of concerns, including the merged MVC, Web API, and Web Pages, Razor.
     - [ASP.net MVC 5](http://aspnetwebstack.codeplex.com/): ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that gives you full control over markup for enjoyable, agile development. ASP.NET MVC includes many features that enable fast, TDD-friendly development for creating sophisticated applications that use the latest web standards.
@@ -64,6 +66,12 @@
 - [ServiceStack](https://github.com/ServiceStack/ServiceStack): Simple, Fast, Versatile and full-featured Services Framework
 - [NancyFx](http://nancyfx.org/): Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono
 - [ReactJS.NET](http://reactjs.net/): ReactJS.NET makes it easier to use Facebook's React and JSX from C# and other .NET languages, focusing specifically on ASP.NET MVC (although it also works in other environments). It assumes you already have some basic knowledge about React. It is cross-platform and can run on Linux via Mono. Now with support for ASP.NET 5 Beta!
+
+**Java**
+
+- [Spring Framework](http://spring.io/projects): The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
+    - [jHipster](https://jhipster.github.io/): Open Source application generator for creating Spring Boot + AngularJS projects in seconds
+
 
 ## Template Engine
 
