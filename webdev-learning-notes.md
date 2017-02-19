@@ -158,7 +158,7 @@ Web：
 - [SystemJS](https://github.com/systemjs/systemjs)
 - [Webpack](https://webpack.github.io/)
     - [Webpack-howto](https://github.com/petehunt/webpack-howto)
-- [Browsify](http://browserify.org/)
+- [Browserify](http://browserify.org/)
 
 ## Build & Scaffolding
 
@@ -266,6 +266,14 @@ Web：
 - [slimerjs](https://github.com/laurentj/slimerjs)
 - [node-qt](https://github.com/arturadib/node-qt): C++ Qt bindings for Node.js
 - [nativefier](https://github.com/jiahaog/nativefier): Nativefier is a command line tool that allows you to easily create a desktop application for any web site with succinct and minimal configuration.
+
+## Mobile Hybrid framework
+
+- [Ionic](http://ionicframework.com/): Ionic is the beautiful, free and open source mobile SDK for developing native and progressive web apps with ease.
+- [Onsen UI](https://onsen.io/): Framework-agnostic UI components let you do wonders.
+- [React Native](http://facebook.github.io/react-native/): React Native lets you build mobile apps using only JavaScript. It uses the same design as React, letting you compose a rich mobile UI from declarative components.
+- [Intel XDK](https://software.intel.com/en-us/intel-xdk): One solution for IoT applications and mobile app dev!
+- [Framework 7](http://framework7.io/): Full Featured HTML Framework For Building iOS & Android Apps
 
 ## Process Supervisor
 
