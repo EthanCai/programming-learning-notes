@@ -68,9 +68,10 @@
 
 ## Continuous Integration
 
-- [spinnaker](http://www.spinnaker.io/): Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
 - [Jenkins-CI](http://jenkins-ci.org/): An extensible open source continuous integration server
-- [janky](https://github.com/github/janky): Continuous integration server built on top of Jenkins and Hubot
+  - [janky](https://github.com/github/janky): Continuous integration server built on top of Jenkins and Hubot
+- [Concourse](https://concourse.ci/): CI that scales with your project.
+- [spinnaker](http://www.spinnaker.io/): Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
 - [CruiseControl.NET](http://www.cruisecontrolnet.org/) - an Automated Continuous Integration server, implemented using the .NET Framework
 - [Go.cd](http://www.go.cd/): Automate and streamline the build-test-release cycle for worry-free, continuous delivery of your product.
 - [Buildbot](http://buildbot.net/index.html): Python-based continuous integration testing framework; your pull requests are more than welcome!
