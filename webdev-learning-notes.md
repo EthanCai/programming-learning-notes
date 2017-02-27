@@ -9,6 +9,7 @@
 
 - JavaScript
     - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+    - [JavaScript Standard Style](https://github.com/feross/standard)
     - [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
     - [A JavaScript Quality Guide](https://github.com/bevacqua/js)
 - Html
