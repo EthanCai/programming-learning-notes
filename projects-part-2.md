@@ -1,19 +1,22 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Projects about Distributed Architecture](#projects-about-distributed-architecture)
-    - [Data Exchange Format](#data-exchange-format)
-    - [RPC](#rpc)
-    - [Distributed Application Framework](#distributed-application-framework)
-    - [Service Bus](#service-bus)
-    - [Messsage Queue](#messsage-queue)
-    - [Job Schedule](#job-schedule)
-    - [Load Balance](#load-balance)
-    - [Reverse Proxy](#reverse-proxy)
-    - [Distributed File System](#distributed-file-system)
-    - [Configuration Management](#configuration-management)
-    - [分布式协调(Service Discovery, Name Service)](#分布式协调service-discovery-name-service)
-    - [熔断器](#熔断器)
-    - [Distributed Tracing](#distributed-tracing)
+	- [Data Exchange Format](#data-exchange-format)
+	- [RPC](#rpc)
+	- [Distributed Application Framework](#distributed-application-framework)
+	- [Service Bus](#service-bus)
+	- [Messsage Queue](#messsage-queue)
+	- [Job Schedule](#job-schedule)
+	- [Load Balance](#load-balance)
+	- [API Gateway](#api-gateway)
+	- [Reverse Proxy](#reverse-proxy)
+	- [Distributed File System](#distributed-file-system)
+	- [Configuration Management](#configuration-management)
+	- [服务发现(Service Discovery, Name Service)](#服务发现service-discovery-name-service)
+	- [域名服务器(DNS)](#域名服务器dns)
+	- [熔断器](#熔断器)
+	- [Distributed Tracing](#distributed-tracing)
+	- [杂项](#杂项)
 
 <!-- /TOC -->
 
@@ -85,14 +88,24 @@
 
 ## Load Balance
 
+- [Envoy](https://github.com/lyft/envoy): C++ L7 proxy and communication bus
 - [LVS](http://www.linuxvirtualserver.org/): The Linux Virtual Server is a highly scalable and highly available server built on a cluster of real servers, with the load balancer running on the Linux operating system. The architecture of the server cluster is fully transparent to end users, and the users interact as if it were a single high-performance virtual server.
 - [HAProxy](http://www.haproxy.org/): HAProxy is a free, very fast and reliable solution offering high availability, load balancing, and proxying for TCP and HTTP-based applications.
   - [Bamboo](https://github.com/QubitProducts/bamboo): HAProxy auto configuration and auto service discovery for Mesos Marathon
 - [keepalived](http://www.keepalived.org/): Keepalived is a routing software written in C. The main goal of this project is to provide simple and robust facilities for loadbalancing and high-availability to Linux system and Linux based infrastructures.
 - [Go: Seesaw](https://github.com/google/seesaw): Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform.
-- [C: Nginx](http://wiki.nginx.org/Main): Nginx (pronounced engine-x) is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
+- [Nginx](http://wiki.nginx.org/Main): Nginx (pronounced engine-x) is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
 - [Pen](http://siag.nu/pen/): Pen is a load balancer for "simple" TCP-based protocols such as HTTP or SMTP. It allows several servers to appear as one to the outside. It automatically detects servers that are down and distributes clients among the available servers. This gives high availability and scalable performance.
 - [Balance](http://www.inlab.de/balance.html): Balance is a simple but powerful generic TCP proxy with round-robin load balancing and failover mechanisms. Its behavior can be controlled at runtime using a simple command line syntax. Balance supports IPv6 on the listening side, which makes it a very useful tool for IPv6 migration of IPv4 only services and servers.
+
+## API Gateway
+
+- [Nginx](http://wiki.nginx.org/Main): a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
+  - [OpenResty](https://openresty.org/cn/): OpenResty ™ 是一个基于 Nginx 与 Lua 的高性能 Web 平台，其内部集成了大量精良的 Lua 库、第三方模块以及大多数的依赖项。用于方便地搭建能够处理超高并发、扩展性极高的动态 Web 应用、Web 服务和动态网关。
+- [Kong](https://github.com/Mashape/kong): Open-source, Microservice & API Management Layer built on top of NGINX
+- [Caddy](https://github.com/mholt/caddy): Fast, cross-platform HTTP/2 web server with automatic HTTPS
+- [Tyk API Gateway](https://github.com/lonelycode/tyk): Tyk is a lightweight, open source API Gateway and enables you to control who accesses your API, when they access it and how they access it. Tyk will also record detailed analytics on how your users are interacting with your API and when things go wrong.
+    - [Documents](https://tyk.io/tyk-documentation/concepts/)
 
 ## Reverse Proxy
 

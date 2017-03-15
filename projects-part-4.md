@@ -198,6 +198,13 @@
 - [LeanLabs - GitLab Kanban Board](http://kanban.leanlabs.io/): Free, open source, self-hosted, Kanban board for GitLab issues
 - [huboard](https://github.com/huboard/huboard): Kanban board for github issues
 
+## Container
+
+- [Docker Distribution/Registry](https://github.com/docker/distribution)
+- [Habor](https://github.com/vmware/harbor): An enterprise-class container registry server based on Docker Distribution
+- [Portus](http://port.us.org/): Authorization service and frontend for Docker registry (v2)
+- [kubernetes](http://kubernetes.io/)
+
 ## Misc
 
 - [twill](http://twill.idyll.org/): a simple scripting language for Web browsing
