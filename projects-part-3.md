@@ -38,6 +38,7 @@
 
 - [SQLlite](http://www.sqlite.org/index.html)
 - [LMDB](https://github.com/clibs/lmdb): Symas Lightning Memory-Mapped Database
+- [Apache GEODE](http://geode.apache.org/): Geode is an open source , distributed, in-memory database for scale-out applications.
 
 ## Graph Database
 
@@ -66,6 +67,7 @@
 ## NoSQL Database
 
 - [MongoDB](https://www.mongodb.org/)
+- [Rethinkdb](https://www.rethinkdb.com/)
 - [TokuMX](http://www.tokutek.com/): High-Performance MongoDB
 - [Go: Influxdb](https://github.com/influxdata/influxdb): Scalable datastore for metrics, events, and real-time analytics
     - [influxdata](https://influxdata.com/): the platform for collecting/storing/visualizing/managing time-series data
