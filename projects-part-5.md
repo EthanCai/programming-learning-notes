@@ -18,7 +18,9 @@
 - [OpenGTS](http://www.opengts.org/): OpenGTS is the first available open source project designed specifically to provide web-based GPS tracking services for a "fleet" of vehicles.
 - [GeoServer](http://geoserver.org/): GeoServer is an open source server for sharing geospatial data.
 - [Open Street Map](http://www.openstreetmap.org/): OpenStreetMap 是一个由地图制作爱好者组成的社区。这些爱好者提供并维护世界各地关于道路、小道、咖啡馆、铁路车站等各种各样的数据。
+- [GeoTools](http://geotools.org/): GeoTools is an open source Java library that provides tools for geospatial data.
 
 # 参考
 
 - [Spatial database - wikipedia](https://wiki2.org/en/Spatial_database)
+- [Java Topology Suite](https://wiki2.org/en/JTS_Topology_Suite)
