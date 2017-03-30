@@ -52,11 +52,19 @@
 
 ## Service Bus
 
-- [MassTransit](http://masstransit-project.com/): Lean Service Bus for .NET
-- [Rebus](https://github.com/rebus-org/Rebus): Rebus is a lean service bus implementation for .NET, similar in nature to NServiceBus and MassTransit, only leaner
-- [NServiceBus](https://github.com/Particular): The most popular service bus for .NET
-- [Shuttle-ESB](http://shuttle.github.io/shuttle-esb/): A highly configurable free open-source enterprise service bus that provides you with a mechanism to create Autonomous Business Components that are loosely coupled. This enables you to develop and deploy specific business functionality that can be independently versioned.
-- [Rhino ESB](https://github.com/hibernating-rhinos/rhino-esb): Rhino Service Bus is a messaging framework that supports transactional, durable, reliable, distributed, asynchronous messaging. Rhino Service Bus currently supports two transports MSMQ and Rhino.Queues.
+- [Apache Camel](http://camel.apache.org/): Apache Camel is a versatile open-source integration framework based on known Enterprise Integration Patterns. The following projects can leverage Apache Camel as a routing and mediation engine:
+	- Apache ServiceMix
+	- Apache ActiveMQ
+	- Apache CXF
+	- Apache Karaf
+	- Apache MINA
+- [Spring Integration](http://projects.spring.io/spring-integration/): Extends the Spring programming model to support the well-known Enterprise Integration Patterns. Spring Integration enables lightweight messaging within Spring-based applications and supports integration with external systems via declarative adapters.
+- [Mule ESB community](https://github.com/mulesoft/mule): Mule Community Edition
+- [.NET: MassTransit](http://masstransit-project.com/): Lean Service Bus for .NET
+- [.NET: NServiceBus](https://github.com/Particular): The most popular service bus for .NET
+- [.NET: Rebus](https://github.com/rebus-org/Rebus): Rebus is a lean service bus implementation for .NET, similar in nature to NServiceBus and MassTransit, only leaner
+- [.NET: Shuttle-ESB](http://shuttle.github.io/shuttle-esb/): A highly configurable free open-source enterprise service bus that provides you with a mechanism to create Autonomous Business Components that are loosely coupled. This enables you to develop and deploy specific business functionality that can be independently versioned.
+
 
 ## Messsage Queue
 
