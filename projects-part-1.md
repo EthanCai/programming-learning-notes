@@ -39,8 +39,8 @@
 
 - [.NET Framewrok](https://msdn.microsoft.com/en-us/vstudio/aa496123.aspx)
 - [.NET Core](http://dotnet.github.io/core/): A general purpose managed framework
-- [Mono](http://www.mono-project.com/): Cross platform, open source .NET framework
-- [Roslyn](https://github.com/dotnet/roslyn): The .NET Compiler Platform ("Roslyn") provides open-source C# and Visual Basic compilers with rich code analysis APIs.
+- [.NET: Mono](http://www.mono-project.com/): Cross platform, open source .NET framework
+- [.NET: Roslyn](https://github.com/dotnet/roslyn): The .NET Compiler Platform ("Roslyn") provides open-source C# and Visual Basic compilers with rich code analysis APIs.
 
 ## Assembly Manipulation
 
@@ -49,11 +49,9 @@
 
 ## Web Server
 
-- [KestrelHttpServer](https://github.com/aspnet/KestrelHttpServer): A web server for ASP.NET 5 based on libuv.
+- [.NET: KestrelHttpServer](https://github.com/aspnet/KestrelHttpServer): A web server for ASP.NET 5 based on libuv.
 
 ## Web Frameworks/Application Frameworks
-
-**CSharp**
 
 - ASP.NET MVC
     - [ASP.net MVC 6](https://github.com/aspnet/Mvc): Model view controller framework for building dynamic web sites with clean separation of concerns, including the merged MVC, Web API, and Web Pages, Razor.
@@ -61,23 +59,20 @@
     - [ASP.NET Boilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate) - A starting point for new modern ASP.NET MVC web applications with best practices and most popular tools.
 - [ASP.net Web API 2](http://www.asp.net/web-api): ASP.NET Web API is a framework that makes it easy to build HTTP services that reach a broad range of clients, including browsers and mobile devices. ASP.NET Web API is an ideal platform for building RESTful applications on the .NET Framework.
     - [WebAPI Contrib](https://github.com/WebApiContrib/WebAPIContrib) - Collection of open source projects to help improve your work with ASP.NET Web API
-- [Orleans](https://github.com/dotnet/orleans): Orleans is a framework that provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns.
-- [ServiceStack](https://github.com/ServiceStack/ServiceStack): Simple, Fast, Versatile and full-featured Services Framework
-- [NancyFx](http://nancyfx.org/): Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono
-- [ReactJS.NET](http://reactjs.net/): ReactJS.NET makes it easier to use Facebook's React and JSX from C# and other .NET languages, focusing specifically on ASP.NET MVC (although it also works in other environments). It assumes you already have some basic knowledge about React. It is cross-platform and can run on Linux via Mono. Now with support for ASP.NET 5 Beta!
-
-**Java**
-
-- [Spring Framework](http://spring.io/projects): The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
+- [.NET: Orleans](https://github.com/dotnet/orleans): Orleans is a framework that provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns.
+- [.NET: ServiceStack](https://github.com/ServiceStack/ServiceStack): Simple, Fast, Versatile and full-featured Services Framework
+- [.NET: NancyFx](http://nancyfx.org/): Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono
+- [.NET: ReactJS.NET](http://reactjs.net/): ReactJS.NET makes it easier to use Facebook's React and JSX from C# and other .NET languages, focusing specifically on ASP.NET MVC (although it also works in other environments). It assumes you already have some basic knowledge about React. It is cross-platform and can run on Linux via Mono. Now with support for ASP.NET 5 Beta!
+- [Java: Spring Framework](http://spring.io/projects): The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
     - [jHipster](https://jhipster.github.io/): Open Source application generator for creating Spring Boot + AngularJS projects in seconds
 
 
 ## Template Engine
 
-- [RazorEngine](https://github.com/Antaris/RazorEngine): Open source templating engine based on Microsoft's Razor parsing engine
-- [Nustache](https://github.com/jdiamond/Nustache): Logic-less templates for .NET
-- [dotliquid](http://dotliquidmarkup.org/): a templating system ported to the .net framework from Ruby’s Liquid Markup.
-- [StringTemplate](http://www.stringtemplate.org/): StringTemplate is a java template engine (with ports for C#, JavaScript, Python) for generating source code, web pages, emails, or any other formatted text output. StringTemplate is particularly good at code generators, multiple site skins, and internationalization / localization. StringTemplate also powers ANTLR.
+- [.NET: RazorEngine](https://github.com/Antaris/RazorEngine): Open source templating engine based on Microsoft's Razor parsing engine
+- [.NET: Nustache](https://github.com/jdiamond/Nustache): Logic-less templates for .NET
+- [.NET: dotliquid](http://dotliquidmarkup.org/): a templating system ported to the .net framework from Ruby’s Liquid Markup.
+- [.NET: StringTemplate](http://www.stringtemplate.org/): StringTemplate is a java template engine (with ports for C#, JavaScript, Python) for generating source code, web pages, emails, or any other formatted text output. StringTemplate is particularly good at code generators, multiple site skins, and internationalization / localization. StringTemplate also powers ANTLR.
 
 ## Web Servers & Hosts
 
@@ -85,97 +80,114 @@
     - [OpenResty](http://openresty.org/): OpenResty (aka. ngx_openresty) is a full-fledged web application server by bundling the standard Nginx core, lots of 3rd-party Nginx modules, as well as most of their external dependencies.
     - [Tengine](http://tengine.taobao.org/): Tengine是由淘宝网发起的Web服务器项目。它在Nginx的基础上，针对大访问量网站的需求，添加了很多高级功能和特性。Tengine的性能和稳定性已经在大型的网站如淘宝网，天猫商城等得到了很好的检验。它的最终目标是打造一个高效、稳定、安全、易用的Web平台。
     - [VeryNginx](https://github.com/alexazhou/VeryNginx): 功能强大并且拥有对人类友好界面的Nginx, 提供防火墙，自定义行为和统计功能
-- [Katana](http://katanaproject.codeplex.com/): As Web application development takes its next evolutionary step into the world of cloud computing, project Katana provides the underlying set of components to ASP.NET applications, enabling them to be flexible, portable, lightweight, and provide better performance – put another way, project Katana cloud optimizes your
+- [.NET: Katana](http://katanaproject.codeplex.com/): As Web application development takes its next evolutionary step into the world of cloud computing, project Katana provides the underlying set of components to ASP.NET applications, enabling them to be flexible, portable, lightweight, and provide better performance – put another way, project Katana cloud optimizes your
 - [lightttpd](http://www.lighttpd.net/): Security, speed, compliance, and flexibility -- all of these describe lighttpd (pron. lighty) which is rapidly redefining efficiency of a webserver; as it is designed and optimized for high performance environments. With a small memory footprint compared to other web-servers, effective management of the cpu-load, and advanced feature set (FastCGI, SCGI, Auth, Output-Compression, URL-Rewriting and many more) lighttpd is the perfect solution for every server that is suffering load problems. And best of all it's Open Source licensed under the revised BSD license.
 
+## Asynchronous programming
+
+- [ReactiveX](http://reactivex.io/): An API for asynchronous programming with observable streams
+  - Java: RxJava
+  - JavaScript: RxJS
+  - C#: Rx.NET
+  - C#(Unity): UniRx
+  - Scala: RxScala
+  - Clojure: RxClojure
+  - C++: RxCpp
+  - Lua: RxLua
+  - Ruby: Rx.rb
+  - Python: RxPY
+  - Go: RxGo
+  - Groovy: RxGroovy
+  - JRuby: RxJRuby
+  - Kotlin: RxKotlin
+  - Swift: RxSwift
+  - PHP: RxPHP
+  - Elixir: reaxive
+  - Dart: RxDart
+- 
 
 ## WebSocket
 
-- [SignalR](https://github.com/SignalR/SignalR): Library for ASP.NET developers that makes it incredibly simple to add real-time web functionality to your applications
-- [Fleck](https://github.com/statianzo/Fleck) - Fleck is a WebSocket server implementation in C#. Branched from the Nugget project
-- [Websocket-Sharp](https://github.com/sta/websocket-sharp) - A C# implementation of the WebSocket protocol client and server
-- [WebSocket4NET](https://websocket4net.codeplex.com/) - WebSocket client for .NET 2.0+, Xamarin, Mono, Silverlight, Windows Phone, & WinRT
-- [XSockets](https://xsockets.net/) - Provides a great set of tools for you to build real-time applications on the Microsoft.NET plattform and much more
-- [WampSharp](https://github.com/Code-Sharp/WampSharp) - A C# implementation of [The Web Application Messaging Protocol](http://wamp-proto.org/) - a protocol that provides messaging patterns of Remote Procedure Calls and Publish/Subscribe over WebSockets.
+- [.NET: SignalR](https://github.com/SignalR/SignalR): Library for ASP.NET developers that makes it incredibly simple to add real-time web functionality to your applications
+- [.NET: Fleck](https://github.com/statianzo/Fleck) - Fleck is a WebSocket server implementation in C#. Branched from the Nugget project
+- [.NET: Websocket-Sharp](https://github.com/sta/websocket-sharp) - A C# implementation of the WebSocket protocol client and server
+- [.NET: WebSocket4NET](https://websocket4net.codeplex.com/) - WebSocket client for .NET 2.0+, Xamarin, Mono, Silverlight, Windows Phone, & WinRT
+- [.NET: XSockets](https://xsockets.net/) - Provides a great set of tools for you to build real-time applications on the Microsoft.NET plattform and much more
+- [.NET: WampSharp](https://github.com/Code-Sharp/WampSharp) - A C# implementation of [The Web Application Messaging Protocol](http://wamp-proto.org/) - a protocol that provides messaging patterns of Remote Procedure Calls and Publish/Subscribe over WebSockets.
 
 ## Network
 
-- [Fracture](https://github.com/fractureio/fracture): A high-performance socket I/O message pipeline library.
-- [SuperSocket](http://www.supersocket.net/): SuperSocket 是一个轻量级, 跨平台而且可扩展的 .Net/Mono Socket 服务器程序框架。你无须了解如何使用 Socket, 如何维护 Socket 连接和 Socket 如何工作，但是你却可以使用 SuperSocket 很容易的开发出一款 Socket 服务器端软件，例如游戏服务器，GPS 服务器, 工业控制服务和数据采集服务器等等。
-- [RestSharper](http://restsharp.org/): Simple REST and HTTP API Client for .NET
+- [.NET: Fracture](https://github.com/fractureio/fracture): A high-performance socket I/O message pipeline library.
+- [.NET: SuperSocket](http://www.supersocket.net/): SuperSocket 是一个轻量级, 跨平台而且可扩展的 .Net/Mono Socket 服务器程序框架。你无须了解如何使用 Socket, 如何维护 Socket 连接和 Socket 如何工作，但是你却可以使用 SuperSocket 很容易的开发出一款 Socket 服务器端软件，例如游戏服务器，GPS 服务器, 工业控制服务和数据采集服务器等等。
+- [.NET: RestSharper](http://restsharp.org/): Simple REST and HTTP API Client for .NET
 
 ## Authentication && Authorization
 
-- [ASP.NET Identity](https://aspnetidentity.codeplex.com/) - New membership system for ASP.NET applications
-- [DotNetOpenAuth](https://github.com/DotNetOpenAuth/DotNetOpenAuth) - A C# implementation of the OpenID, OAuth and InfoCard protocols
-- [IdentityModel](https://github.com/IdentityModel) - Helper library for identity & access control in .NET 4.5 and MVC4/Web API.
-- [IdentityServer](https://github.com/IdentityServer) - Extensible OAuth2 and OpenID Connect provider framework.
-- [OAuth](https://github.com/danielcrenna/oauth) - A very lightweight library for generating OAuth 1.0a signatures written in C#
+- [.NET: ASP.NET Identity](https://aspnetidentity.codeplex.com/) - New membership system for ASP.NET applications
+- [.NET: DotNetOpenAuth](https://github.com/DotNetOpenAuth/DotNetOpenAuth) - A C# implementation of the OpenID, OAuth and InfoCard protocols
+- [.NET: IdentityModel](https://github.com/IdentityModel) - Helper library for identity & access control in .NET 4.5 and MVC4/Web API.
+- [.NET: IdentityServer](https://github.com/IdentityServer) - Extensible OAuth2 and OpenID Connect provider framework.
+- [.NET: OAuth](https://github.com/danielcrenna/oauth) - A very lightweight library for generating OAuth 1.0a signatures written in C#
 
 ## Data Access
 
-- [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis): a high performance general purpose redis client for .NET languages (C# etc)
-- [SolrNet](https://github.com/mausch/SolrNet): SolrNet is an Apache Solr client for .NET
-- [EasyNetQ](https://github.com/EasyNetQ/EasyNetQ): An easynet to use .NET API for RabbitMQ, not offical rabbitmq .net client
-- [DbUtility](https://github.com/Ivony/DbUtility):  a light database access tool
+- [.NET: StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis): a high performance general purpose redis client for .NET languages (C# etc)
+- [.NET: SolrNet](https://github.com/mausch/SolrNet): SolrNet is an Apache Solr client for .NET
+- [.NET: EasyNetQ](https://github.com/EasyNetQ/EasyNetQ): An easynet to use .NET API for RabbitMQ, not offical rabbitmq .net client
+- [.NET: DbUtility](https://github.com/Ivony/DbUtility):  a light database access tool
 
 ## ORM framework
 
-- [Drapper](https://github.com/StackExchange/dapper-dot-net): a simple object mapper for .Net
-- [Entity Framework](https://github.com/aspnet/EntityFramework): Microsoft's recommended data access technology for new applications in .NET.
-- [MyBatis](https://mybatis.github.io/): MyBatis is a first class persistence framework with support for custom SQL, stored procedures and advanced mappings. MyBatis eliminates almost all of the JDBC code and manual setting of parameters and retrieval of results. MyBatis can use simple XML or Annotations for configuration and map primitives, Map interfaces and Java POJOs (Plain Old Java Objects) to database records.
-- [ServiceStack.OrmLite](https://github.com/ServiceStack/ServiceStack.OrmLite): Fast, Simple, Typed ORM for .NET
-- [nhibernate](http://nhibernate.info/): NHibernate is a mature, open source object-relational mapper for the .NET framework. It's actively developed, fully featured and used in thousands of successful projects.
-- [fluent-nhibernate](https://github.com/jagregory/fluent-nhibernate): Fluent, XML-less, compile safe, automated, convention-based mappings for NHibernate. Get your fluent on.
+- [.NET: Drapper](https://github.com/StackExchange/dapper-dot-net): a simple object mapper for .Net
+- [.NET: Entity Framework](https://github.com/aspnet/EntityFramework): Microsoft's recommended data access technology for new applications in .NET.
+- [.NET: MyBatis](https://mybatis.github.io/): MyBatis is a first class persistence framework with support for custom SQL, stored procedures and advanced mappings. MyBatis eliminates almost all of the JDBC code and manual setting of parameters and retrieval of results. MyBatis can use simple XML or Annotations for configuration and map primitives, Map interfaces and Java POJOs (Plain Old Java Objects) to database records.
+- [.NET: ServiceStack.OrmLite](https://github.com/ServiceStack/ServiceStack.OrmLite): Fast, Simple, Typed ORM for .NET
+- [.NET: nhibernate](http://nhibernate.info/): NHibernate is a mature, open source object-relational mapper for the .NET framework. It's actively developed, fully featured and used in thousands of successful projects.
+- [.NET: fluent-nhibernate](https://github.com/jagregory/fluent-nhibernate): Fluent, XML-less, compile safe, automated, convention-based mappings for NHibernate. Get your fluent on.
 
 ## Serialization & Deserialization
 
-- [Jil](https://github.com/kevin-montrose/Jil): Fast .NET JSON (De)Serializer, Built On Sigil
-- [ServiceStack.Text](https://github.com/ServiceStack/ServiceStack.Text): .NET's fastest JSON, JSV and CSV Text Serializers
-- [Json.net](http://www.newtonsoft.com/json): Popular high-performance JSON framework for .NET
-- [fastjson](https://fastjson.codeplex.com/): Smallest, fastest polymorphic JSON serializer
+- [Java: fastjson](https://github.com/alibaba/fastjson): A fast JSON parser/generator for Java
+- [.NET: Jil](https://github.com/kevin-montrose/Jil): Fast .NET JSON (De)Serializer, Built On Sigil
+- [.NET: ServiceStack.Text](https://github.com/ServiceStack/ServiceStack.Text): .NET's fastest JSON, JSV and CSV Text Serializers
+- [.NET: Json.net](http://www.newtonsoft.com/json): Popular high-performance JSON framework for .NET
+- [.NET: fastjson](https://fastjson.codeplex.com/): Smallest, fastest polymorphic JSON serializer
 
 ## Windows Services
 
-- [C#: Topshelf](http://topshelf-project.com/): Put Your Apps on the Topshelf
+- [.NET: Topshelf](http://topshelf-project.com/): Put Your Apps on the Topshelf
 
 ## State Machine
 
-- [Stateless](https://github.com/nblumhardt/stateless) - Create state machines and lightweight state machine-based workflows directly in .NET code
-- [Automatonymous](https://github.com/MassTransit/Automatonymous) - A state machine library for .Net - allows you to write fluent style state machines
+- [.NET: Stateless](https://github.com/nblumhardt/stateless) - Create state machines and lightweight state machine-based workflows directly in .NET code
+- [.NET: Automatonymous](https://github.com/MassTransit/Automatonymous) - A state machine library for .Net - allows you to write fluent style state machines
 
 ## Profiler
 
-- [MiniProfiler](http://miniprofiler.com/): A simple but effective mini-profiler for .NET and Ruby
-- [Glimpse](http://getglimpse.com/): Providing real time diagnostics & insights to the fingertips of hundreds of thousands of developers daily
-- [metrics-net](https://github.com/danielcrenna/metrics-net): Capturing CLR and application-level metrics. So you know what's going on.
-- [Metrics.NET](https://github.com/etishor/Metrics.NET): The Metrics.NET library provides a way of instrumenting applications with custom metrics (timers, histograms, counters etc) that can be reported in various ways and can provide insights on what is happening inside a running application.
-
-## Interoperability
-
-- [CppSharp](https://github.com/mono/CppSharp) - Tools to surface C++ APIs to C#
-- [Sharpen](https://github.com/mono/sharpen) - Sharpen is an Eclipse plugin created by db4o that allows you to convert your Java project into C#
-- [CXXI](https://github.com/mono/cxxi) - C++ interop framework
+- [.NET: MiniProfiler](http://miniprofiler.com/): A simple but effective mini-profiler for .NET and Ruby
+- [.NET: Glimpse](http://getglimpse.com/): Providing real time diagnostics & insights to the fingertips of hundreds of thousands of developers daily
+- [.NET: metrics-net](https://github.com/danielcrenna/metrics-net): Capturing CLR and application-level metrics. So you know what's going on.
+- [.NET: Metrics.NET](https://github.com/etishor/Metrics.NET): The Metrics.NET library provides a way of instrumenting applications with custom metrics (timers, histograms, counters etc) that can be reported in various ways and can provide insights on what is happening inside a running application.
 
 ## IoC
 
-- [Castle Windsor](https://github.com/castleproject/Windsor) - Castle Windsor is best of breed, mature Inversion of Control container available for .NET and Silverlight
-- [Unity](https://unity.codeplex.com/) - Lightweight extensible dependency injection container with support for constructor, property, and method call injection
-- [Autofac](https://github.com/autofac/Autofac) - An addictive .NET IoC container
-- [Ninject](https://github.com/ninject/ninject) - The ninja of .net dependency injectors
-- [StructureMap](https://structuremap.github.io/) - The original IoC/DI Container for .Net
-- [Spring.Net](https://github.com/spring-projects/spring-net) - Spring.NET is an open source application framework that makes building  enterprise .NET applications easier
-- [LightInject](https://github.com/seesharper/LightInject) - A ultra lightweight IoC container
-- [TinyIoC](https://github.com/grumpydev/TinyIoC) - Single-file, easy and cross-platform IoC container
+- [.NET: Castle Windsor](https://github.com/castleproject/Windsor) - Castle Windsor is best of breed, mature Inversion of Control container available for .NET and Silverlight
+- [.NET: Unity](https://unity.codeplex.com/) - Lightweight extensible dependency injection container with support for constructor, property, and method call injection
+- [.NET: Autofac](https://github.com/autofac/Autofac) - An addictive .NET IoC container
+- [.NET: Ninject](https://github.com/ninject/ninject) - The ninja of .net dependency injectors
+- [.NET: StructureMap](https://structuremap.github.io/) - The original IoC/DI Container for .Net
+- [.NET: Spring.Net](https://github.com/spring-projects/spring-net) - Spring.NET is an open source application framework that makes building  enterprise .NET applications easier
+- [.NET: LightInject](https://github.com/seesharper/LightInject) - A ultra lightweight IoC container
+- [.NET: TinyIoC](https://github.com/grumpydev/TinyIoC) - Single-file, easy and cross-platform IoC container
 
 ## Logging
 
-- [Essential Diagnostics](http://essentialdiagnostics.codeplex.com/) - Extends the inbuilt features of System.Diagnostics namespace to provide flexible logging
-- [NLog](https://github.com/nlog/NLog/) - NLog - Advanced .NET and Silverlight Logging
-- [Logary](http://logary.github.io/) - Logary is a high performance, multi-target logging, metric, tracing and health-check library for mono and .Net. .Net's answer to DropWizard. Supports many targets, built for micro-services.
-- [Log4Net](https://logging.apache.org/log4net/) - The Apache log4net library is a tool to help the programmer output log statements to a variety of output targets
-- [Serilog](https://github.com/serilog/serilog) - A no-nonsense logging library for the NoSQL era. Combines the best of traditional and structured diagnostic logging in an easy-to-use package.
-- [StackExchange.Exceptional](https://github.com/NickCraver/StackExchange.Exceptional) - Error handler used for the Stack Exchange network
+- [.NET: Essential Diagnostics](http://essentialdiagnostics.codeplex.com/) - Extends the inbuilt features of System.Diagnostics namespace to provide flexible logging
+- [.NET: NLog](https://github.com/nlog/NLog/) - NLog - Advanced .NET and Silverlight Logging
+- [.NET: Logary](http://logary.github.io/) - Logary is a high performance, multi-target logging, metric, tracing and health-check library for mono and .Net. .Net's answer to DropWizard. Supports many targets, built for micro-services.
+- [.NET: Log4Net](https://logging.apache.org/log4net/) - The Apache log4net library is a tool to help the programmer output log statements to a variety of output targets
+- [.NET: Serilog](https://github.com/serilog/serilog) - A no-nonsense logging library for the NoSQL era. Combines the best of traditional and structured diagnostic logging in an easy-to-use package.
+- [.NET: StackExchange.Exceptional](https://github.com/NickCraver/StackExchange.Exceptional) - Error handler used for the Stack Exchange network
 
 ## Cryptography
 
@@ -231,6 +243,12 @@
 - [Luminance HDR](http://sourceforge.net/projects/qtpfsgui): Complete solution for HDR photography
 - [scikit-image](http://scikit-image.org/): scikit-image is a collection of algorithms for image processing. It is available free of charge and free of restriction.
 - $[Pano2VR && Object2VR](http://ggnome.com/): software for interactive panoramas and object movies.
+
+## Interoperability
+
+- [CppSharp](https://github.com/mono/CppSharp) - Tools to surface C++ APIs to C#
+- [Sharpen](https://github.com/mono/sharpen) - Sharpen is an Eclipse plugin created by db4o that allows you to convert your Java project into C#
+- [CXXI](https://github.com/mono/cxxi) - C++ interop framework
 
 ## Misc Libraries
 
