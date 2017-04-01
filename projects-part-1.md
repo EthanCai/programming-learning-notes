@@ -66,7 +66,6 @@
 - [Java: Spring Framework](http://spring.io/projects): The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
     - [jHipster](https://jhipster.github.io/): Open Source application generator for creating Spring Boot + AngularJS projects in seconds
 
-
 ## Template Engine
 
 - [.NET: RazorEngine](https://github.com/Antaris/RazorEngine): Open source templating engine based on Microsoft's Razor parsing engine
@@ -83,7 +82,7 @@
 - [.NET: Katana](http://katanaproject.codeplex.com/): As Web application development takes its next evolutionary step into the world of cloud computing, project Katana provides the underlying set of components to ASP.NET applications, enabling them to be flexible, portable, lightweight, and provide better performance – put another way, project Katana cloud optimizes your
 - [lightttpd](http://www.lighttpd.net/): Security, speed, compliance, and flexibility -- all of these describe lighttpd (pron. lighty) which is rapidly redefining efficiency of a webserver; as it is designed and optimized for high performance environments. With a small memory footprint compared to other web-servers, effective management of the cpu-load, and advanced feature set (FastCGI, SCGI, Auth, Output-Compression, URL-Rewriting and many more) lighttpd is the perfect solution for every server that is suffering load problems. And best of all it's Open Source licensed under the revised BSD license.
 
-## Asynchronous programming
+## Asynchronous Programming Framework
 
 - [ReactiveX](http://reactivex.io/): An API for asynchronous programming with observable streams
   - Java: RxJava
@@ -104,7 +103,6 @@
   - PHP: RxPHP
   - Elixir: reaxive
   - Dart: RxDart
-- 
 
 ## WebSocket
 
