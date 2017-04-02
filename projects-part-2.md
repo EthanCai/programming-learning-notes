@@ -1,24 +1,24 @@
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+<!-- MDTOC maxdepth:6 firsth1:1 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
-- [Projects about Distributed Architecture](#projects-about-distributed-architecture)
-	- [Data Exchange Format](#data-exchange-format)
-	- [RPC](#rpc)
-	- [Distributed Application Framework](#distributed-application-framework)
-	- [Service Bus](#service-bus)
-	- [Messsage Queue](#messsage-queue)
-	- [Job Schedule](#job-schedule)
-	- [Load Balance](#load-balance)
-	- [API Gateway](#api-gateway)
-	- [Reverse Proxy](#reverse-proxy)
-	- [Distributed File System](#distributed-file-system)
-	- [Configuration Management](#configuration-management)
-	- [服务发现(Service Discovery, Name Service)](#服务发现service-discovery-name-service)
-	- [域名服务器(DNS)](#域名服务器dns)
-	- [熔断器](#熔断器)
-	- [Distributed Tracing](#distributed-tracing)
-	- [杂项](#杂项)
+- [Projects about Distributed Architecture](#projects-about-distributed-architecture)   
+   - [Data Exchange Format](#data-exchange-format)   
+   - [RPC](#rpc)   
+   - [Distributed Application Framework](#distributed-application-framework)   
+   - [Service Bus](#service-bus)   
+   - [Messsage Queue](#messsage-queue)   
+   - [Job Schedule](#job-schedule)   
+   - [Load Balance](#load-balance)   
+   - [API Gateway](#api-gateway)   
+   - [Reverse Proxy](#reverse-proxy)   
+   - [Distributed File System](#distributed-file-system)   
+   - [Configuration Management](#configuration-management)   
+   - [服务发现(Service Discovery, Name Service)](#服务发现service-discovery-name-service)   
+   - [域名服务器(DNS)](#域名服务器dns)   
+   - [熔断器](#熔断器)   
+   - [Distributed Tracing](#distributed-tracing)   
+   - [杂项](#杂项)   
 
-<!-- /TOC -->
+<!-- /MDTOC -->
 
 # Projects about Distributed Architecture
 

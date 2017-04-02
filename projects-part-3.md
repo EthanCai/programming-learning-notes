@@ -1,25 +1,25 @@
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+<!-- MDTOC maxdepth:6 firsth1:1 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
-- [Projects about Data Storage and Analysis](#projects-about-data-storage-and-analysis)
-	- [Database](#database)
-	- [Memory Database](#memory-database)
-	- [Graph Database](#graph-database)
-	- [Database Engine](#database-engine)
-	- [Cache](#cache)
-	- [NoSQL Database](#nosql-database)
-	- [JSON Storage](#json-storage)
-	- [Data Warehouse](#data-warehouse)
-	- [Search](#search)
-	- [Crawler](#crawler)
-	- [Recommender System](#recommender-system)
-	- [Big Data](#big-data)
-	- [Distributed realtime computation system](#distributed-realtime-computation-system)
-	- [Data Visualization](#data-visualization)
-	- [Log Process](#log-process)
-	- [Workflow Management](#workflow-management)
-	- [Machine Learning and Data Science](#machine-learning-and-data-science)
+- [Projects about Data Storage and Analysis](#projects-about-data-storage-and-analysis)   
+   - [Database](#database)   
+   - [Memory Database](#memory-database)   
+   - [Graph Database](#graph-database)   
+   - [Database Engine](#database-engine)   
+   - [Cache](#cache)   
+   - [NoSQL Database](#nosql-database)   
+   - [JSON Storage](#json-storage)   
+   - [Data Warehouse](#data-warehouse)   
+   - [Search](#search)   
+   - [Crawler](#crawler)   
+   - [Recommender System](#recommender-system)   
+   - [Big Data](#big-data)   
+   - [Distributed realtime computation system](#distributed-realtime-computation-system)   
+   - [Data Visualization](#data-visualization)   
+   - [Log Process](#log-process)   
+   - [Workflow Management](#workflow-management)   
+   - [Machine Learning and Data Science](#machine-learning-and-data-science)   
 
-<!-- /TOC -->
+<!-- /MDTOC -->
 
 # Projects about Data Storage and Analysis
 
@@ -71,7 +71,6 @@
 - [TokuMX](http://www.tokutek.com/): High-Performance MongoDB
 - [Go: Influxdb](https://github.com/influxdata/influxdb): Scalable datastore for metrics, events, and real-time analytics
     - [influxdata](https://influxdata.com/): the platform for collecting/storing/visualizing/managing time-series data
-- [Go: Prometheus](https://github.com/prometheus/prometheus): Prometheus is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts if some condition is observed to be true.
 - [RavenDB](http://ravendb.net/): A linq enabled document database for .NET
 - [EventStore](https://github.com/EventStore/EventStore): The open-source, functional database with Complex Event Processing in JavaScript.
 - [LevelDB](https://github.com/google/leveldb): LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
