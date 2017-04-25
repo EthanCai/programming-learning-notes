@@ -147,7 +147,7 @@
 
 ## 服务发现(Service Discovery, Name Service)
 
-- [Apache Zookeeper](http://zookeeper.apache.org/): ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. All of these kinds of services are used in some form or another by distributed applications. Each time they are implemented there is a lot of work that goes into fixing the bugs and race conditions that are inevitable. Because of the difficulty of implementing these kinds of services, applications initially usually skimp on them ,which make them brittle in the presence of change and difficult to manage. Even when done correctly, different implementations of these services lead to management complexity when the applications are deployed.
+- [Apache Zookeeper](http://zookeeper.apache.org/): ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. All of these kinds of services are used in some form or another by distributed applications. Each time they are implemented there is a lot of work that goes into fixing the bugs and race conditions that are inevitable. Because of the difficulty of implementing these kinds of services, applications initially usually skimp on them ,which make them brittle in the presence of change and difficult to manage. Even when done correctly, different implementations of these services lead to management complexity when the applications are deployed.Application tracing system for Go, based on Google's Dapper. 
 - [etcd](https://github.com/coreos/etcd): A distributed consistent key-value store for shared configuration and service discovery
 - [consul](https://www.consul.io/): Consul 简化了分布式环境中的服务的注册和发现流程，通过 HTTP 或者 DNS 接口发现。支持外部 SaaS 提供者等。
 
@@ -166,6 +166,7 @@
 ## Distributed Tracing
 
 - [Open Tracing](http://opentracing.io/): Consistent, expressive, vendor-neutral APIs for distributed tracing and context propagation
+- [AppDash](https://github.com/sourcegraph/appdash): Application tracing system for Go, based on Google's Dapper. 
 - [zipkin](https://github.com/openzipkin/zipkin): Zipkin is a distributed tracing system
 
 ## 杂项
