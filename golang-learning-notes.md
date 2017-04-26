@@ -222,6 +222,12 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [xorm](https://github.com/go-xorm/xorm): Simple and Powerful ORM for Go, support mysql/sqlite3/postgres/mssql/oracle/tidb/ql
 - [Go-MySQL-Driver](https://github.com/go-sql-driver/mysql): Go-MySQL-Driver is a lightweight and fast MySQL-Driver for Go's (golang) database/sql package
 - [Reform](https://github.com/go-reform/reform): A better ORM for Go, based on non-empty interfaces and code generation.
+- [sqlboiler](https://github.com/vattle/sqlboiler): SQLBoiler is a tool to generate a Go ORM tailored to your database schema.
+- [gorp](https://github.com/go-gorp/gorp): Go Relational Persistence - an ORM-ish library for Go
+
+## Database Migration tool
+
+- [goose](https://bitbucket.org/liamstask/goose): goose is a database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts.
 
 ## Log
 
