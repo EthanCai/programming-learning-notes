@@ -35,28 +35,6 @@
         - [gb](https://github.com/constabulary/gb): the project based build tool for Go
 
 
-
-## Go语言标准库
-
-Go标准库可以大致按其中库的功能进行以下分类,这个分类比较简单,不求准确,但求能 够帮助开发者根据自己模糊的需求更快找到自己需要的包。
-
-- 输入输出。这个分类包括二进制以及文本格式在屏幕、键盘、文件以及其他设备上的输入输出等,比如二进制文件的读写。对应于此分类的包有bufio、fmt、io、io/ioutil、log、log/syslog、flag等,其中flag用于处理命令行参数。
-- 文本处理。这个分类包括字符串和文本内容的处理,比如字符编码转换等。对应于此分类的包有encoding、bytes、strings、strconv、text、mime、unicode、regexp、index和path等。其中path用于处理路径字符串。
-- 网络。这个分类包括开发网络程序所需要的包,比如Socket编程和网站开发等。对应于此分类的包有:net、http和expvar等。
-- 系统。这个分类包含对系统功能的封装,比如对操作系统的交互以及原子性操作等。对应于此分类的包有os、syscall、sync、time和unsafe等。
-
-更多的标准库说明参考[Go语言Package文档](http://golang.org/pkg/)
-
-------------------------------
-
-# 参考项目列表
-
-- [Golang Projects - OSChina](http://www.oschina.net/project/lang/358/go)
-- [Awesome Go](https://github.com/avelino/awesome-go)
-- [Golang libs](https://golanglibs.com/o)
-- [Go语言(golang)开源项目大全](http://www.open-open.com/lib/view/open1396063913278.html)
-
-
 # Basic Projects
 
 ## Libs Improve Development Efficiency
@@ -88,64 +66,6 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
     - [kcptun](https://github.com/xtaci/kcptun): an extremely simple & fast udp tunnel based on kcp protocol
 - [centrifugo](https://github.com/centrifugal/centrifugo): Real-time messaging (Websockets or SockJS) server in Go
 - [http2curl](https://github.com/moul/http2curl):  Convert Golang's http.Request to CURL command line
-
-## JSON
-
-- [go-simplejson](https://github.com/bitly/go-simplejson): a Go package to interact with arbitrary JSON
-- [Jason](https://github.com/antonholmquist/jason): Easy-to-use JSON Library for Go
-- [jsonpath](https://github.com/yalp/jsonpath): a (partial) implementation in Go based on [Stefan Goener JSON Path](http://goessner.net/articles/JsonPath/)
-- [gojsonschema](https://github.com/xeipuuv/gojsonschema): An implementation of JSON Schema, based on IETF's draft v4 - Go language
-- [gojsondiff](https://github.com/yudai/gojsondiff/): Go JSON Diff
-
-## Log
-
-- [zap](https://github.com/uber-go/zap): Fast, structured, leveled logging in Go
-- [logrus](https://github.com/Sirupsen/logrus): Structured, pluggable logging for Go.
-- [Apex/log](https://github.com/apex/log): Structured logging package for Go.
-- [stack](https://github.com/facebookgo/stack): provides utilities to capture and pass around stack traces.
-
-## Web Related Projects
-
-### Web Framework
-
-![](https://raw.githubusercontent.com/iris-contrib/website/cf71811e6acb2f9bf1e715e25660392bf090b923/assets/benchmark_horizontal_transparent.png)
-
-**Web Frameworks in the chart:**
-
-- [Beego](http://beego.me/): 一个使用 Go 的思维来帮助您构建并开发 Go 应用程序的开源框架
-- [Gin Web Framework](https://github.com/gin-gonic/gin): Gin is a web framework written in Golang. It features a martini-like API with much better performance, up to 40 times faster thanks to httprouter. If you need performance and good productivity, you will love Gin.
-- [Iris](https://github.com/kataras/iris): The fastest web framework for Go in (THIS) earth
-- [martini](https://github.com/go-martini/martini): Martini is a powerful package for quickly writing modular web applications/services in Golang.
-- [revel](http://revel.github.io/): A high-productivity web framework for the Go language.
-
-**Other Web Frameworks:**
-
-- [tango](https://github.com/lunny/tango): Micro & pluggable web framework for Go
-- [webgo](https://github.com/hoisie/web): web.go is the simplest way to write web applications in the Go programming language. It's ideal for writing simple, performant backend web services.
-
-### Micro Services
-
-- [gokit](https://github.com/go-kit/kit): Go kit is a distributed programming toolkit for building microservices in large organizations. We solve common problems in distributed systems, so you can focus on your business logic.
-- [goa](http://goa.design/): goa is a Go framework for developing RESTful microservices.
-- [micro](https://github.com/micro/micro): A microservice toolkit
-- [Gizmo Microservice Toolkit](https://github.com/NYTimes/gizmo): This toolkit provides packages to put together server and pubsub daemons
-
-### Other
-
-- [restful](https://github.com/devcamcar/restful): Restful HTTP Client package in golang
-- [Gorilla web toolkit](http://www.gorillatoolkit.org/): Gorilla is a web toolkit for the Go programming language.
-- [GoRazor](https://github.com/sipin/gorazor): Razor view engine for Golang
-- [Webhook](https://github.com/adnanh/webhook): webhook is a lightweight configurable tool written in Go, that allows you to easily create HTTP endpoints (hooks) on your server, which you can use to execute configured commands.
-- [form](https://github.com/go-playground/form): Decodes url.Values into struct values and Encodes struct values into url.Values. Dual Array and Full map support.
-
-## Scheduler
-
-- [cron](https://github.com/robfig/cron): a cron library for go
-- [gocron](https://github.com/jasonlvhit/gocron): A Golang Job Scheduling Package.
-- [jobber](https://github.com/dshearer/jobber): A replacement for cron, with sophisticated status-reporting and error-handling.
-- [hashicorp/Nomad](https://github.com/hashicorp/nomad): Nomad is a cluster manager, designed for both long lived services and short lived batch processing workloads. Developers use a declarative job specification to submit work, and Nomad ensures constraints are satisfied and resource utilization is optimized by efficient task packing
-- [scheduler](https://github.com/carlescere/scheduler): Job scheduling made easy.
-- [workq](https://github.com/iamduo/workq): Workq is a job scheduling server strictly focused on simplifying job processing and streamlining coordination. It can run jobs in blocking foreground or non-blocking background mode.
 
 ## Authentication
 
