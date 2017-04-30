@@ -1,60 +1,58 @@
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+<!-- MDTOC maxdepth:6 firsth1:1 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
-- [Project about DevOps](#project-about-devops)
-	- [Code Repository](#code-repository)
-	- [Code review](#code-review)
-	- [Code Analysis and Metrics](#code-analysis-and-metrics)
-	- [Scaffolding](#scaffolding)
-	- [Build](#build)
-	- [Continuous Integration](#continuous-integration)
-	- [Bug/Issue Management](#bugissue-management)
-	- [Unit Testing](#unit-testing)
-	- [Database Testing](#database-testing)
-	- [Database Management](#database-management)
-	- [Automated Acceptance Testing/BDD](#automated-acceptance-testingbdd)
-	- [Performance Testing](#performance-testing)
-	- [System Monitor](#system-monitor)
-	- [Gather System Information](#gather-system-information)
-	- [Process Supervisor](#process-supervisor)
-	- [Deployment](#deployment)
-	- [User Behavior Collection & Analysis](#user-behavior-collection-analysis)
-	- [Infrastructure Management](#infrastructure-management)
-	- [Automamtion](#automamtion)
-	- [Kanban](#kanban)
-	- [Container](#container)
-	- [Misc](#misc)
+- [Project about DevOps](#project-about-devops)   
+   - [Code Repository](#code-repository)   
+   - [Code Analysis and Metrics](#code-analysis-and-metrics)   
+   - [Scaffolding](#scaffolding)   
+   - [Build](#build)   
+   - [Continuous Integration](#continuous-integration)   
+   - [Automation](#automation)   
+   - [Unit Testing](#unit-testing)   
+   - [Database Testing](#database-testing)   
+   - [Database Management](#database-management)   
+   - [Automated Acceptance Testing/BDD](#automated-acceptance-testingbdd)   
+   - [Performance Testing](#performance-testing)   
+   - [System Monitor](#system-monitor)   
+   - [Gather System Information](#gather-system-information)   
+   - [Process Supervisor](#process-supervisor)   
+   - [Deployment](#deployment)   
+   - [User Behavior Collection & Analysis](#user-behavior-collection-analysis)   
+   - [Infrastructure Management](#infrastructure-management)   
+   - [OS Configuration Management](#os-configuration-management)   
+   - [Terminal](#terminal)   
+   - [Kanban - Issue Management](#kanban-issue-management)   
+   - [Bug Management](#bug-management)   
+   - [Container](#container)   
+   - [Misc](#misc)   
 
-<!-- /TOC -->
+<!-- /MDTOC -->
 
 # Project about DevOps
 
 ## Code Repository
 
-- [Git](http://www.git-scm.com/): Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
-- [Gitlab](https://about.gitlab.com/): Open source git server
-- [bonobo git server](https://bonobogitserver.com/): Simple git server for Windows. Set up your own self hosted git server on IIS for Windows. Manage users and have full control over your repositories with a nice user friendly graphical interface.
-- [gitolite](https://github.com/sitaramc/gitolite): Hosting git repositories -- Gitolite allows you to setup git hosting on a central server, with very fine-grained access control and many (many!) more powerful features.
-
-
-## Code review
-
-- [Gerrit Code Review](https://www.gerritcodereview.com/): Gerrit provides web based code review and repository management for the Git version control system.
-
+- [C: Git](http://www.git-scm.com/): Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+	- [Golang: git-appraise](https://github.com/google/git-appraise): Distributed Code Review For Git
+	- [Golang: git-lfs](https://git-lfs.github.com/): An open source Git extension for versioning large files
+	- [Java: gerrit](https://www.gerritcodereview.com/): Gerrit provides web based code review and repository management for the Git version control system.
+	- [Golang: Gogs](http://gogs.io/): 极易搭建的自助 Git 服务
+	- [Golang: Gitea](https://github.com/go-gitea/gitea)
+	- [Ruby: Gitlab](https://about.gitlab.com/): Open source git server
+	- [Perl: gitolite](https://github.com/sitaramc/gitolite): Hosting git repositories -- Gitolite allows you to setup git hosting on a central server, with very fine-grained access control and many (many!) more powerful features.
+	- [C#: bonobo git server](https://bonobogitserver.com/): Simple git server for Windows. Set up your own self hosted git server on IIS for Windows. Manage users and have full control over your repositories with a nice user friendly graphical interface.
 
 ## Code Analysis and Metrics
 
-- [ESlint](http://eslint.org/): The pluggable linting utility for JavaScript and JSX
+- [Golang: Go Meta Linter](https://github.com/alecthomas/gometalinter): Concurrently run Go lint tools and normalise their output
+- [JavaScript: ESlint](http://eslint.org/): The pluggable linting utility for JavaScript and JSX
     - [JSCS — JavaScript Code Style](http://jscs.info/): **JSCS has merged with ESLint!** JSCS is a code style linter and formatter for your style guide
-- [SonarQube](http://www.sonarqube.org/): SonarQube is an open platform to manage code quality. As such, it covers the 7 axes of code quality:
+- [SonarQube](http://www.sonarqube.org/): SonarQube is an open platform to manage code quality.
 - [StyleCop](https://stylecop.codeplex.com/) - StyleCop analyzes C# source code to enforce a set of style and consistency rules
-- [FoxCop](https://msdn.microsoft.com/en-us/library/bb429476(v=vs.80).aspx) - FxCop is an application that analyzes managed code assemblies (code that targets the .NET Framework common language runtime) and reports information about the assemblies, such as possible design, localization, performance, and security improvements.
 - [OpenCover](https://github.com/OpenCover/opencover): A code coverage tool for .NET 2 and above, support for 32 and 64 processes with both branch and sequence points; roots proudly based in PartCover
-
 
 ## Scaffolding
 
 - [Yeoman](http://yeoman.io): The Yeoman workflow is comprised of three core tools for improving your productivity and satisfaction when building a web app.
-
 
 ## Build
 
@@ -80,12 +78,6 @@
 - [Buildbot](http://buildbot.net/index.html): Python-based continuous integration testing framework; your pull requests are more than welcome!
 - [MyGet](http://www.myget.org/) - Continuous Integration and Deployment, Hosted Package Repository for NuGet, NPM, Bower and VSIX. [Free for OSS] [$]
 
-## Bug/Issue Management
-
-- [BugZilla](http://www.bugzilla.org/): Bugzilla is server software designed to help you manage software development.
-- [Mantis Bug Tracker](http://www.mantisbt.org/index.php): MantisBT makes collaboration with team members & clients easy, fast, and professional
-- [BugTracker.NET](http://ifdefined.com/bugtrackernet.html): BugTracker.NET is a free, open-source, web-based bug tracking and general purpose issue tracking application. It is in daily use by thousands of development, customer support, and help desk teams around the world.
-- [BugNET](http://www.bugnetproject.com/): An open source issue tracking & project management application
 
 ## Automation
 
@@ -95,18 +87,18 @@
 
 ## Unit Testing
 
-- [NUnit](https://github.com/nunit/nunit-framework)
-- [xUnit](https://github.com/xunit/xunit) - xUnit.net is a free, open source, community-focused unit testing tool for the .NET Framework
-- [SpecFlow](https://github.com/techtalk/SpecFlow/) - Binding business requirements to .Net code
-- [AutoFixture](https://github.com/AutoFixture/AutoFixture) - AutoFixture is an open source framework for .NET designed to minimize the 'Arrange' phase of your unit tests
-- [Moq](https://github.com/Moq/moq4) - The most popular and friendly mocking framework for .NET
-- [Machine.Specifications](https://github.com/machine/machine.specifications) - Machine.Specifications (MSpec) is a context/specification framework that removes language noise and simplifies tests.
-- [Rhino Mocks](https://github.com/ayende/rhino-mocks) - Dynamic Mocking Framework for .NET
-- [Fluent Assertions](https://github.com/dennisdoomen/fluentassertions) - A set of .NET extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style test
-- [NSubstitute](http://nsubstitute.github.io/) - A friendly substitute for .NET mocking frameworks
-- [NBuilder](https://github.com/garethdown44/nbuilder) - Rapid generation of test objects
-- [Shouldly](https://github.com/shouldly/shouldly): Should testing for .net - the way Asserting *Should* be!
-
+- [Golang: Testify](https://github.com/stretchr/testify): A sacred extension to the standard go testing package
+- [Golang: Go frisby](https://github.com/verdverm/frisby): API testing framework inspired by frisby-js
+- [Golang: httpexpect](https://github.com/gavv/httpexpect): End-to-end HTTP and REST API testing for Go.
+- [Golang: govcr](https://github.com/seborama/govcr): Record and replay HTTP interactions for offline unit / behavioural / integration tests thereby acting as an HTTP mock.
+- [.NET: NUnit](https://github.com/nunit/nunit-framework)
+- [.NET: xUnit](https://github.com/xunit/xunit) - xUnit.net is a free, open source, community-focused unit testing tool for the .NET Framework
+- [.NET: Fluent Assertions](https://github.com/fluentassertions/fluentassertions): Fluent Assertions is a set of .NET extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style test.
+- [.NET: AutoFixture](https://github.com/AutoFixture/AutoFixture) - AutoFixture is an open source framework for .NET designed to minimize the 'Arrange' phase of your unit tests
+- [.NET: Moq](https://github.com/Moq/moq4) - The most popular and friendly mocking framework for .NET
+- [.NET: Rhino Mocks](https://github.com/ayende/rhino-mocks) - Dynamic Mocking Framework for .NET
+- [.NET: NSubstitute](http://nsubstitute.github.io/) - A friendly substitute for .NET mocking frameworks
+- [.NET: Shouldly](https://github.com/shouldly/shouldly): Should testing for .net - the way Asserting *Should* be!
 
 ## Database Testing
 
@@ -114,23 +106,20 @@
 - [TSQLT](http://tsqlt.org/): tSQLt is a database unit testing framework for Microsoft SQL Server. tSQLt is compatible with SQL Server 2005 (service pack 2 required) and above on all editions.
 - [DbFit](http://dbfit.github.io/dbfit/index.html): Test-driven database development. Write readable, easy-to-maintain unit and integration tests for your database code.
 
-
 ## Database Management
 
 - [SqlPad](http://rickbergfalk.github.io/sqlpad/): Run SQL in your browser...Supports Postgres, MySQL, SQL Server and Vertica.
-- [sqitch](http://sqitch.org/): Sqitch is a database change management application.
-
+- [Perl: sqitch](http://sqitch.org/): Sqitch is a database change management application. It currently supports PostgreSQL 8.4+, SQLite 3.7.11+, MySQL 5.0+, Oracle 10g+, Firebird 2.0+, and Vertica 6.0+.
+- [Golang: goose](https://bitbucket.org/liamstask/goose): goose is a database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts.
 
 ## Automated Acceptance Testing/BDD
 
-- [Fitnesse](http://www.fitnesse.org/FrontPage): The fully integrated standalone wiki and acceptance testing framework
-- [Cumuber](https://cucumber.io/): Cucumber is a software tool that computer programmers use for testing other software. It runs automated acceptance tests written in a behavior-driven development (BDD) style.
-    - [cucumber.js](https://github.com/cucumber/cucumber-js): Cucumber, the popular Behaviour-Driven Development tool, brought to your JavaScript stack.It runs on both Node.js and modern web browsers.
-- [SpecFlow](http://www.specflow.org/): SpecFlow aims at bridging the communication gap between domain experts and developers by binding business readable behavior specifications and examples to the underlying implementation.
 - [Selenium](http://www.seleniumhq.org/): Selenium is a suite of tools to automate web browsers across many platforms.
-- [ROBOT FRAMEWORK](http://robotframework.org/): Robot Framework is a generic test automation framework for acceptance testing and acceptance test-driven development (ATDD).
-- [JBehave](http://jbehave.org): JBehave is a framework for Behaviour-Driven Development (BDD). BDD is an evolution of test-driven development (TDD) and acceptance-test driven design, and is intended to make these practices more accessible and intuitive to newcomers and experts alike. It shifts the vocabulary from being test-based to behaviour-based, and positions itself as a design philosophy.
-- [Jasmine](https://github.com/jasmine/jasmine): Jasmine is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js projects, or anywhere that JavaScript can run.
+- [Java: Cumuber](https://cucumber.io/): Cucumber is a software tool that computer programmers use for testing other software. It runs automated acceptance tests written in a behavior-driven development (BDD) style.
+  - [cucumber.js](https://github.com/cucumber/cucumber-js): Cucumber, the popular Behaviour-Driven Development tool, brought to your JavaScript stack.It runs on both Node.js and modern web browsers.
+	- [SpecFlow](http://www.specflow.org/): Cucumber for .NET. The open source solution trusted by .NET devs around the world.
+- [Java: JBehave](http://jbehave.org): JBehave is a framework for Behaviour-Driven Development (BDD). BDD is an evolution of test-driven development (TDD) and acceptance-test driven design, and is intended to make these practices more accessible and intuitive to newcomers and experts alike. It shifts the vocabulary from being test-based to behaviour-based, and positions itself as a design philosophy.
+- [JavaScript: Jasmine](https://github.com/jasmine/jasmine): Jasmine is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js projects, or anywhere that JavaScript can run.
 
 
 ## Performance Testing
@@ -204,13 +193,26 @@
 - [SaltStack](http://saltstack.com/): SaltStack software orchestrates and automates the visualization, build and management of any legacy or modern infrastructure. SaltStack is known as the fastest, most scalable systems and configuration management software for CloudOps, ITOps and DevOps.
 - [cfengine](http://cfengine.com/): Lightweight agent system. Configuration state is specified via a declarative language.
 
-## Kanban
+## Terminal
+
+- [Golang: termui](https://github.com/gizak/termui): Golang terminal dashboard
+- [Golang: GoTTY](https://github.com/yudai/gotty): Share your terminal as a web application
+- [Golang: s](https://github.com/zquestz/s): Open a web search in your terminal.
+
+## Kanban - Issue Management
 
 - [Taiga.io](https://github.com/taigaio): Your Agile, Free and Open Source Project Management Tool
 - [kanboard](https://github.com/kanboard/kanboard): Kanban project management software
 - [wekan](https://github.com/wekan/wekan): The open-source Trello-like kanban (built with Meteor)
 - [LeanLabs - GitLab Kanban Board](http://kanban.leanlabs.io/): Free, open source, self-hosted, Kanban board for GitLab issues
 - [huboard](https://github.com/huboard/huboard): Kanban board for github issues
+
+## Bug Management
+
+- [BugZilla](http://www.bugzilla.org/): Bugzilla is server software designed to help you manage software development.
+- [Mantis Bug Tracker](http://www.mantisbt.org/index.php): MantisBT makes collaboration with team members & clients easy, fast, and professional
+- [BugTracker.NET](http://ifdefined.com/bugtrackernet.html): BugTracker.NET is a free, open-source, web-based bug tracking and general purpose issue tracking application. It is in daily use by thousands of development, customer support, and help desk teams around the world.
+- [BugNET](http://www.bugnetproject.com/): An open source issue tracking & project management application
 
 ## Container
 

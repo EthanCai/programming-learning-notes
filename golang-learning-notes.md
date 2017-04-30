@@ -1,68 +1,3 @@
-# Books
-
-参考：[Gobooks](https://github.com/dariubs/GoBooks)
-
-- [An Introduction to Programming in Go](http://www.golang-book.com/): 一本介绍Go语言的书籍，内容非常简洁，便于快速掌握Go语法。
-- [The Way to Go](http://book.douban.com/subject/10558892/):  a Thorough Introduction to the Go Programming Language 2012.3.8
-- [Go语言编程](http://book.douban.com/subject/11577300/): 对个Go语言几个主要的主题进行了介绍，但内容不系统，不适合作为入门读物。更多见[豆瓣点评](http://book.douban.com/subject/11577300/reviews)
-- [Go Programming Blueprints](http://book.douban.com/subject/26331858/): [亚马逊产品页面](http://www.amazon.com/Go-Programming-Blueprints-Development-Challenges/dp/1783988029/ref=sr_1_1)，Amazon评价很高，这本书介绍了很多高级主题
-- [Network programming with Go](https://jan.newmarch.name/golang/)
-- [Programming in Go](http://book.douban.com/subject/7070565/): [亚马逊产品页面](http://www.amazon.com/Programming-Go-Creating-Applications-Developers/dp/0321774639/ref=sr_1_4)，这本书的三个优点：High quality code samples；Idiomatic Go code；Details that aren't in the docs
-- [The Go Programming Language Phrasebook](http://book.douban.com/subject/7952516/)
-- [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang)
-
-# Resources
-
-官方网站：
-
-- [Golang](http://golang.org/)
-- [Golang国内镜像](http://docscn.studygolang.com/)
-- [Go语言源代码](https://go.googlesource.com/go/)：在线查看Go语言源代码访问[这里](http://golang.org/src/)
-
-语法：
-
-- [A Tour of Go](https://tour.golang.org): The tour covers the most important features of the language
-- [Go语言示例](https://gobyexample.com/): Go by Example is a hands-on introduction to Go using annotated example programs
-- [The Go Programming Language Specification](https://golang.org/ref/spec)
-
-Go Patterns:
-
-- [Go Design Patterns](https://github.com/monochromegane/go_design_pattern)
-- [go-resiliency](https://github.com/eapache/go-resiliency)
-- [Go Examples of Common Patterns](https://github.com/jbuberel/go-patterns)
-- [Go Patterns](https://github.com/tmrts/go-patterns): A curated collection of idiomatic design & application patterns for Go language.
-
-Go Package：
-
-- [GoDoc](https://godoc.org/): GoDoc hosts documentation for Go packages on Bitbucket, GitHub, Google Project Hosting and Launchpad.
-    - [Go Walker](https://gowalker.org/): Go Walker 是一个可以在线生成并浏览 Go 项目 API 文档的 Web 服务器，目前已支持包括 GitHub 等代码托管平台
-    - [Go Search](http://go-search.org/): 查找Go packages
-- [Go Report Card](https://goreportcard.com): Report for golang package with `go vet`, `gocyclo`, `gofmt`, `golint`, `ineffassign`, `license`, `misspell`.
-- [GoCover.io](https://gocover.io/): See code coverage of any Go package.
-
-工具：
-
-- [JSON to Go](https://mholt.github.io/json-to-go/): Convert JSON to Go struct
-
-社区：
-
-- [Golang社区](http://studygolang.com/)
-- [Go邮件组](http://groups.google.com/group/golang-nuts)
-- [Go的中文邮件组](http://groups.google.com/group/golang-china)
-
-资料收集：
-
-- [Golang资料集](https://github.com/ty4z2008/Qix/blob/master/golang.md)
-- [Golang资料收集](https://github.com/wonderfo/wonderfogo/wiki)
-
-# 文章、演示文档、视频、示例
-
-- [Go command tutorial](https://github.com/hyper-carrot/go_command_tutorial): Golang command tutorial in Chinese.
-- [Go Concurrency Patterns - Rob Pike](https://talks.golang.org/2012/concurrency.slide)
-    - [Google I/O 2012 - Go Concurrency Patterns - Rob Pike](https://www.youtube.com/watch?v=f6kdp27TYZs)
-- [OOPs in Go by William Kennedy](https://www.youtube.com/watch?v=gRpUfjTwSOo)
-- [Golang Memory Module](http://golang.org/ref/mem)
-
 # 学习路径
 
 1. 安装Go
@@ -124,50 +59,6 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 
 # Basic Projects
 
-## Embeddable Scripting Languages
-
-- [otto](https://github.com/robertkrimen/otto): A JavaScript interpreter in Go (golang)
-
-## Dev Tools
-
-**Compiler**
-
-- [gopherjs](https://github.com/gopherjs/gopherjs): A compiler from Go to JavaScript for running Go code in a browser
-
-**Debugger**
-
-- [Delve](https://github.com/derekparker/delve/): Delve is a debugger for the Go programming language.
-
-**Analysis**
-
-- [goviz](https://github.com/hirokidaichi/goviz): a visualization tool for golang project dependency
-- [godepq](https://github.com/google/godepq): A utility for inspecting go import trees
-- [go-torch](https://github.com/uber/go-torch): Stochastic flame graph profiler for Go programs
-
-**Code Repository**
-
-- [Gogs](http://gogs.io/): 极易搭建的自助 Git 服务
-- [Gitea - a self-hosted Git service](https://github.com/go-gitea/gitea)
-
-**Code Review**
-
-- [Git - appraise](https://github.com/google/git-appraise): Distributed Code Review For Git
-
-## Test
-
-**testing framework**
-
-- [gorc](https://github.com/stretchr/gorc): Recursive go testing, done better.
-- [Testify](https://github.com/stretchr/testify): A sacred extension to the standard go testing package
-- [Go frisby](https://github.com/verdverm/frisby): API testing framework inspired by frisby-js
-- [httpexpect](https://github.com/gavv/httpexpect): End-to-end HTTP and REST API testing for Go.
-- [govcr](https://github.com/seborama/govcr): Record and replay HTTP interactions for offline unit / behavioural / integration tests thereby acting as an HTTP mock.
-
-## DevOps Tools
-
-- [gvm](https://github.com/moovweb/gvm): Go Version Manager
-- [zoekt](https://github.com/google/zoekt): Fast trigram based code search
-
 ## Libs Improve Development Efficiency
 
 - [pointer](https://github.com/AlekSi/pointer): Go package pointer provides helpers to get pointers to values of build-in types.
@@ -185,16 +76,6 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [odin](https://github.com/jwaldrip/odin): A go-lang library to help build self documenting command line applications.
 - [go-flags](https://github.com/jessevdk/go-flags): go command line option parser
 - [kingpin](http://gopkg.in/alecthomas/kingpin.v2):
-- [termui- Golang terminal dashboard](https://github.com/gizak/termui)
-- [GoTTY](https://github.com/yudai/gotty): Share your terminal as a web application
-- [s](https://github.com/zquestz/s): Open a web search in your terminal.
-
-## Text Processing & Search
-
-- [bleve](https://github.com/blevesearch/bleve): A modern text indexing library for go
-- [goquery](https://github.com/PuerkitoBio/goquery): goquery brings a syntax and a set of features similar to jQuery to the Go language. It is based on Go's net/html package and the CSS Selector library cascadia. Since the net/html parser returns nodes, and not a full-featured DOM tree, jQuery's stateful manipulation functions (like height(), css(), detach()) have been left off.
-- [Pholcus](https://github.com/henrylee2cn/pholcus): Pholcus（幽灵蛛）是一款纯Go语言编写的高并发、分布式、重量级爬虫软件，支持单机、服务端、客户端三种运行模式，拥有Web、GUI、命令行三种操作界面；规则简单灵活、批量任务并发、输出方式丰富（mysql/mongodb/csv/excel等）、有大量Demo共享；同时她还支持横纵向两种抓取模式，支持模拟登录和任务暂停、取消等一系列高级功能
-- [sego](https://github.com/huichen/sego): Go中文分词
 
 ## Network
 
@@ -215,19 +96,6 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [jsonpath](https://github.com/yalp/jsonpath): a (partial) implementation in Go based on [Stefan Goener JSON Path](http://goessner.net/articles/JsonPath/)
 - [gojsonschema](https://github.com/xeipuuv/gojsonschema): An implementation of JSON Schema, based on IETF's draft v4 - Go language
 - [gojsondiff](https://github.com/yudai/gojsondiff/): Go JSON Diff
-
-## Data Access
-
-- [gorm](https://github.com/jinzhu/gorm): The fantastic ORM library for Golang, aims to be developer friendly
-- [xorm](https://github.com/go-xorm/xorm): Simple and Powerful ORM for Go, support mysql/sqlite3/postgres/mssql/oracle/tidb/ql
-- [Go-MySQL-Driver](https://github.com/go-sql-driver/mysql): Go-MySQL-Driver is a lightweight and fast MySQL-Driver for Go's (golang) database/sql package
-- [Reform](https://github.com/go-reform/reform): A better ORM for Go, based on non-empty interfaces and code generation.
-- [sqlboiler](https://github.com/vattle/sqlboiler): SQLBoiler is a tool to generate a Go ORM tailored to your database schema.
-- [gorp](https://github.com/go-gorp/gorp): Go Relational Persistence - an ORM-ish library for Go
-
-## Database Migration tool
-
-- [goose](https://bitbucket.org/liamstask/goose): goose is a database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts.
 
 ## Log
 
@@ -304,32 +172,3 @@ Go标准库可以大致按其中库的功能进行以下分类,这个分类比�
 - [restic](https://github.com/restic/restic): restic backup program
 - [syncthing](https://github.com/syncthing/syncthing): Open Source Continuous File Synchronization
 - [weixinmp](https://github.com/sidbusy/weixinmp): 微信公众平台SDK for Go
-
---------------------------------
-
-# FAQ
-
-## What is difference between Goroutines vs OS threads?
-
-参考：
-
-- [What-is-difference-between-Goroutines-vs-OS-threads](http://www.quora.com/What-is-difference-between-Goroutines-vs-OS-threads)
-- [goroutine背后的系统知识](http://www.infoq.com/cn/articles/knowledge-behind-goroutine)
-- [golang的goroutine是如何实现的?](http://www.zhihu.com/question/20862617)
-- [Concurrency, Goroutines and GOMAXPROCS](http://www.goinggo.net/2014/01/concurrency-goroutines-and-gomaxprocs.html)
-- [Green threads](http://www.wikiwand.com/en/Green_threads)
-
-The Go runtime multiplexes a potentially large number of goroutines onto a smaller number of OS threads, and goroutines blocked on I/O are handled efficiently using epoll or similar facilities.  Goroutines have tiny stacks that grow as needed, so it is practical to have hundreds of thousands of goroutines in your program. This allows the programmer to use concurrency to structure their program without being overly concerned with thread overhead.
-
-## Go语言和其它语言的比较
-
-参考：
-
-- [我为什么从python转向go](http://www.jianshu.com/p/afa14e631930)
-- [Node.js vs Golang: Battle of the Next-Gen Languages](http://www.hostingadvice.com/blog/nodejs-vs-golang/)
-
-## Go语言主要版本和版本变更内容是哪些？
-
-参考：
-
-- [Release History](http://golang.org/doc/devel/release.html)

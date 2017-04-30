@@ -35,36 +35,59 @@
 
 # Projects about Normal Software Development
 
-## Compiler & CLR Framework
+## Compiler
 
-- [.NET Framewrok](https://msdn.microsoft.com/en-us/vstudio/aa496123.aspx)
+- [Golang: gopherjs](https://github.com/gopherjs/gopherjs): A compiler from Go to JavaScript for running Go code in a browser
 - [.NET Core](http://dotnet.github.io/core/): A general purpose managed framework
 - [.NET: Mono](http://www.mono-project.com/): Cross platform, open source .NET framework
 - [.NET: Roslyn](https://github.com/dotnet/roslyn): The .NET Compiler Platform ("Roslyn") provides open-source C# and Visual Basic compilers with rich code analysis APIs.
 
+## Interpreter
+
+- [Golang: Otto](https://github.com/robertkrimen/otto): https://github.com/robertkrimen/otto
+- [C++: V8 JavaScript Engine](https://github.com/v8/v8): Google's open source JavaScript engine.
+
+## Debugger
+
+- [GDB](https://www.gnu.org/software/gdb/): The GNU Project Debugger
+- [Golang: Delve](https://github.com/derekparker/delve/): Delve is a debugger for the Go programming language.
+
+## Analyzer
+
+- [Golang: goviz](https://github.com/hirokidaichi/goviz): a visualization tool for golang project dependency
+- [Golang: godepq](https://github.com/google/godepq): A utility for inspecting go import trees
+
+## Profiling
+
+- [Golang: go-torch](https://github.com/uber/go-torch): Stochastic flame graph profiler for Go programs
+
 ## Assembly Manipulation
 
-- [Fody](https://github.com/Fody/Fody) - Extensible tool for weaving .net assemblies
-- [Mono.Cecil](https://github.com/jbevain/cecil) - Cecil is a library to generate and inspect programs and libraries in the ECMA CIL form.
+- [.NET: Fody](https://github.com/Fody/Fody) - Extensible tool for weaving .net assemblies
+- [.NET: Mono.Cecil](https://github.com/jbevain/cecil) - Cecil is a library to generate and inspect programs and libraries in the ECMA CIL form.
 
 ## Web Server
 
-- [.NET: KestrelHttpServer](https://github.com/aspnet/KestrelHttpServer): A web server for ASP.NET 5 based on libuv.
+- [.NET: KestrelHttpServer](https://github.com/aspnet/KestrelHttpServer): A cross platform web server for ASP.NET Core.
 
 ## Web Frameworks/Application Frameworks
 
-- ASP.NET MVC
-    - [ASP.net MVC 6](https://github.com/aspnet/Mvc): Model view controller framework for building dynamic web sites with clean separation of concerns, including the merged MVC, Web API, and Web Pages, Razor.
-    - [ASP.net MVC 5](http://aspnetwebstack.codeplex.com/): ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that gives you full control over markup for enjoyable, agile development. ASP.NET MVC includes many features that enable fast, TDD-friendly development for creating sophisticated applications that use the latest web standards.
-    - [ASP.NET Boilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate) - A starting point for new modern ASP.NET MVC web applications with best practices and most popular tools.
+**Java**
+
+- [Java: Spring Framework](http://spring.io/projects): The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
+
+**.NET**
+
+    - [jHipster](https://jhipster.github.io/): Open Source application generator for creating Spring Boot + AngularJS projects in seconds
+- [ASP.net MVC 6](https://github.com/aspnet/Mvc): Model view controller framework for building dynamic web sites with clean separation of concerns, including the merged MVC, Web API, and Web Pages, Razor.
+- [ASP.net MVC 5](http://aspnetwebstack.codeplex.com/): ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that gives you full control over markup for enjoyable, agile development. ASP.NET MVC includes many features that enable fast, TDD-friendly development for creating sophisticated applications that use the latest web standards.
+- [ASP.NET Boilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate) - A starting point for new modern ASP.NET MVC web applications with best practices and most popular tools.
 - [ASP.net Web API 2](http://www.asp.net/web-api): ASP.NET Web API is a framework that makes it easy to build HTTP services that reach a broad range of clients, including browsers and mobile devices. ASP.NET Web API is an ideal platform for building RESTful applications on the .NET Framework.
     - [WebAPI Contrib](https://github.com/WebApiContrib/WebAPIContrib) - Collection of open source projects to help improve your work with ASP.NET Web API
 - [.NET: Orleans](https://github.com/dotnet/orleans): Orleans is a framework that provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns.
 - [.NET: ServiceStack](https://github.com/ServiceStack/ServiceStack): Simple, Fast, Versatile and full-featured Services Framework
 - [.NET: NancyFx](http://nancyfx.org/): Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono
 - [.NET: ReactJS.NET](http://reactjs.net/): ReactJS.NET makes it easier to use Facebook's React and JSX from C# and other .NET languages, focusing specifically on ASP.NET MVC (although it also works in other environments). It assumes you already have some basic knowledge about React. It is cross-platform and can run on Linux via Mono. Now with support for ASP.NET 5 Beta!
-- [Java: Spring Framework](http://spring.io/projects): The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
-    - [jHipster](https://jhipster.github.io/): Open Source application generator for creating Spring Boot + AngularJS projects in seconds
 
 ## Template Engine
 
@@ -133,6 +156,12 @@
 - [.NET: SolrNet](https://github.com/mausch/SolrNet): SolrNet is an Apache Solr client for .NET
 - [.NET: EasyNetQ](https://github.com/EasyNetQ/EasyNetQ): An easynet to use .NET API for RabbitMQ, not offical rabbitmq .net client
 - [.NET: DbUtility](https://github.com/Ivony/DbUtility):  a light database access tool
+- [Golang: gorm](https://github.com/jinzhu/gorm): The fantastic ORM library for Golang, aims to be developer friendly
+- [Golang: xorm](https://github.com/go-xorm/xorm): Simple and Powerful ORM for Go, support mysql/sqlite3/postgres/mssql/oracle/tidb/ql
+- [Golang: Go-MySQL-Driver](https://github.com/go-sql-driver/mysql): Go-MySQL-Driver is a lightweight and fast MySQL-Driver for Go's (golang) database/sql package
+- [Golang: Reform](https://github.com/go-reform/reform): A better ORM for Go, based on non-empty interfaces and code generation.
+- [Golang: sqlboiler](https://github.com/vattle/sqlboiler): SQLBoiler is a tool to generate a Go ORM tailored to your database schema.
+- [Golang: gorp](https://github.com/go-gorp/gorp): Go Relational Persistence - an ORM-ish library for Go
 
 ## ORM framework
 
@@ -169,6 +198,7 @@
 
 ## IoC
 
+- [Golang: facebookgo/inject](https://github.com/facebookgo/inject): Package inject provides a reflect based injector.
 - [.NET: Castle Windsor](https://github.com/castleproject/Windsor) - Castle Windsor is best of breed, mature Inversion of Control container available for .NET and Silverlight
 - [.NET: Unity](https://unity.codeplex.com/) - Lightweight extensible dependency injection container with support for constructor, property, and method call injection
 - [.NET: Autofac](https://github.com/autofac/Autofac) - An addictive .NET IoC container
