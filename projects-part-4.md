@@ -167,10 +167,6 @@
 - [Supervisor](http://supervisord.org): Supervisor is a client/server system that allows its users to control a number of processes on UNIX-like operating systems.
 - [PM2](https://github.com/Unitech/pm2): Production process manager for Node.js applications with a built-in load balancer https://app.keymetrics.io/
 
-## Deployment
-
-- [Unfold](https://github.com/thomasvm/unfold) - Powershell-based deployment solution for .net web applications
-
 
 ## User Behavior Collection & Analysis
 
@@ -222,6 +218,12 @@
 - [Portus](http://port.us.org/): Authorization service and frontend for Docker registry (v2)
 - [kubernetes](http://kubernetes.io/)
 
+## Instant Communication
+
+- [heim](https://github.com/euphoria-io/heim): A real-time community platform
+- [Mattermost](https://github.com/mattermost/platform): Mattermost is an open-source team communication service. It brings team messaging and file sharing into one place, accessible across PCs and phones, with archiving and search.
+
 ## Misc
 
 - [vagrantup](https://www.vagrantup.com/): Create and configure lightweight, reproducible, and portable development environments.
+- [uniqush-push](https://github.com/uniqush/uniqush-push): Uniqush is a free and open source software which provides a unified push service for server-side notification to apps on mobile devices.

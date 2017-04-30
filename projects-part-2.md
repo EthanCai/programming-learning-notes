@@ -12,11 +12,11 @@
    - [Reverse Proxy](#reverse-proxy)   
    - [Distributed File System](#distributed-file-system)   
    - [Configuration Management](#configuration-management)   
-   - [服务发现(Service Discovery, Name Service)](#服务发现service-discovery-name-service)   
-   - [域名服务器(DNS)](#域名服务器dns)   
-   - [熔断器](#熔断器)   
+   - [Service Discovery, Name Service](#service-discovery-name-service)   
+   - [DNS Server](#dns-server)   
+   - [Circuit Breaker](#circuit-breaker)   
    - [Distributed Tracing](#distributed-tracing)   
-   - [杂项](#杂项)   
+   - [Other](#other)   
 
 <!-- /MDTOC -->
 
@@ -37,29 +37,29 @@
 ## RPC
 
 - [GRPC](http://www.grpc.io/): A high performance, open source, general RPC framework that puts mobile and HTTP/2 first.
-- [zeroC](https://zeroc.com/): Ice is more than a RPC framework. It also provides a number of complementary services for your networked applications.
-- [linkerd](https://linkerd.io/): Modern RPC proxy for microservices
-- [Finagle](https://twitter.github.io/finagle/): Finagle is an extensible RPC system for the JVM, used to construct high-concurrency servers. Finagle implements uniform client and server APIs for several protocols, and is designed for high performance and concurrency. Most of Finagle's code is protocol agnostic, simplifying the implementation of new protocols.
 - [hprose](http://hprose.com/): 一款先进的轻量级、跨语言、跨平台、无侵入式、高性能动态远程对象调用引擎库
+- [zeroC](https://zeroc.com/): Ice is more than a RPC framework. It also provides a number of complementary services for your networked applications.
+- [Finagle](https://twitter.github.io/finagle/): Finagle is an extensible RPC system for the JVM, used to construct high-concurrency servers. Finagle implements uniform client and server APIs for several protocols, and is designed for high performance and concurrency. Most of Finagle's code is protocol agnostic, simplifying the implementation of new protocols.
+
 
 ## Distributed Application Framework
 
-- [akka.net](http://getakka.net/): a toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on .NET & Mono.
-- [akka](http://akka.io/): Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM. The power of Akka is also available on the .NET Framework and Mono via the Akka.NET project.
+- [Akka.net](http://getakka.net/): a toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on .NET & Mono.
+- [Akka](http://akka.io/): Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM. The power of Akka is also available on the .NET Framework and Mono via the Akka.NET project.
 - [Vert.x](http://vertx.io): Vert.x is a tool-kit for building reactive applications on the JVM.
 - [Zyan Communication Framework](http://zyan.com.de/): Easy to use distributed application framework for .NET, Mono and Xamarin.Android.
 - [Dubbo](http://dubbo.io/): DUBBO是一个分布式服务框架，致力于提供高性能和透明化的RPC远程服务调用方案，是阿里巴巴SOA服务化治理方案的核心框架，每天为2,000+个服务提供3,000,000,000+次访问量支持，并被广泛应用于阿里巴巴集团的各成员站点。
 
 ## Service Bus
 
-- [Apache Camel](http://camel.apache.org/): Apache Camel is a versatile open-source integration framework based on known Enterprise Integration Patterns. The following projects can leverage Apache Camel as a routing and mediation engine:
+- [Java: Apache Camel](http://camel.apache.org/): Apache Camel is a versatile open-source integration framework based on known Enterprise Integration Patterns. The following projects can leverage Apache Camel as a routing and mediation engine:
 	- Apache ServiceMix
 	- Apache ActiveMQ
 	- Apache CXF
 	- Apache Karaf
 	- Apache MINA
-- [Spring Integration](http://projects.spring.io/spring-integration/): Extends the Spring programming model to support the well-known Enterprise Integration Patterns. Spring Integration enables lightweight messaging within Spring-based applications and supports integration with external systems via declarative adapters.
-- [Mule ESB community](https://github.com/mulesoft/mule): Mule Community Edition
+- [Java: Spring Integration](http://projects.spring.io/spring-integration/): Extends the Spring programming model to support the well-known Enterprise Integration Patterns. Spring Integration enables lightweight messaging within Spring-based applications and supports integration with external systems via declarative adapters.
+- [Java: Mule ESB community](https://github.com/mulesoft/mule): Mule Community Edition
 - [.NET: MassTransit](http://masstransit-project.com/): Lean Service Bus for .NET
 - [.NET: NServiceBus](https://github.com/Particular): The most popular service bus for .NET
 - [.NET: Rebus](https://github.com/rebus-org/Rebus): Rebus is a lean service bus implementation for .NET, similar in nature to NServiceBus and MassTransit, only leaner
@@ -102,7 +102,6 @@
 
 ## Load Balance
 
-- [Envoy](https://github.com/lyft/envoy): C++ L7 proxy and communication bus
 - [LVS](http://www.linuxvirtualserver.org/): The Linux Virtual Server is a highly scalable and highly available server built on a cluster of real servers, with the load balancer running on the Linux operating system. The architecture of the server cluster is fully transparent to end users, and the users interact as if it were a single high-performance virtual server.
 - [HAProxy](http://www.haproxy.org/): HAProxy is a free, very fast and reliable solution offering high availability, load balancing, and proxying for TCP and HTTP-based applications.
   - [Bamboo](https://github.com/QubitProducts/bamboo): HAProxy auto configuration and auto service discovery for Mesos Marathon
@@ -121,6 +120,11 @@
 - [Tyk API Gateway](https://github.com/lonelycode/tyk): Tyk is a lightweight, open source API Gateway and enables you to control who accesses your API, when they access it and how they access it. Tyk will also record detailed analytics on how your users are interacting with your API and when things go wrong.
     - [Documents](https://tyk.io/tyk-documentation/concepts/)
 - [KrakenD](http://www.krakend.io/): KrakenD aggregates and manipulates multiple data sources to provide you with exactly the API your end-user products need while offering a premium user experience and brutal performance.
+
+## API Proxy
+
+- [C++: Envoy](https://github.com/lyft/envoy): C++ L7 proxy and communication bus
+- [Scala: linkerd](https://linkerd.io/): Modern RPC proxy for microservices
 
 ## Reverse Proxy
 
@@ -151,23 +155,25 @@
 - [XDiamond](https://github.com/hengyunabc/xdiamond): 全局配置中心，存储应用的配置项，解决配置混乱分散的问题。名字来源于淘宝的开源项目diamond，前面加上一个字母X以示区别。
 - [archaius](https://github.com/Netflix/archaius): Library for configuration management API
 
-## 服务发现(Service Discovery, Name Service)
+## Service Discovery, Name Service
 
 - [Apache Zookeeper](http://zookeeper.apache.org/): ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. All of these kinds of services are used in some form or another by distributed applications. Each time they are implemented there is a lot of work that goes into fixing the bugs and race conditions that are inevitable. Because of the difficulty of implementing these kinds of services, applications initially usually skimp on them ,which make them brittle in the presence of change and difficult to manage. Even when done correctly, different implementations of these services lead to management complexity when the applications are deployed.Application tracing system for Go, based on Google's Dapper.
 - [etcd](https://github.com/coreos/etcd): A distributed consistent key-value store for shared configuration and service discovery
 - [consul](https://www.consul.io/): Consul 简化了分布式环境中的服务的注册和发现流程，通过 HTTP 或者 DNS 接口发现。支持外部 SaaS 提供者等。
+- [serf](https://github.com/hashicorp/serf): Service orchestration and management tool
 
-## 域名服务器(DNS)
+## DNS Server
 
 - [Dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html): Dnsmasq provides network infrastructure for small networks: DNS, DHCP, router advertisement and network boot. It is designed to be lightweight and have a small footprint, suitable for resource constrained routers and firewalls. It has also been widely used for tethering on smartphones and portable hotspots, and to support virtual networking in virtualisation frameworks.
 - [SkyDNS](https://github.com/skynetservices/skydns): SkyDNS is a distributed service for announcement and discovery of services built on top of etcd. It utilizes DNS queries to discover available services. This is done by leveraging SRV records in DNS, with special meaning given to subdomains, priorities and weights.
 
-## 熔断器
+## Circuit Breaker
 
-- [C#: Polly](https://github.com/App-vNext/Polly): Polly is a .NET 3.5 / 4.0 / 4.5 / PCL library that allows developers to express transient exception handling policies such as Retry, Retry Forever, Wait and Retry or Circuit Breaker in a fluent manner.
-- [Java: Hystrix](https://github.com/Netflix/Hystrix): Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
-- [C#: Hystrix.NET](https://hystrixnet.codeplex.com): Hystrix.NET is a C# port of Hystrix, which is a latency and fault tolerance library for complex distributed systems.
 - [Go: Hystrix-go](https://github.com/afex/hystrix-go): Netflix's Hystrix latency and fault tolerance library, for Go
+- [Java: Hystrix](https://github.com/Netflix/Hystrix): Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
+- [C#: Polly](https://github.com/App-vNext/Polly): Polly is a .NET 3.5 / 4.0 / 4.5 / PCL library that allows developers to express transient exception handling policies such as Retry, Retry Forever, Wait and Retry or Circuit Breaker in a fluent manner.
+- [C#: Hystrix.NET](https://hystrixnet.codeplex.com): Hystrix.NET is a C# port of Hystrix, which is a latency and fault tolerance library for complex distributed systems.
+
 
 ## Distributed Tracing
 
@@ -175,6 +181,6 @@
 - [AppDash](https://github.com/sourcegraph/appdash): Application tracing system for Go, based on Google's Dapper.
 - [zipkin](https://github.com/openzipkin/zipkin): Zipkin is a distributed tracing system
 
-## 杂项
+## Other
 
-- [sonyflake](https://github.com/sony/sonyflake): A distributed unique ID generator inspired by Twitter's Snowflake
+- [Golang: Sonyflake](https://github.com/sony/sonyflake): A distributed unique ID generator inspired by Twitter's Snowflake

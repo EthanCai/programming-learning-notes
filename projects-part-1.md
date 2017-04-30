@@ -144,6 +144,7 @@
 
 ## WebSocket
 
+- [Go: centrifugo](https://github.com/centrifugal/centrifugo): Real-time messaging (Websockets or SockJS) server in Go
 - [.NET: SignalR](https://github.com/SignalR/SignalR): Library for ASP.NET developers that makes it incredibly simple to add real-time web functionality to your applications
 - [.NET: Fleck](https://github.com/statianzo/Fleck) - Fleck is a WebSocket server implementation in C#. Branched from the Nugget project
 - [.NET: Websocket-Sharp](https://github.com/sta/websocket-sharp) - A C# implementation of the WebSocket protocol client and server
@@ -153,12 +154,23 @@
 
 ## Network
 
+- [Go: kcp-go](https://github.com/xtaci/kcp-go): A full-featured reliable UDP communication library
+  - [Go: kcptun](https://github.com/xtaci/kcptun): an extremely simple & fast udp tunnel based on kcp protocol
 - [.NET: Fracture](https://github.com/fractureio/fracture): A high-performance socket I/O message pipeline library.
 - [.NET: SuperSocket](http://www.supersocket.net/): SuperSocket 是一个轻量级, 跨平台而且可扩展的 .Net/Mono Socket 服务器程序框架。你无须了解如何使用 Socket, 如何维护 Socket 连接和 Socket 如何工作，但是你却可以使用 SuperSocket 很容易的开发出一款 Socket 服务器端软件，例如游戏服务器，GPS 服务器, 工业控制服务和数据采集服务器等等。
+- [Go: gorequest](https://github.com/parnurzeal/gorequest): Simplified HTTP client ( inspired by nodejs SuperAgent )
 - [.NET: RestSharper](http://restsharp.org/): Simple REST and HTTP API Client for .NET
+- [GO: DNS library](https://github.com/miekg/dns): DNS library in Go
+- [Go: fasthttp](https://github.com/valyala/fasthttp): Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http.
+- [Go: link](https://github.com/funny/link): Go语言网络层脚手架
+- [Go: tus](http://www.oschina.net/p/tus): 一个开放的协议实现了客户端和服务器之间可恢复的文件上传协议
+- [Go: sleuth](https://github.com/ursiform/sleuth): sleuth is a Go library that provides master-less peer-to-peer autodiscovery and RPC between HTTP services that reside on the same network. It works with minimal configuration and provides a mechanism to join a local network both as a client that offers no services and as any service that speaks HTTP. Its primary use case is for microservices on the same network that make calls to one another.
 
 ## Authentication && Authorization
 
+- [captcha](https://github.com/jianxinio/captcha): Golang实现的验证码服务
+- [Go OTP](https://github.com/hgfischer/go-otp): Package go-otp implements one-time-password generators used in 2-factor authentication systems like RSA-tokens. Currently this supports both HOTP (RFC-4226), TOTP (RFC-6238) and Base32 encoding (RFC-3548) for Google Authenticator compatibility
+    - [Go-otpserver](https://github.com/skyjia/go-otpserver): A golang version OTP server.
 - [.NET: ASP.NET Identity](https://aspnetidentity.codeplex.com/) - New membership system for ASP.NET applications
 - [.NET: DotNetOpenAuth](https://github.com/DotNetOpenAuth/DotNetOpenAuth) - A C# implementation of the OpenID, OAuth and InfoCard protocols
 - [.NET: IdentityModel](https://github.com/IdentityModel) - Helper library for identity & access control in .NET 4.5 and MVC4/Web API.
@@ -184,7 +196,7 @@
 - [.NET: Entity Framework](https://github.com/aspnet/EntityFramework): Microsoft's recommended data access technology for new applications in .NET.
 - [.NET: MyBatis](https://mybatis.github.io/): MyBatis is a first class persistence framework with support for custom SQL, stored procedures and advanced mappings. MyBatis eliminates almost all of the JDBC code and manual setting of parameters and retrieval of results. MyBatis can use simple XML or Annotations for configuration and map primitives, Map interfaces and Java POJOs (Plain Old Java Objects) to database records.
 - [.NET: ServiceStack.OrmLite](https://github.com/ServiceStack/ServiceStack.OrmLite): Fast, Simple, Typed ORM for .NET
-- [.NET: nhibernate](http://nhibernate.info/): NHibernate is a mature, open source object-relational mapper for the .NET framework. It's actively developed, fully featured and used in thousands of successful projects.
+- [.NET: NHibernate](http://nhibernate.info/): NHibernate is a mature, open source object-relational mapper for the .NET framework. It's actively developed, fully featured and used in thousands of successful projects.
 - [.NET: fluent-nhibernate](https://github.com/jagregory/fluent-nhibernate): Fluent, XML-less, compile safe, automated, convention-based mappings for NHibernate. Get your fluent on.
 
 ## Serialization & Deserialization
@@ -263,17 +275,13 @@
 
 ## CLI
 
-- [Command Line Parser](https://github.com/gsscoder/commandline) - The Command Line Parser Library offers to CLR applications a clean and concise API for manipulating command line arguments and related tasks
-- [Fluent Command Line Parser](https://github.com/fclp/fluent-command-line-parser) - A simple, strongly typed .NET C# command line parser library using a fluent easy to use interface
-- [Power Args](https://github.com/adamabdelhamed/PowerArgs) - PowerArgs converts command line arguments into .NET objects that are easy to program against. It also provides a ton of optional capabilities such as argument validation, auto generated usage, tab completion, and plenty of extensibility
+- [Go: viper](https://github.com/spf13/viper): Go configuration with fangs
+- [Go: go-flags](https://github.com/jessevdk/go-flags): go command line option parser
+- [Go: kingpin](http://gopkg.in/alecthomas/kingpin.v2):
+- [.NET: Command Line Parser](https://github.com/gsscoder/commandline) - The Command Line Parser Library offers to CLR applications a clean and concise API for manipulating command line arguments and related tasks
+- [.NET: Fluent Command Line Parser](https://github.com/fclp/fluent-command-line-parser) - A simple, strongly typed .NET C# command line parser library using a fluent easy to use interface
+- [.NET: Power Args](https://github.com/adamabdelhamed/PowerArgs) - PowerArgs converts command line arguments into .NET objects that are easy to program against. It also provides a ton of optional capabilities such as argument validation, auto generated usage, tab completion, and plenty of extensibility
 
-## Tools
-
-- [CS-Script](http://www.csscript.net/index.html): CS-Script is a CLR (Common Language Runtime) based scripting system which uses ECMA-compliant C# as a programming language. CS-Script currently targets Microsoft implementation of CLR (.NET 2.0/3.0/3.5/4.0/4.5) with full support on Mono.
-- [Scriptcs](http://scriptcs.net/): Unleash your C# from Visual Studio.
-- [dotPeek](https://www.jetbrains.com/decompiler/): Free .NET Decompiler and Assembly Browser
-- [FastFileFinder](https://github.com/Wintellect/FastFileFinder): Find files and directory names FAST!
-- [Rant2](https://github.com/TheBerkin/Rant): Rant is a language for procedurally generating text, written in C#. It combines a markup language with functional and imperative programming concepts to deliver a powerful, but easy-to-use tool for adding rich variations to your text. The ultimate goal of Rant is to augment your creativity with the boundless potential of randomness, helping you consider your next great idea as not just a static concept, but a seed for countless possibilities.
 
 ## Math
 
@@ -282,14 +290,20 @@
 - [Math.NET Filtering: signal processing](http://filtering.mathdotnet.com/): Filtering aims to provide a toolkit for digital signal processing, offering an infrastructure for digital filter design, applying those filters to data streams using data converters, as well as digital signal generators.
 - [Math.NET Spatial](http://spatial.mathdotnet.com/): Math.NET Spatial is aiming to become a geometry library for .Net and Mono.
 
+## File
+
+- [Go: fsnotify](https://github.com/fsnotify/fsnotify): File system notifications for Go.
+- [Go: restic](https://github.com/restic/restic): restic backup program
+- [Go: syncthing](https://github.com/syncthing/syncthing): Open Source Continuous File Synchronization
+
 ## Image Processing
 
-- [nQuant .net Color Quantizer](https://nquant.codeplex.com/): nQuant is a .net color quantizer producing high quality 256 color 8 bit PNG images using an algorithm optimized for the highest quality possible.
+- [Go: ln](https://github.com/fogleman/ln): ln is a vector-based 3D renderer written in Go. It is used to produce 2D vector graphics (think SVGs) depicting 3D scenes. The output of an OpenGL pipeline is a rastered image. The output of ln is a set of 2D vector paths.
 - [OpenCV](http://opencv.org/): OpenCV is released under a BSD license and hence it’s free for both academic and commercial use. It has C++, C, Python and Java interfaces and supports Windows, Linux, Mac OS, iOS and Android. OpenCV was designed for computational efficiency and with a strong focus on real-time applications. Written in optimized C/C++, the library can take advantage of multi-core processing. Enabled with OpenCL, it can take advantage of the hardware acceleration of the underlying heterogeneous compute platform. Adopted all around the world, OpenCV has more than 47 thousand people of user community and estimated number of downloads exceeding 9 million. Usage ranges from interactive art, to mines inspection, stitching maps on the web or through advanced robotics.
     - [Emgu CV](http://www.emgu.com/wiki/index.php/Emgu_CV): Emgu CV is a cross platform .Net wrapper to the OpenCV image processing library. Allowing OpenCV functions to be called from .NET compatible languages such as C#, VB, VC++, IronPython etc. The wrapper can be compiled by Visual Studio, Xamarin Studio and Unity, it can run on Windows, Linux, Mac OS X, iOS, Android and Windows Phone.
-- [AForge.NET](http://www.aforgenet.com/): AForge.NET is a C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics, etc.
 - [ImageMagick](http://www.imagemagick.org): ImageMagick® is a software suite to create, edit, compose, or convert bitmap images. It can read and write images in a variety of formats (over 200) including PNG, JPEG, JPEG-2000, GIF, TIFF, DPX, EXR, WebP, Postscript, PDF, and SVG. Use ImageMagick to resize, flip, mirror, rotate, distort, shear and transform images, adjust image colors, apply various special effects, or draw text, lines, polygons, ellipses and Bézier curves.
 - [GraphicsMagick](http://www.graphicsmagick.org): GraphicsMagick is the swiss army knife of image processing. Comprised of 267K physical lines (according to David A. Wheeler's SLOCCount) of source code in the base package (or 1,225K including 3rd party libraries) it provides a robust and efficient collection of tools and libraries which support reading, writing, and manipulating an image in over 88 major formats including important formats like DPX, GIF, JPEG, JPEG-2000, PNG, PDF, PNM, and TIFF.
+- [AForge.NET](http://www.aforgenet.com/): AForge.NET is a C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics, etc.
 - [ImageProcessor](http://imageprocessor.org/): ImageProcessor is a collection of lightweight libraries written in C# that allows you to manipulate images on-the-fly using .NET 4.5+
 - [Hugin](http://sourceforge.net/projects/hugin): Panorama photo stitcher
 - [Luminance HDR](http://sourceforge.net/projects/qtpfsgui): Complete solution for HDR photography
@@ -302,22 +316,33 @@
 - [Sharpen](https://github.com/mono/sharpen) - Sharpen is an Eclipse plugin created by db4o that allows you to convert your Java project into C#
 - [CXXI](https://github.com/mono/cxxi) - C++ interop framework
 
+## Tools
+
+- [.NET: CS-Script](http://www.csscript.net/index.html): CS-Script is a CLR (Common Language Runtime) based scripting system which uses ECMA-compliant C# as a programming language. CS-Script currently targets Microsoft implementation of CLR (.NET 2.0/3.0/3.5/4.0/4.5) with full support on Mono.
+- [.NET: Scriptcs](http://scriptcs.net/): Unleash your C# from Visual Studio.
+- [.NET: dotPeek](https://www.jetbrains.com/decompiler/): Free .NET Decompiler and Assembly Browser
+- [.NET: FastFileFinder](https://github.com/Wintellect/FastFileFinder): Find files and directory names FAST!
+- [.NET: Rant2](https://github.com/TheBerkin/Rant): Rant is a language for procedurally generating text, written in C#. It combines a markup language with functional and imperative programming concepts to deliver a powerful, but easy-to-use tool for adding rich variations to your text. The ultimate goal of Rant is to augment your creativity with the boundless potential of randomness, helping you consider your next great idea as not just a static concept, but a seed for countless possibilities.
+
 ## Misc Libraries
 
-- [AutoMapper](http://automapper.org/): a simple little library built to solve a deceptively complex problem - getting rid of code that mapped one object to another.
-- [UrlRewriter](https://github.com/sethyates/urlrewriter): UrlRewriter.NET is an open-source, light-weight, highly configurable URL rewriting component for ASP.NET 1.1 – 4.0.
-- [Fast Reflection Library](http://fastreflectionlib.codeplex.com/): FastReflectionLib provide the same as part of the refection features like executing method dynamically but give simple and faster implementations. It can be use as the foundation of reflection-based scenarios such as ORM framework.
-- [FluentValidation](https://github.com/JeremySkinner/FluentValidation): A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules. Written by Jeremy Skinner (http://www.jeremyskinner.co.uk) and licensed under Apache 2.
-- [.NET Extensions Methods Library for C# and VB.NET (ASP.NET, MVC, SL, WPF, EF)](https://dnpextensions.codeplex.com/)
-- [Html Agility Pack](https://htmlagilitypack.codeplex.com/): This is an agile HTML parser that builds a read/write DOM and supports plain XPATH or XSLT (you actually don't HAVE to understand XPATH nor XSLT to use it, don't worry...). It is a .NET code library that allows you to parse "out of the web" HTML files. The parser is very tolerant with "real world" malformed HTML. The object model is very similar to what proposes System.Xml, but for HTML documents (or streams).
-- [Base Class Libraries](https://bcl.codeplex.com/): The Base Class Libraries site hosts samples, previews, and prototypes from the BCL team.
+- [Go: pointer](https://github.com/AlekSi/pointer): Go package pointer provides helpers to get pointers to values of build-in types.
+- [Go: robpike.io/filter](https://godoc.org/robpike.io/filter): Package filter contains utility functions for filtering slices through the distributed application of a filter function.
+- [Go: queue](https://github.com/eapache/queue):  not thread-safe queue
+- [Go: safemap](https://github.com/pcrawfor/safemap): A golang channel based access object for shared use of a map of arbitrary objects
+- [Go: i18n4go](https://github.com/maximilien/i18n4go): This is a general purpose internationalization (i18n) tooling for Go language (Golang) programs. It allows you to prepare Go language code for internationalization and localization (l10n).
+- [.NET: AutoMapper](http://automapper.org/): a simple little library built to solve a deceptively complex problem - getting rid of code that mapped one object to another.
+- [.NET: UrlRewriter](https://github.com/sethyates/urlrewriter): UrlRewriter.NET is an open-source, light-weight, highly configurable URL rewriting component for ASP.NET 1.1 – 4.0.
+- [.NET: Fast Reflection Library](http://fastreflectionlib.codeplex.com/): FastReflectionLib provide the same as part of the refection features like executing method dynamically but give simple and faster implementations. It can be use as the foundation of reflection-based scenarios such as ORM framework.
+- [.NET: FluentValidation](https://github.com/JeremySkinner/FluentValidation): A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules. Written by Jeremy Skinner (http://www.jeremyskinner.co.uk) and licensed under Apache 2.
+- [.NET: Html Agility Pack](https://htmlagilitypack.codeplex.com/): This is an agile HTML parser that builds a read/write DOM and supports plain XPATH or XSLT (you actually don't HAVE to understand XPATH nor XSLT to use it, don't worry...). It is a .NET code library that allows you to parse "out of the web" HTML files. The parser is very tolerant with "real world" malformed HTML. The object model is very similar to what proposes System.Xml, but for HTML documents (or streams).
+- [.NET: Base Class Libraries](https://bcl.codeplex.com/): The Base Class Libraries site hosts samples, previews, and prototypes from the BCL team.
 This is a site for the BCL Team to get features to customers to try out without requiring a Beta or CTP of the .NET Framework. Our goal is to put generally useful functionality here, and to get feedback on it and have the chance to iterate on the design.
-- [CommonLibrary.NET](https://commonlibrarynet.codeplex.com/): A collection of very reusable code and components in C# 4.0 ranging from ActiveRecord, Csv, Command Line Parsing, Configuration, Validation, Logging, Collections, Authentication, and much more. This is ideal for C# developer looking for a Utility library, Java developers looking for a C# version of Java Commons.
-- [Craig-s-Utility-Library](http://jacraig.github.io/Craig-s-Utility-Library/): With .Net we have a number of built in classes and functions to help make a programmer's life easier, but let's face facts, they didn't think of everything. Craig's Utility Library tries to fill in some of those gaps (or at least the ones that I've run into). It comes with a couple hundred extension methods, built in data types such as a BTree, priority queue, ring buffer, etc. And that's just the DataTypes namespace. When you add it all up, Craig's Utility Library is one of the largest set of utilities for .Net out there.
-- [Wintellect's Power Collections for .NET](http://powercollections.codeplex.com/): Power Collections makes heavy use of .NET Generics. The goal of the project is to provide generic collection classes that are not available in the .NET framework. Some of the collections included are the Deque, MultiDictionary, Bag, OrderedBag, OrderedDictionary, Set, OrderedSet, and OrderedMultiDictionary.
-- [Humanizer](https://github.com/MehdiK/Humanizer): Humanizer meets all your .NET needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities
-- [Wintellect PowerThreading](https://github.com/Wintellect/PowerThreading): Jeffrey Richter's Power Threading Library
-- [Sigil](https://github.com/kevin-montrose/Sigil): A fail-fast validating helper for .NET CIL generation
-- [Shielded](https://github.com/jbakic/Shielded): A strict and mostly lock-free Software Transactional Memory (STM) for .NET
-- [NodaTime](https://github.com/nodatime/nodatime): A better date and time API for .NET
-- [Peasy.NET](https://github.com/peasy/Peasy.NET): An easy to use middle tier framework for .net
+- [.NET: CommonLibrary.NET](https://commonlibrarynet.codeplex.com/): A collection of very reusable code and components in C# 4.0 ranging from ActiveRecord, Csv, Command Line Parsing, Configuration, Validation, Logging, Collections, Authentication, and much more. This is ideal for C# developer looking for a Utility library, Java developers looking for a C# version of Java Commons.
+- [.NET: Craig-s-Utility-Library](http://jacraig.github.io/Craig-s-Utility-Library/): With .Net we have a number of built in classes and functions to help make a programmer's life easier, but let's face facts, they didn't think of everything. Craig's Utility Library tries to fill in some of those gaps (or at least the ones that I've run into). It comes with a couple hundred extension methods, built in data types such as a BTree, priority queue, ring buffer, etc. And that's just the DataTypes namespace. When you add it all up, Craig's Utility Library is one of the largest set of utilities for .Net out there.
+- [.NET: Wintellect's Power Collections for .NET](http://powercollections.codeplex.com/): Power Collections makes heavy use of .NET Generics. The goal of the project is to provide generic collection classes that are not available in the .NET framework. Some of the collections included are the Deque, MultiDictionary, Bag, OrderedBag, OrderedDictionary, Set, OrderedSet, and OrderedMultiDictionary.
+- [.NET: Humanizer](https://github.com/MehdiK/Humanizer): Humanizer meets all your .NET needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities
+- [.NET: Wintellect PowerThreading](https://github.com/Wintellect/PowerThreading): Jeffrey Richter's Power Threading Library
+- [.NET: Sigil](https://github.com/kevin-montrose/Sigil): A fail-fast validating helper for .NET CIL generation
+- [.NET: Shielded](https://github.com/jbakic/Shielded): A strict and mostly lock-free Software Transactional Memory (STM) for .NET
+- [.NET: NodaTime](https://github.com/nodatime/nodatime): A better date and time API for .NET
