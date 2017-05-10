@@ -180,6 +180,8 @@
 - [Open Tracing](http://opentracing.io/): Consistent, expressive, vendor-neutral APIs for distributed tracing and context propagation
 - [AppDash](https://github.com/sourcegraph/appdash): Application tracing system for Go, based on Google's Dapper.
 - [zipkin](https://github.com/openzipkin/zipkin): Zipkin is a distributed tracing system
+- [Jaeger](https://github.com/uber/jaeger): Jaeger, a Distributed Tracing System
+  - [Jaeger-client-go](https://github.com/uber/jaeger-client-go): Jaeger Bindings for Go OpenTracing API.
 
 ## Other
 
