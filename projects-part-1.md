@@ -46,13 +46,15 @@
 
 ## Interpreter
 
-- [Golang: Otto](https://github.com/robertkrimen/otto): https://github.com/robertkrimen/otto
+- [Golang: Otto](https://github.com/robertkrimen/otto): A JavaScript interpreter in Go (golang)
 - [C++: V8 JavaScript Engine](https://github.com/v8/v8): Google's open source JavaScript engine.
 
 ## Debugger
 
 - [GDB](https://www.gnu.org/software/gdb/): The GNU Project Debugger
+- [gdbgui](https://github.com/cs01/gdbgui): A modern, browser-based frontend to gdb (gnu debugger). Add breakpoints, view stack traces, and more in C, C++, Go, and Rust. Simply run gdbgui from the terminal and a new tab will open in your browser.
 - [Golang: Delve](https://github.com/derekparker/delve/): Delve is a debugger for the Go programming language.
+- [rr](https://github.com/mozilla/rr): rr is a lightweight tool for recording and replaying execution of applications (trees of processes and threads).
 
 ## Analyzer
 
