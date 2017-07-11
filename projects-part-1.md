@@ -27,10 +27,11 @@
    - [Compression](#compression)   
    - [Mail](#mail)   
    - [CLI](#cli)   
-   - [Tools](#tools)   
    - [Math](#math)   
+   - [File](#file)   
    - [Image Processing](#image-processing)   
    - [.NET Interoperability](#net-interoperability)   
+   - [Tools](#tools)   
    - [Misc Libraries](#misc-libraries)   
 
 <!-- /MDTOC -->

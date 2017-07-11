@@ -1,14 +1,16 @@
 <!-- MDTOC maxdepth:6 firsth1:1 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
 - [Projects about Distributed Architecture](#projects-about-distributed-architecture)   
+   - [Open Platform](#open-platform)   
+   - [Distributed Application Framework](#distributed-application-framework)   
    - [Data Exchange Format](#data-exchange-format)   
    - [RPC](#rpc)   
-   - [Distributed Application Framework](#distributed-application-framework)   
    - [Service Bus](#service-bus)   
    - [Messsage Queue](#messsage-queue)   
    - [Job Schedule](#job-schedule)   
    - [Load Balance](#load-balance)   
    - [API Gateway](#api-gateway)   
+   - [API Proxy](#api-proxy)   
    - [Reverse Proxy](#reverse-proxy)   
    - [Distributed File System](#distributed-file-system)   
    - [Configuration Management](#configuration-management)   

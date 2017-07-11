@@ -15,7 +15,6 @@
    - [System Monitor](#system-monitor)   
    - [Gather System Information](#gather-system-information)   
    - [Process Supervisor](#process-supervisor)   
-   - [Deployment](#deployment)   
    - [User Behavior Collection & Analysis](#user-behavior-collection-analysis)   
    - [Infrastructure Management](#infrastructure-management)   
    - [OS Configuration Management](#os-configuration-management)   
@@ -23,6 +22,7 @@
    - [Kanban - Issue Management](#kanban-issue-management)   
    - [Bug Management](#bug-management)   
    - [Container](#container)   
+   - [Instant Communication](#instant-communication)   
    - [Misc](#misc)   
 
 <!-- /MDTOC -->

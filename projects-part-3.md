@@ -10,6 +10,7 @@
    - [JSON Storage](#json-storage)   
    - [Data Warehouse](#data-warehouse)   
    - [Search](#search)   
+   - [Text Processing](#text-processing)   
    - [Crawler](#crawler)   
    - [Recommender System](#recommender-system)   
    - [Big Data](#big-data)   

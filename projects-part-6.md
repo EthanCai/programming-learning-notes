@@ -1,3 +1,15 @@
+<!-- MDTOC maxdepth:6 firsth1:1 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
+
+- [Projects about Digital Publishing](#projects-about-digital-publishing)   
+   - [Office Document Manipulation](#office-document-manipulation)   
+   - [PDF Manipulation](#pdf-manipulation)   
+   - [Text Manipulation](#text-manipulation)   
+   - [OCR](#ocr)   
+   - [Report](#report)   
+   - [Static Websites Generator](#static-websites-generator)   
+
+<!-- /MDTOC -->
+
 # Projects about Digital Publishing
 
 ## Office Document Manipulation
