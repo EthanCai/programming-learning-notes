@@ -99,6 +99,7 @@
 - [Go: gocron](https://github.com/jasonlvhit/gocron): A Golang Job Scheduling Package.
 - [Go: scheduler](https://github.com/carlescere/scheduler): Job scheduling made easy.
 - [Go: workq](https://github.com/iamduo/workq): Workq is a job scheduling server strictly focused on simplifying job processing and streamlining coordination. It can run jobs in blocking foreground or non-blocking background mode.
+- [Go: cronsun](https://github.com/shunfei/cronsun): A Distributed, Fault-Tolerant Cron-Style Job System.
 
 ## Load Balance
 
