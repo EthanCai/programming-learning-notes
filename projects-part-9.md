@@ -13,6 +13,7 @@
 - [Microsoft DMTK](https://github.com/Microsoft/DMTK): Microsoft Distributed Machine Learning Toolkit
 - [Microsoft CNTK](https://github.com/Microsoft/CNTK): CNTK (http://www.cntk.ai/), the Computational Network Toolkit by Microsoft Research, is a unified deep-learning toolkit that describes neural networks as a series of computational steps via a directed graph.
 - [MXNet](http://mxnet.io/): A Flexible and Efficient Library for Deep Learning
+- [Angel](https://github.com/Tencent/angel): A Flexible and Powerful Parameter Server for large-scale machine learning
 
 ## 数据分析
 
