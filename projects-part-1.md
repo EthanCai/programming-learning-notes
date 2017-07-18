@@ -153,10 +153,11 @@
 
 ## Network
 
+- [Mars](https://github.com/Tencent/mars): Mars is a cross-platform network component developed by WeChat.
+- [Libco](https://github.com/Tencent/libco): ibco是微信后台大规模使用的c/c++协程库，2013年至今稳定运行在微信后台的数万台机器上。libco通过仅有的几个函数接口 co_create/co_resume/co_yield 再配合 co_poll，可以支持同步或者异步的写法，如线程库一样轻松。同时库里面提供了socket族函数的hook，使得后台逻辑服务几乎不用修改逻辑代码就可以完成异步化改造。
+
 - [Go: kcp-go](https://github.com/xtaci/kcp-go): A full-featured reliable UDP communication library
   - [Go: kcptun](https://github.com/xtaci/kcptun): an extremely simple & fast udp tunnel based on kcp protocol
-- [.NET: Fracture](https://github.com/fractureio/fracture): A high-performance socket I/O message pipeline library.
-- [.NET: SuperSocket](http://www.supersocket.net/): SuperSocket 是一个轻量级, 跨平台而且可扩展的 .Net/Mono Socket 服务器程序框架。你无须了解如何使用 Socket, 如何维护 Socket 连接和 Socket 如何工作，但是你却可以使用 SuperSocket 很容易的开发出一款 Socket 服务器端软件，例如游戏服务器，GPS 服务器, 工业控制服务和数据采集服务器等等。
 - [Go: gorequest](https://github.com/parnurzeal/gorequest): Simplified HTTP client ( inspired by nodejs SuperAgent )
 - [.NET: RestSharper](http://restsharp.org/): Simple REST and HTTP API Client for .NET
 - [GO: DNS library](https://github.com/miekg/dns): DNS library in Go
@@ -164,6 +165,9 @@
 - [Go: link](https://github.com/funny/link): Go语言网络层脚手架
 - [Go: tus](http://www.oschina.net/p/tus): 一个开放的协议实现了客户端和服务器之间可恢复的文件上传协议
 - [Go: sleuth](https://github.com/ursiform/sleuth): sleuth is a Go library that provides master-less peer-to-peer autodiscovery and RPC between HTTP services that reside on the same network. It works with minimal configuration and provides a mechanism to join a local network both as a client that offers no services and as any service that speaks HTTP. Its primary use case is for microservices on the same network that make calls to one another.
+
+- [.NET: Fracture](https://github.com/fractureio/fracture): A high-performance socket I/O message pipeline library.
+- [.NET: SuperSocket](http://www.supersocket.net/): SuperSocket 是一个轻量级, 跨平台而且可扩展的 .Net/Mono Socket 服务器程序框架。你无须了解如何使用 Socket, 如何维护 Socket 连接和 Socket 如何工作，但是你却可以使用 SuperSocket 很容易的开发出一款 Socket 服务器端软件，例如游戏服务器，GPS 服务器, 工业控制服务和数据采集服务器等等。
 
 ## Authentication && Authorization
 
