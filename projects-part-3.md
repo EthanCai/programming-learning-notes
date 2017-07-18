@@ -177,21 +177,3 @@ In a fast, simple, yet extensible way.
 ## Workflow Management
 
 - [Airflow](https://github.com/airbnb/airflow): a workflow management platform
-
-## Machine Learning and Data Science
-
-- [Caffe](http://caffe.berkeleyvision.org/): Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by the Berkeley Vision and Learning Center (BVLC) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.
-- [Google Tensorflow](https://github.com/tensorflow/tensorflow): TensorFlow is an open source software library for numerical computation using data flow graphs. Nodes in the graph represent mathematical operations, while the graph edges represent the multidimensional data arrays (tensors) that flow between them.
-- [Microsoft DMTK](https://github.com/Microsoft/DMTK): Microsoft Distributed Machine Learning Toolkit
-- [Microsoft CNTK](https://github.com/Microsoft/CNTK): CNTK (http://www.cntk.ai/), the Computational Network Toolkit by Microsoft Research, is a unified deep-learning toolkit that describes neural networks as a series of computational steps via a directed graph.
-- [PredictionIO](https://prediction.io/): An open-source machine learning server for developers and data scientists to create predictive engines for production environments, with zero downtime training and deployment.
-
-- [.NET: Accord.NET](http://accord-framework.net/) - Machine learning framework combined with audio and image processing libraries (computer vision, computer audition, signal processing and statistics).
-- [.NET: Accord.NET Extensions](https://github.com/dajuric/accord-net-extensions) - Advanced image processing and computer vision algorithms made as fluent extensions.
-- [.NET: AForge.NET](http://www.aforgenet.com/) - Framework for developers and researchers in the fields of Computer Vision and Artificial Intelligence (image processing, neural networks, genetic algorithms, machine learning, robotics).
-- [Apache Mahout](https://mahout.apache.org/): The Apache Mahout™ project's goal is to build an environment for quickly creating scalable performant machine learning applications.
-- [Aerosolve - Airbnb](http://airbnb.io/aerosolve/): A machine learning package built for humans.
-- [golearn](https://github.com/sjwhitworth/golearn): Machine Learning for Go
-- [shogun](https://github.com/shogun-toolbox/shogun): The Shogun Machine learning toolbox provides a wide range of unified and efficient Machine Learning (ML) methods. The toolbox seamlessly allows to easily combine multiple data representations, algorithm classes, and general purpose tools. This enables both rapid prototyping of data pipelines and extensibility in terms of new algorithms. We combine modern software architecture in C++ with both efficient low-level computing backends and cutting edge algorithm implementations to solve large-scale Machine Learning problems (yet) on single machines.
-- [warp-ctc](https://github.com/baidu-research/warp-ctc): A fast parallel implementation of CTC, on both CPU and GPU.
-- [convnetjs](https://github.com/karpathy/convnetjs): Deep Learning in Javascript. Train Convolutional Neural Networks (or ordinary ones) in your browser.
