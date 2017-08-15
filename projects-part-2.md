@@ -1,24 +1,24 @@
 <!-- MDTOC maxdepth:6 firsth1:1 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
-- [Projects about Distributed Architecture](#projects-about-distributed-architecture)   
-   - [Open Platform](#open-platform)   
-   - [Distributed Application Framework](#distributed-application-framework)   
-   - [Data Exchange Format](#data-exchange-format)   
-   - [RPC](#rpc)   
-   - [Service Bus](#service-bus)   
-   - [Messsage Queue](#messsage-queue)   
-   - [Job Schedule](#job-schedule)   
-   - [Load Balance](#load-balance)   
-   - [API Gateway](#api-gateway)   
-   - [API Proxy](#api-proxy)   
-   - [Reverse Proxy](#reverse-proxy)   
-   - [Distributed File System](#distributed-file-system)   
-   - [Configuration Management](#configuration-management)   
-   - [Service Discovery, Name Service](#service-discovery-name-service)   
-   - [DNS Server](#dns-server)   
-   - [Circuit Breaker](#circuit-breaker)   
-   - [Distributed Tracing](#distributed-tracing)   
-   - [Other](#other)   
+- [Projects about Distributed Architecture](#projects-about-distributed-architecture)
+   - [Open Platform](#open-platform)
+   - [Distributed Application Framework](#distributed-application-framework)
+   - [Data Exchange Format](#data-exchange-format)
+   - [RPC](#rpc)
+   - [Service Bus](#service-bus)
+   - [Messsage Queue](#messsage-queue)
+   - [Job Schedule](#job-schedule)
+   - [Load Balance](#load-balance)
+   - [API Gateway](#api-gateway)
+   - [API Proxy](#api-proxy)
+   - [Reverse Proxy](#reverse-proxy)
+   - [Distributed File System](#distributed-file-system)
+   - [Configuration Management](#configuration-management)
+   - [Service Discovery, Name Service](#service-discovery-name-service)
+   - [DNS Server](#dns-server)
+   - [Circuit Breaker](#circuit-breaker)
+   - [Distributed Tracing](#distributed-tracing)
+   - [Other](#other)
 
 <!-- /MDTOC -->
 
@@ -184,6 +184,7 @@
 ## Circuit Breaker
 
 - [Go: Hystrix-go](https://github.com/afex/hystrix-go): Netflix's Hystrix latency and fault tolerance library, for Go
+- [Go: gobreaker](https://github.com/sony/gobreaker): Circuit Breaker implemented in Go
 - [Java: Hystrix](https://github.com/Netflix/Hystrix): Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
 - [C#: Polly](https://github.com/App-vNext/Polly): Polly is a .NET 3.5 / 4.0 / 4.5 / PCL library that allows developers to express transient exception handling policies such as Retry, Retry Forever, Wait and Retry or Circuit Breaker in a fluent manner.
 - [C#: Hystrix.NET](https://hystrixnet.codeplex.com): Hystrix.NET is a C# port of Hystrix, which is a latency and fault tolerance library for complex distributed systems.
