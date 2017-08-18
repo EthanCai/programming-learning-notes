@@ -1,24 +1,24 @@
 <!-- MDTOC maxdepth:6 firsth1:1 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
-- [Projects about Data Storage and Analysis](#projects-about-data-storage-and-analysis)   
-   - [Database](#database)   
-   - [Memory Database](#memory-database)   
-   - [Graph Database](#graph-database)   
-   - [Database Engine](#database-engine)   
-   - [Cache](#cache)   
-   - [NoSQL Database](#nosql-database)   
-   - [JSON Storage](#json-storage)   
-   - [Data Warehouse](#data-warehouse)   
-   - [Search](#search)   
-   - [Text Processing](#text-processing)   
-   - [Crawler](#crawler)   
-   - [Recommender System](#recommender-system)   
-   - [Big Data](#big-data)   
-   - [Distributed realtime computation system](#distributed-realtime-computation-system)   
-   - [Data Visualization](#data-visualization)   
-   - [Log Process](#log-process)   
-   - [Workflow Management](#workflow-management)   
-   - [Machine Learning and Data Science](#machine-learning-and-data-science)   
+- [Projects about Data Storage and Analysis](#projects-about-data-storage-and-analysis)
+   - [Database](#database)
+   - [Memory Database](#memory-database)
+   - [Graph Database](#graph-database)
+   - [Database Engine](#database-engine)
+   - [Cache](#cache)
+   - [NoSQL Database](#nosql-database)
+   - [JSON Storage](#json-storage)
+   - [Data Warehouse](#data-warehouse)
+   - [Search](#search)
+   - [Text Processing](#text-processing)
+   - [Crawler](#crawler)
+   - [Recommender System](#recommender-system)
+   - [Big Data](#big-data)
+   - [Distributed realtime computation system](#distributed-realtime-computation-system)
+   - [Data Visualization](#data-visualization)
+   - [Log Process](#log-process)
+   - [Workflow Management](#workflow-management)
+   - [Machine Learning and Data Science](#machine-learning-and-data-science)
 
 <!-- /MDTOC -->
 
@@ -29,6 +29,7 @@
 - [SQL Server](https://msdn.microsoft.com/en-us/library/bb545450.aspx)
 - [PostgreSQL](http://www.postgresql.org/):
     - [PostGIS](http://postgis.refractions.net): PostGIS在对象关系型数据库PostgreSQL上增加了存储管理空间数据的能力，相当于Oracle的spatial部分。PostGIS最大的特点是符合并且实现了OpenGIS的一些规范，是最著名的开源GIS数据库。
+    - [Postgres-XL](https://www.postgres-xl.org/overview/): Postgres-XL is a horizontally scalable open source SQL database cluster, flexible enough to handle varying database workloads
 - [MySQL](http://www.mysql.com/)
 - [MariaDB](http://mariadb.org/)
 - [WebScaleSQL](http://webscalesql.org/)
