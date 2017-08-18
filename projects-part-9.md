@@ -45,3 +45,4 @@
 - [convnetjs](https://github.com/karpathy/convnetjs): Deep Learning in Javascript. Train Convolutional Neural Networks (or ordinary ones) in your browser.
 - [Gorgonia](https://github.com/chewxy/gorgonia): Gorgonia is a library that helps facilitate machine learning in Go. Write and evaluate mathematical equations involving multidimensional arrays easily. If this sounds like Theano or TensorFlow, it's because the idea is quite similar. Specifically, the library is pretty low-level, like Theano, but has higher goals like Tensorflow.
   - [Gorgonia: Primitives for Building Neural Networks in Go](https://speakerdeck.com/chewxy/gorgonia-primitives-for-building-neural-networks-in-go)
+- [deeplearn.js](https://pair-code.github.io/deeplearnjs/): A hardware-accelerated machine intelligence library for the web
