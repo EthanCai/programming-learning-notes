@@ -29,6 +29,7 @@
 - [SQL Server](https://msdn.microsoft.com/en-us/library/bb545450.aspx)
 - [PostgreSQL](http://www.postgresql.org/):
     - [PostGIS](http://postgis.refractions.net): PostGIS在对象关系型数据库PostgreSQL上增加了存储管理空间数据的能力，相当于Oracle的spatial部分。PostGIS最大的特点是符合并且实现了OpenGIS的一些规范，是最著名的开源GIS数据库。
+    - [PgBouncer](https://pgbouncer.github.io/): Lightweight connection pooler for PostgreSQL
     - [Postgres-XL](https://www.postgres-xl.org/overview/): Postgres-XL is a horizontally scalable open source SQL database cluster, flexible enough to handle varying database workloads
 - [MySQL](http://www.mysql.com/)
 - [MariaDB](http://mariadb.org/)
