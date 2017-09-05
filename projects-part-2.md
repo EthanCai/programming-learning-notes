@@ -107,6 +107,8 @@
 - [Go: scheduler](https://github.com/carlescere/scheduler): Job scheduling made easy.
 - [Go: workq](https://github.com/iamduo/workq): Workq is a job scheduling server strictly focused on simplifying job processing and streamlining coordination. It can run jobs in blocking foreground or non-blocking background mode.
 - [Go: cronsun](https://github.com/shunfei/cronsun): A Distributed, Fault-Tolerant Cron-Style Job System.
+- [Go: goworker](https://github.com/benmanns/goworker): goworker is a Go-based background worker that runs 10 to 100,000* times faster than Ruby-based workers.
+- [Go: machinery](https://github.com/RichardKnop/machinery): Machinery is an asynchronous task queue/job queue based on distributed message passing.
 
 ## Load Balance
 
