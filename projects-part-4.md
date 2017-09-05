@@ -1,29 +1,29 @@
 <!-- MDTOC maxdepth:6 firsth1:1 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
-- [Project about DevOps](#project-about-devops)   
-   - [Code Repository](#code-repository)   
-   - [Code Analysis and Metrics](#code-analysis-and-metrics)   
-   - [Scaffolding](#scaffolding)   
-   - [Build](#build)   
-   - [Continuous Integration](#continuous-integration)   
-   - [Automation](#automation)   
-   - [Unit Testing](#unit-testing)   
-   - [Database Testing](#database-testing)   
-   - [Database Management](#database-management)   
-   - [Automated Acceptance Testing/BDD](#automated-acceptance-testingbdd)   
-   - [Performance Testing](#performance-testing)   
-   - [System Monitor](#system-monitor)   
-   - [Gather System Information](#gather-system-information)   
-   - [Process Supervisor](#process-supervisor)   
-   - [User Behavior Collection & Analysis](#user-behavior-collection-analysis)   
-   - [Infrastructure Management](#infrastructure-management)   
-   - [OS Configuration Management](#os-configuration-management)   
-   - [Terminal](#terminal)   
-   - [Kanban - Issue Management](#kanban-issue-management)   
-   - [Bug Management](#bug-management)   
-   - [Container](#container)   
-   - [Instant Communication](#instant-communication)   
-   - [Misc](#misc)   
+- [Project about DevOps](#project-about-devops)
+   - [Code Repository](#code-repository)
+   - [Code Analysis and Metrics](#code-analysis-and-metrics)
+   - [Scaffolding](#scaffolding)
+   - [Build](#build)
+   - [Continuous Integration](#continuous-integration)
+   - [Automation](#automation)
+   - [Unit Testing](#unit-testing)
+   - [Database Testing](#database-testing)
+   - [Database Management](#database-management)
+   - [Automated Acceptance Testing/BDD](#automated-acceptance-testingbdd)
+   - [Performance Testing](#performance-testing)
+   - [System Monitor](#system-monitor)
+   - [Gather System Information](#gather-system-information)
+   - [Process Supervisor](#process-supervisor)
+   - [User Behavior Collection & Analysis](#user-behavior-collection-analysis)
+   - [Infrastructure Management](#infrastructure-management)
+   - [OS Configuration Management](#os-configuration-management)
+   - [Terminal](#terminal)
+   - [Kanban - Issue Management](#kanban-issue-management)
+   - [Bug Management](#bug-management)
+   - [Container](#container)
+   - [Instant Communication](#instant-communication)
+   - [Misc](#misc)
 
 <!-- /MDTOC -->
 
@@ -170,7 +170,7 @@
 
 ## User Behavior Collection & Analysis
 
-- [Piwik - Open Analytics Platform](http://piwik.org/): Piwik is an open analytics platform currently used by individuals, companies and governments all over the world. With Piwik, your data will always be yours. Learn why Piwik is the right web analytics tool for you below.
+- [PHP: Piwik](http://piwik.org/): Piwik is an open analytics platform currently used by individuals, companies and governments all over the world. With Piwik, your data will always be yours. Learn why Piwik is the right web analytics tool for you below.
 - [Open Web Analytics](http://www.openwebanalytics.com/): Open Web Analytics (OWA) is open source web analytics software that you can use to track and analyze how people use your websites and applications. OWA is licensed under GPL and provides website owners and developers with easy ways to add web analytics to their sites using simple Javascript, PHP, or REST based APIs.
 - [Snowplow - the event analytics platform](http://snowplowanalytics.com/): Have every single event, from your websites, mobile apps, desktop applications and server-side systems, stored in your own data warehouse and available to action in real-time.
 - [tracking.js](http://trackingjs.com/): The tracking.js library brings different computer vision algorithms and techniques into the browser environment. By using modern HTML5 specifications, we enable you to do real-time color tracking, face detection and much more — all that with a lightweight core (~7 KB) and intuitive interface.
@@ -178,17 +178,18 @@
 
 ## Infrastructure Management
 
-- [Apache Mesos](http://mesos.apache.org/): Apache Mesos abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively.
-- [Marathon](https://mesosphere.github.io/marathon/): A cluster-wide init and control system for services in cgroups or Docker containers
-- [Chronos](http://mesos.github.io/chronos/): Chronos is Airbnb's replacement for cron. It is a distributed and fault-tolerant scheduler that runs on top of Apache Mesos that can be used for job orchestration. It supports custom Mesos executors as well as the default command executor. Thus by default, Chronos executes sh (on most systems bash) scripts.
+- [C++: Apache Mesos](http://mesos.apache.org/): Apache Mesos abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively.
+- [Scala: Marathon](https://mesosphere.github.io/marathon/): A cluster-wide init and control system for services in cgroups or Docker containers
+- [Scala: Chronos](http://mesos.github.io/chronos/): Chronos is Airbnb's replacement for cron. It is a distributed and fault-tolerant scheduler that runs on top of Apache Mesos that can be used for job orchestration. It supports custom Mesos executors as well as the default command executor. Thus by default, Chronos executes sh (on most systems bash) scripts.
+- [Go: hashicorp/Nomad](https://github.com/hashicorp/nomad): Nomad is a cluster manager, designed for both long lived services and short lived batch processing workloads. Developers use a declarative job specification to submit work, and Nomad ensures constraints are satisfied and resource utilization is optimized by efficient task packing
 
 ## OS Configuration Management
 
-- [Chef](http://www.getchef.com/chef/): Infrastructure as Code
-- [Ansible](http://www.ansible.com/): Deploy apps. Manage systems. Crush complexity. Ansible is a powerful automation tool that you can learn quickly.
-- [Puppet](http://puppetlabs.com/): IT Automation Software of System Administrators
-- [SaltStack](http://saltstack.com/): SaltStack software orchestrates and automates the visualization, build and management of any legacy or modern infrastructure. SaltStack is known as the fastest, most scalable systems and configuration management software for CloudOps, ITOps and DevOps.
-- [cfengine](http://cfengine.com/): Lightweight agent system. Configuration state is specified via a declarative language.
+- [Ruby: Chef](http://www.getchef.com/chef/): Infrastructure as Code
+- [Python: Ansible](http://www.ansible.com/): Deploy apps. Manage systems. Crush complexity. Ansible is a powerful automation tool that you can learn quickly.
+- [Ruby: Puppet](http://puppetlabs.com/): IT Automation Software of System Administrators
+- [Python: SaltStack](http://saltstack.com/): SaltStack software orchestrates and automates the visualization, build and management of any legacy or modern infrastructure. SaltStack is known as the fastest, most scalable systems and configuration management software for CloudOps, ITOps and DevOps.
+- [C: CFEngine](http://cfengine.com/): Lightweight agent system. Configuration state is specified via a declarative language.
 
 ## Terminal
 

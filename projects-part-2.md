@@ -105,7 +105,6 @@
 - [C: Gearman](http://gearman.org/): Gearman provides a generic application framework to farm out work to other machines or processes that are better suited to do the work. It allows you to do work in parallel, to load balance processing, and to call functions between languages. It can be used in a variety of applications, from high-availability web sites to the transport of database replication events.
 - [Ruby: resque-schedule](https://github.com/resque/resque-scheduler): A light-weight job scheduling system built on top of resque
 - [Python: celery](http://www.celeryproject.org/): Celery is an asynchronous task queue/job queue based on distributed message passing.	It is focused on real-time operation, but supports scheduling as well.
-- [Go: hashicorp/Nomad](https://github.com/hashicorp/nomad): Nomad is a cluster manager, designed for both long lived services and short lived batch processing workloads. Developers use a declarative job specification to submit work, and Nomad ensures constraints are satisfied and resource utilization is optimized by efficient task packing
 - [Go: kala](https://github.com/ajvb/kala): Kala is a simplistic, modern, and performant job scheduler written in Go. It lives in a single binary and does not have any dependencies. (Currently in Alpha stage. Do not use in production environments.)
 - [Go: dkron](https://github.com/victorcoder/dkron): Distributed, fault tolerant job scheduling system
 - [Go: jobber](https://github.com/dshearer/jobber): A replacement for cron, with sophisticated status-reporting and error-handling.
