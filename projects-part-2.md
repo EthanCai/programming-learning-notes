@@ -139,6 +139,7 @@
 ## Reverse Proxy
 
 - [Nginx](http://wiki.nginx.org/Main): Nginx (pronounced engine-x) is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
+- [Traefik](https://github.com/containous/traefik/): Træfik (pronounced like traffic) is a modern HTTP reverse proxy and load balancer made to deploy microservices with ease. It supports several backends (Docker, Swarm mode, Kubernetes, Marathon, Consul, Etcd, Rancher, Amazon ECS, and a lot more) to manage its configuration automatically and dynamically.
 - [Varnish](https://www.varnish-cache.org/): Varnish是一款高性能且开源的反向代理服务器和http加速器。与传统的Squid相比，Varnish具有性能更高、速度更快、管理更方便 等诸多优点。作者Poul-Henning Kamp是FreeBSD的内核开发者之一。Varnish采用全新的软件体系架构，和现在的硬件提交配合紧密。在1975年时，储存媒介只有两种：内存 与硬盘。但现在计算 机系统的内存除了主存外，还包括了cpu内的L1、L2，甚至有L3快取。硬盘上也有自己的快取装置，因此squid cache自行处理物件替换的架构不可能得知这些情况而做到最佳化，但操作系统可以得知这些情况，所以这部份的工作应该交给操作系统处理，这就是 Varnish cache设计架构。挪威最大的在线报纸Verdens Gang使用3台Varnish代替了原来的12台squid，性能居然比以前更好，这是Varnish最成功的应用案例。
 - [Squid](http://www.squid-cache.org/): Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more. It reduces bandwidth and improves response times by caching and reusing frequently-requested web pages. Squid has extensive access controls and makes a great server accelerator. It runs on most available operating systems, including Windows and is licensed under the GNU GPL.
 
