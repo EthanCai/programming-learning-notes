@@ -62,5 +62,7 @@
     - [吴恩达的新深度学习课程什么样？我们试听了一下 | 附视频](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247487866&idx=3&sn=b61ceb5c7061ab1c768ed5fdf14f783d)
 - 吴恩达 《机器学习》
   - Coursera地址：https://www.coursera.org/learn/machine-learning
+- 吴恩达 机器学习项目构建 《Structuring Machine Learning Projects》
+  - Coursera地址：https://www.coursera.org/learn/machine-learning-projects
 - 明尼苏达大学 Joseph A Konstan 《推荐系统导论》
   - Coursera地址：https://www.coursera.org/learn/recommender-systems

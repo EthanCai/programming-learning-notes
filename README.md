@@ -35,6 +35,10 @@
 
 # Guide
 
+## Language Reference
+
+- [Java EE Platform Specification](https://github.com/javaee/javaee-spec): This is the project for the Java EE Platform specification. The Java EE Platform specification is the umbrella specification that defines the Java EE platform. The platform specification doesn't define the Java EE APIs directly, but rather includes them by reference to other Java specifications and defines how they all fit together in the overall Java EE platform. The platform specification also defines other attributes of the platform such as security, deployment, transactions, and interoperability.
+
 ## Coding Style Guide
 
 - [Google Style Guide](https://github.com/google/styleguide):  Style guides for Google-originated open-source projects
@@ -44,6 +48,7 @@
     - [NET设计规范：约定、惯用法与模式](http://book.douban.com/subject/4231292/)
     - [C# Coding Conventions](https://msdn.microsoft.com/en-us/library/ff926074.aspx)
     - [C# 3.0, C# 4.0 and C# 5.0 Coding Guidelines](http://csharpguidelines.codeplex.com/)
+- [Linux Kernel Coding Style](https://www.kernel.org/doc/html/latest/process/coding-style.html)
 
 ## Data Schema Design Guide
 
