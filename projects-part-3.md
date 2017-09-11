@@ -94,6 +94,9 @@
 
 ## Search
 
+- [Java: Apache Lucene](http://lucene.apache.org/core/index.html): Apache LuceneTM is a high-performance, full-featured text search engine library written entirely in Java. It is a technology suitable for nearly any application that requires full-text search, especially cross-platform.
+  - [C++: Lucene++](https://github.com/luceneplusplus/LucenePlusPlus): Lucene++ is an up to date C++ port of the popular Java Lucene library, a high-performance, full-featured text search engine.
+  - [Go: golucene](https://github.com/balzaczyy/golucene): Go (Golang) port of Apache Lucene
 - [Java: Apache Solr](http://lucene.apache.org/solr/): Solr is the popular, blazing-fast, open source enterprise search platform built on Apache Lucene.
     - [mmseg4j-solr](https://github.com/chenlb/mmseg4j-solr): mmseg4j for lucene or solr analyzer
     - [mmseg4j-core](https://github.com/chenlb/mmseg4j-core): mmseg4j core MMSEG for java chinese analyzer
