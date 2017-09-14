@@ -71,6 +71,7 @@
 
 - [Jenkins-CI](http://jenkins-ci.org/): An extensible open source continuous integration server
   - [janky](https://github.com/github/janky): Continuous integration server built on top of Jenkins and Hubot
+- [Fabric8](https://fabric8.io/): fabric8 is an end to end development platform spanning ideation to production for the creation of cloud native applications and microservices. You can build, test and deploy your applications via Continuous Delivery pipelines then run and manage them with Continuous Improvement and ChatOps
 - [Concourse](https://concourse.ci/): CI that scales with your project.
 - [spinnaker](http://www.spinnaker.io/): Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
 - [CruiseControl.NET](http://www.cruisecontrolnet.org/) - an Automated Continuous Integration server, implemented using the .NET Framework
