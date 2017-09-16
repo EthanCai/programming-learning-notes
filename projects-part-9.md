@@ -66,3 +66,5 @@
   - Coursera地址：https://www.coursera.org/learn/machine-learning-projects
 - 明尼苏达大学 Joseph A Konstan 《推荐系统导论》
   - Coursera地址：https://www.coursera.org/learn/recommender-systems
+- 牛津大学 《Deep Learning for Natural Language Processing》
+  - https://machinelearningmastery.com/oxford-course-deep-learning-natural-language-processing/
