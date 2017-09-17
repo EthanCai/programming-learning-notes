@@ -14,6 +14,7 @@
 	- [Asynchronous Programming Framework](#asynchronous-programming-framework)
 	- [WebSocket](#websocket)
 	- [Network](#network)
+	- [Thread && Coroutine](#thread-coroutine)
 	- [Authentication && Authorization](#authentication-authorization)
 	- [Data Access](#data-access)
 	- [Data Access Related framework](#data-access-related-framework)
@@ -77,12 +78,22 @@
 
 ## Web Frameworks/Application Frameworks
 
-![](img/83b7771f9b0ae62378dcbb0229c189d0.png)
+Web Framework预备知识：
+
+- [Wiki2 - Web framework](https://wiki2.org/en/Web_framework)
+- [谁是最快的Go Web框架](http://colobu.com/2016/04/06/the-fastest-golang-web-framework/)
+- [Github Showcases - Web application frameworks](https://github.com/showcases/web-application-frameworks?s=stars)
+- [15 Important Considerations for Choosing A Web Dev Framework](https://code.tutsplus.com/tutorials/15-important-considerations-for-choosing-a-web-dev-framework--net-8035)
+
+
+Web Frameworks:
 
 - [Go: Beego](http://beego.me/): 一个使用 Go 的思维来帮助您构建并开发 Go 应用程序的开源框架
 - [Go: Gin](https://github.com/gin-gonic/gin): Gin is a web framework written in Golang. It features a martini-like API with much better performance, up to 40 times faster thanks to httprouter. If you need performance and good productivity, you will love Gin.
 - [Go: Iris](https://github.com/kataras/iris): The fastest web framework for Go in (THIS) earth
 - [Go: revel](http://revel.github.io/): A high-productivity web framework for the Go language.
+- [Nodejs: Expressjs](http://expressjs.com/): Fast, unopinionated, minimalist web framework for Node.js
+- [Nodejs: Koa](https://github.com/koajs/koa): Expressive middleware for node.js using ES2017 async functions
 - [Java: Spring Framework](http://spring.io/projects): The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
 - [Java: jHipster](https://jhipster.github.io/): Open Source application generator for creating Spring Boot + AngularJS projects in seconds
 - [Java: Akka](http://akka.io/): Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM. The power of Akka is also available on the .NET Framework and Mono via the Akka.NET project.
@@ -151,9 +162,7 @@
 
 ## Network
 
-- [Mars](https://github.com/Tencent/mars): Mars is a cross-platform network component developed by WeChat.
-- [Libco](https://github.com/Tencent/libco): ibco是微信后台大规模使用的c/c++协程库，2013年至今稳定运行在微信后台的数万台机器上。libco通过仅有的几个函数接口 co_create/co_resume/co_yield 再配合 co_poll，可以支持同步或者异步的写法，如线程库一样轻松。同时库里面提供了socket族函数的hook，使得后台逻辑服务几乎不用修改逻辑代码就可以完成异步化改造。
-
+- [C++: Mars](https://github.com/Tencent/mars): Mars is a cross-platform network component developed by WeChat.
 - [Go: kcp-go](https://github.com/xtaci/kcp-go): A full-featured reliable UDP communication library
   - [Go: kcptun](https://github.com/xtaci/kcptun): an extremely simple & fast udp tunnel based on kcp protocol
 - [Go: gorequest](https://github.com/parnurzeal/gorequest): Simplified HTTP client ( inspired by nodejs SuperAgent )
@@ -163,14 +172,27 @@
 - [Go: link](https://github.com/funny/link): Go语言网络层脚手架
 - [Go: tus](http://www.oschina.net/p/tus): 一个开放的协议实现了客户端和服务器之间可恢复的文件上传协议
 - [Go: sleuth](https://github.com/ursiform/sleuth): sleuth is a Go library that provides master-less peer-to-peer autodiscovery and RPC between HTTP services that reside on the same network. It works with minimal configuration and provides a mechanism to join a local network both as a client that offers no services and as any service that speaks HTTP. Its primary use case is for microservices on the same network that make calls to one another.
-
 - [.NET: Fracture](https://github.com/fractureio/fracture): A high-performance socket I/O message pipeline library.
 - [.NET: SuperSocket](http://www.supersocket.net/): SuperSocket 是一个轻量级, 跨平台而且可扩展的 .Net/Mono Socket 服务器程序框架。你无须了解如何使用 Socket, 如何维护 Socket 连接和 Socket 如何工作，但是你却可以使用 SuperSocket 很容易的开发出一款 Socket 服务器端软件，例如游戏服务器，GPS 服务器, 工业控制服务和数据采集服务器等等。
 
+## Thread && Coroutine
+
+- [C++: Libco](https://github.com/Tencent/libco): ibco是微信后台大规模使用的c/c++协程库，2013年至今稳定运行在微信后台的数万台机器上。libco通过仅有的几个函数接口 co_create/co_resume/co_yield 再配合 co_poll，可以支持同步或者异步的写法，如线程库一样轻松。同时库里面提供了socket族函数的hook，使得后台逻辑服务几乎不用修改逻辑代码就可以完成异步化改造。
+- [C: libuv](https://github.com/libuv/libuv): Cross-platform asynchronous I/O
+- [C: libev](https://github.com/enki/libev)
+- [C: libevent](http://libevent.org/)
+
+学习资料：
+
+- [libuv 初窥](https://blog.codingnow.com/2012/01/libuv.html)
+- [libuv中文教程](http://luohaha.github.io/Chinese-uvbook/index.html)：翻译自[An Introduction to libuv](http://nikhilm.github.io/uvbook/)
+- [使用 libevent 和 libev 提高网络应用性能](https://www.ibm.com/developerworks/cn/aix/library/au-libev/index.html)
+- [The C10K problem](http://www.kegel.com/c10k.html)
+
 ## Authentication && Authorization
 
-- [captcha](https://github.com/jianxinio/captcha): Golang实现的验证码服务
-- [Go OTP](https://github.com/hgfischer/go-otp): Package go-otp implements one-time-password generators used in 2-factor authentication systems like RSA-tokens. Currently this supports both HOTP (RFC-4226), TOTP (RFC-6238) and Base32 encoding (RFC-3548) for Google Authenticator compatibility
+- [Go: captcha](https://github.com/jianxinio/captcha): Golang实现的验证码服务
+- [Go: Go OTP](https://github.com/hgfischer/go-otp): Package go-otp implements one-time-password generators used in 2-factor authentication systems like RSA-tokens. Currently this supports both HOTP (RFC-4226), TOTP (RFC-6238) and Base32 encoding (RFC-3548) for Google Authenticator compatibility
     - [Go-otpserver](https://github.com/skyjia/go-otpserver): A golang version OTP server.
 - [.NET: ASP.NET Identity](https://aspnetidentity.codeplex.com/) - New membership system for ASP.NET applications
 - [.NET: DotNetOpenAuth](https://github.com/DotNetOpenAuth/DotNetOpenAuth) - A C# implementation of the OpenID, OAuth and InfoCard protocols
