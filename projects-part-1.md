@@ -77,18 +77,16 @@
 
 ## Web Frameworks/Application Frameworks
 
-![](https://raw.githubusercontent.com/iris-contrib/website/cf71811e6acb2f9bf1e715e25660392bf090b923/assets/benchmark_horizontal_transparent.png)
+![](img/83b7771f9b0ae62378dcbb0229c189d0.png)
 
 - [Go: Beego](http://beego.me/): 一个使用 Go 的思维来帮助您构建并开发 Go 应用程序的开源框架
 - [Go: Gin](https://github.com/gin-gonic/gin): Gin is a web framework written in Golang. It features a martini-like API with much better performance, up to 40 times faster thanks to httprouter. If you need performance and good productivity, you will love Gin.
 - [Go: Iris](https://github.com/kataras/iris): The fastest web framework for Go in (THIS) earth
 - [Go: revel](http://revel.github.io/): A high-productivity web framework for the Go language.
-
 - [Java: Spring Framework](http://spring.io/projects): The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
 - [Java: jHipster](https://jhipster.github.io/): Open Source application generator for creating Spring Boot + AngularJS projects in seconds
 - [Java: Akka](http://akka.io/): Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM. The power of Akka is also available on the .NET Framework and Mono via the Akka.NET project.
 - [Java: Vert.x](http://vertx.io): Vert.x is a tool-kit for building reactive applications on the JVM.
-
 - [.NET: ASP.net MVC 6](https://github.com/aspnet/Mvc): Model view controller framework for building dynamic web sites with clean separation of concerns, including the merged MVC, Web API, and Web Pages, Razor.
 - [.NET: ASP.net MVC 5](http://aspnetwebstack.codeplex.com/): ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that gives you full control over markup for enjoyable, agile development. ASP.NET MVC includes many features that enable fast, TDD-friendly development for creating sophisticated applications that use the latest web standards.
 - [.NET: ASP.NET Boilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate) - A starting point for new modern ASP.NET MVC web applications with best practices and most popular tools.
