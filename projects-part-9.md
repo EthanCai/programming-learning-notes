@@ -68,3 +68,4 @@
   - Coursera地址：https://www.coursera.org/learn/recommender-systems
 - 牛津大学 《Deep Learning for Natural Language Processing》
   - https://machinelearningmastery.com/oxford-course-deep-learning-natural-language-processing/
+- [fastai](https://github.com/fastai/fastai): The fast.ai deep learning library, lessons, and tutorials
