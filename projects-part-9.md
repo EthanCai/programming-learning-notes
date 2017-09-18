@@ -53,8 +53,9 @@
 - 台大教授 李宏毅 《深度学习简介》
   - Youtube：https://www.youtube.com/watch?v=0jCr2ioGNG0&t=15s
   - 李宏毅深度学习(2017)：http://www.bilibili.com/video/av9770302/
-  - 评论
+  - 文章
     - [台大教授李宏毅：1天搞懂深度学习](https://mp.weixin.qq.com/s?__biz=MzIzNzAyNzkxOA==&mid=2650524369&idx=1&sn=5f0872022e24acb5ed1dbb6a5e51187f)
+    - [台大李宏毅机器学习课程从这里开始](http://blog.csdn.net/soulmeetliang/article/details/77461607)
 - 吴恩达 《深度学习专项课程》
   - 网易公开课地址：https://study.163.com/topics/deepLearning/
   - Coursera地址：https://www.coursera.org/specializations/deep-learning
