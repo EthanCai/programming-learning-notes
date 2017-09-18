@@ -56,6 +56,10 @@
   - 文章
     - [台大教授李宏毅：1天搞懂深度学习](https://mp.weixin.qq.com/s?__biz=MzIzNzAyNzkxOA==&mid=2650524369&idx=1&sn=5f0872022e24acb5ed1dbb6a5e51187f)
     - [台大李宏毅机器学习课程从这里开始](http://blog.csdn.net/soulmeetliang/article/details/77461607)
+- 台大林轩田《机器学习的基石》《机器学习技法》
+  - Bilibili: [机器学习技法](https://www.bilibili.com/video/av12469267/)
+  - Bilibili: [机器学习基石](https://www.bilibili.com/video/av12463015/)
+  - 百度云盘: https://yun.baidu.com/share/link?shareid=3977298546&uk=3507350607#list/path=%2F
 - 吴恩达 《深度学习专项课程》
   - 网易公开课地址：https://study.163.com/topics/deepLearning/
   - Coursera地址：https://www.coursera.org/specializations/deep-learning
