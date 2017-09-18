@@ -180,6 +180,7 @@ Web Frameworks:
 - [C: libuv](https://github.com/libuv/libuv): Cross-platform asynchronous I/O
 - [C: libev](https://github.com/enki/libev)
 - [C: libevent](http://libevent.org/)
+- [Rust: mio](https://github.com/carllerche/mio): Metal IO library for Rust
 
 学习资料：
 
