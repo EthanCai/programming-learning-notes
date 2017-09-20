@@ -60,15 +60,14 @@
   - Bilibili: [机器学习技法](https://www.bilibili.com/video/av12469267/)
   - Bilibili: [机器学习基石](https://www.bilibili.com/video/av12463015/)
   - 百度云盘: https://yun.baidu.com/share/link?shareid=3977298546&uk=3507350607#list/path=%2F
-- 吴恩达 《深度学习专项课程》
+- 吴恩达 《深度学习专项课程》 [deeplearning.ai](https://www.deeplearning.ai/)
   - 网易公开课地址：https://study.163.com/topics/deepLearning/
   - Coursera地址：https://www.coursera.org/specializations/deep-learning
   - 评论
     - [吴恩达的新深度学习课程什么样？我们试听了一下 | 附视频](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247487866&idx=3&sn=b61ceb5c7061ab1c768ed5fdf14f783d)
+    - [AI is the new electricity](https://mp.weixin.qq.com/s/gIV6sNhrURn1Qonet26uIA)
 - 吴恩达 《机器学习》
   - Coursera地址：https://www.coursera.org/learn/machine-learning
-- 吴恩达 机器学习项目构建 《Structuring Machine Learning Projects》
-  - Coursera地址：https://www.coursera.org/learn/machine-learning-projects
 - 明尼苏达大学 Joseph A Konstan 《推荐系统导论》
   - Coursera地址：https://www.coursera.org/learn/recommender-systems
 - 牛津大学 《Deep Learning for Natural Language Processing》
