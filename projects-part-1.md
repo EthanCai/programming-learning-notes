@@ -40,6 +40,7 @@
 
 ## Compiler
 
+- [LLVM](http://www.llvm.org/): The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. Despite its name, LLVM has little to do with traditional virtual machines. The name "LLVM" itself is not an acronym; it is the full name of the project.
 - [Golang: gopherjs](https://github.com/gopherjs/gopherjs): A compiler from Go to JavaScript for running Go code in a browser
 - [.NET Core](http://dotnet.github.io/core/): A general purpose managed framework
 - [.NET: Mono](http://www.mono-project.com/): Cross platform, open source .NET framework
@@ -54,8 +55,9 @@
 
 - [GDB](https://www.gnu.org/software/gdb/): The GNU Project Debugger
 - [gdbgui](https://github.com/cs01/gdbgui): A modern, browser-based frontend to gdb (gnu debugger). Add breakpoints, view stack traces, and more in C, C++, Go, and Rust. Simply run gdbgui from the terminal and a new tab will open in your browser.
+- [rr](https://github.com/mozilla/rr): rr is a lightweight tool for recording and replaying execution of applications (trees of processes and threads). rr aspires to be your primary C/C++ debugging tool for Linux, replacing — well, enhancing — gdb. You record a failure once, then debug the recording, deterministically, as many times as you want. The same execution is replayed every time.
+- [LLDB Debugger](http://lldb.llvm.org/): LLDB is a next generation, high-performance debugger. It is built as a set of reusable components which highly leverage existing libraries in the larger LLVM Project, such as the Clang expression parser and LLVM disassembler. LLDB is the default debugger in Xcode on Mac OS X and supports debugging C, Objective-C and C++ on the desktop and iOS devices and simulator.
 - [Golang: Delve](https://github.com/derekparker/delve/): Delve is a debugger for the Go programming language.
-- [rr](https://github.com/mozilla/rr): rr is a lightweight tool for recording and replaying execution of applications (trees of processes and threads).
 
 ## Analyzer
 
