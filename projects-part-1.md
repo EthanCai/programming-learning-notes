@@ -227,6 +227,7 @@ Web Frameworks:
 		- [Golang: sql-migrate](https://github.com/rubenv/sql-migrate): SQL schema migration tool for Go
 - Java
 	- [Java: p6spy](https://github.com/p6spy/p6spy): P6Spy is a framework that enables database data to be seamlessly intercepted and logged with no code changes to the application. with no code changes to the application.
+	- [Java: druid](https://github.com/alibaba/druid): 为监控而生的数据库连接池！
 - .NET Framework
 	- [.NET: StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis): a high performance general purpose redis client for .NET languages (C# etc)
 	- [.NET: SolrNet](https://github.com/mausch/SolrNet): SolrNet is an Apache Solr client for .NET
