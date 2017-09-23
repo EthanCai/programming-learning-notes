@@ -41,13 +41,16 @@
 ## Compiler
 
 - [LLVM](http://www.llvm.org/): The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. Despite its name, LLVM has little to do with traditional virtual machines. The name "LLVM" itself is not an acronym; it is the full name of the project.
-- [Golang: gopherjs](https://github.com/gopherjs/gopherjs): A compiler from Go to JavaScript for running Go code in a browser
 - [.NET Core](http://dotnet.github.io/core/): A general purpose managed framework
 - [.NET: Mono](http://www.mono-project.com/): Cross platform, open source .NET framework
 - [.NET: Roslyn](https://github.com/dotnet/roslyn): The .NET Compiler Platform ("Roslyn") provides open-source C# and Visual Basic compilers with rich code analysis APIs.
-- [OpenJDK](http://openjdk.java.net/): open-source implementation of the Java Platform, Standard Edition
-- [Oracle JDK](http://www.oracle.com/technetwork/java/javase/overview/index.html): N/A
-- [Eclipse OpenJ9](http://www.eclipse.org/openj9/): IBM已经开源自己的JDK作为Eclipse OpenJ9
+- [Java: OpenJDK](http://openjdk.java.net/): open-source implementation of the Java Platform, Standard Edition
+- [Java: Oracle JDK](http://www.oracle.com/technetwork/java/javase/overview/index.html): N/A
+- [Java: Eclipse OpenJ9](http://www.eclipse.org/openj9/): IBM已经开源自己的JDK作为Eclipse OpenJ9
+
+## Language Converter
+
+- [Golang: gopherjs](https://github.com/gopherjs/gopherjs): GopherJS compiles Go code (golang.org) to pure JavaScript code. Its main purpose is to give you the opportunity to write front-end code in Go which will still run in all browsers.
 
 ## Interpreter
 

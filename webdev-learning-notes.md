@@ -86,6 +86,7 @@ Web：
     - [SVG - MDN](https://developer.mozilla.org/en-US/docs/Web/SVG)
 - WebGL
     - [WebGL - MDN](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
+- [Web Assembly](http://webassembly.org/): WebAssembly is currently being designed as an open standard by a W3C Community Group that includes representatives from all major browsers.
 
 通信协议：
 
@@ -185,7 +186,7 @@ Web：
 - [Chai](http://chaijs.com/): Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
 - [jasmine](https://github.com/jasmine/jasmine): DOM-less simple JavaScript testing framework
 - [Supertest](https://visionmedia.github.com/superagent/): Super Agent is light-weight progressive ajax API crafted for flexibility, readability, and a low learning curve after being frustrated with many of the existing request APIs. It also works with Node.js!
-- [Frisby.js](http://frisbyjs.com/docs/api/): Frisby is a REST API testing framework built on node.js and Jasmine that makes testing API endpoints easy, fast, and fun.  
+- [Frisby.js](http://frisbyjs.com/docs/api/): Frisby is a REST API testing framework built on node.js and Jasmine that makes testing API endpoints easy, fast, and fun.
 - [Vows](https://github.com/vowsjs/vows): Asynchronous BDD & continuous testing for node.js
 - [Istanbul](https://github.com/gotwarlost/istanbul): Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests and browser tests. Built for scale.
 - [Should.js](http://shouldjs.github.io/): BDD style assertions for node.js -- test framework agnostic
