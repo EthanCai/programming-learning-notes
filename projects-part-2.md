@@ -92,6 +92,8 @@
 
 ## Job Schedule
 
+- [elastic-job](https://github.com/dangdangdotcom/elastic-job): Elastic-Job is a distributed scheduled job framework, based on Quartz and Zookeeper.
+- [Saturn](https://github.com/vipshop/Saturn)
 - [Java: Quartz](http://quartz-scheduler.org/): Quartz is a richly featured, open source job scheduling library that can be integrated within virtually any Java application - from the smallest stand-alone application to the largest e-commerce system. Quartz can be used to create simple or complex schedules for executing tens, hundreds, or even tens-of-thousands of jobs; jobs whose tasks are defined as standard Java components that may execute virtually anything you may program them to do. The Quartz Scheduler includes many enterprise-class features, such as support for JTA transactions and clustering.
 - [Java: rundeck](http://rundeck.org/index.html): job scheduler and runbook automation
 - [Java: schedulix - open source enterprise job scheduling](https://github.com/schedulix/schedulix): schedulix is an open source enterprise job scheduling system.
