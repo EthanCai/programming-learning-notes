@@ -14,13 +14,6 @@
 - [Microsoft CNTK](https://github.com/Microsoft/CNTK): CNTK (http://www.cntk.ai/), the Computational Network Toolkit by Microsoft Research, is a unified deep-learning toolkit that describes neural networks as a series of computational steps via a directed graph.
 - [MXNet](http://mxnet.io/): A Flexible and Efficient Library for Deep Learning
 - [Angel](https://github.com/Tencent/angel): A Flexible and Powerful Parameter Server for large-scale machine learning
-
-## 数据分析
-
-- [Python: Pandas](http://pandas.pydata.org/): pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
-
-## Tools
-
 - [Python: PyTorch](http://pytorch.org/): Tensors and Dynamic neural networks in Python with strong GPU acceleration. PyTorch is a deep learning framework that puts Python first.
 - [Python: Theano](https://github.com/Theano/Theano): Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation.
 - [Python: Keras](https://keras.io/): Keras is a high-level neural networks API, written in Python and capable of running on top of either TensorFlow, CNTK or Theano. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
@@ -30,14 +23,19 @@
 
 - [Baidu Apollo](http://apollo.auto/index_cn.html): Baidu Apollo开放平台
 
-## Computer Vision Projects
+## Computer Vision
 
 - [.NET: Accord.NET](http://accord-framework.net/) - Machine learning framework combined with audio and image processing libraries (computer vision, computer audition, signal processing and statistics).
 - [.NET: Accord.NET Extensions](https://github.com/dajuric/accord-net-extensions) - Advanced image processing and computer vision algorithms made as fluent extensions.
 - [.NET: AForge.NET](http://www.aforgenet.com/) - Framework for developers and researchers in the fields of Computer Vision and Artificial Intelligence (image processing, neural networks, genetic algorithms, machine learning, robotics).
 
+## Natural Language Process
+
+- [Natural Language Toolkit](http://www.nltk.org/): NLTK is a leading platform for building Python programs to work with human language data. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-strength NLP libraries, and an active discussion forum.
+
 ## Others
 
+- [Python: Pandas](http://pandas.pydata.org/): pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
 - [Aerosolve - Airbnb](http://airbnb.io/aerosolve/): A machine learning package built for humans.
 - [golearn](https://github.com/sjwhitworth/golearn): Machine Learning for Go
 - [shogun](https://github.com/shogun-toolbox/shogun): The Shogun Machine learning toolbox provides a wide range of unified and efficient Machine Learning (ML) methods. The toolbox seamlessly allows to easily combine multiple data representations, algorithm classes, and general purpose tools. This enables both rapid prototyping of data pipelines and extensibility in terms of new algorithms. We combine modern software architecture in C++ with both efficient low-level computing backends and cutting edge algorithm implementations to solve large-scale Machine Learning problems (yet) on single machines.
@@ -48,7 +46,7 @@
 - [deeplearn.js](https://pair-code.github.io/deeplearnjs/): A hardware-accelerated machine intelligence library for the web
 
 
-## Study Resources
+# Study Courses
 
 - 台大教授 李宏毅 《深度学习简介》
   - Youtube：https://www.youtube.com/watch?v=0jCr2ioGNG0&t=15s
@@ -73,3 +71,9 @@
 - 牛津大学 《Deep Learning for Natural Language Processing》
   - https://machinelearningmastery.com/oxford-course-deep-learning-natural-language-processing/
 - [fastai](https://github.com/fastai/fastai): The fast.ai deep learning library, lessons, and tutorials
+
+# References
+
+- [NoSQL Database](http://nosql-database.org/)
+- [我爱机器学习 - 机器学习干货站](http://www.52ml.net/)
+- [我爱自然语言处理](http://www.52nlp.cn/)
