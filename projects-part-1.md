@@ -45,6 +45,9 @@
 - [.NET Core](http://dotnet.github.io/core/): A general purpose managed framework
 - [.NET: Mono](http://www.mono-project.com/): Cross platform, open source .NET framework
 - [.NET: Roslyn](https://github.com/dotnet/roslyn): The .NET Compiler Platform ("Roslyn") provides open-source C# and Visual Basic compilers with rich code analysis APIs.
+- [OpenJDK](http://openjdk.java.net/): open-source implementation of the Java Platform, Standard Edition
+- [Oracle JDK](http://www.oracle.com/technetwork/java/javase/overview/index.html): N/A
+- [Eclipse OpenJ9](http://www.eclipse.org/openj9/): IBM已经开源自己的JDK作为Eclipse OpenJ9
 
 ## Interpreter
 
