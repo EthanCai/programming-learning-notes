@@ -15,7 +15,7 @@
 	- [Asynchronous Programming Framework](#asynchronous-programming-framework)
 	- [Web Socket](#web-socket)
 	- [Network](#network)
-	- [Thread && Coroutine](#thread-coroutine)
+	- [Thread & Coroutine](#thread-coroutine)
 	- [IoC](#ioc)
 	- [Logging](#logging)
 	- [Cryptography](#cryptography)
@@ -28,7 +28,7 @@
 	- [File](#file)
 	- [Image Processing](#image-processing)
 	- [Computer Vision](#computer-vision)
-	- [Authentication && Authorization](#authentication-authorization)
+	- [Authentication & Authorization](#authentication-authorization)
 	- [Mail](#mail)
 	- [State Machine](#state-machine)
 	- [Tools](#tools)
@@ -200,7 +200,7 @@ References:
 - [.NET: Fracture](https://github.com/fractureio/fracture): A high-performance socket I/O message pipeline library.
 - [.NET: SuperSocket](http://www.supersocket.net/): SuperSocket 是一个轻量级, 跨平台而且可扩展的 .Net/Mono Socket 服务器程序框架。你无须了解如何使用 Socket, 如何维护 Socket 连接和 Socket 如何工作，但是你却可以使用 SuperSocket 很容易的开发出一款 Socket 服务器端软件，例如游戏服务器，GPS 服务器, 工业控制服务和数据采集服务器等等。
 
-## Thread && Coroutine
+## Thread & Coroutine
 
 - [C++: Libco](https://github.com/Tencent/libco): ibco是微信后台大规模使用的c/c++协程库，2013年至今稳定运行在微信后台的数万台机器上。libco通过仅有的几个函数接口 co_create/co_resume/co_yield 再配合 co_poll，可以支持同步或者异步的写法，如线程库一样轻松。同时库里面提供了socket族函数的hook，使得后台逻辑服务几乎不用修改逻辑代码就可以完成异步化改造。
 - [C: libuv](https://github.com/libuv/libuv): Cross-platform asynchronous I/O
@@ -339,7 +339,14 @@ References:
 - [Hugin](http://sourceforge.net/projects/hugin): Panorama photo stitcher
 - [Luminance HDR](http://sourceforge.net/projects/qtpfsgui): Complete solution for HDR photography
 - [scikit-image](http://scikit-image.org/): scikit-image is a collection of algorithms for image processing. It is available free of charge and free of restriction.
-- $[Pano2VR && Object2VR](http://ggnome.com/): software for interactive panoramas and object movies.
+- $[Pano2VR & Object2VR](http://ggnome.com/): software for interactive panoramas and object movies.
+
+## Audio & Video
+
+- [OpenGL](https://www.opengl.org/): The Industry Standard for High Performance Graphics
+- [SoX](http://sox.sourceforge.net/): SoX is a cross-platform (Windows, Linux, MacOS X, etc.) command line utility that can convert various formats of computer audio files in to other formats. It can also apply various effects to these sound files, and, as an added bonus, SoX can play and record audio files on most platforms.
+- [ffmpeg](https://www.ffmpeg.org/): A complete, cross-platform solution to record, convert and stream audio and video.
+- [VLC media player](http://www.videolan.org/vlc/): VLC 是一款自由、开源的跨平台多媒体播放器及框架，可播放大多数多媒体文件，以及 DVD、音频 CD、VCD 及各类流媒体协议。
 
 ## Computer Vision
 
@@ -348,7 +355,7 @@ References:
 - [C: libccv](https://github.com/liuliu/ccv): C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library
 - [.NET: AForge.NET](http://www.aforgenet.com/): AForge.NET is a C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics, etc.
 
-## Authentication && Authorization
+## Authentication & Authorization
 
 - [Go: captcha](https://github.com/jianxinio/captcha): Golang实现的验证码服务
 - [Go: Go OTP](https://github.com/hgfischer/go-otp): Package go-otp implements one-time-password generators used in 2-factor authentication systems like RSA-tokens. Currently this supports both HOTP (RFC-4226), TOTP (RFC-6238) and Base32 encoding (RFC-3548) for Google Authenticator compatibility
