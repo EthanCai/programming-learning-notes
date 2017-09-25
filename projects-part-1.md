@@ -11,6 +11,7 @@
 	- [Web Servers & Application Servers](#web-servers-application-servers)
 	- [Application Frameworks](#application-frameworks)
 	- [Template Engine](#template-engine)
+	- [GUI Framework](#gui-framework)
 	- [Asynchronous Programming Framework](#asynchronous-programming-framework)
 	- [Web Socket](#web-socket)
 	- [Network](#network)
@@ -135,12 +136,28 @@ Application Frameworks:
 
 - [goTemplateBenchmark](https://github.com/SlinSo/goTemplateBenchmark)
 
+## GUI Framework
+
+- [Node: NW.js](https://github.com/nwjs/nw.js): Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.
+- [Node: Electron](https://electron.atom.io/): Build cross platform desktop apps with JavaScript, HTML, and CSS
+	- [Node: Photon](https://github.com/connors/photon): The fastest way to build beautiful Electron apps using simple HTML and CSS
+- [Java: Swing](https://wiki2.org/en/Java_Swing): Swing is a GUI widget toolkit for Java.
+- [Java: SWT - Standard Widget Toolkit](https://eclipse.org/swt/): SWT is an open source widget toolkit for Java designed to provide efficient, portable access to the user-interface facilities of the operating systems on which it is implemented.
+- [C++: QT](https://www.qt.io/): A complete cross-platform software framework with ready-made UI elements, C++ libraries, and a complete integrated development environment with tools for everything you need to develop software for any project.
+- [C++: wxWidgets](https://www.wxwidgets.org/): wxWidgets is a C++ library that lets developers create applications for Windows, Mac OS X, Linux and other platforms with a single code base.
+- [C/C++: GTK+](https://www.gtk.org/): GTK+, or the GIMP Toolkit, is a multi-platform toolkit for creating graphical user interfaces. Offering a complete set of widgets, GTK+ is suitable for projects ranging from small one-off tools to complete application suites.
+
+References:
+
+- [Intellij Community](https://github.com/JetBrains/intellij-community): which use Java Swing to implement it's GUI
+
 ## Asynchronous Programming Framework
 
 - [ReactiveX](http://reactivex.io/): An API for asynchronous programming with observable streams
-  - Java: RxJava
-  - JavaScript: RxJS
-  - C#: Rx.NET
+  - [Java: RxJava](https://github.com/ReactiveX/RxJava)
+  - [Go: RxGo](https://github.com/ReactiveX/RxGo)
+  - [JavaScript: RxJS](https://github.com/Reactive-Extensions/RxJS)
+  - [C#: Rx.NET](https://github.com/Reactive-Extensions/Rx.NET)
   - C#(Unity): UniRx
   - Scala: RxScala
   - Clojure: RxClojure
@@ -148,7 +165,6 @@ Application Frameworks:
   - Lua: RxLua
   - Ruby: Rx.rb
   - Python: RxPY
-  - Go: RxGo
   - Groovy: RxGroovy
   - JRuby: RxJRuby
   - Kotlin: RxKotlin
