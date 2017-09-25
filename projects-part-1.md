@@ -318,7 +318,8 @@ Web Frameworks:
 
 - [Go: viper](https://github.com/spf13/viper): Go configuration with fangs
 - [Go: go-flags](https://github.com/jessevdk/go-flags): go command line option parser
-- [Go: kingpin](http://gopkg.in/alecthomas/kingpin.v2):
+- [Go: kingpin](https://github.com/alecthomas/kingpin): A Go (golang) command line and flag parser
+- [Go: go-ini](https://github.com/go-ini/ini): Package ini provides INI file read and write functionality in Go.
 - [.NET: Command Line Parser](https://github.com/gsscoder/commandline) - The Command Line Parser Library offers to CLR applications a clean and concise API for manipulating command line arguments and related tasks
 - [.NET: Fluent Command Line Parser](https://github.com/fclp/fluent-command-line-parser) - A simple, strongly typed .NET C# command line parser library using a fluent easy to use interface
 - [.NET: Power Args](https://github.com/adamabdelhamed/PowerArgs) - PowerArgs converts command line arguments into .NET objects that are easy to program against. It also provides a ton of optional capabilities such as argument validation, auto generated usage, tab completion, and plenty of extensibility
