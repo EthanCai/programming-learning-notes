@@ -8,7 +8,7 @@
 	- [Analyzer](#analyzer)
 	- [Profiling](#profiling)
 	- [Assembly Manipulation](#assembly-manipulation)
-	- [Web Servers & Hosts](#web-servers-hosts)
+	- [Web Servers & Application Servers](#web-servers-application-servers)
 	- [Application Frameworks](#application-frameworks)
 	- [Template Engine](#template-engine)
 	- [Asynchronous Programming Framework](#asynchronous-programming-framework)
@@ -80,14 +80,16 @@
 - [.NET: Fody](https://github.com/Fody/Fody) - Extensible tool for weaving .net assemblies
 - [.NET: Mono.Cecil](https://github.com/jbevain/cecil) - Cecil is a library to generate and inspect programs and libraries in the ECMA CIL form.
 
-## Web Servers & Hosts
+## Web Servers & Application Servers
 
 - [Nginx](http://wiki.nginx.org/Main): a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
     - [OpenResty](http://openresty.org/): OpenResty (aka. ngx_openresty) is a full-fledged web application server by bundling the standard Nginx core, lots of 3rd-party Nginx modules, as well as most of their external dependencies.
     - [Tengine](http://tengine.taobao.org/): Tengine是由淘宝网发起的Web服务器项目。它在Nginx的基础上，针对大访问量网站的需求，添加了很多高级功能和特性。Tengine的性能和稳定性已经在大型的网站如淘宝网，天猫商城等得到了很好的检验。它的最终目标是打造一个高效、稳定、安全、易用的Web平台。
     - [VeryNginx](https://github.com/alexazhou/VeryNginx): 功能强大并且拥有对人类友好界面的Nginx, 提供防火墙，自定义行为和统计功能
-- [.NET: KestrelHttpServer](https://github.com/aspnet/KestrelHttpServer): A cross platform web server for ASP.NET Core.
 - [lightttpd](http://www.lighttpd.net/): Security, speed, compliance, and flexibility -- all of these describe lighttpd (pron. lighty) which is rapidly redefining efficiency of a webserver; as it is designed and optimized for high performance environments. With a small memory footprint compared to other web-servers, effective management of the cpu-load, and advanced feature set (FastCGI, SCGI, Auth, Output-Compression, URL-Rewriting and many more) lighttpd is the perfect solution for every server that is suffering load problems. And best of all it's Open Source licensed under the revised BSD license.
+- [.NET: KestrelHttpServer](https://github.com/aspnet/KestrelHttpServer): A cross platform web server for ASP.NET Core.
+- [Java: Tomcat](http://tomcat.apache.org/): The Apache Tomcat® software is an open source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies. The Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket specifications are developed under the Java Community Process.
+- [Java: Jetty](http://www.eclipse.org/jetty/): Jetty provides a Web server and javax.servlet container, plus support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations. These components are open source and available for commercial use and distribution.
 
 ## Application Frameworks
 
