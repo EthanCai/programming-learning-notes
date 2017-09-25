@@ -12,27 +12,27 @@
 	- [Application Frameworks](#application-frameworks)
 	- [Template Engine](#template-engine)
 	- [Asynchronous Programming Framework](#asynchronous-programming-framework)
-	- [WebSocket](#websocket)
+	- [Web Socket](#web-socket)
 	- [Network](#network)
 	- [Thread && Coroutine](#thread-coroutine)
-	- [Authentication && Authorization](#authentication-authorization)
-	- [Data Access](#data-access)
-	- [Serialization & Deserialization](#serialization-deserialization)
-	- [Windows Services](#windows-services)
-	- [State Machine](#state-machine)
-	- [Profiler](#profiler)
 	- [IoC](#ioc)
 	- [Logging](#logging)
 	- [Cryptography](#cryptography)
 	- [Compression](#compression)
-	- [Mail](#mail)
-	- [CLI](#cli)
+	- [Profiler](#profiler)
+	- [Data Access](#data-access)
+	- [Serialization & Deserialization](#serialization-deserialization)
+	- [Command Line](#command-line)
 	- [Math](#math)
 	- [File](#file)
 	- [Image Processing](#image-processing)
 	- [Computer Vision](#computer-vision)
-	- [.NET Interoperability](#net-interoperability)
+	- [Authentication && Authorization](#authentication-authorization)
+	- [Mail](#mail)
+	- [State Machine](#state-machine)
 	- [Tools](#tools)
+	- [.NET Interoperability](#net-interoperability)
+	- [Windows Services](#windows-services)
 	- [Misc Libraries](#misc-libraries)
 
 <!-- /TOC -->
@@ -157,8 +157,9 @@ Application Frameworks:
   - Elixir: reaxive
   - Dart: RxDart
 
-## WebSocket
+## Web Socket
 
+- [Go: Web Socket](https://github.com/gorilla/websocket): A WebSocket implementation for Go.
 - [Go: centrifugo](https://github.com/centrifugal/centrifugo): Real-time messaging (Websockets or SockJS) server in Go
 - [.NET: SignalR](https://github.com/SignalR/SignalR): Library for ASP.NET developers that makes it incredibly simple to add real-time web functionality to your applications
 - [.NET: Fleck](https://github.com/statianzo/Fleck) - Fleck is a WebSocket server implementation in C#. Branched from the Nugget project
@@ -170,15 +171,16 @@ Application Frameworks:
 ## Network
 
 - [C++: Mars](https://github.com/Tencent/mars): Mars is a cross-platform network component developed by WeChat.
-- [Go: kcp-go](https://github.com/xtaci/kcp-go): A full-featured reliable UDP communication library
-  - [Go: kcptun](https://github.com/xtaci/kcptun): an extremely simple & fast udp tunnel based on kcp protocol
+- [Go: kcptun](https://github.com/xtaci/kcptun): an extremely simple & fast udp tunnel based on kcp protocol
+	- [Go: kcp-go](https://github.com/xtaci/kcp-go): A full-featured reliable UDP communication library
+- [Go: goflyway](https://github.com/coyove/goflyway): HTTP tunnel in Go
 - [Go: gorequest](https://github.com/parnurzeal/gorequest): Simplified HTTP client ( inspired by nodejs SuperAgent )
-- [.NET: RestSharper](http://restsharp.org/): Simple REST and HTTP API Client for .NET
 - [GO: DNS library](https://github.com/miekg/dns): DNS library in Go
 - [Go: fasthttp](https://github.com/valyala/fasthttp): Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http.
 - [Go: link](https://github.com/funny/link): Go语言网络层脚手架
 - [Go: tus](http://www.oschina.net/p/tus): 一个开放的协议实现了客户端和服务器之间可恢复的文件上传协议
 - [Go: sleuth](https://github.com/ursiform/sleuth): sleuth is a Go library that provides master-less peer-to-peer autodiscovery and RPC between HTTP services that reside on the same network. It works with minimal configuration and provides a mechanism to join a local network both as a client that offers no services and as any service that speaks HTTP. Its primary use case is for microservices on the same network that make calls to one another.
+- [.NET: RestSharper](http://restsharp.org/): Simple REST and HTTP API Client for .NET
 - [.NET: Fracture](https://github.com/fractureio/fracture): A high-performance socket I/O message pipeline library.
 - [.NET: SuperSocket](http://www.supersocket.net/): SuperSocket 是一个轻量级, 跨平台而且可扩展的 .Net/Mono Socket 服务器程序框架。你无须了解如何使用 Socket, 如何维护 Socket 连接和 Socket 如何工作，但是你却可以使用 SuperSocket 很容易的开发出一款 Socket 服务器端软件，例如游戏服务器，GPS 服务器, 工业控制服务和数据采集服务器等等。
 
@@ -197,16 +199,50 @@ Application Frameworks:
 - [使用 libevent 和 libev 提高网络应用性能](https://www.ibm.com/developerworks/cn/aix/library/au-libev/index.html)
 - [The C10K problem](http://www.kegel.com/c10k.html)
 
-## Authentication && Authorization
+## IoC
 
-- [Go: captcha](https://github.com/jianxinio/captcha): Golang实现的验证码服务
-- [Go: Go OTP](https://github.com/hgfischer/go-otp): Package go-otp implements one-time-password generators used in 2-factor authentication systems like RSA-tokens. Currently this supports both HOTP (RFC-4226), TOTP (RFC-6238) and Base32 encoding (RFC-3548) for Google Authenticator compatibility
-    - [Go-otpserver](https://github.com/skyjia/go-otpserver): A golang version OTP server.
-- [.NET: ASP.NET Identity](https://aspnetidentity.codeplex.com/) - New membership system for ASP.NET applications
-- [.NET: DotNetOpenAuth](https://github.com/DotNetOpenAuth/DotNetOpenAuth) - A C# implementation of the OpenID, OAuth and InfoCard protocols
-- [.NET: IdentityModel](https://github.com/IdentityModel) - Helper library for identity & access control in .NET 4.5 and MVC4/Web API.
-- [.NET: IdentityServer](https://github.com/IdentityServer) - Extensible OAuth2 and OpenID Connect provider framework.
-- [.NET: OAuth](https://github.com/danielcrenna/oauth) - A very lightweight library for generating OAuth 1.0a signatures written in C#
+- [Golang: facebookgo/inject](https://github.com/facebookgo/inject): Package inject provides a reflect based injector.
+- [.NET: Castle Windsor](https://github.com/castleproject/Windsor) - Castle Windsor is best of breed, mature Inversion of Control container available for .NET and Silverlight
+- [.NET: Unity](https://unity.codeplex.com/) - Lightweight extensible dependency injection container with support for constructor, property, and method call injection
+- [.NET: Autofac](https://github.com/autofac/Autofac) - An addictive .NET IoC container
+- [.NET: Ninject](https://github.com/ninject/ninject) - The ninja of .net dependency injectors
+- [.NET: StructureMap](https://structuremap.github.io/) - The original IoC/DI Container for .Net
+- [.NET: Spring.Net](https://github.com/spring-projects/spring-net) - Spring.NET is an open source application framework that makes building  enterprise .NET applications easier
+- [.NET: LightInject](https://github.com/seesharper/LightInject) - A ultra lightweight IoC container
+- [.NET: TinyIoC](https://github.com/grumpydev/TinyIoC) - Single-file, easy and cross-platform IoC container
+
+## Logging
+
+- [Go: zap](https://github.com/uber-go/zap): Fast, structured, leveled logging in Go
+- [Go: logrus](https://github.com/Sirupsen/logrus): Structured, pluggable logging for Go.
+- [Go: Apex/log](https://github.com/apex/log): Structured logging package for Go.
+- [Go: stack](https://github.com/facebookgo/stack): provides utilities to capture and pass around stack traces.
+- [.NET: Essential Diagnostics](http://essentialdiagnostics.codeplex.com/) - Extends the inbuilt features of System.Diagnostics namespace to provide flexible logging
+- [.NET: NLog](https://github.com/nlog/NLog/) - NLog - Advanced .NET and Silverlight Logging
+- [.NET: Logary](http://logary.github.io/) - Logary is a high performance, multi-target logging, metric, tracing and health-check library for mono and .Net. .Net's answer to DropWizard. Supports many targets, built for micro-services.
+- [.NET: Log4Net](https://logging.apache.org/log4net/) - The Apache log4net library is a tool to help the programmer output log statements to a variety of output targets
+- [.NET: Serilog](https://github.com/serilog/serilog) - A no-nonsense logging library for the NoSQL era. Combines the best of traditional and structured diagnostic logging in an easy-to-use package.
+- [.NET: StackExchange.Exceptional](https://github.com/NickCraver/StackExchange.Exceptional) - Error handler used for the Stack Exchange network
+
+## Cryptography
+
+- [.NET: BouncyCastle](https://bouncycastle.org/) - Together with the .Net System.Security.Cryptography, the reference implementation for cryptographic algorithms on the CLR.
+- [.NET: HashLib](http://hashlib.codeplex.com/) - HashLib is a collection of nearly all hash algorithms you've ever seen, it supports almost everything and is very easy to use
+- [.NET: libsodium-net](https://github.com/adamcaudill/libsodium-net) - libsodium for .NET - A secure cryptographic library
+- [.NET: StreamCryptor](https://github.com/bitbeans/StreamCryptor) - Stream encryption & decryption with libsodium and protobuf
+
+## Compression
+
+- [.NET: SharpCompress](https://github.com/adamhathcock/sharpcompress) - SharpCompress is a compression library for .NET/Mono/Silverlight/WP7 that can unrar, un7zip, unzip, untar unbzip2 and ungzip with forward-only reading and file random access APIs. Write support for zip/tar/bzip2/gzip are implemented
+- [.NET: DotNetZip.Semverd](https://github.com/haf/DotNetZip.Semverd) - An open-source project that delivers a .NET library for handling ZIP files, and some associated tools. (fork of Unmaintained DotNetZip)
+- [.NET: SharpZipLib](http://icsharpcode.github.io/SharpZipLib/) - a Zip, GZip, Tar and BZip2 library written entirely in C# for the .NET platform
+
+## Profiler
+
+- [.NET: MiniProfiler](http://miniprofiler.com/): A simple but effective mini-profiler for .NET and Ruby
+- [.NET: Glimpse](http://getglimpse.com/): Providing real time diagnostics & insights to the fingertips of hundreds of thousands of developers daily
+- [.NET: metrics-net](https://github.com/danielcrenna/metrics-net): Capturing CLR and application-level metrics. So you know what's going on.
+- [.NET: Metrics.NET](https://github.com/etishor/Metrics.NET): The Metrics.NET library provides a way of instrumenting applications with custom metrics (timers, histograms, counters etc) that can be reported in various ways and can provide insights on what is happening inside a running application.
 
 ## Data Access
 
@@ -253,77 +289,14 @@ Application Frameworks:
 - [.NET: Json.net](http://www.newtonsoft.com/json): Popular high-performance JSON framework for .NET
 - [.NET: fastjson](https://fastjson.codeplex.com/): Smallest, fastest polymorphic JSON serializer
 
-## Windows Services
-
-- [.NET: Topshelf](http://topshelf-project.com/): Put Your Apps on the Topshelf
-
-## State Machine
-
-- [.NET: Stateless](https://github.com/nblumhardt/stateless) - Create state machines and lightweight state machine-based workflows directly in .NET code
-- [.NET: Automatonymous](https://github.com/MassTransit/Automatonymous) - A state machine library for .Net - allows you to write fluent style state machines
-
-## Profiler
-
-- [.NET: MiniProfiler](http://miniprofiler.com/): A simple but effective mini-profiler for .NET and Ruby
-- [.NET: Glimpse](http://getglimpse.com/): Providing real time diagnostics & insights to the fingertips of hundreds of thousands of developers daily
-- [.NET: metrics-net](https://github.com/danielcrenna/metrics-net): Capturing CLR and application-level metrics. So you know what's going on.
-- [.NET: Metrics.NET](https://github.com/etishor/Metrics.NET): The Metrics.NET library provides a way of instrumenting applications with custom metrics (timers, histograms, counters etc) that can be reported in various ways and can provide insights on what is happening inside a running application.
-
-## IoC
-
-- [Golang: facebookgo/inject](https://github.com/facebookgo/inject): Package inject provides a reflect based injector.
-- [.NET: Castle Windsor](https://github.com/castleproject/Windsor) - Castle Windsor is best of breed, mature Inversion of Control container available for .NET and Silverlight
-- [.NET: Unity](https://unity.codeplex.com/) - Lightweight extensible dependency injection container with support for constructor, property, and method call injection
-- [.NET: Autofac](https://github.com/autofac/Autofac) - An addictive .NET IoC container
-- [.NET: Ninject](https://github.com/ninject/ninject) - The ninja of .net dependency injectors
-- [.NET: StructureMap](https://structuremap.github.io/) - The original IoC/DI Container for .Net
-- [.NET: Spring.Net](https://github.com/spring-projects/spring-net) - Spring.NET is an open source application framework that makes building  enterprise .NET applications easier
-- [.NET: LightInject](https://github.com/seesharper/LightInject) - A ultra lightweight IoC container
-- [.NET: TinyIoC](https://github.com/grumpydev/TinyIoC) - Single-file, easy and cross-platform IoC container
-
-## Logging
-
-- [Go: zap](https://github.com/uber-go/zap): Fast, structured, leveled logging in Go
-- [Go: logrus](https://github.com/Sirupsen/logrus): Structured, pluggable logging for Go.
-- [Go: Apex/log](https://github.com/apex/log): Structured logging package for Go.
-- [Go: stack](https://github.com/facebookgo/stack): provides utilities to capture and pass around stack traces.
-- [.NET: Essential Diagnostics](http://essentialdiagnostics.codeplex.com/) - Extends the inbuilt features of System.Diagnostics namespace to provide flexible logging
-- [.NET: NLog](https://github.com/nlog/NLog/) - NLog - Advanced .NET and Silverlight Logging
-- [.NET: Logary](http://logary.github.io/) - Logary is a high performance, multi-target logging, metric, tracing and health-check library for mono and .Net. .Net's answer to DropWizard. Supports many targets, built for micro-services.
-- [.NET: Log4Net](https://logging.apache.org/log4net/) - The Apache log4net library is a tool to help the programmer output log statements to a variety of output targets
-- [.NET: Serilog](https://github.com/serilog/serilog) - A no-nonsense logging library for the NoSQL era. Combines the best of traditional and structured diagnostic logging in an easy-to-use package.
-- [.NET: StackExchange.Exceptional](https://github.com/NickCraver/StackExchange.Exceptional) - Error handler used for the Stack Exchange network
-
-## Cryptography
-
-- [.NET: BouncyCastle](https://bouncycastle.org/) - Together with the .Net System.Security.Cryptography, the reference implementation for cryptographic algorithms on the CLR.
-- [.NET: HashLib](http://hashlib.codeplex.com/) - HashLib is a collection of nearly all hash algorithms you've ever seen, it supports almost everything and is very easy to use
-- [.NET: libsodium-net](https://github.com/adamcaudill/libsodium-net) - libsodium for .NET - A secure cryptographic library
-- [.NET: StreamCryptor](https://github.com/bitbeans/StreamCryptor) - Stream encryption & decryption with libsodium and protobuf
-
-## Compression
-
-- [.NET: SharpCompress](https://github.com/adamhathcock/sharpcompress) - SharpCompress is a compression library for .NET/Mono/Silverlight/WP7 that can unrar, un7zip, unzip, untar unbzip2 and ungzip with forward-only reading and file random access APIs. Write support for zip/tar/bzip2/gzip are implemented
-- [.NET: DotNetZip.Semverd](https://github.com/haf/DotNetZip.Semverd) - An open-source project that delivers a .NET library for handling ZIP files, and some associated tools. (fork of Unmaintained DotNetZip)
-- [.NET: SharpZipLib](http://icsharpcode.github.io/SharpZipLib/) - a Zip, GZip, Tar and BZip2 library written entirely in C# for the .NET platform
-
-## Mail
-
-- [.NET: FluentEmail](https://github.com/lukencode/FluentEmail): A Fluent Wrapper for System.Net.Mail with razor templating support.
-- [.NET: MailKit](https://github.com/jstedfast/MailKit): A complete cross-platform mail stack including IMAP, POP3, SMTP, authentication and more. Built on top of MimeKit.
-- [.NET: MimeKit](https://github.com/jstedfast/MimeKit): A cross-platform .NET MIME creation and parser library with support for S/MIME, PGP, TNEF and Unix mbox spools.
-- [.NET: MailSystem.NET](https://mailsystem.codeplex.com/): MailSystem is a suite of .NET components that provide users with an extensive set of email tools. MailSystem provides full support for SMTP, POP3, IMAP4, NNTP, MIME, S/MIME, OpenPGP, DNS, vCard, vCalendar, Anti-Spam (Bayesian , RBL, DomainKeys), Queueing, Mail Merge and WhoIs. If you wish to use this code in non GPLv3 software, you must acquire a commercial license. Please send your request to the coordinator of this project.
-
-## CLI
+## Command Line
 
 - [Go: viper](https://github.com/spf13/viper): Go configuration with fangs
 - [Go: go-flags](https://github.com/jessevdk/go-flags): go command line option parser
 - [Go: kingpin](https://github.com/alecthomas/kingpin): A Go (golang) command line and flag parser
-- [Go: go-ini](https://github.com/go-ini/ini): Package ini provides INI file read and write functionality in Go.
 - [.NET: Command Line Parser](https://github.com/gsscoder/commandline) - The Command Line Parser Library offers to CLR applications a clean and concise API for manipulating command line arguments and related tasks
 - [.NET: Fluent Command Line Parser](https://github.com/fclp/fluent-command-line-parser) - A simple, strongly typed .NET C# command line parser library using a fluent easy to use interface
 - [.NET: Power Args](https://github.com/adamabdelhamed/PowerArgs) - PowerArgs converts command line arguments into .NET objects that are easy to program against. It also provides a ton of optional capabilities such as argument validation, auto generated usage, tab completion, and plenty of extensibility
-
 
 ## Math
 
@@ -336,8 +309,10 @@ Application Frameworks:
 ## File
 
 - [Go: fsnotify](https://github.com/fsnotify/fsnotify): File system notifications for Go.
-- [Go: restic](https://github.com/restic/restic): restic backup program
+- [Go: restic](https://github.com/restic/restic): restic is a backup program that is fast, efficient and secure.
 - [Go: syncthing](https://github.com/syncthing/syncthing): Open Source Continuous File Synchronization
+- [Go: go-ini](https://github.com/go-ini/ini): Package ini provides INI file read and write functionality in Go.
+- [Go: xlsx](https://github.com/tealeg/xlsx): Google Go (golang) library for reading and writing XLSX files.
 
 ## Image Processing
 
@@ -357,11 +332,28 @@ Application Frameworks:
 - [C: libccv](https://github.com/liuliu/ccv): C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library
 - [.NET: AForge.NET](http://www.aforgenet.com/): AForge.NET is a C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics, etc.
 
-## .NET Interoperability
+## Authentication && Authorization
 
-- [.NET: CppSharp](https://github.com/mono/CppSharp) - Tools to surface C++ APIs to C#
-- [.NET: Sharpen](https://github.com/mono/sharpen) - Sharpen is an Eclipse plugin created by db4o that allows you to convert your Java project into C#
-- [.NET: CXXI](https://github.com/mono/cxxi) - C++ interop framework
+- [Go: captcha](https://github.com/jianxinio/captcha): Golang实现的验证码服务
+- [Go: Go OTP](https://github.com/hgfischer/go-otp): Package go-otp implements one-time-password generators used in 2-factor authentication systems like RSA-tokens. Currently this supports both HOTP (RFC-4226), TOTP (RFC-6238) and Base32 encoding (RFC-3548) for Google Authenticator compatibility
+    - [Go-otpserver](https://github.com/skyjia/go-otpserver): A golang version OTP server.
+- [.NET: ASP.NET Identity](https://aspnetidentity.codeplex.com/) - New membership system for ASP.NET applications
+- [.NET: DotNetOpenAuth](https://github.com/DotNetOpenAuth/DotNetOpenAuth) - A C# implementation of the OpenID, OAuth and InfoCard protocols
+- [.NET: IdentityModel](https://github.com/IdentityModel) - Helper library for identity & access control in .NET 4.5 and MVC4/Web API.
+- [.NET: IdentityServer](https://github.com/IdentityServer) - Extensible OAuth2 and OpenID Connect provider framework.
+- [.NET: OAuth](https://github.com/danielcrenna/oauth) - A very lightweight library for generating OAuth 1.0a signatures written in C#
+
+## Mail
+
+- [.NET: FluentEmail](https://github.com/lukencode/FluentEmail): A Fluent Wrapper for System.Net.Mail with razor templating support.
+- [.NET: MailKit](https://github.com/jstedfast/MailKit): A complete cross-platform mail stack including IMAP, POP3, SMTP, authentication and more. Built on top of MimeKit.
+- [.NET: MimeKit](https://github.com/jstedfast/MimeKit): A cross-platform .NET MIME creation and parser library with support for S/MIME, PGP, TNEF and Unix mbox spools.
+- [.NET: MailSystem.NET](https://mailsystem.codeplex.com/): MailSystem is a suite of .NET components that provide users with an extensive set of email tools. MailSystem provides full support for SMTP, POP3, IMAP4, NNTP, MIME, S/MIME, OpenPGP, DNS, vCard, vCalendar, Anti-Spam (Bayesian , RBL, DomainKeys), Queueing, Mail Merge and WhoIs. If you wish to use this code in non GPLv3 software, you must acquire a commercial license. Please send your request to the coordinator of this project.
+
+## State Machine
+
+- [.NET: Stateless](https://github.com/nblumhardt/stateless) - Create state machines and lightweight state machine-based workflows directly in .NET code
+- [.NET: Automatonymous](https://github.com/MassTransit/Automatonymous) - A state machine library for .Net - allows you to write fluent style state machines
 
 ## Tools
 
@@ -370,6 +362,16 @@ Application Frameworks:
 - [.NET: dotPeek](https://www.jetbrains.com/decompiler/): Free .NET Decompiler and Assembly Browser
 - [.NET: FastFileFinder](https://github.com/Wintellect/FastFileFinder): Find files and directory names FAST!
 - [.NET: Rant2](https://github.com/TheBerkin/Rant): Rant is a language for procedurally generating text, written in C#. It combines a markup language with functional and imperative programming concepts to deliver a powerful, but easy-to-use tool for adding rich variations to your text. The ultimate goal of Rant is to augment your creativity with the boundless potential of randomness, helping you consider your next great idea as not just a static concept, but a seed for countless possibilities.
+
+## .NET Interoperability
+
+- [.NET: CppSharp](https://github.com/mono/CppSharp) - Tools to surface C++ APIs to C#
+- [.NET: Sharpen](https://github.com/mono/sharpen) - Sharpen is an Eclipse plugin created by db4o that allows you to convert your Java project into C#
+- [.NET: CXXI](https://github.com/mono/cxxi) - C++ interop framework
+
+## Windows Services
+
+- [.NET: Topshelf](http://topshelf-project.com/): Put Your Apps on the Topshelf
 
 ## Misc Libraries
 
