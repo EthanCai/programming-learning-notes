@@ -92,8 +92,7 @@ To master:
 To know about:
 
 - PHP
-- Scheme
-  - Lisp
+- Common Lisp
 
 
 ### Golang
@@ -183,6 +182,17 @@ To know about:
   - [PHP Framework Interop Group](http://www.php-fig.org/)
 - Tools
   - [Composer](https://getcomposer.org/)
+
+### Common Lisp
+
+- Language References
+  - [Common Lisp](https://common-lisp.net/index.html)
+  - [MIT-Scheme](https://www.gnu.org/software/mit-scheme/)
+  - [Racket](http://racket-lang.org/)
+- Guide & News
+  - [Wiki2 - Scheme (programming language)](https://wiki2.org/en/Scheme_(programming_language))
+
+![](assets/a12e552f4bd0332daf28385d9e614efe.png)
 
 -------------------------------------------------------------------------------
 
