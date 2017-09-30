@@ -71,6 +71,8 @@
 - 牛津大学 《Deep Learning for Natural Language Processing》
   - https://machinelearningmastery.com/oxford-course-deep-learning-natural-language-processing/
 - [fastai](https://github.com/fastai/fastai): The fast.ai deep learning library, lessons, and tutorials
+- 加州理工学院公开课 《机器学习与数据挖掘》
+  - http://open.163.com/special/opencourse/learningfromdata.html
 
 # References
 
