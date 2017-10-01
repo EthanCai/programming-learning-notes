@@ -1,6 +1,37 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
+- [Projects about Application Software Development](#projects-about-application-software-development)
+	- [Compiler](#compiler)
+	- [REPL](#repl)
+	- [Language Converter](#language-converter)
+	- [Interpreter](#interpreter)
+	- [Debugger](#debugger)
+	- [Analyzer](#analyzer)
+	- [Profiling](#profiling)
+	- [Web Servers & Application Servers](#web-servers-application-servers)
+	- [Application Frameworks](#application-frameworks)
+	- [Template Engine](#template-engine)
+	- [GUI Framework](#gui-framework)
+	- [Asynchronous Programming Framework](#asynchronous-programming-framework)
+	- [Web Socket](#web-socket)
+	- [Network](#network)
+	- [Thread & Coroutine](#thread-coroutine)
+	- [Reflect & IoC](#reflect-ioc)
+	- [Logging](#logging)
+	- [Data Access](#data-access)
+	- [Serialization & Deserialization](#serialization-deserialization)
+	- [Command Line](#command-line)
+	- [File](#file)
+	- [Image Processing](#image-processing)
+	- [Audio & Video](#audio-video)
+	- [Computer Vision](#computer-vision)
+	- [Authentication & Authorization](#authentication-authorization)
+	- [Office Documents](#office-documents)
+	- [Misc Libraries](#misc-libraries)
 
-# Projects about Normal Software Development
+<!-- /TOC -->
+
+# Projects about Application Software Development
 
 ## Compiler
 
@@ -266,6 +297,12 @@ References:
 - [Go: captcha](https://github.com/jianxinio/captcha): Golang实现的验证码服务
 - [Go: Go OTP](https://github.com/hgfischer/go-otp): Package go-otp implements one-time-password generators used in 2-factor authentication systems like RSA-tokens. Currently this supports both HOTP (RFC-4226), TOTP (RFC-6238) and Base32 encoding (RFC-3548) for Google Authenticator compatibility
     - [Go-otpserver](https://github.com/skyjia/go-otpserver): A golang version OTP server.
+
+## Office Documents
+
+- [Go: excelize](https://github.com/360EntSecGroup-Skylar/excelize): Golang library for reading and writing Microsoft Excel™ (XLSX) files.
+- [Go: xlsx](https://github.com/tealeg/xlsx): Google Go (golang) library for reading and writing XLSX files.
+- [Go: gooxml](https://github.com/baliance/gooxml): Pure go library for creating Office Open/OOXML/ECMA-376 documents (.docx, .xlsx, .pptx) 
 
 ## Misc Libraries
 
