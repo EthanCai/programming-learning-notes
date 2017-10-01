@@ -93,8 +93,8 @@
 
 ## Job Schedule
 
-- [elastic-job](https://github.com/dangdangdotcom/elastic-job): Elastic-Job is a distributed scheduled job framework, based on Quartz and Zookeeper.
-- [Saturn](https://github.com/vipshop/Saturn)
+- [Java: elastic-job](https://github.com/dangdangdotcom/elastic-job): Elastic-Job is a distributed scheduled job framework, based on Quartz and Zookeeper.
+- [Java: Saturn](https://github.com/vipshop/Saturn)
 - [Java: Quartz](http://quartz-scheduler.org/): Quartz is a richly featured, open source job scheduling library that can be integrated within virtually any Java application - from the smallest stand-alone application to the largest e-commerce system. Quartz can be used to create simple or complex schedules for executing tens, hundreds, or even tens-of-thousands of jobs; jobs whose tasks are defined as standard Java components that may execute virtually anything you may program them to do. The Quartz Scheduler includes many enterprise-class features, such as support for JTA transactions and clustering.
 - [Java: rundeck](http://rundeck.org/index.html): job scheduler and runbook automation
 - [Java: schedulix - open source enterprise job scheduling](https://github.com/schedulix/schedulix): schedulix is an open source enterprise job scheduling system.
@@ -117,7 +117,7 @@
 
 ## Load Balance
 
-- [C: Nginx](http://wiki.nginx.org/Main): Nginx (pronounced engine-x) is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
+- [Nginx](http://wiki.nginx.org/Main): Nginx (pronounced engine-x) is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
 - [LVS](http://www.linuxvirtualserver.org/): The Linux Virtual Server is a highly scalable and highly available server built on a cluster of real servers, with the load balancer running on the Linux operating system. The architecture of the server cluster is fully transparent to end users, and the users interact as if it were a single high-performance virtual server.
 - [HAProxy](http://www.haproxy.org/): HAProxy is a free, very fast and reliable solution offering high availability, load balancing, and proxying for TCP and HTTP-based applications.
   - [Bamboo](https://github.com/QubitProducts/bamboo): HAProxy auto configuration and auto service discovery for Mesos Marathon
@@ -128,13 +128,14 @@
 
 ## API Gateway
 
-- [Nginx](http://wiki.nginx.org/Main): a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
-  - [OpenResty](https://openresty.org/cn/): OpenResty ™ 是一个基于 Nginx 与 Lua 的高性能 Web 平台，其内部集成了大量精良的 Lua 库、第三方模块以及大多数的依赖项。用于方便地搭建能够处理超高并发、扩展性极高的动态 Web 应用、Web 服务和动态网关。
-- [Kong](https://github.com/Mashape/kong): Open-source, Microservice & API Management Layer built on top of NGINX
-- [Caddy](https://github.com/mholt/caddy): Fast, cross-platform HTTP/2 web server with automatic HTTPS
-- [Tyk API Gateway](https://github.com/lonelycode/tyk): Tyk is a lightweight, open source API Gateway and enables you to control who accesses your API, when they access it and how they access it. Tyk will also record detailed analytics on how your users are interacting with your API and when things go wrong.
+- [C: Nginx](https://github.com/nginx/nginx): a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
+  - [Nginx Wiki](http://wiki.nginx.org/Main)
+  - [C: OpenResty](https://openresty.org/cn/): OpenResty ™ 是一个基于 Nginx 与 Lua 的高性能 Web 平台，其内部集成了大量精良的 Lua 库、第三方模块以及大多数的依赖项。用于方便地搭建能够处理超高并发、扩展性极高的动态 Web 应用、Web 服务和动态网关。
+  - [Lua: Kong](https://github.com/Mashape/kong): Open-source, Microservice & API Management Layer built on top of NGINX
+- [Go: Caddy](https://github.com/mholt/caddy): Fast, cross-platform HTTP/2 web server with automatic HTTPS
+- [Go: Tyk API Gateway](https://github.com/lonelycode/tyk): Tyk is a lightweight, open source API Gateway and enables you to control who accesses your API, when they access it and how they access it. Tyk will also record detailed analytics on how your users are interacting with your API and when things go wrong.
     - [Documents](https://tyk.io/tyk-documentation/concepts/)
-- [KrakenD](http://www.krakend.io/): KrakenD aggregates and manipulates multiple data sources to provide you with exactly the API your end-user products need while offering a premium user experience and brutal performance.
+- [Go: KrakenD](http://www.krakend.io/): KrakenD aggregates and manipulates multiple data sources to provide you with exactly the API your end-user products need while offering a premium user experience and brutal performance.
 
 ## API Proxy
 
@@ -164,7 +165,7 @@
 ## Configuration Management
 
 - [Confd](https://github.com/kelseyhightower/confd): Manage local application configuration files using templates and data from etcd or consul
-- [Consul Template](https://github.com/hashicorp/consul-template): This project provides a convenient way to populate values from Consul into the filesystem using the consul-template daemon.
+- [Consul Template](https://github.com/hashicorp/consul-template): This project provides a convenient way to populate values from Consul into the filesystem using the consul-template daemon. Consul into the filesystem using the consul-template daemon.
 - [disconf](https://github.com/knightliao/disconf): Distributed Configuration Management Platform(分布式配置管理平台)
 - [Qconf](https://github.com/Qihoo360/QConf): Qihoo Distrubuted Configuration Management System
 - [super diamond](https://github.com/melin/super-diamond): 配置管理系统
