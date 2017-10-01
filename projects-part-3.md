@@ -128,6 +128,7 @@
 - [Golang: prose](https://github.com/jdkato/prose): A Golang library for text processing, including tokenization, part-of-speech tagging, and named-entity extraction.
 - [Java: Apache Tika](http://tika.apache.org/): The Apache Tika™ toolkit detects and extracts metadata and text from over a thousand different file types (such as PPT, XLS, and PDF). All of these file types can be parsed through a single interface, making Tika useful for search engine indexing, content analysis, translation, and much more.
 - [.NET: Toxy - .NET Text/Data Extraction Framework](https://toxy.codeplex.com): Toxy is a .NET data/text extraction framework similar to Apache Tika in Java. It supports a lot of popular formats such as docx, xlsx, xls, pdf, csv, txt, epub, html and so on.
+- [.NET: Rant2](https://github.com/TheBerkin/Rant): Rant is an all-purpose procedural text engine that is most simply described as the opposite of Regex. It has been refined to include a dizzying array of features for handling everything from the most basic of string generation tasks to advanced dialogue generation, code templating, automatic formatting, and more.
 
 ## Crawler
 
