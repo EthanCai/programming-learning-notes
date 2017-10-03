@@ -104,8 +104,6 @@ Application Frameworks:
 - [Go: Gin](https://github.com/gin-gonic/gin): Gin is a web framework written in Golang. It features a martini-like API with much better performance, up to 40 times faster thanks to httprouter. If you need performance and good productivity, you will love Gin.
 - [Go: Iris](https://github.com/kataras/iris): The fastest web framework for Go in (THIS) earth
 - [Go: revel](http://revel.github.io/): A high-productivity web framework for the Go language.
-- [Nodejs: Expressjs](http://expressjs.com/): Fast, unopinionated, minimalist web framework for Node.js
-- [Nodejs: Koa](https://github.com/koajs/koa): Expressive middleware for node.js using ES2017 async functions
 - [Java: Spring Framework](http://spring.io/projects): The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
 	- [Java: jHipster](https://jhipster.github.io/): Open Source application generator for creating Spring Boot + AngularJS projects in seconds
 - [Java: Akka](http://akka.io/): Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM. The power of Akka is also available on the .NET Framework and Mono via the Akka.NET project.
@@ -302,7 +300,7 @@ References:
 
 - [Go: excelize](https://github.com/360EntSecGroup-Skylar/excelize): Golang library for reading and writing Microsoft Excel™ (XLSX) files.
 - [Go: xlsx](https://github.com/tealeg/xlsx): Google Go (golang) library for reading and writing XLSX files.
-- [Go: gooxml](https://github.com/baliance/gooxml): Pure go library for creating Office Open/OOXML/ECMA-376 documents (.docx, .xlsx, .pptx) 
+- [Go: gooxml](https://github.com/baliance/gooxml): Pure go library for creating Office Open/OOXML/ECMA-376 documents (.docx, .xlsx, .pptx)
 
 ## Misc Libraries
 
