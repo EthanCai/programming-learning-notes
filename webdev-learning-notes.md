@@ -5,6 +5,12 @@
 
 # Guide
 
+## Language
+
+- ECMAScript: Standard of JavaScript
+  - [JavaScript language resources](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources)
+  - [Wikipedia: ECMAScript](https://wiki2.org/en/ECMAScript)
+
 ## Coding Style Guide
 
 - JavaScript
@@ -15,7 +21,7 @@
 - Html
     - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml)
 
-## Language Guide
+## Language Usage Guide
 
 - JavaScript
     - [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS): This is a series of books diving deep into the core mechanisms of the JavaScript language.
@@ -26,7 +32,7 @@
     - [You Don't Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery): Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript. This project summarizes most of the jQuery method alternatives in native implementation, with IE 10+ support.
 - HTML
     - [The Elements of HTML](http://w3c.github.io/elements-of-html/)
-- Node.js
+- NodeJS
     - [Official Document](https://nodejs.org/en/docs/)
     - [Microsoft + Node.js Guidelines](https://github.com/Microsoft/nodejs-guidelines)
     - [Tools and techniques we use at Joyent to operate Node.js in production](https://www.joyent.com/developers/node)
@@ -39,7 +45,7 @@
 - [Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions): A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.
 - [Mars - mobile needs a hero](https://github.com/AlloyTeam/Mars): 面向亿万用户级的移动端Web解决方案
 
--------------------------------------------------------------------------------
+--------------------------------
 
 # Organization, Specification
 
@@ -113,17 +119,18 @@ Web：
 - [Awesome JavaScript](https://github.com/sorrycc/awesome-javascript)
 - [Frontend Development Bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks): A huge list of frontend development resources I collected over time. Sorted from general knowledge at the top to concrete problems at the bottom.
 
-## Related JS Language
+## Related Languages
 
 - [TypeScript](http://www.typescriptlang.org/)
+- [elm](http://elm-lang.org/)
+- [Dart](https://www.dartlang.org)
 - [CoffeScript](http://coffeescript.org/)
-- [elm](http://elm-lang.org/): the best of functional programming in your browser
 
 ## Compiler
 
 - [node-gyp](https://github.com/nodejs/node-gyp): Node.js native add-on build tool.
 - [Babel](https://babeljs.io/): Babel is a JavaScript compiler.
-- [asm.js](http://asmjs.org/): Asm.js是JavaScript的一个子集，来源于Mozilla’s Emscripten project的项目，是将C/C++程序最终编译成JavaScript。
+- [Asm.js](http://asmjs.org/): Asm.js是JavaScript的一个子集，来源于Mozilla’s Emscripten project的项目，是将C/C++程序最终编译成JavaScript。
 - [Jison](http://zaach.github.io/jison/): Jison takes a context-free grammar as input and outputs a JavaScript file capable of parsing the language described by that grammar.
 - [ES6 Module Transpiler](http://esnext.github.io/es6-module-transpiler/): ES6 Module Transpiler is a JavaScript library for converting JavaScript files written using the ES6 draft specification module syntax for use in existing JavaScript environments.
 
