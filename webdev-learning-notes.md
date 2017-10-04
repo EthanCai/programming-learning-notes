@@ -22,6 +22,7 @@ Web：
   - [Wikipedia: ECMAScript](https://wiki2.org/en/ECMAScript)
 - SVG
 - WebGL
+- Canvas
 - [Web Assembly](http://webassembly.org/): WebAssembly is currently being designed as an open standard by a W3C Community Group that includes representatives from all major browsers.
 
 Network Communication：
