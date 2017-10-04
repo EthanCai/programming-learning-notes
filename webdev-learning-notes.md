@@ -2,42 +2,77 @@
 
 - [Node入门](http://www.nodebeginner.org/index-zh-cn.html)
 - [Node Production Practice](https://www.joyent.com/node-js/production)
+- [Practical Node.js](https://github.com/azat-co/practicalnode)
+
+--------------------------------
+
+# Specifications
+
+Community:
+
+- [W3C](https://www.w3.org/)
+- [China W3C](http://www.chinaw3c.org)
+
+Web：
+
+- [HTML](https://html.spec.whatwg.org/multipage/)
+- [CSS Specifications](https://www.w3.org/Style/CSS/specs.en.html)
+- JavaScript
+  - [ECMAScript Specification List](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources): : Standard of JavaScript
+  - [Wikipedia: ECMAScript](https://wiki2.org/en/ECMAScript)
+- SVG
+- WebGL
+- [Web Assembly](http://webassembly.org/): WebAssembly is currently being designed as an open standard by a W3C Community Group that includes representatives from all major browsers.
+
+Network Communication：
+
+- HTTP
+  - [HTTP/2 Protocol](http://http2.github.io/): HTTP/2 is a replacement for how HTTP is expressed “on the wire.” It is not a ground-up rewrite of the protocol; HTTP methods, status codes and semantics are the same, and it should be possible to use the same APIs as HTTP/1.x (possibly with some small additions) to represent the protocol.
+  - [HTTP/2 explained](http://http2-explained.readthedocs.org/en/latest/index.html): http2 explained describes the protocol HTTP/2 at a technical and protocol level. Background, the protocol, the implementations and the future. Written by Daniel Stenberg.
+  - [HTTP 1.1 Protocol](http://www.w3.org/Protocols/): Hypertext Transfer Protocol 1.1 Specification
+- WebSocket
+  - [MDN - WebSockets](https://developer.mozilla.org/zh-CN/docs/WebSockets)
+  - [HTML Living Standard - WebSocket](https://html.spec.whatwg.org/multipage/comms.html#network): this specification introduces the WebSocket interface
+  - [RFC 6455 - The WebSocket Protocol](http://tools.ietf.org/html/rfc6455): The WebSocket Protocol
+- JSON
+  - [JSON](http://json.org): JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999.
+  - [JSON API](http://jsonapi.org/): A SPECIFICATION FOR BUILDING APIS IN JSON.
+  - [JSON Schema & JSON Hyper-Schema](http://json-schema.org): JSON Schema: describes your JSON data format; JSON Hyper-Schema: turns your JSON data into hyper-text.
+
+
+--------------------------------
 
 # Guide
 
-## Language
+## Language Usage Guide
 
-- ECMAScript: Standard of JavaScript
-  - [JavaScript language resources](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources)
-  - [Wikipedia: ECMAScript](https://wiki2.org/en/ECMAScript)
+- General
+  - [MDN - Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+- JavaScript
+  - [ECMAScript 6 入门](http://es6.ruanyifeng.com)
+  - [深入浅出ES6](http://www.infoq.com/cn/minibooks/ES6-in-Depth)
+  - [es6-cheatsheet](https://github.com/DrkSephy/es6-cheatsheet)
+  - [The Modern JavaScript Tutorial](https://javascript.info/)
+  - [You Dont Know JS](https://github.com/getify/You-Dont-Know-JS)
+  - [You-Dont-Need-Lodash-Underscore](https://github.com/cht8687/You-Dont-Need-Lodash-Underscore)
+  - [You Don't Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
+- NodeJS
+  - [Official Document](https://nodejs.org/en/docs/)
+  - [Changelog](https://github.com/nodejs/node/blob/master/CHANGELOG.md)
+  - [Microsoft + Node.js Guidelines](https://github.com/Microsoft/nodejs-guidelines)
+  - [Tools and techniques we use at Joyent to operate Node.js in production](https://www.joyent.com/developers/node)
+  - [The Art of Node](https://github.com/maxogden/art-of-node)
+  - [faster-than-c](https://github.com/felixge/faster-than-c)
 
 ## Coding Style Guide
 
 - JavaScript
-    - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
-    - [JavaScript Standard Style](https://github.com/feross/standard)
-    - [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
-    - [A JavaScript Quality Guide](https://github.com/bevacqua/js)
+  - [JavaScript Standard Style](https://github.com/feross/standard)
+  - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+  - [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
+  - [A JavaScript Quality Guide](https://github.com/bevacqua/js)
 - Html
-    - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml)
-
-## Language Usage Guide
-
-- JavaScript
-    - [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS): This is a series of books diving deep into the core mechanisms of the JavaScript language.
-    - [Learn javascript in one picture](https://github.com/coodict/javascript-in-one-pic)
-    - [ECMAScript 6 入门](http://es6.ruanyifeng.com)
-    - [es6-cheatsheet](https://github.com/DrkSephy/es6-cheatsheet)
-    - [You-Dont-Need-Lodash-Underscore](https://github.com/cht8687/You-Dont-Need-Lodash-Underscore)
-    - [You Don't Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery): Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript. This project summarizes most of the jQuery method alternatives in native implementation, with IE 10+ support.
-- HTML
-    - [The Elements of HTML](http://w3c.github.io/elements-of-html/)
-- NodeJS
-    - [Official Document](https://nodejs.org/en/docs/)
-    - [Microsoft + Node.js Guidelines](https://github.com/Microsoft/nodejs-guidelines)
-    - [Tools and techniques we use at Joyent to operate Node.js in production](https://www.joyent.com/developers/node)
-    - [The Art of Node](https://github.com/maxogden/art-of-node)
-    - [faster-than-c](https://github.com/felixge/faster-than-c)
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml)
 
 ## Web Development Guide
 
@@ -45,17 +80,7 @@
 - [Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions): A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.
 - [Mars - mobile needs a hero](https://github.com/AlloyTeam/Mars): 面向亿万用户级的移动端Web解决方案
 
---------------------------------
-
-# Organization, Specification
-
-## Organization
-
-Web:
-
-- [MDN - Mozilla Developer Network](https://developer.mozilla.org/en-US/)
-- [China W3C](http://www.chinaw3c.org)
-- [Web Platform Docs](https://docs.webplatform.org/wiki/Main_Page)
+## Blog
 
 UED:
 
@@ -63,51 +88,19 @@ UED:
 - [腾讯CDC - 用户研究和用户体验设计中心](http://cdc.tencent.com/)
 - [腾讯社交用户体验设计](https://isux.tencent.com/)
 - [百度Web前端研发部](http://fex.baidu.com/)
-    - [百度前端技术体系](http://efe.baidu.com/)
+  - [百度前端技术体系](http://efe.baidu.com/)
 - [淘宝前端团队](http://taobaofed.org/)
 
 Blog：
 
-- [张云龙的前端Blog](https://github.com/fouber/blog)
+- [张云龙的前端工程博客](https://github.com/fouber/blog)
 - [John Resig的Blog](http://ejohn.org/category/blog/)
 
-## Specification
+## Learning Resources
 
-Web：
-
-- HTML
-    - [HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
-    - [HTML5 - MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-    - [HTML - WebPlantformDocs](https://docs.webplatform.org/wiki/html)
-- CSS
-    - [CSS - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
-    - [CSS3 - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
-    - [CSS - WebPlantformDocs](https://docs.webplatform.org/wiki/css)
-- JavaScript
-    - [JavaScript - MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
-    - [ECMAScript Specification List](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Language_Resources)
-- DOM
-    - [DOM - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
-- SVG
-    - [SVG - MDN](https://developer.mozilla.org/en-US/docs/Web/SVG)
-- WebGL
-    - [WebGL - MDN](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
-- [Web Assembly](http://webassembly.org/): WebAssembly is currently being designed as an open standard by a W3C Community Group that includes representatives from all major browsers.
-
-通信协议：
-
-- HTTP
-    - [HTTP/2 Protocol](http://http2.github.io/): HTTP/2 is a replacement for how HTTP is expressed “on the wire.” It is not a ground-up rewrite of the protocol; HTTP methods, status codes and semantics are the same, and it should be possible to use the same APIs as HTTP/1.x (possibly with some small additions) to represent the protocol.
-    - [HTTP/2 explained](http://http2-explained.readthedocs.org/en/latest/index.html): http2 explained describes the protocol HTTP/2 at a technical and protocol level. Background, the protocol, the implementations and the future. Written by Daniel Stenberg.
-    - [HTTP 1.1 Protocol](http://www.w3.org/Protocols/): Hypertext Transfer Protocol 1.1 Specification
-- WebSocket
-    - [MDN - WebSockets](https://developer.mozilla.org/zh-CN/docs/WebSockets)
-    - [HTML Living Standard - WebSocket](https://html.spec.whatwg.org/multipage/comms.html#network): this specification introduces the WebSocket interface
-    - [RFC 6455 - The WebSocket Protocol](http://tools.ietf.org/html/rfc6455): The WebSocket Protocol
-- JSON
-    - [JSON](http://json.org): JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999.
-    - [JSON API](http://jsonapi.org/): A SPECIFICATION FOR BUILDING APIS IN JSON.
-    - [JSON Schema & JSON Hyper-Schema](http://json-schema.org): JSON Schema: describes your JSON data format; JSON Hyper-Schema: turns your JSON data into hyper-text.
+- [Node School](https://nodeschool.io/)
+- [scotch](https://scotch.io/): fun and practical web development
+- [egghead](https://egghead.io/): Learn the latest frameworks from industry pros
 
 --------------------------------
 
@@ -299,6 +292,12 @@ Web：
 - [NodeCG](http://nodecg.com/): NodeCG is a broadcast graphics framework and application. It is primarily aimed at Twitch broadcasters using Open Broadcaster Software, but is usable in any environment that can render HTML, including CasparCG.
 - [mjml](https://mjml.io/): MJML is a markup language designed to reduce the pain of coding a responsive email.
 
+--------------------------------
+
+# References
+
+- [Spellbook of Modern Web Dev](https://github.com/dexteryy/spellbook-of-modern-webdev): A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development
+- [Roadmap to becoming a web developer in 2017](https://github.com/kamranahmedse/developer-roadmap)
 
 --------------------------------
 
