@@ -249,10 +249,11 @@ Blog：
 ## Web Framework
 
 - [ExpressJS](http://expressjs.com/)
-    - [node-toobusy](https://github.com/lloyd/node-toobusy): Build Node.JS servers that don't fall over.
+  - [node-toobusy](https://github.com/lloyd/node-toobusy): Build Node.JS servers that don't fall over.
+  - [Connect](https://github.com/senchalabs/connect): Express的前身
 - [Koa](http://koajs.com/)
-- [ThinkJS](https://thinkjs.org/)
-- [Connect](https://github.com/senchalabs/connect): Express的前身
+  - [ThinkJS](https://thinkjs.org/): base on Koa 2.x
+- [strapi](http://strapi.io/)
 - [Micro](https://github.com/zeithq/micro): Async HTTP microservices
 
 ## Job Schedule
