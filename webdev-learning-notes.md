@@ -287,6 +287,17 @@ Blog：
 
 - [Browsersync](https://browsersync.io/): Time-saving synchronised browser testing.
 
+## Web Templates
+
+- [SB Admin](https://startbootstrap.com/template-overviews/sb-admin/)
+- [Simple Dashboard Admin](https://github.com/start-angular/SB-Admin-BS4-Angular-4)
+- [ng-admin](https://github.com/marmelab/ng-admin)
+- [CoreUI](http://coreui.io/)
+
+**References:**
+
+- [27 Free Dashboard Templates](http://blog.creative-tim.com/web-design/free-dashboard-templates/)
+
 ## Others
 
 - [JXCore](http://jxcore.com/home/): JXcore extends Node.JS™ with additional features for developing mobile and embedded applications using JavaScript and leveraging the Node ecosystem.
