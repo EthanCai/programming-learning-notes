@@ -67,12 +67,15 @@ Network Communication：
 
 ## Coding Style Guide
 
-- JavaScript
+- JavaScript Coding Standard
   - [JavaScript Standard Style](https://github.com/feross/standard)
   - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
   - [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
   - [A JavaScript Quality Guide](https://github.com/bevacqua/js)
-- Html
+- 如何写javascript代码注释
+  - http://css.dzone.com/articles/introduction-jsdoc
+  - http://usejsdoc.org/
+- Html/CSS Coding Standard
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml)
 
 ## Web Development Guide
