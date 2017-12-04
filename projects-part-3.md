@@ -38,6 +38,8 @@
 - [WebScaleSQL](http://webscalesql.org/)
 - [Go: Tidb](https://github.com/pingcap/tidb): TiDB is a distributed NewSQL database compatible with MySQL protocol
 - [noms](https://github.com/attic-labs/noms): The versioned, forkable, syncable database. Noms is a decentralized database based on ideas from Git.
+- [RocksDB](http://rocksdb.org/): The RocksDB library provides a persistent key value store. Keys and values are arbitrary byte arrays. The keys are ordered within the key value store according to a user-specified comparator function.
+	- [MyRocks](http://myrocks.io/): A RocksDB storage engine with MySQL
 
 ## Memory Database
 
