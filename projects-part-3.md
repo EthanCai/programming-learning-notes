@@ -7,6 +7,7 @@
 	- [Database Engine](#database-engine)
 	- [Cache](#cache)
 	- [NoSQL Database](#nosql-database)
+	- [Time Series Database](#time-series-database)
 	- [JSON Storage](#json-storage)
 	- [OLAP - Data Warehouse](#olap-data-warehouse)
 	- [Search](#search)
@@ -78,13 +79,22 @@
 - [MongoDB](https://www.mongodb.org/)
 - [Rethinkdb](https://www.rethinkdb.com/)
 - [TokuMX](http://www.tokutek.com/): High-Performance MongoDB
-- [Go: Influxdb](https://github.com/influxdata/influxdb): Scalable datastore for metrics, events, and real-time analytics
-    - [influxdata](https://influxdata.com/): the platform for collecting/storing/visualizing/managing time-series data
 - [RavenDB](http://ravendb.net/): A linq enabled document database for .NET
 - [EventStore](https://github.com/EventStore/EventStore): The open-source, functional database with Complex Event Processing in JavaScript.
 - [LevelDB](https://github.com/google/leveldb): LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
     - [eLevelDB](https://github.com/basho/eleveldb): eLevelDB 是一个 Erlang 应用程序，封装了 LevelDB
 - [Cassandra](http://cassandra.apache.org/): The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data. Cassandra's support for replicating across multiple datacenters is best-in-class, providing lower latency for your users and the peace of mind of knowing that you can survive regional outages.
+
+## Time Series Database
+
+- [Go: Influxdb](https://github.com/influxdata/influxdb): Scalable datastore for metrics, events, and real-time analytics
+    - [influxdata](https://influxdata.com/): the platform for collecting/storing/visualizing/managing time-series data
+- [Go: Prometheus](http://prometheus.io/): An open-source service monitoring system and time series database.
+- [Riak TS](http://basho.com/products/riak-ts/)
+
+reference:
+
+- https://www.influxdata.com/time-series-database/
 
 ## JSON Storage
 
