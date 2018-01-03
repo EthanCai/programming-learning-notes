@@ -1,10 +1,12 @@
 # Projects About Artificial Intelligence
 
-## 开放平台
+## 开放平台、API
 
 - [Baidu AI开放平台](http://ai.baidu.com/)
 - [Microsoft Cognitive Services](https://azure.microsoft.com/en-us/services/cognitive-services/?v=17.25c): 微软认知服务
 - [OpenAI](https://openai.com/): Discovering and enacting the path to safe artificial general intelligence.
+- 自动驾驶
+    - [Baidu Apollo](http://apollo.auto/): Baidu Apollo开放平台
 
 ## Framework
 
@@ -12,16 +14,13 @@
 - [Google Tensorflow](https://github.com/tensorflow/tensorflow): TensorFlow is an open source software library for numerical computation using data flow graphs. Nodes in the graph represent mathematical operations, while the graph edges represent the multidimensional data arrays (tensors) that flow between them.
 - [Microsoft DMTK](https://github.com/Microsoft/DMTK): Microsoft Distributed Machine Learning Toolkit
 - [Microsoft CNTK](https://github.com/Microsoft/CNTK): CNTK (http://www.cntk.ai/), the Computational Network Toolkit by Microsoft Research, is a unified deep-learning toolkit that describes neural networks as a series of computational steps via a directed graph.
-- [MXNet](http://mxnet.io/): A Flexible and Efficient Library for Deep Learning
-- [Angel](https://github.com/Tencent/angel): A Flexible and Powerful Parameter Server for large-scale machine learning
+- [Amazon MXNet](http://mxnet.io/): A Flexible and Efficient Library for Deep Learning
+- [Baidu PaddlePaddle](http://www.paddlepaddle.org/): PArallel Distributed Deep LEarning
+- [Tencent: Angel](https://github.com/Tencent/angel): A Flexible and Powerful Parameter Server for large-scale machine learning
 - [Python: PyTorch](http://pytorch.org/): Tensors and Dynamic neural networks in Python with strong GPU acceleration. PyTorch is a deep learning framework that puts Python first.
 - [Python: Theano](https://github.com/Theano/Theano): Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation.
 - [Python: Keras](https://keras.io/): Keras is a high-level neural networks API, written in Python and capable of running on top of either TensorFlow, CNTK or Theano. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
 - [Python: Scikit-learn](http://scikit-learn.org/stable/): Machine Learning in Python
-
-## Automatic Pilot
-
-- [Baidu Apollo](http://apollo.auto/index_cn.html): Baidu Apollo开放平台
 
 ## Computer Vision
 
