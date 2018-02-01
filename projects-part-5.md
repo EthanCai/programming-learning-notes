@@ -31,6 +31,11 @@
 - [Baidu Map](http://lbsyun.baidu.com/): 百度地图开放平台
 - [Mapbox](https://www.mapbox.com/)
 
+## Libraries
+
+- [JTS Topology Suite](http://www.tsusiatsoftware.net/jts/main.html): The JTS Topology Suite is an API of spatial predicates and functions for processing geometry.
+    - [Geos](http://trac.osgeo.org/geos/): GEOS (Geometry Engine - Open Source) is a C++ port of the ​Java Topology Suite (JTS).
+
 ## Other
 
 - [OpenLayers](https://github.com/openlayers/openlayers): OpenLayers is a high-performance, feature-packed library for creating interactive maps on the web. It can display map tiles, vector data and markers loaded from any source on any web page.
