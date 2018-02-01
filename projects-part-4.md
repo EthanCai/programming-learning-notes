@@ -221,14 +221,29 @@
 
 ## Container
 
-- Docker Registry
+- Specification
+    - [Open Containers Initiative](https://github.com/opencontainers)
+- Container Linux
+    - [Coreos](https://coreos.com/os/docs/latest/)
+    - [RancherOS](http://rancher.com/rancher-os/)
+- Container
+    - [Docker](https://www.docker.com/open-source-0)
+    - [rkt](https://coreos.com/rkt/)
+        - https://coreos.com/rkt/docs/latest/getting-started-guide.html
+    - [LXC/LXD](https://linuxcontainers.org/)
+    - [Hyper](https://hypercontainer.io/)
+- Container Registry
     - [Docker Distribution/Registry](https://github.com/docker/distribution)
     - [Habor](https://github.com/vmware/harbor): An enterprise-class container registry server based on Docker Distribution
     - [Portus](http://port.us.org/): Authorization service and frontend for Docker registry (v2)
-- Docker Cluster
-    - [kubernetes](http://kubernetes.io/)
+    - [$Quary](https://coreos.com/quay-enterprise/)
+- Docker Cluster & Container Management Platform
+    - [Kubernetes](http://kubernetes.io/)
     - [Docker Swarm](https://docs.docker.com/engine/swarm/)
     - [Ali Pouch](https://github.com/alibaba/pouch)
+    - [$Rancher 2.0](https://rancher.com/)
+    - [$Tectonic](https://coreos.com/tectonic/)
+
 
 ## Serverless Functions
 
