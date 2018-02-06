@@ -1,35 +1,35 @@
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
+<!-- TOC START min:1 max:3 link:true update:true -->
 - [Projects about Application Software Development](#projects-about-application-software-development)
-	- [Compiler](#compiler)
-	- [REPL](#repl)
-	- [Language Converter](#language-converter)
-	- [Interpreter](#interpreter)
-	- [Debugger](#debugger)
-	- [Analyzer](#analyzer)
-	- [Profiling](#profiling)
-	- [Web Servers & Application Servers](#web-servers-application-servers)
-	- [Application Frameworks](#application-frameworks)
-	- [Template Engine](#template-engine)
-	- [GUI Framework](#gui-framework)
-	- [Asynchronous Programming Framework](#asynchronous-programming-framework)
-	- [Web Socket](#web-socket)
-	- [Network](#network)
-	- [Thread & Coroutine](#thread-coroutine)
-	- [Reflect & IoC](#reflect-ioc)
-	- [Logging](#logging)
-	- [Data Access](#data-access)
-	- [Serialization & Deserialization](#serialization-deserialization)
-	- [Command Line](#command-line)
-	- [File](#file)
-	- [Image Processing](#image-processing)
-	- [Audio & Video](#audio-video)
-	- [Computer Vision](#computer-vision)
-	- [Authentication & Authorization](#authentication-authorization)
-	- [Office Documents](#office-documents)
-	- [Misc Libraries](#misc-libraries)
+  - [Compiler](#compiler)
+  - [REPL](#repl)
+  - [Language Converter](#language-converter)
+  - [Interpreter](#interpreter)
+  - [Debugger](#debugger)
+  - [Analyzer](#analyzer)
+  - [Profiling](#profiling)
+  - [Web Servers & Application Servers](#web-servers--application-servers)
+  - [Application Frameworks](#application-frameworks)
+  - [Template Engine](#template-engine)
+  - [GUI Framework](#gui-framework)
+  - [Asynchronous Programming Framework](#asynchronous-programming-framework)
+  - [Web Socket](#web-socket)
+  - [Network](#network)
+  - [Server Framework](#server-framework)
+  - [Thread & Coroutine](#thread--coroutine)
+  - [Reflect & IoC](#reflect--ioc)
+  - [Logging](#logging)
+  - [Data Access](#data-access)
+  - [Serialization & Deserialization](#serialization--deserialization)
+  - [Command Line](#command-line)
+  - [File](#file)
+  - [Image Processing](#image-processing)
+  - [Audio & Video](#audio--video)
+  - [Computer Vision](#computer-vision)
+  - [Authentication & Authorization](#authentication--authorization)
+  - [Office Documents](#office-documents)
+  - [Misc Libraries](#misc-libraries)
 
-<!-- /TOC -->
+<!-- TOC END -->
 
 # Projects about Application Software Development
 
@@ -191,6 +191,10 @@ References:
 - [Go: link](https://github.com/funny/link): Go语言网络层脚手架
 - [Go: tus](http://www.oschina.net/p/tus): 一个开放的协议实现了客户端和服务器之间可恢复的文件上传协议
 - [Go: sleuth](https://github.com/ursiform/sleuth): sleuth is a Go library that provides master-less peer-to-peer autodiscovery and RPC between HTTP services that reside on the same network. It works with minimal configuration and provides a mechanism to join a local network both as a client that offers no services and as any service that speaks HTTP. Its primary use case is for microservices on the same network that make calls to one another.
+
+## Server Framework
+
+- [Seastar](https://github.com/scylladb/seastar): High performance server-side application framework
 
 ## Thread & Coroutine
 
