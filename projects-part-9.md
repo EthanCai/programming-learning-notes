@@ -44,6 +44,11 @@
   - [Gorgonia: Primitives for Building Neural Networks in Go](https://speakerdeck.com/chewxy/gorgonia-primitives-for-building-neural-networks-in-go)
 - [deeplearn.js](https://pair-code.github.io/deeplearnjs/): A hardware-accelerated machine intelligence library for the web
 
+# Trend - 趋势
+
+- [2016-12-20丨独家丨余凯年度总结，揭开中国人工智能的真实现状](https://mp.weixin.qq.com/s?__biz=MzI5NTIxNTg0OA==&mid=2247485043&idx=1&sn=58b53bb0a75719c535658d9db7d173f5&chksm=ec57b1f4db2038e26946909d68c431b66ac613522b1c41aeaad6380553b78968a6f3e11c121d)
+- [2017-05-25丨人工智能达到了什么程度？](https://www.zhihu.com/question/46563853/answer/153380355?from=timeline)
+- [2017-11-02丨浅谈人工智能：现状、任务、构架与统一丨正本清源](https://mp.weixin.qq.com/s/-wSYLu-XvOrsST8_KEUa-Q)
 
 # Study Courses
 
@@ -72,6 +77,18 @@
 - [fastai](https://github.com/fastai/fastai): The fast.ai deep learning library, lessons, and tutorials
 - 加州理工学院公开课 《机器学习与数据挖掘》
   - http://open.163.com/special/opencourse/learningfromdata.html
+
+# Books
+
+- 《数学之美》：作者吴军大家都很熟悉。以极为通俗的语言讲述了数学在机器学习和自然语言处理等领域的应用。
+- 《Programming Collective Intelligence》(《集体智慧编程》)：作者Toby Segaran也是《BeautifulData : The Stories Behind Elegant Data Solutions》（《数据之美：解密优雅数据解决方案背后的故事》）的作者。这本书最大的优势就是里面没有理论推导和复杂的数学公式，是很不错的入门书。目前中文版已经脱销，对于有志于这个领域的人来说，英文的pdf是个不错的选择，因为后面有很多经典书的翻译都较差，只能看英文版，不如从这个入手。还有，这本书适合于快速看完，因为据评论，看完一些经典的带有数学推导的书后会发现这本书什么都没讲，只是举了很多例子而已。
+- 《Algorithms of the Intelligent Web》（《智能web算法》）：作者Haralambos Marmanis、Dmitry Babenko。这本书中的公式比《集体智慧编程》要略多一点，里面的例子多是互联网上的应用，看名字就知道。不足的地方在于里面的配套代码是Bean Shell而不是python或其他。总起来说，这本书还是适合初学者，与上一本一样需要快速读完，如果读完上一本的话，这一本可以不必细看代码，了解算法主要思想就行了。
+- 《统计学习方法》：作者李航，是国内机器学习领域的几个大家之一，曾在MSRA任高级研究员，现在华为诺亚方舟实验室。书中写了十个算法，每个算法的介绍都很干脆，直接上公式，是彻头彻尾的“干货书”。每章末尾的参考文献也方便了想深入理解算法的童鞋直接查到经典论文；本书可以与上面两本书互为辅助阅读。
+- 《Machine Learning》（《机器学习》）：作者Tom Mitchell是CMU的大师，有机器学习和半监督学习的网络课程视频。这本书是领域内翻译的较好的书籍，讲述的算法也比《统计学习方法》的范围要大很多。据评论这本书主要在于启发，讲述公式为什么成立而不是推导；不足的地方在于出版年限较早，时效性不如PRML。但有些基础的经典还是不会过时的，所以这本书现在几乎是机器学习的必读书目。
+
+参考：
+
+- [机器学习，数据挖掘的书有哪些？](https://www.zhihu.com/question/20955741)
 
 # References
 
