@@ -233,12 +233,13 @@
     - [LXC/LXD](https://linuxcontainers.org/)
     - [Hyper](https://hypercontainer.io/)
 - Container Registry
-    - [Docker Distribution/Registry](https://github.com/docker/distribution)
+    - [Docker Distribution/Registry](https://github.com/docker/distribution): The Docker toolset to pack, ship, store, and deliver content. This repository's main product is the Docker Registry 2.0 implementation for storing and distributing Docker images. It supersedes the docker/docker-registry project with a new API design, focused around security and performance.
     - [Habor](https://github.com/vmware/harbor): An enterprise-class container registry server based on Docker Distribution
     - [Portus](http://port.us.org/): Authorization service and frontend for Docker registry (v2)
     - [$Quary](https://coreos.com/quay-enterprise/)
 - Docker Cluster & Container Management Platform
     - [Kubernetes](http://kubernetes.io/)
+        - [Helm](https://github.com/kubernetes/helm): The Kubernetes Package Manager
     - [Docker Swarm](https://docs.docker.com/engine/swarm/)
     - [Ali Pouch](https://github.com/alibaba/pouch)
     - [$Rancher 2.0](https://rancher.com/)
