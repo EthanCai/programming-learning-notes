@@ -18,7 +18,6 @@
 	- [Distributed Realtime Computation System](#distributed-realtime-computation-system)
 	- [Data Visualization](#data-visualization)
 	- [Log Process](#log-process)
-	- [Workflow Management](#workflow-management)
 
 <!-- /TOC -->
 
@@ -201,7 +200,3 @@ In a fast, simple, yet extensible way.
 - [FluentD](http://www.fluentd.org/): Fluentd是一个日志收集系统，它的特点在于其各部分均是可定制化的，你可以通过简单的配置，将日志收集到不同的地方。
 - [Greylog](https://www.graylog.org/): Free and open source log management
 - [Logspout](https://github.com/gliderlabs/logspout): Log routing for Docker container logs
-
-## Workflow Management
-
-- [Airflow](https://github.com/airbnb/airflow): a workflow management platform
