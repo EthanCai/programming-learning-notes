@@ -108,6 +108,8 @@
 - [C: Gearman](http://gearman.org/): Gearman provides a generic application framework to farm out work to other machines or processes that are better suited to do the work. It allows you to do work in parallel, to load balance processing, and to call functions between languages. It can be used in a variety of applications, from high-availability web sites to the transport of database replication events.
 - [Ruby: resque-schedule](https://github.com/resque/resque-scheduler): A light-weight job scheduling system built on top of resque
 - [Python: celery](http://www.celeryproject.org/): Celery is an asynchronous task queue/job queue based on distributed message passing.	It is focused on real-time operation, but supports scheduling as well.
+- [Python: luigi](https://github.com/spotify/luigi): Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in.
+- [Python: pinball](https://github.com/pinterest/pinball): Pinball is a scalable workflow manager
 - [Go: kala](https://github.com/ajvb/kala): Kala is a simplistic, modern, and performant job scheduler written in Go. It lives in a single binary and does not have any dependencies. (Currently in Alpha stage. Do not use in production environments.)
 - [Go: dkron](https://github.com/victorcoder/dkron): Distributed, fault tolerant job scheduling system
 - [Go: jobber](https://github.com/dshearer/jobber): A replacement for cron, with sophisticated status-reporting and error-handling.
