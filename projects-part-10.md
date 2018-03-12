@@ -1,34 +1,34 @@
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+<!-- TOC -->
 
 - [Projects about .NET](#projects-about-net)
-	- [Compiler](#compiler)
-	- [Decompiler](#decompiler)
-	- [REPL](#repl)
-	- [Assembly Manipulation](#assembly-manipulation)
-	- [Web Servers & Application Servers](#web-servers-application-servers)
-	- [Application Frameworks](#application-frameworks)
-	- [Template Engine](#template-engine)
-	- [Asynchronous Programming Framework](#asynchronous-programming-framework)
-	- [Web Socket](#web-socket)
-	- [Network](#network)
-	- [Thread & Coroutine](#thread-coroutine)
-	- [IoC](#ioc)
-	- [Logging](#logging)
-	- [Cryptography](#cryptography)
-	- [Compression](#compression)
-	- [Profiler](#profiler)
-	- [Data Access](#data-access)
-	- [Serialization & Deserialization](#serialization-deserialization)
-	- [Command Line](#command-line)
-	- [Math](#math)
-	- [Image Processing](#image-processing)
-	- [Computer Vision](#computer-vision)
-	- [Authentication & Authorization](#authentication-authorization)
-	- [Mail](#mail)
-	- [State Machine](#state-machine)
-	- [.NET Interoperability](#net-interoperability)
-	- [Windows Services](#windows-services)
-	- [Misc Libraries](#misc-libraries)
+    - [Compiler](#compiler)
+    - [Decompiler](#decompiler)
+    - [REPL](#repl)
+    - [Assembly Manipulation](#assembly-manipulation)
+    - [Web Servers & Application Servers](#web-servers--application-servers)
+    - [Application Frameworks](#application-frameworks)
+    - [Template Engine](#template-engine)
+    - [Asynchronous Programming Framework](#asynchronous-programming-framework)
+    - [Web Socket](#web-socket)
+    - [Network](#network)
+    - [Thread & Coroutine](#thread--coroutine)
+    - [IoC](#ioc)
+    - [Logging](#logging)
+    - [Cryptography](#cryptography)
+    - [Compression](#compression)
+    - [Profiler](#profiler)
+    - [Data Access](#data-access)
+    - [Serialization & Deserialization](#serialization--deserialization)
+    - [Command Line](#command-line)
+    - [Math](#math)
+    - [Image Processing](#image-processing)
+    - [Computer Vision](#computer-vision)
+    - [Authentication & Authorization](#authentication--authorization)
+    - [Mail Client](#mail-client)
+    - [State Machine](#state-machine)
+    - [.NET Interoperability](#net-interoperability)
+    - [Windows Services](#windows-services)
+    - [Misc Libraries](#misc-libraries)
 
 <!-- /TOC -->
 
@@ -192,7 +192,7 @@
 - [.NET: IdentityServer](https://github.com/IdentityServer) - Extensible OAuth2 and OpenID Connect provider framework.
 - [.NET: OAuth](https://github.com/danielcrenna/oauth) - A very lightweight library for generating OAuth 1.0a signatures written in C#
 
-## Mail
+## Mail Client
 
 - [.NET: FluentEmail](https://github.com/lukencode/FluentEmail): A Fluent Wrapper for System.Net.Mail with razor templating support.
 - [.NET: MailKit](https://github.com/jstedfast/MailKit): A complete cross-platform mail stack including IMAP, POP3, SMTP, authentication and more. Built on top of MimeKit.
