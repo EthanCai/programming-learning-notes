@@ -86,6 +86,7 @@
 - [Java: Apache Kafka](http://kafka.apache.org/): Apache Kafka is publish-subscribe messaging rethought as a distributed commit log.
   - [KSQL](https://github.com/confluentinc/ksql): a Streaming SQL Engine for Apache Kafka
   - [Kafka Manager](https://github.com/yahoo/kafka-manager): A tool for managing Apache Kafka
+  - [confluent](https://www.confluent.io/product/confluent-open-source/): A developer-optimized distribution of Apache Kafka
 - [Java: RocketMQ](https://rocketmq.apache.org/): Apache RocketMQ™ is an open source distributed messaging and streaming data platform.
 - [Java: Apache ActiveMQ](http://activemq.apache.org/): Apache ActiveMQ ™ is the most popular and powerful open source messaging and Integration Patterns server. Apache ActiveMQ is fast, supports many Cross Language Clients and Protocols, comes with easy to use Enterprise Integration Patterns and many advanced features while fully supporting JMS 1.1 and J2EE 1.4\. Apache ActiveMQ is released under the Apache 2.0 License.
 - [Go: NATS](https://nats.io/): NATS is an open-source, cloud-native messaging system. In addition to functioning as the “nervous system” for the Apcera platform, companies like Baidu, Siemens, VMware, HTC, and Ericsson rely on NATS for its highly performant and resilient messaging capabilities.
