@@ -259,3 +259,5 @@
 
 - [vagrantup](https://www.vagrantup.com/): Create and configure lightweight, reproducible, and portable development environments.
 - [uniqush-push](https://github.com/uniqush/uniqush-push): Uniqush is a free and open source software which provides a unified push service for server-side notification to apps on mobile devices.
+- [Buildbot](http://docs.buildbot.net/current/index.html): Buildbot 是一个检查代码变化的自动化编译/ 测试的Python系统
+- [tox](https://tox.readthedocs.io/en/latest/): tox aims to automate and standardize testing in Python. It is part of a larger vision of easing the packaging, testing and release process of Python software.
