@@ -20,6 +20,7 @@
 - [Python: PyTorch](http://pytorch.org/): Tensors and Dynamic neural networks in Python with strong GPU acceleration. PyTorch is a deep learning framework that puts Python first.
 - [Python: Theano](https://github.com/Theano/Theano): Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation.
 - [Python: Keras](https://keras.io/): Keras is a high-level neural networks API, written in Python and capable of running on top of either TensorFlow, CNTK or Theano. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
+  - [中文文档](https://keras.io/zh/)
 - [Python: Scikit-learn](http://scikit-learn.org/stable/): Machine Learning in Python
 
 ## Computer Vision
