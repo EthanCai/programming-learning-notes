@@ -1,42 +1,8 @@
-# 官方资源
-
-官方站点：https://www.python.org/
-Python 3.x文档：https://docs.python.org/3/
-Python 2.x文档：https://docs.python.org/2/
-Python的包索引：https://pypi.python.org/pypi
-Python Wiki：https://wiki.python.org/moin/FrontPage
-
-------------------------
-
-# 相关学习站点
-
-- [Awesome-python](https://github.com/vinta/awesome-python)
-- [Community for Python Developer](http://oss.io/)
-
-------------------------
-
-# 学习书籍
-
-- [Learning Python](http://book.douban.com/subject/3988517/)：深入的探讨了Python编程的基本知识。它集中研究Python语言的核心，并且其主题是阅读下面一本书的的前提条件。
-- [Programming Python](http://book.douban.com/subject/4893005/)：涉及Python 在现实世界编程任务中的应用。这本书关注程序库和工具，并且认为你已经了解Python的基础知识。
-- [Python Pocket Reference](http://book.douban.com/subject/4074478/)：上面两本书没有详尽列出的细节提供快速参考。虽然讲的不多，但可以帮助快速查找细节。
-- [Python Cookbook](http://book.douban.com/subject/4828875/)：本书介绍了Python应用在各个领域中的一些使用技巧和方法，从最基本的字符、文件序列、字典和排序，到进阶的面向对象编程、数据库和数据持久化、 XML处理和Web编程，再到比较高级和抽象的描述符、装饰器、元类、迭代器和生成器，均有涉及。书中还介绍了一些第三方包和库的使用，包括 Twisted、GIL、PyWin32等。本书覆盖了Python应用中的很多常见问题，并提出了通用的解决方案。书中的代码和方法具有很强的实用性，可以方便地应用到实际的项目中，并产生立竿见影的效果。尤为难得的是，本书的各位作者都具有丰富的业界实践经验，因此，本书不仅给出了对各种问题的解决方案，同时还体现了很多专家的思维方式和良好的编程习惯，与具体的细节性知识相比，这部分内容无疑是本书的精华。本书适合具有一定Python基础的读者阅读参考。
-- [Programming Computer Vision with Python](http://book.douban.com/subject/10574101/)：《python计算机视觉编程》是计算机视觉编程的权威实践指南，依赖python语言讲解了基础理论与算法，并通过大量示例细致分析了对象识别、基于内容的图像搜索、光学字符识别、光流法、跟踪、三维重建、立体成像、增强现实、姿态估计、全景创建、图像分割、降噪、图像分组等技术。另外，书中附带的练习还能让读者巩固并学会应用编程知识。《python计算机视觉编程》适合的读者是：有一定编程与数学基础，想要了解计算机视觉的基本理论与算法的学生，以及计算机科学、信号处理、物理学、应用数学和统计学、神经生理学、认知科学等领域的研究人员和从业者。
-- [Natural Language Processing with Python](http://book.douban.com/subject/5336893/)：提供了非常易学的自然语言处理入门介绍，该领域涵盖从文本和电子邮件预测过滤，到自动总结和翻译等多种语言处理技术。在本书中，你将学会编写Python程序处理大量非结构化文本。你还将通过使用综合语言数据结构访问含有丰富注释的数据集，理解用于分析书面通信内容和结构的主要算法。
-- [Dive to Python](http://www.diveintopython.net/)：（[中文版](http://woodpecker.org.cn/diveintopython/index.html)）， “Dive Into Python” is a free Python book for experienced programmers
-- [Dive to Python 3](http://www.diveintopython3.net/)：Dive Into Python 3 covers Python 3 and its differences from Python 2. Compared to Dive Into Python, it’s about 20% revised and 80% new material.
-- [Text Processing in Python](http://gnosis.cx/TPiP/): IBM dW Python 专栏作家 David Mertz 的作品，主页上有免费的在线版本和补充资料。
-    - [某位读者关于 High Order Functions 的若干笔记](http://wiki.python.org/moin/TextProcessingInPython)
-- [Python源码剖析](http://book.douban.com/subject/3117898/)：作为主流的动态语言，Python不仅简单易学、移植性好，而且拥有强大丰富的库的支持。此外，Python强大的可扩展性，让开发人员既可以非常容易地利用C/C++编写Python的扩展模块，还能将Python嵌入到C/C++程序中，为自己的系统添加动态扩展和动态编程的能力。为了更好地利用Python语言，无论是使用Python语言本身，还是将Python与C/C++交互使用，深刻理解Python的运行原理都是非常重要的。本书以CPython为研究对象，在C代码一级，深入细致地剖析了Python的实现。书中不仅包括了对大量Python内置对象的剖析，更将大量的篇幅用于对Python虚拟机及Python高级特性的剖析。通过此书，读者能够透彻地理解Python中的一般表达式、控制结构、异常机制、类机制、多线程机制、模块的动态加载机制、内存管理机制等核心技术的运行原理，同时，本书所揭示的动态语言的核心技术对于理解其他动态语言，如 Javascript、Ruby等也有较大的参考价值。本书适合于Python程序员、动态语言爱好者、C程序员阅读
-- [Foundations of Python Network Programming](https://github.com/brandon-rhodes/fopnp)
-
-------------------------
-
 # 如何搭建开发环境
 
-## Mac OS X Yosemite
+以Mac OS X为例
 
-### 安装
+## 安装
 
 （参考了[Python Setup and Usage](https://docs.python.org/2/using/index.html)上的Macintosh下的安装说明）
 
@@ -45,28 +11,36 @@ Mac OS X Yosemite自带Python 2.7.6，安装在`/System/Library/Frameworks/Pytho
 - 通过执行"brew install python"安装最新的2.n版的Python。
 - 如果要安装Python3需要执行"brew install python3"命令。
 
-### 编写代码和IDE
+
+通常情况下，我们会在系统中同时安装多个版本的Python运行环境，可以参考下面的步骤：
+
+
+
+
+
+## 编辑器和IDE
 
 (参考了https://wiki.python.org/moin/IntegratedDevelopmentEnvironments)
 
 下面列出了，我倾向使用和正在使用的编辑软件和IDE：
 
-- [Vim](http://www.vim.org/)：特点在于是Unix、Linux、Mac OS预装控制台编辑器。
-- [Emacs](http://www.gnu.org/software/emacs/)：非常强大的编辑器，开源、免费、适用各种平台，适合程序员。
-- [Atom](https://atom.io/)：基于Node.js的实现的编辑器，插件非常多，几乎可以满足任何需求，如果你是一个深度Javascript粉丝极力推荐使用，缺点在于国内下载安装包经常被墙，目前更新很快，有些插件不太稳定。
-- [PyCharm](https://www.jetbrains.com/pycharm/)：JetBrains的IDE已经打出口碑了，适合编写大型项目时候使用。而且提供Community免费版本。
+- [Vim](http://www.vim.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Emacs](http://www.gnu.org/software/emacs/)
+- [Atom](https://atom.io/)
+- [PyCharm](https://www.jetbrains.com/pycharm/)
 
 如果想把Xcode作为Python的IDE，可以参考[这篇文章](http://blog.netsh.org/posts/xcode-python_1846.netsh.html)。
 
-### 编译运行
+## 编译运行
 
-#### 以交互方式执行Python代码
+### 以交互方式执行Python代码
 
 在Terminal中输入"Python"，然后输入Python命令运行：  
 ![](./img/2015/05/run-python-code-in-shell.png)
 
 
-#### 运行Python代码脚本
+### 运行Python代码脚本
 
 可以像如下方式运行Python脚本：
 
@@ -82,7 +56,7 @@ python myscript.py
 
 Python命令运行参数见[Command line and environment](https://docs.python.org/2/using/cmdline.html)
 
-#### 包管理机制
+## 包管理机制
 
 请阅读https://docs.python.org/3/installing/index.html，下面是一些关键概念截图  
 ![](./img/2015/05/pip.png)
@@ -91,42 +65,13 @@ pip是推荐的包管理工具。从Python3.4开始，它自动包含在Python�
 
 - [pip的文档](https://pip.pypa.io/en/stable/index.html)
 
-通常情况下，我们会在系统中同时安装多个版本的Python运行环境，这个时候就需要使用下面两个工具来帮助：
-
-- [pyenv](https://github.com/yyuu/pyenv): pyenv lets you easily switch between multiple versions of Python
-- [virtualenv](https://github.com/pypa/virtualenv): a tool to create isolated Python environments
-
-#### 构建和发布
+## 构建和发布
 
 参考：
 - [Python如何连同依赖打包发布以及python的构建工具？](http://www.zhihu.com/question/21639330)
 - [Python应用发布技术](http://wiki.woodpecker.org.cn/moin/PyExe)
 - [Python打包指南](http://www.ibm.com/developerworks/cn/opensource/os-pythonpackaging/)
 
-### Microsoft Windows
-
-#### 安装
-
-方法一
-
-- 先访问官方站点下载Python的安装包，然后安装。
-
-方法二
-
-- 先安装[Chocolatey](https://chocolatey.org/)
-- 然后在PowerShell控制台下，执行`choco install python2`安装Python 2.x，或者执行`choco install python3`安装Python 3.x。
-
-#### 编写代码和IDE
-
-参考上面的Mac OS下的IDE
-
-#### 编译运行
-
-参考上面的Mac OS下的编译运行
-
-#### 包管理机制
-
-//TODO:
 
 ------------------------
 
@@ -196,3 +141,41 @@ pip是推荐的包管理工具。从Python3.4开始，它自动包含在Python�
 ## GIS
 
 - [Geodis](https://github.com/EverythingMe/geodis): Geodis is a simple and fast python module that allows you to convert IP addresses and latitude/longitude coordinates into geographical locations such as cities, zipcodes and countries.
+
+------------------------
+
+# 学习书籍
+
+- [Learning Python](http://book.douban.com/subject/3988517/)：深入的探讨了Python编程的基本知识。它集中研究Python语言的核心，并且其主题是阅读下面一本书的的前提条件。
+- [Programming Python](http://book.douban.com/subject/4893005/)：涉及Python 在现实世界编程任务中的应用。这本书关注程序库和工具，并且认为你已经了解Python的基础知识。
+- [Python Pocket Reference](http://book.douban.com/subject/4074478/)：上面两本书没有详尽列出的细节提供快速参考。虽然讲的不多，但可以帮助快速查找细节。
+- [Python Cookbook](http://book.douban.com/subject/4828875/)：本书介绍了Python应用在各个领域中的一些使用技巧和方法，从最基本的字符、文件序列、字典和排序，到进阶的面向对象编程、数据库和数据持久化、 XML处理和Web编程，再到比较高级和抽象的描述符、装饰器、元类、迭代器和生成器，均有涉及。书中还介绍了一些第三方包和库的使用，包括 Twisted、GIL、PyWin32等。本书覆盖了Python应用中的很多常见问题，并提出了通用的解决方案。书中的代码和方法具有很强的实用性，可以方便地应用到实际的项目中，并产生立竿见影的效果。尤为难得的是，本书的各位作者都具有丰富的业界实践经验，因此，本书不仅给出了对各种问题的解决方案，同时还体现了很多专家的思维方式和良好的编程习惯，与具体的细节性知识相比，这部分内容无疑是本书的精华。本书适合具有一定Python基础的读者阅读参考。
+- [Dive to Python](http://www.diveintopython.net/)：（[中文版](http://woodpecker.org.cn/diveintopython/index.html)）， “Dive Into Python” is a free Python book for experienced programmers
+- [Dive to Python 3](http://www.diveintopython3.net/)：Dive Into Python 3 covers Python 3 and its differences from Python 2. Compared to Dive Into Python, it’s about 20% revised and 80% new material.
+- [Python源码剖析](http://book.douban.com/subject/3117898/)：作为主流的动态语言，Python不仅简单易学、移植性好，而且拥有强大丰富的库的支持。此外，Python强大的可扩展性，让开发人员既可以非常容易地利用C/C++编写Python的扩展模块，还能将Python嵌入到C/C++程序中，为自己的系统添加动态扩展和动态编程的能力。为了更好地利用Python语言，无论是使用Python语言本身，还是将Python与C/C++交互使用，深刻理解Python的运行原理都是非常重要的。本书以CPython为研究对象，在C代码一级，深入细致地剖析了Python的实现。书中不仅包括了对大量Python内置对象的剖析，更将大量的篇幅用于对Python虚拟机及Python高级特性的剖析。通过此书，读者能够透彻地理解Python中的一般表达式、控制结构、异常机制、类机制、多线程机制、模块的动态加载机制、内存管理机制等核心技术的运行原理，同时，本书所揭示的动态语言的核心技术对于理解其他动态语言，如 Javascript、Ruby等也有较大的参考价值。本书适合于Python程序员、动态语言爱好者、C程序员阅读
+- [Foundations of Python Network Programming](https://github.com/brandon-rhodes/fopnp)
+- [Programming Computer Vision with Python](http://book.douban.com/subject/10574101/)：《python计算机视觉编程》是计算机视觉编程的权威实践指南，依赖python语言讲解了基础理论与算法，并通过大量示例细致分析了对象识别、基于内容的图像搜索、光学字符识别、光流法、跟踪、三维重建、立体成像、增强现实、姿态估计、全景创建、图像分割、降噪、图像分组等技术。另外，书中附带的练习还能让读者巩固并学会应用编程知识。《python计算机视觉编程》适合的读者是：有一定编程与数学基础，想要了解计算机视觉的基本理论与算法的学生，以及计算机科学、信号处理、物理学、应用数学和统计学、神经生理学、认知科学等领域的研究人员和从业者。
+- [Natural Language Processing with Python](http://book.douban.com/subject/5336893/)：提供了非常易学的自然语言处理入门介绍，该领域涵盖从文本和电子邮件预测过滤，到自动总结和翻译等多种语言处理技术。在本书中，你将学会编写Python程序处理大量非结构化文本。你还将通过使用综合语言数据结构访问含有丰富注释的数据集，理解用于分析书面通信内容和结构的主要算法。
+- [Text Processing in Python](http://gnosis.cx/TPiP/): IBM dW Python 专栏作家 David Mertz 的作品，主页上有免费的在线版本和补充资料。
+    - [某位读者关于 High Order Functions 的若干笔记](http://wiki.python.org/moin/TextProcessingInPython)
+
+
+------------------------
+
+# 参考
+
+- [Awesome-python](https://github.com/vinta/awesome-python)
+- [Community for Python Developer](http://www.oss.io/Python/top-projects)
+- 官方资源
+    - [官方站点](https://www.python.org/)
+        - [Python 3.x文档](https://docs.python.org/3/)
+        - [Python 2.x文档](https://docs.python.org/2/)
+    - [Python的包索引](https://pypi.python.org/pypi)
+    - [Python Wiki](https://wiki.python.org/moin/FrontPage)
+- 多个版本的Python运行环境
+    - [pyenv](https://github.com/pyenv/pyenv): pyenv lets you easily switch between multiple versions of Python
+    - [virtualenv](https://github.com/pypa/virtualenv): a tool to create isolated Python environments
+    - [使用pipenv管理你的项目](https://mp.weixin.qq.com/s/uHDqRSDjsvfOmH1wpEH7SQ)
+    - [What is the difference between venv, pyvenv, pyenv, virtualenv, virtualenvwrapper, pipenv, etc?](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
+    - [Better Python version and environment management with pyenv](http://fgimian.github.io/blog/2014/04/20/better-python-version-and-environment-management-with-pyenv/)
+    - [Ultimate Solution to Python Virtual Environments: pyenv + virtualenvwrapper](https://alysivji.github.io/setting-up-pyenv-virtualenvwrapper.html)
