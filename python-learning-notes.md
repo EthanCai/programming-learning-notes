@@ -11,11 +11,13 @@ Mac OS X Yosemite自带Python 2.7.6，安装在`/System/Library/Frameworks/Pytho
 - 通过执行"brew install python"安装最新的2.n版的Python。
 - 如果要安装Python3需要执行"brew install python3"命令。
 
+### 安装pyenv
 
-通常情况下，我们会在系统中同时安装多个版本的Python运行环境，可以参考下面的步骤：
+todo
 
+### 安装pipenv
 
-
+todo
 
 
 ## 编辑器和IDE
@@ -31,6 +33,7 @@ Mac OS X Yosemite自带Python 2.7.6，安装在`/System/Library/Frameworks/Pytho
 - [PyCharm](https://www.jetbrains.com/pycharm/)
 
 如果想把Xcode作为Python的IDE，可以参考[这篇文章](http://blog.netsh.org/posts/xcode-python_1846.netsh.html)。
+
 
 ## 编译运行
 
@@ -174,8 +177,10 @@ pip是推荐的包管理工具。从Python3.4开始，它自动包含在Python�
     - [Python Wiki](https://wiki.python.org/moin/FrontPage)
 - 多个版本的Python运行环境
     - [pyenv](https://github.com/pyenv/pyenv): pyenv lets you easily switch between multiple versions of Python
+        - [使用 pyenv 管理 Python 版本](http://einverne.github.io/post/2017/04/pyenv.html)
+        - [Better Python version and environment management with pyenv](http://fgimian.github.io/blog/2014/04/20/better-python-version-and-environment-management-with-pyenv/)
+        - [Ultimate Solution to Python Virtual Environments: pyenv + virtualenvwrapper](https://alysivji.github.io/setting-up-pyenv-virtualenvwrapper.html)
     - [virtualenv](https://github.com/pypa/virtualenv): a tool to create isolated Python environments
     - [使用pipenv管理你的项目](https://mp.weixin.qq.com/s/uHDqRSDjsvfOmH1wpEH7SQ)
     - [What is the difference between venv, pyvenv, pyenv, virtualenv, virtualenvwrapper, pipenv, etc?](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
-    - [Better Python version and environment management with pyenv](http://fgimian.github.io/blog/2014/04/20/better-python-version-and-environment-management-with-pyenv/)
-    - [Ultimate Solution to Python Virtual Environments: pyenv + virtualenvwrapper](https://alysivji.github.io/setting-up-pyenv-virtualenvwrapper.html)
+    
