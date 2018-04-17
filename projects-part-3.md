@@ -124,6 +124,7 @@ reference:
 - [C++: Sphinx](http://sphinxsearch.com/): Sphinx Search 是由俄罗斯人Andrew Aksyonoff 开发的高性能全文搜索软件包，在GPL与商业协议双许可协议下发行。Sphinx is an open source full text search server, designed from the ground up with performance, relevance (aka search quality), and integration simplicity in mind. It's written in C++ and works on Linux (RedHat, Ubuntu, etc), Windows, MacOS, Solaris, FreeBSD, and a few other systems.
     - [sphinx-for-chinese](http://sphinx-search.com/): sphinx-for-chinese是一款专注于中文搜索的全文检索软件，在sphinx的基础上添加了中文处理模块并优化了中文搜索效果。
 - [C++: xunsearch](http://www.xunsearch.com/): 开源免费、高性能、多功能, 简单易用的专业全文检索技术方案
+- [Golang: riot](https://github.com/go-ego/riot): Go Open Source, Distributed, Simple and efficient Search Engine
 - [Golang: bleve](https://github.com/blevesearch/bleve): A modern text indexing library for go
 
 **Code Search**
@@ -136,8 +137,11 @@ reference:
 ## Text Processing
 
 - [Golang: sego](https://github.com/huichen/sego): Go中文分词
-- [Golang: goquery](https://github.com/PuerkitoBio/goquery): goquery brings a syntax and a set of features similar to jQuery to the Go language. It is based on Go's net/html package and the CSS Selector library cascadia. Since the net/html parser returns nodes, and not a full-featured DOM tree, jQuery's stateful manipulation functions (like height(), css(), detach()) have been left off.
+- [Golang: gse](https://github.com/go-ego/gse): Go efficient text segmentation; support english, chinese, japanese and other.
 - [Golang: prose](https://github.com/jdkato/prose): A Golang library for text processing, including tokenization, part-of-speech tagging, and named-entity extraction.
+- [Golang: gpy](https://github.com/go-ego/gpy): Go 语言汉字转拼音工具
+
+- [Golang: goquery](https://github.com/PuerkitoBio/goquery): goquery brings a syntax and a set of features similar to jQuery to the Go language. It is based on Go's net/html package and the CSS Selector library cascadia. Since the net/html parser returns nodes, and not a full-featured DOM tree, jQuery's stateful manipulation functions (like height(), css(), detach()) have been left off.
 - [Java: Apache Tika](http://tika.apache.org/): The Apache Tika™ toolkit detects and extracts metadata and text from over a thousand different file types (such as PPT, XLS, and PDF). All of these file types can be parsed through a single interface, making Tika useful for search engine indexing, content analysis, translation, and much more.
 - [.NET: Toxy - .NET Text/Data Extraction Framework](https://toxy.codeplex.com): Toxy is a .NET data/text extraction framework similar to Apache Tika in Java. It supports a lot of popular formats such as docx, xlsx, xls, pdf, csv, txt, epub, html and so on.
 - [.NET: Rant2](https://github.com/TheBerkin/Rant): Rant is an all-purpose procedural text engine that is most simply described as the opposite of Regex. It has been refined to include a dizzying array of features for handling everything from the most basic of string generation tasks to advanced dialogue generation, code templating, automatic formatting, and more.
