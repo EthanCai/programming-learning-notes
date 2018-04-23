@@ -228,6 +228,7 @@
 - Container Linux
     - [Coreos](https://coreos.com/os/docs/latest/)
     - [RancherOS](http://rancher.com/rancher-os/)
+	- [Operos](https://www.paxautoma.com/): Complete infrastructure and application management stack for commodity hardware.
 - Container
     - [Docker](https://www.docker.com/open-source-0)
     - [rkt](https://coreos.com/rkt/)
