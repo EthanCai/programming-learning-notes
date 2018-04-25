@@ -122,6 +122,7 @@
 - [Go: cronsun](https://github.com/shunfei/cronsun): A Distributed, Fault-Tolerant Cron-Style Job System.
 - [Go: goworker](https://github.com/benmanns/goworker): goworker is a Go-based background worker that runs 10 to 100,000* times faster than Ruby-based workers.
 - [Go: machinery](https://github.com/RichardKnop/machinery): Machinery is an asynchronous task queue/job queue based on distributed message passing.
+- [Go: fireworq](https://github.com/fireworq/fireworq): Fireworq is a lightweight, high-performance, language-independent job queue system.
 
 ## Load Balance
 
