@@ -1,29 +1,34 @@
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+<!-- TOC -->
 
 - [Projects about Data Storage and Analysis](#projects-about-data-storage-and-analysis)
-	- [Database](#database)
-	- [Memory Database](#memory-database)
-	- [Graph Database](#graph-database)
-	- [Database Engine](#database-engine)
-	- [Cache](#cache)
-	- [NoSQL Database](#nosql-database)
-	- [Time Series Database](#time-series-database)
-	- [JSON Storage](#json-storage)
-	- [OLAP - Data Warehouse](#olap-data-warehouse)
-	- [Search](#search)
-	- [Text Processing](#text-processing)
-	- [Crawler](#crawler)
-	- [Recommender System](#recommender-system)
-	- [Big Data](#big-data)
-	- [Distributed Realtime Computation System](#distributed-realtime-computation-system)
-	- [Data Visualization](#data-visualization)
-	- [Log Process](#log-process)
+    - [Database and Caching Platform](#database-and-caching-platform)
+    - [Database](#database)
+    - [Memory Database](#memory-database)
+    - [Graph Database](#graph-database)
+    - [Database Engine](#database-engine)
+    - [Cache](#cache)
+    - [NoSQL Database](#nosql-database)
+    - [Time Series Database](#time-series-database)
+    - [JSON Storage](#json-storage)
+    - [OLAP - Data Warehouse](#olap---data-warehouse)
+    - [Search](#search)
+    - [Text Processing](#text-processing)
+    - [Crawler](#crawler)
+    - [Recommender System](#recommender-system)
+    - [Big Data](#big-data)
+    - [Distributed Realtime Computation System](#distributed-realtime-computation-system)
+    - [Data Visualization](#data-visualization)
+    - [Log Process](#log-process)
 
 <!-- /TOC -->
 
 
-
 # Projects about Data Storage and Analysis
+
+## Database and Caching Platform
+
+- [Apache Ignite](https://ignite.apache.org/): Apache Ignite In-Memory Data Fabric is a high-performance, integrated and distributed in-memory platform for computing and transacting on large-scale data sets in real-time, orders of magnitude faster than possible with traditional disk-based or flash technologies.
+
 
 ## Database
 
@@ -65,17 +70,16 @@
 
 ## Cache
 
-- [Redis](http://redis.io/): Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs.
+- [C: Redis](http://redis.io/): Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs.
     - [codis](https://github.com/CodisLabs/codis): Proxy based Redis cluster solution supporting pipeline and scaling dynamically
     - [twemproxy](https://github.com/twitter/twemproxy): A fast, light-weight proxy for memcached and redis
     - [redis-cerberus](https://github.com/HunanTV/redis-cerberus): A Redis cluster proxy.
     - [Corvus](https://github.com/eleme/corvus): A fast and lightweight Redis Cluster Proxy for Redis 3.0
     - [CacheCloud](https://github.com/sohutv/cachecloud):  CacheCloud提供一个Redis云管理平台：实现多种类型(Redis Standalone、Redis Sentinel、Redis Cluster)自动部署、解决Redis实例碎片化现象、提供完善统计、监控、运维功能、减少运维成本和误操作，提高机器的利用率，提供灵活的伸缩性，提供方便的接入客户端。
-- [Memcached](http://memcached.org/): Free & open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load. Memcached is an in-memory key-value store for small chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page rendering. Memcached is simple yet powerful. Its simple design promotes quick deployment, ease of development, and solves many problems facing large data caches. Its API is available for most popular languages.
-- [shared cache](http://www.sharedcache.com/cms/homepage.aspx): high performance distributed and replication cache system built for .Net applications running in server farms.
-- [Infinispan](http://infinispan.org): Infinispan is a distributed in-memory key/value data store with optional schema, available under the Apache License 2.0. It can be used both as an embedded Java library and as a language-independent service accessed remotely over a variety of protocols (HotRod, REST, Memcached and WebSockets). It offers advanced functionality such as transactions, events, querying and distributed processing.
-- [Apache Ignite](https://ignite.incubator.apache.org/): Apache Ignite In-Memory Data Fabric is a high-performance, integrated and distributed in-memory platform for computing and transacting on large-scale data sets in real-time, orders of magnitude faster than possible with traditional disk-based or flash technologies.
+- [C: Memcached](http://memcached.org/): Free & open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load. Memcached is an in-memory key-value store for small chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page rendering. Memcached is simple yet powerful. Its simple design promotes quick deployment, ease of development, and solves many problems facing large data caches. Its API is available for most popular languages.
+- [Java: Infinispan](http://infinispan.org): Infinispan is a distributed in-memory key/value data store with optional schema, available under the Apache License 2.0. It can be used both as an embedded Java library and as a language-independent service accessed remotely over a variety of protocols (HotRod, REST, Memcached and WebSockets). It offers advanced functionality such as transactions, events, querying and distributed processing.
 - [Go: Groupcahe](https://github.com/golang/groupcache): groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
+- [Java: Hazelcast](https://github.com/hazelcast/hazelcast): Hazelcast is a clustering and highly scalable data distribution platform.
 
 ## NoSQL Database
 
