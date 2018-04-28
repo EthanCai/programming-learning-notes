@@ -43,12 +43,16 @@
     - [Citus](https://github.com/citusdata/citus): Scalable PostgreSQL for multi-tenant and real-time workloads
     - [2ndquadrant](https://www.2ndquadrant.com/en/books/): Your diligent team of PostgreSQL experts
 - [MySQL](http://www.mysql.com/)
-- [MariaDB](http://mariadb.org/)
-- [WebScaleSQL](http://webscalesql.org/)
-- [Go: Tidb](https://github.com/pingcap/tidb): TiDB is a distributed NewSQL database compatible with MySQL protocol
-- [noms](https://github.com/attic-labs/noms): The versioned, forkable, syncable database. Noms is a decentralized database based on ideas from Git.
+    - [MariaDB](http://mariadb.org/)
+    - [WebScaleSQL](http://webscalesql.org/)
+- Distributed Database
+    - [Tidb](https://github.com/pingcap/tidb): TiDB is a distributed NewSQL database compatible with MySQL protocol
+    - [CockroachDB](https://www.cockroachlabs.com/product/cockroachdb/)
+    - [FoundationDB](https://www.foundationdb.org/)
+    - [DynomiteDB](http://www.dynomitedb.com/): A high performance, linearly scalable, highly available (HA) and distributed open-source database with support for pluggable persistent and in-memory storage engines.
 - [RocksDB](http://rocksdb.org/): The RocksDB library provides a persistent key value store. Keys and values are arbitrary byte arrays. The keys are ordered within the key value store according to a user-specified comparator function.
 	- [MyRocks](http://myrocks.io/): A RocksDB storage engine with MySQL
+- [noms](https://github.com/attic-labs/noms): The versioned, forkable, syncable database. Noms is a decentralized database based on ideas from Git.
 
 ## Memory Database
 
