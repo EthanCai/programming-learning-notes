@@ -1,23 +1,66 @@
+<!-- TOC -->
+
+- [如何搭建开发环境](#如何搭建开发环境)
+    - [安装Python](#安装python)
+        - [使用pyenv管理多个版本的python](#使用pyenv管理多个版本的python)
+    - [编辑器和IDE](#编辑器和ide)
+    - [包管理机制](#包管理机制)
+        - [安装pipenv](#安装pipenv)
+    - [编译运行](#编译运行)
+        - [以交互方式执行Python代码](#以交互方式执行python代码)
+        - [运行Python代码脚本](#运行python代码脚本)
+    - [打包和发布](#打包和发布)
+- [关注的Python Module](#关注的python-module)
+    - [Math](#math)
+    - [Software Test](#software-test)
+    - [Network](#network)
+    - [Development Framework](#development-framework)
+    - [RESTful API Client](#restful-api-client)
+    - [Natural Language Processing](#natural-language-processing)
+    - [Language](#language)
+    - [IoT](#iot)
+    - [GIS](#gis)
+- [学习书籍](#学习书籍)
+- [参考](#参考)
+
+<!-- /TOC -->
+
 # 如何搭建开发环境
 
 以Mac OS X为例
 
-## 安装
+## 安装Python
 
 （参考了[Python Setup and Usage](https://docs.python.org/2/using/index.html)上的Macintosh下的安装说明）
 
-Mac OS X Yosemite自带Python 2.7.6，安装在`/System/Library/Frameworks/Python.framework`和`/usr/bin/python`目录下，它们是Apple控制的，由Apple或者第三方的应用程序使用，请不要修改或者删除。如果要安装最新版本的Python，参考下面的步骤操作：
+Mac OS X Yosemite自带Python 2.7.6，安装在`/System/Library/Frameworks/Python.framework`和`/usr/bin/python`目录下，它们是Apple控制的，由Apple或者第三方的应用程序使用，请不要修改或者删除。
+
+如果要安装最新版本的Python，参考下面的步骤操作：
+
 - 先安装Homebrew，安装方法见[brew的官网](http://brew.sh/)。
-- 通过执行"brew install python"安装最新的2.n版的Python。
-- 如果要安装Python3需要执行"brew install python3"命令。
+- `brew install python`: 安装Python 3
+- `brew install python@2`: 安装Python 2
 
-### 安装pyenv
+### 使用pyenv管理多个版本的python
 
-todo
+pyenv lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.
 
-### 安装pipenv
+pyenv does...
 
-todo
+- Let you change the global Python version on a per-user basis.
+- Provide support for per-project Python versions.
+- Allow you to override the Python version with an environment variable.
+- Search commands from multiple versions of Python at a time. This may be helpful to test across Python versions with tox.
+
+
+安装 pyenv:
+
+```sh
+> brew update
+> brew install pyenv
+```
+
+如何使用见 https://github.com/pyenv/pyenv
 
 
 ## 编辑器和IDE
@@ -31,8 +74,36 @@ todo
 - [Emacs](http://www.gnu.org/software/emacs/)
 - [Atom](https://atom.io/)
 - [PyCharm](https://www.jetbrains.com/pycharm/)
+- 如果想把xcode作为Python的IDE，可以参考[这篇文章](http://blog.netsh.org/posts/xcode-python_1846.netsh.html)。
 
-如果想把Xcode作为Python的IDE，可以参考[这篇文章](http://blog.netsh.org/posts/xcode-python_1846.netsh.html)。
+
+## 包管理机制
+
+请先阅读一下文档：
+
+- [docs.python.org - Installing Python Modules](https://docs.python.org/3/installing/index.html)
+- [Pipenv: Python Dev Workflow for Humans](https://docs.pipenv.org/): the officially recommended Python packaging tool
+    - [使用pipenv管理你的项目](http://www.dongwm.com/archives/%E4%BD%BF%E7%94%A8pipenv%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84%E9%A1%B9%E7%9B%AE/)
+
+建议在项目中使用以下包管理工具:
+
+- [pip](https://pip.pypa.io/en/stable/index.html): The PyPA recommended tool for installing Python packages
+    - [pypi](https://pypi.org/): Python Package Index
+- [pipenv](https://github.com/pyenv/pyenv)
+
+### 安装pipenv
+
+Pipenv — the officially recommended Python packaging tool from Python.org, free (as in freedom).
+
+Pipenv is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world. Windows is a first–class citizen, in our world.
+
+安装 pipenv:
+
+```sh
+brew install pipenv
+```
+
+如何使用见 https://github.com/pypa/pipenv
 
 
 ## 编译运行
@@ -40,8 +111,14 @@ todo
 ### 以交互方式执行Python代码
 
 在Terminal中输入"Python"，然后输入Python命令运行：  
-![](./img/2015/05/run-python-code-in-shell.png)
 
+```sh
+> python
+Python 3.6.5 (default, Apr 10 2018, 13:04:44)
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
 
 ### 运行Python代码脚本
 
@@ -59,18 +136,11 @@ python myscript.py
 
 Python命令运行参数见[Command line and environment](https://docs.python.org/2/using/cmdline.html)
 
-## 包管理机制
 
-请阅读https://docs.python.org/3/installing/index.html，下面是一些关键概念截图  
-![](./img/2015/05/pip.png)
-
-pip是推荐的包管理工具。从Python3.4开始，它自动包含在Python的二进制安装包中。
-
-- [pip的文档](https://pip.pypa.io/en/stable/index.html)
-
-## 构建和发布
+## 打包和发布
 
 参考：
+
 - [Python如何连同依赖打包发布以及python的构建工具？](http://www.zhihu.com/question/21639330)
 - [Python应用发布技术](http://wiki.woodpecker.org.cn/moin/PyExe)
 - [Python打包指南](http://www.ibm.com/developerworks/cn/opensource/os-pythonpackaging/)
