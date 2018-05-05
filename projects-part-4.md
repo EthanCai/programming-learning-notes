@@ -194,9 +194,11 @@
 
 ## OS Configuration Management
 
-- [Ruby: Chef](http://www.getchef.com/chef/): Infrastructure as Code
 - [Python: Ansible](http://www.ansible.com/): Deploy apps. Manage systems. Crush complexity. Ansible is a powerful automation tool that you can learn quickly.
+- [Python: Fabric](http://www.fabfile.org/): Fabric is a Python (2.5-2.7) library and command-line tool for streamlining the use of SSH for application deployment or systems administration tasks.
 - [Ruby: Puppet](http://puppetlabs.com/): IT Automation Software of System Administrators
+- [Ruby: Capistrano](https://github.com/capistrano/capistrano): Capistrano is a framework for building automated deployment scripts. Although Capistrano itself is written in Ruby, it can easily be used to deploy projects of any language or framework, be it Rails, Java, or PHP.
+- [Ruby: Chef](http://www.getchef.com/chef/): Infrastructure as Code
 - [Python: SaltStack](http://saltstack.com/): SaltStack software orchestrates and automates the visualization, build and management of any legacy or modern infrastructure. SaltStack is known as the fastest, most scalable systems and configuration management software for CloudOps, ITOps and DevOps.
 - [C: CFEngine](http://cfengine.com/): Lightweight agent system. Configuration state is specified via a declarative language.
 
