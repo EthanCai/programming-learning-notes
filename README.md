@@ -93,7 +93,8 @@ To know about:
 
 - PHP
 - Common Lisp
-
+- https://picolisp.com/
+- https://nim-lang.org/
 
 ### Golang
 
