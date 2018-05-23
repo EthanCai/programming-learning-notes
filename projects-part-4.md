@@ -210,6 +210,10 @@ wrk is a modern HTTP benchmarking tool capable of generating significant load wh
 - [Golang: GoTTY](https://github.com/yudai/gotty): Share your terminal as a web application
 - [Golang: s](https://github.com/zquestz/s): Open a web search in your terminal.
 
+## Engineering Platform
+
+- [PHP: phabricator](https://github.com/phacility/phabricator): Open software engineering platform and fun adventure game 
+
 ## Kanban - Issue Management
 
 - [Taiga.io](https://github.com/taigaio): Your Agile, Free and Open Source Project Management Tool
@@ -256,6 +260,8 @@ wrk is a modern HTTP benchmarking tool capable of generating significant load wh
 ## Serverless Functions
 
 - [Go: fission](https://github.com/fission/fission): Fast Serverless Functions for Kubernetes
+- [Go: fn](https://github.com/fnproject/fn): The container native, cloud agnostic serverless platform.
+- [Python: AppScale](https://github.com/AppScale/appscale): AppScale is an easy-to-manage serverless platform for building and running scalable web and mobile applications on any infrastructure. 
 
 ## Instant Communication
 
