@@ -62,6 +62,7 @@
 
 ## Graph Database
 
+- [Cayley](https://github.com/cayleygraph/cayley): Cayley is an open-source graph inspired by the graph database behind Freebase and Google's Knowledge Graph.
 - [Neo4j](http://neo4j.com): Neo4j is an open-source NoSQL graph database implemented in Java and Scala.
 - [GraphView](https://github.com/Microsoft/GraphView): GraphView is a DLL library that enables users to use SQL Server or Azure SQL Database to manage graphs. It connects to a SQL database locally or in the cloud, stores graph data in tables and queries graphs through a SQL-extended language. It is not an independent database, but a middleware that accepts graph operations and translates them to T-SQL executed in SQL Server or Azure SQL Database.
 
@@ -100,6 +101,7 @@
 
 ## Time Series Database
 
+- [Timescaledb](https://github.com/timescale/timescaledb): TimescaleDB is an open-source database designed to make SQL scalable for time-series data. It is engineered up from PostgreSQL, providing automatic partitioning across time and space (partitioning key), as well as full SQL support.
 - [Go: Influxdb](https://github.com/influxdata/influxdb): Scalable datastore for metrics, events, and real-time analytics
     - [influxdata](https://influxdata.com/): the platform for collecting/storing/visualizing/managing time-series data
 - [Go: Prometheus](http://prometheus.io/): An open-source service monitoring system and time series database.
