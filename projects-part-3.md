@@ -104,7 +104,6 @@
 - [Timescaledb](https://github.com/timescale/timescaledb): TimescaleDB is an open-source database designed to make SQL scalable for time-series data. It is engineered up from PostgreSQL, providing automatic partitioning across time and space (partitioning key), as well as full SQL support.
 - [Go: Influxdb](https://github.com/influxdata/influxdb): Scalable datastore for metrics, events, and real-time analytics
     - [influxdata](https://influxdata.com/): the platform for collecting/storing/visualizing/managing time-series data
-- [Go: Prometheus](http://prometheus.io/): An open-source service monitoring system and time series database.
 - [Riak TS](http://basho.com/products/riak-ts/)
 
 reference:
