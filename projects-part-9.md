@@ -78,6 +78,7 @@
 - [fastai](https://github.com/fastai/fastai): The fast.ai deep learning library, lessons, and tutorials
 - 加州理工学院公开课 《机器学习与数据挖掘》
   - http://open.163.com/special/opencourse/learningfromdata.html
+- [微软人工智能学院](https://school.azure.cn/curriculums/28)
 
 # Books
 
