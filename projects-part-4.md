@@ -256,7 +256,8 @@ wrk is a modern HTTP benchmarking tool capable of generating significant load wh
     - [Ali Pouch](https://github.com/alibaba/pouch)
     - [$Rancher 2.0](https://rancher.com/)
     - [$Tectonic](https://coreos.com/tectonic/)
-
+- AI for Container
+	- [Magalix](https://docs.magalix.cloud/v0.5): Magalix is the autopilot of the cloud.
 
 ## Serverless Functions
 
