@@ -90,7 +90,7 @@
 ## NoSQL Database
 
 - [MongoDB](https://www.mongodb.org/)
-- [Rethinkdb](https://www.rethinkdb.com/)
+- [RethinkDB](https://www.rethinkdb.com/)
 - [TokuMX](http://www.tokutek.com/): High-Performance MongoDB
 - [RavenDB](http://ravendb.net/): A linq enabled document database for .NET
 - [EventStore](https://github.com/EventStore/EventStore): The open-source, functional database with Complex Event Processing in JavaScript.
@@ -98,6 +98,7 @@
     - [eLevelDB](https://github.com/basho/eleveldb): eLevelDB 是一个 Erlang 应用程序，封装了 LevelDB
 - [Cassandra](http://cassandra.apache.org/): The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data. Cassandra's support for replicating across multiple datacenters is best-in-class, providing lower latency for your users and the peace of mind of knowing that you can survive regional outages.
 - [ScyllaDB](https://github.com/scylladb/scylla): NoSQL data store using the seastar framework, compatible with Apache Cassandra
+- [GridDB](https://griddb.net/en/): GridDB is an In-Memory NoSQL Database for highly scalable IoT applications
 
 ## Time Series Database
 
