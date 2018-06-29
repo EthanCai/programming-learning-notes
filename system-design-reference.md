@@ -66,3 +66,9 @@
     - [Alfred Workflow](http://alfredworkflow.com)
     - 文章
       - [借助Alfred 2的Workflows功能可以做哪些好玩的事情？](http://www.zhihu.com/question/20656680)
+
+# 参考
+
+- [Modeling Languages](https://modeling-languages.com/)
+- [Goal Structuring Notation](http://www.goalstructuringnotation.info/)
+- [astah blog](https://astahblog.com/)
