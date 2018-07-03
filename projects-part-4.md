@@ -22,7 +22,7 @@
 	- [Kanban - Issue Management](#kanban-issue-management)
 	- [Bug Management](#bug-management)
 	- [Container](#container)
-	- [Serverless Functions](#serverless-functions)
+	- [Serverless](#serverless)
 	- [Instant Communication](#instant-communication)
 	- [Misc](#misc)
 
@@ -259,10 +259,13 @@ wrk is a modern HTTP benchmarking tool capable of generating significant load wh
 - AI for Container
 	- [Magalix](https://docs.magalix.cloud/v0.5): Magalix is the autopilot of the cloud.
 
-## Serverless Functions
+## Serverless
 
 - [Go: fission](https://github.com/fission/fission): Fast Serverless Functions for Kubernetes
 - [Go: fn](https://github.com/fnproject/fn): The container native, cloud agnostic serverless platform.
+- [Node: Serverless Framework](https://github.com/serverless/serverless)
+- [Go: kubeless](https://github.com/kubeless/kubeless): Kubernetes Native Serverless Framework
+- [Apache openwhisk](https://openwhisk.apache.org/)
 - [Python: AppScale](https://github.com/AppScale/appscale): AppScale is an easy-to-manage serverless platform for building and running scalable web and mobile applications on any infrastructure. 
 
 ## Instant Communication
