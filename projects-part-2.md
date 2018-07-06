@@ -33,7 +33,7 @@
 - [Go: go-kit](https://github.com/go-kit): A standard library for microservices.
 - [Go: micro](https://github.com/micro): A microservice toolkit for distributed systems development
 - [Go: go-chassis](https://github.com/ServiceComb): Go-Chassis is a Software Development Kit(SDK) for rapid development of microservices in Go
-- [Java: Dubbo](http://dubbo.io/): DUBBO是一个分布式服务框架，致力于提供高性能和透明化的RPC远程服务调用方案，是阿里巴巴SOA服务化治理方案的核心框架，每天为2,000+个服务提供3,000,000,000+次访问量支持，并被广泛应用于阿里巴巴集团的各成员站点。
+- [Java: Dubbo](http://dubbo.apache.org/): DUBBO是一个分布式服务框架，致力于提供高性能和透明化的RPC远程服务调用方案，是阿里巴巴SOA服务化治理方案的核心框架，每天为2,000+个服务提供3,000,000,000+次访问量支持，并被广泛应用于阿里巴巴集团的各成员站点。
 - [Java: Dubbox](https://github.com/dangdangdotcom/dubbox): Dubbox now means Dubbo eXtensions, and it adds features like RESTful remoting, Kyro/FST serialization, etc to the Dubbo service framework.
 - [Java: Motan](https://github.com/weibocom/motan): A remote procedure call(RPC) framework for rapid development of high performance distributed services.
 - [.NET: Zyan Communication Framework](http://zyan.com.de/): Easy to use distributed application framework for .NET, Mono and Xamarin.Android.
