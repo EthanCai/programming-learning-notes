@@ -124,6 +124,8 @@
 - [Go: goworker](https://github.com/benmanns/goworker): goworker is a Go-based background worker that runs 10 to 100,000* times faster than Ruby-based workers.
 - [Go: machinery](https://github.com/RichardKnop/machinery): Machinery is an asynchronous task queue/job queue based on distributed message passing.
 - [Go: fireworq](https://github.com/fireworq/fireworq): Fireworq is a lightweight, high-performance, language-independent job queue system.
+- [node: cronicle](https://github.com/jhuckaby/Cronicle): A simple, distributed task scheduler and runner with a web based UI.
+- [Scala: Chronos](http://mesos.github.io/chronos/): Chronos is Airbnb's replacement for cron. It is a distributed and fault-tolerant scheduler that runs on top of Apache Mesos that can be used for job orchestration. It supports custom Mesos executors as well as the default command executor. Thus by default, Chronos executes sh (on most systems bash) scripts.
 
 ## Load Balance
 
