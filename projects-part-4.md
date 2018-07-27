@@ -87,6 +87,11 @@
 - [MyGet](http://www.myget.org/) - Continuous Integration and Deployment, Hosted Package Repository for NuGet, NPM, Bower and VSIX. [Free for OSS] [$]
 
 
+## Artifact Repository
+
+- [Nexus Repository OSS](https://www.sonatype.com/nexus-repository-oss): The free artifact repository with universal support for popular formats. 
+
+
 ## Automation
 
 - [Python: Twill](http://twill.idyll.org/): a simple scripting language for Web browsing
