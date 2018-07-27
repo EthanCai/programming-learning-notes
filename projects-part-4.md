@@ -91,6 +91,10 @@
 
 - [Nexus Repository OSS](https://www.sonatype.com/nexus-repository-oss): The free artifact repository with universal support for popular formats. 
 
+参考：
+
+- [mvn repository](https://mvnrepository.com/)
+
 
 ## Automation
 
