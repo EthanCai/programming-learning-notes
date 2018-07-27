@@ -202,6 +202,7 @@
 
 - [Go: Hystrix-go](https://github.com/afex/hystrix-go): Netflix's Hystrix latency and fault tolerance library, for Go
 - [Go: gobreaker](https://github.com/sony/gobreaker): Circuit Breaker implemented in Go
+  - [Sony gobreaker熔断器源码分析](https://github.com/developer-learning/night-reading-go/blob/master/articles/sony-gobreaker/README.md)
 - [Java: Hystrix](https://github.com/Netflix/Hystrix): Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
 - [C#: Polly](https://github.com/App-vNext/Polly): Polly is a .NET 3.5 / 4.0 / 4.5 / PCL library that allows developers to express transient exception handling policies such as Retry, Retry Forever, Wait and Retry or Circuit Breaker in a fluent manner.
 - [C#: Hystrix.NET](https://hystrixnet.codeplex.com): Hystrix.NET is a C# port of Hystrix, which is a latency and fault tolerance library for complex distributed systems.
