@@ -272,6 +272,7 @@ wrk is a modern HTTP benchmarking tool capable of generating significant load wh
 ## Serverless
 
 - [Go: fission](https://github.com/fission/fission): Fast Serverless Functions for Kubernetes
+- [Go: OpenFaas](https://github.com/openfaas/faas): Open FaaS
 - [Go: fn](https://github.com/fnproject/fn): The container native, cloud agnostic serverless platform.
 - [Node: Serverless Framework](https://github.com/serverless/serverless)
 - [Go: kubeless](https://github.com/kubeless/kubeless): Kubernetes Native Serverless Framework
