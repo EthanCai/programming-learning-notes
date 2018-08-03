@@ -195,7 +195,7 @@
 ## DNS Server
 
 - [Dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html): Dnsmasq provides network infrastructure for small networks: DNS, DHCP, router advertisement and network boot. It is designed to be lightweight and have a small footprint, suitable for resource constrained routers and firewalls. It has also been widely used for tethering on smartphones and portable hotspots, and to support virtual networking in virtualisation frameworks.
-- [PowerDNS](https://github.com/PowerDNS/pdns): There are two PowerDNS nameserver products: the Authoritative Server and the Recursor. While most other nameservers fully combine these functions, PowerDNS offers them separately, but can mix both authoritative and recursive usage seamlessly.
+- [PowerDNS](https://www.powerdns.com/): PowerDNS, founded in the late 1990s, is a premier supplier of open source DNS software, services and support. Deployed throughout the world with some of the most demanding users of DNS, we pride ourselves on providing quality software and the very best support available. Since 2015 we are part of Open-Xchange.
 - [SkyDNS](https://github.com/skynetservices/skydns): SkyDNS is a distributed service for announcement and discovery of services built on top of etcd. It utilizes DNS queries to discover available services. This is done by leveraging SRV records in DNS, with special meaning given to subdomains, priorities and weights.
 
 ## Circuit Breaker
