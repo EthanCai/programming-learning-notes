@@ -71,4 +71,7 @@
 
 - [Modeling Languages](https://modeling-languages.com/)
 - [Goal Structuring Notation](http://www.goalstructuringnotation.info/)
-- [astah blog](https://astahblog.com/)
+- [Astah blog](https://astahblog.com/)
+- [Workflow Patterns](http://www.workflowpatterns.com/)
+- [petri net](https://www.wikiwand.com/en/Petri_net)
+    - [Modeling Workflow with Petri-Nets](http://pages.di.unipi.it/ferrari/CORSI/SISD/Lezioni/WFModel.pdf)
