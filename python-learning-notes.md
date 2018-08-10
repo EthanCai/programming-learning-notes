@@ -19,7 +19,6 @@
     - [Natural Language Processing](#natural-language-processing)
     - [Language](#language)
     - [IoT](#iot)
-    - [GIS](#gis)
 - [学习书籍](#学习书籍)
 - [参考](#参考)
 
@@ -211,9 +210,6 @@ Python命令运行参数见[Command line and environment](https://docs.python.or
 
 - [Home Assistant](https://home-assistant.io): Home Assistant is an open-source home automation platform running on Python 3. Track and control all devices at home and automate control. Installation in less than a minute.
 
-## GIS
-
-- [Geodis](https://github.com/EverythingMe/geodis): Geodis is a simple and fast python module that allows you to convert IP addresses and latitude/longitude coordinates into geographical locations such as cities, zipcodes and countries.
 
 ------------------------
 

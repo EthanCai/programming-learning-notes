@@ -1,13 +1,18 @@
-<!-- MDTOC maxdepth:6 firsth1:1 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
+<!-- TOC -->
 
 - [Projects about GIS](#projects-about-gis)
-   - [Cache](#cache)
-   - [Geo Database](#geo-database)
-   - [Computation](#computation)
-   - [Other](#other)
+    - [Cache](#cache)
+    - [Geo Database](#geo-database)
+    - [Computation](#computation)
+    - [Commercial Products](#commercial-products)
+    - [Libraries](#libraries)
+    - [IP2GIS](#ip2gis)
+    - [Other](#other)
+    - [SaaS](#saas)
+    - [GIS Data](#gis-data)
 - [参考](#参考)
 
-<!-- /MDTOC -->
+<!-- /TOC -->
 
 # Projects about GIS
 
@@ -36,13 +41,27 @@
 - [JTS Topology Suite](http://www.tsusiatsoftware.net/jts/main.html): The JTS Topology Suite is an API of spatial predicates and functions for processing geometry.
     - [Geos](http://trac.osgeo.org/geos/): GEOS (Geometry Engine - Open Source) is a C++ port of the ​Java Topology Suite (JTS).
 
+## IP2GIS
+
+- [Geodis](https://github.com/EverythingMe/geodis): Geodis is a simple and fast python module that allows you to convert IP addresses and latitude/longitude coordinates into geographical locations such as cities, zipcodes and countries.
+
 ## Other
 
 - [OpenLayers](https://github.com/openlayers/openlayers): OpenLayers is a high-performance, feature-packed library for creating interactive maps on the web. It can display map tiles, vector data and markers loaded from any source on any web page.
-- [Open Street Map](http://www.openstreetmap.org/): OpenStreetMap 是一个由地图制作爱好者组成的社区。这些爱好者提供并维护世界各地关于道路、小道、咖啡馆、铁路车站等各种各样的数据。
 - [OpenGTS](http://www.opengts.org/): OpenGTS is the first available open source project designed specifically to provide web-based GPS tracking services for a "fleet" of vehicles.
 - [GeoServer](http://geoserver.org/): GeoServer is an open source server for sharing geospatial data.
 - [GeoTools](http://geotools.org/): GeoTools is an open source Java library that provides tools for geospatial data.
+
+## SaaS
+
+- [百度地图Web服务API](http://lbsyun.baidu.com/index.php?title=webapi)
+- [高德地图Web API](https://lbs.amap.com/api/webservice/summary/)
+
+## GIS Data
+
+- [GADM](https://gadm.org/index.html): GADM provides maps and spatial data for all countries and their sub-divisions. You can browse our maps or download the data to make your own maps.
+- [Open Street Map](http://www.openstreetmap.org/): OpenStreetMap 是一个由地图制作爱好者组成的社区。这些爱好者提供并维护世界各地关于道路、小道、咖啡馆、铁路车站等各种各样的数据。
+- [IPIP.net](https://www.ipip.net/): 全球唯一一个基于 BGP/ASN 数据分析处理而得来的实时 Geo-IP 库
 
 # 参考
 
