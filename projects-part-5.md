@@ -56,6 +56,7 @@
 
 - [百度地图Web服务API](http://lbsyun.baidu.com/index.php?title=webapi)
 - [高德地图Web API](https://lbs.amap.com/api/webservice/summary/)
+- [经纬度行政区域查询](http://jwd.funnyapi.com/)
 
 ## GIS Data
 
