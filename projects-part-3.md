@@ -103,13 +103,21 @@
 ## Time Series Database
 
 - [Timescaledb](https://github.com/timescale/timescaledb): TimescaleDB is an open-source database designed to make SQL scalable for time-series data. It is engineered up from PostgreSQL, providing automatic partitioning across time and space (partitioning key), as well as full SQL support.
-- [Go: Influxdb](https://github.com/influxdata/influxdb): Scalable datastore for metrics, events, and real-time analytics
-    - [influxdata](https://influxdata.com/): the platform for collecting/storing/visualizing/managing time-series data
+- InfluxData Open Source Platform
+    - [Telegraf](https://github.com/influxdata/telegraf): The plugin-driven server agent for collecting & reporting metrics.
+    - [InfluxDB](https://github.com/influxdata/influxdb): Scalable datastore for metrics, events, and real-time analytics
+    - [Chronograf](https://github.com/influxdata/chronograf): Chronograf is an open-source web application written in Go and React.js that provides the tools to visualize your monitoring data and easily create alerting and automation rule
+    - [Kapacitor](https://github.com/influxdata/kapacitor): Open source framework for processing, monitoring, and alerting on time series data
+- [Go: Prometheus](http://prometheus.io/): An open-source service monitoring system and time series database.
+    - [Thanos](https://github.com/improbable-eng/thanos): Highly available Prometheus setup with long term storage capabilities.
+    - [Grafana](http://grafana.org/): Grafana is a leading open source application for visualizing large-scale measurement data.
 - [Riak TS](http://basho.com/products/riak-ts/)
 
 reference:
 
-- https://www.influxdata.com/time-series-database/
+- [InfluxData Platform](https://www.influxdata.com/products/editions/)
+    - [Open Source Time Series Platform](https://www.influxdata.com/time-series-platform/)
+- [Time Series Database](https://www.influxdata.com/time-series-database/)
 
 ## JSON Storage
 
@@ -210,7 +218,6 @@ In a fast, simple, yet extensible way.
 
 - [Apache Zeppelin](http://www.zepl.com/): A web-based notebook that enables interactive data analytics. You can make beautiful data-driven, interactive and collaborative documents with SQL, Scala and more.
 - [Kibana](https://www.elastic.co/products/kibana): Kibana 是一个为 Logstash 和 ElasticSearch 提供的日志分析的 Web 接口。可使用它对日志进行高效的搜索、可视化、分析等各种操作
-- [Grafana](http://grafana.org/): Grafana is a leading open source application for visualizing large-scale measurement data.
 
 ## Log Process
 
