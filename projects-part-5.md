@@ -44,6 +44,7 @@
 ## IP2GIS
 
 - [Geodis](https://github.com/EverythingMe/geodis): Geodis is a simple and fast python module that allows you to convert IP addresses and latitude/longitude coordinates into geographical locations such as cities, zipcodes and countries.
+- [GeoIP Update](https://github.com/maxmind/geoipupdate): GeoIP update client code
 
 ## Other
 
