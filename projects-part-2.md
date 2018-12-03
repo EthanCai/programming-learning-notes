@@ -1,27 +1,27 @@
-<!-- MDTOC maxdepth:6 firsth1:1 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
+<!-- TOC -->
 
 - [Projects about Distributed Architecture](#projects-about-distributed-architecture)
-   - [Open Platform](#open-platform)
-   - [Distributed Application Framework](#distributed-application-framework)
-   - [Data Exchange Format](#data-exchange-format)
-   - [RPC](#rpc)
-   - [Service Bus](#service-bus)
-   - [Messsage Queue](#messsage-queue)
-   - [Job Schedule](#job-schedule)
-   - [Load Balance](#load-balance)
-   - [API Gateway](#api-gateway)
-   - [API Proxy](#api-proxy)
-   - [Reverse Proxy](#reverse-proxy)
-   - [Distributed File System](#distributed-file-system)
-   - [Configuration Management](#configuration-management)
-   - [Service Discovery, Name Service](#service-discovery-name-service)
-   - [DNS Server](#dns-server)
-   - [Circuit Breaker](#circuit-breaker)
-   - [Distributed Tracing](#distributed-tracing)
-   - [GraphQL](#graphql)
-   - [Other](#other)
+    - [Open Platform](#open-platform)
+    - [Distributed Application Framework](#distributed-application-framework)
+    - [Data Exchange Format](#data-exchange-format)
+    - [RPC](#rpc)
+    - [Service Bus](#service-bus)
+    - [Messsage Queue](#messsage-queue)
+    - [Job Schedule](#job-schedule)
+    - [Load Balance](#load-balance)
+    - [API Gateway](#api-gateway)
+    - [API Proxy](#api-proxy)
+    - [Reverse Proxy](#reverse-proxy)
+    - [Distributed File System](#distributed-file-system)
+    - [Configuration Management](#configuration-management)
+    - [Service Discovery, Name Service](#service-discovery-name-service)
+    - [DNS Server](#dns-server)
+    - [Circuit Breaker](#circuit-breaker)
+    - [Distributed Tracing](#distributed-tracing)
+    - [GraphQL](#graphql)
+    - [Other](#other)
 
-<!-- /MDTOC -->
+<!-- /TOC -->
 
 # Projects about Distributed Architecture
 
