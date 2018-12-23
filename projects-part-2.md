@@ -179,6 +179,8 @@
 - [seaweedfs](https://github.com/chrislusf/seaweedfs): Seaweed-FS is a simple and highly scalable distributed file system. There are two objectives: to store billions of files! to serve the files fast! Instead of supporting full POSIX file system semantics, Seaweed-FS choose to implement only a key~file mapping. Similar to the word "NoSQL", you can call it as "NoFS".
 - [GlusterFS](http://www.gluster.org/): GlusterFS is a scalable network filesystem. Using common off-the-shelf hardware, you can create large, distributed storage solutions for media streaming, data analysis, and other data- and bandwidth-intensive tasks. GlusterFS is free and open source software.
 - [BeeGFS](http://www.beegfs.com/content/): BeeGFS (formerly FhGFS) is the leading parallel cluster file system, developed with a strong focus on performance and designed for very easy installation and management. If I/O intensive workloads are your problem, BeeGFS is the solution.
+- [minio](https://www.minio.io/): Minio is a high performance distributed object storage server, designed for 
+large-scale private cloud infrastructure. Minio is widely deployed across the world with over 172.6M+ docker pulls.
 
 ## Configuration Management
 
