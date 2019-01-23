@@ -10,7 +10,7 @@
     - [NoSQL Database](#nosql-database)
     - [Time Series Database](#time-series-database)
     - [JSON Storage](#json-storage)
-    - [OLAP - Data Warehouse](#olap---data-warehouse)
+    - [OLAP - Data Warehouse](#olap-data-warehouse)
     - [Search](#search)
     - [Text Processing](#text-processing)
     - [Crawler](#crawler)
@@ -175,6 +175,7 @@ reference:
 参考：https://github.com/BruceDone/awesome-crawler
 
 - [Golang: Pholcus](https://github.com/henrylee2cn/pholcus): Pholcus（幽灵蛛）是一款纯Go语言编写的高并发、分布式、重量级爬虫软件，支持单机、服务端、客户端三种运行模式，拥有Web、GUI、命令行三种操作界面；规则简单灵活、批量任务并发、输出方式丰富（mysql/mongodb/csv/excel等）、有大量Demo共享；同时她还支持横纵向两种抓取模式，支持模拟登录和任务暂停、取消等一系列高级功能
+- [Golang: Colly](http://go-colly.org/): Fast and Elegant Scraping Framework for Gophers
 - [Java: Apache Nutch](http://nutch.apache.org/): Apache Nutch是一个用Java编写的开源网络爬虫。Apache Nutch对于Solr已经支持得很好，这大大简化了Nutch与Solr的整合。
     - [Java: yahoo/anthelion](https://github.com/yahoo/anthelion): Anthelion is a Nutch plugin for focused crawling of semantic data. The project is an open-source project released under the Apache License 2.0.
 - [Python: Scrapy](https://scrapy.org/): An open source and collaborative framework for extracting the data you need from websites.
