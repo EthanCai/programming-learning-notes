@@ -81,6 +81,7 @@
   - [janky](https://github.com/github/janky): Continuous integration server built on top of Jenkins and Hubot
 - [Fabric8](https://fabric8.io/): fabric8 is an end to end development platform spanning ideation to production for the creation of cloud native applications and microservices. You can build, test and deploy your applications via Continuous Delivery pipelines then run and manage them with Continuous Improvement and ChatOps
 - [Concourse CI](https://github.com/concourse/concourse): CI that scales with your project.
+- [Walle](https://github.com/meolu/walle-web): walle - 瓦力 Devops开源项目代码部署平台
 - [drone](https://github.com/drone/drone): Drone is a Continuous Delivery system built on container technology. Drone uses a simple yaml configuration file, a superset of docker-compose, to define and execute Pipelines inside Docker containers.
 - [spinnaker](http://www.spinnaker.io/): Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
 - [CruiseControl.NET](http://www.cruisecontrolnet.org/) - an Automated Continuous Integration server, implemented using the .NET Framework
