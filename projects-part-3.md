@@ -149,8 +149,10 @@ reference:
 - [C++: Sphinx](http://sphinxsearch.com/): Sphinx Search 是由俄罗斯人Andrew Aksyonoff 开发的高性能全文搜索软件包，在GPL与商业协议双许可协议下发行。Sphinx is an open source full text search server, designed from the ground up with performance, relevance (aka search quality), and integration simplicity in mind. It's written in C++ and works on Linux (RedHat, Ubuntu, etc), Windows, MacOS, Solaris, FreeBSD, and a few other systems.
     - [sphinx-for-chinese](http://sphinx-search.com/): sphinx-for-chinese是一款专注于中文搜索的全文检索软件，在sphinx的基础上添加了中文处理模块并优化了中文搜索效果。
 - [C++: xunsearch](http://www.xunsearch.com/): 开源免费、高性能、多功能, 简单易用的专业全文检索技术方案
-- [Golang: riot](https://github.com/go-ego/riot): Go Open Source, Distributed, Simple and efficient Search Engine
-- [Golang: bleve](https://github.com/blevesearch/bleve): A modern text indexing library for go
+- Ego
+    - [Golang: gse](https://github.com/go-ego/gse): Go efficient text segmentation; support english, chinese, japanese and other. Go 语言高性能分词
+    - [Golang: riot](https://github.com/go-ego/riot): Go Open Source, Distributed, Simple and efficient Search Engine
+    - [Golang: bleve](https://github.com/blevesearch/bleve): A modern text indexing library for go
 
 **Code Search**
 
