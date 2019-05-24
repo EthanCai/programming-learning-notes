@@ -26,7 +26,6 @@
     - [Bug Management](#bug-management)
     - [Container](#container)
     - [Serverless](#serverless)
-    - [Instant Communication](#instant-communication)
     - [Misc](#misc)
 
 <!-- /TOC -->
@@ -288,14 +287,8 @@ wrk is a modern HTTP benchmarking tool capable of generating significant load wh
 - [Apache openwhisk](https://openwhisk.apache.org/)
 - [Python: AppScale](https://github.com/AppScale/appscale): AppScale is an easy-to-manage serverless platform for building and running scalable web and mobile applications on any infrastructure. 
 
-## Instant Communication
-
-- [heim](https://github.com/euphoria-io/heim): A real-time community platform
-- [Mattermost](https://github.com/mattermost/platform): Mattermost is an open-source team communication service. It brings team messaging and file sharing into one place, accessible across PCs and phones, with archiving and search.
-
 ## Misc
 
 - [vagrantup](https://www.vagrantup.com/): Create and configure lightweight, reproducible, and portable development environments.
-- [uniqush-push](https://github.com/uniqush/uniqush-push): Uniqush is a free and open source software which provides a unified push service for server-side notification to apps on mobile devices.
 - [Buildbot](http://docs.buildbot.net/current/index.html): Buildbot 是一个检查代码变化的自动化编译/ 测试的Python系统
 - [tox](https://tox.readthedocs.io/en/latest/): tox aims to automate and standardize testing in Python. It is part of a larger vision of easing the packaging, testing and release process of Python software.

@@ -3,11 +3,11 @@
 - [Projects about Application Software Development](#projects-about-application-software-development)
     - [Compiler](#compiler)
     - [REPL](#repl)
-    - [Language Converter & Interpreter](#language-converter--interpreter)
+    - [Language Converter & Interpreter](#language-converter-&-interpreter)
     - [Debugger](#debugger)
     - [Analyzer](#analyzer)
     - [Profiling](#profiling)
-    - [Web Servers & Application Servers](#web-servers--application-servers)
+    - [Web Servers & Application Servers](#web-servers-&-application-servers)
     - [Application Frameworks](#application-frameworks)
     - [Template Engine](#template-engine)
     - [GUI Framework](#gui-framework)
@@ -15,18 +15,19 @@
     - [Web Socket](#web-socket)
     - [Network](#network)
     - [Server Framework](#server-framework)
-    - [Thread & Coroutine](#thread--coroutine)
-    - [Reflect & IoC](#reflect--ioc)
+    - [Thread & Coroutine](#thread-&-coroutine)
+    - [Reflect & IoC](#reflect-&-ioc)
     - [Logging](#logging)
     - [Data Access](#data-access)
-    - [Serialization & Deserialization](#serialization--deserialization)
+    - [Serialization & Deserialization](#serialization-&-deserialization)
     - [Command Line](#command-line)
     - [File](#file)
     - [Image Processing](#image-processing)
-    - [Audio & Video](#audio--video)
+    - [Audio & Video](#audio-&-video)
     - [Computer Vision](#computer-vision)
-    - [Authentication & Authorization](#authentication--authorization)
+    - [Authentication & Authorization](#authentication-&-authorization)
     - [Office Documents](#office-documents)
+    - [Instant Communication](#instant-communication)
     - [Misc Libraries](#misc-libraries)
 
 <!-- /TOC -->
@@ -308,6 +309,11 @@ References:
 - [Go: xlsx](https://github.com/tealeg/xlsx): Google Go (golang) library for reading and writing XLSX files.
 - [Go: gooxml](https://github.com/baliance/gooxml): Pure go library for creating Office Open/OOXML/ECMA-376 documents (.docx, .xlsx, .pptx)
 
+## Instant Communication
+
+- [heim](https://github.com/euphoria-io/heim): A real-time community platform
+- [Mattermost](https://github.com/mattermost/platform): Mattermost is an open-source team communication service. It brings team messaging and file sharing into one place, accessible across PCs and phones, with archiving and search.
+
 ## Misc Libraries
 
 - [C++: Boost](http://www.boost.org/)
@@ -317,3 +323,4 @@ References:
 - [Go: queue](https://github.com/eapache/queue):  not thread-safe queue
 - [Go: safemap](https://github.com/pcrawfor/safemap): A golang channel based access object for shared use of a map of arbitrary objects
 - [Go: i18n4go](https://github.com/maximilien/i18n4go): This is a general purpose internationalization (i18n) tooling for Go language (Golang) programs. It allows you to prepare Go language code for internationalization and localization (l10n).
+- [uniqush-push](https://github.com/uniqush/uniqush-push): Uniqush is a free and open source software which provides a unified push service for server-side notification to apps on mobile devices.
