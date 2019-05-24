@@ -25,6 +25,7 @@
     - [Kanban - Issue Management](#kanban-issue-management)
     - [Bug Management](#bug-management)
     - [Container](#container)
+    - [Virtualization](#virtualization)
     - [Serverless](#serverless)
     - [Misc](#misc)
 
@@ -274,7 +275,13 @@ wrk is a modern HTTP benchmarking tool capable of generating significant load wh
     - [$Rancher 2.0](https://rancher.com/)
     - [$Tectonic](https://coreos.com/tectonic/)
 - AI for Container
-	- [Magalix](https://docs.magalix.cloud/v0.5): Magalix is the autopilot of the cloud.
+    - [Magalix](https://docs.magalix.cloud/v0.5): Magalix is the autopilot of the cloud.
+
+## Virtualization
+
+- [KVM](https://www.linux-kvm.org/page/Main_Page): KVM (for Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V). It consists of a loadable kernel module, kvm.ko, that provides the core virtualization infrastructure and a processor specific module, kvm-intel.ko or kvm-amd.ko.
+- [QEMU](https://www.qemu.org/): QEMU is a generic and open source machine emulator and virtualizer.
+- [xen](https://xenproject.org/): The official Xen Project member organizations include Alibaba  / Aliyun, AWS, AMD, Arm, Bitdefender, Cavium, Citrix, Huawei, Intel, Oracle, and Qualcomm.
 
 ## Serverless
 
