@@ -211,6 +211,7 @@ In a fast, simple, yet extensible way.
 - [Apache HAWQ](http://hawq.incubator.apache.org): HAWQ 是 Pivotal 设计的一个大规模并行 SQL 分析处理引擎，支持事务处理。HAWQ 将复杂的查询分割成简单的任何，并分发到并行处理系统中的处理单元执行。包括查询规划器、动态管道、前沿互联和查询执行优化器等等。提供最高级别的性能和可伸缩性。HAWQ 基于 Hadoop 架构。
 - [Go: Pachyderm](https://github.com/pachyderm/pachyderm): Pachyderm is a software platform the supports the storage and processing of large data sets. Pachyderm is inspired by the Hadoop ecosystem but shares no code with it. Instead, we leverage the container ecosystem to provide the broad functionality of Hadoop with the ease of use of Docker.
 - [Pony: Wallaroo](https://www.wallaroolabs.com/): The ultrafast and elastic data processing engine.
+- [Apache Calcite](https://calcite.apache.org/): The foundation for your next high-performance database.
 
 ## Distributed Realtime Computation System
 
