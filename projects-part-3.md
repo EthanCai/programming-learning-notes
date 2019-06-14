@@ -1,25 +1,25 @@
 <!-- TOC -->
 
-- [Projects about Data Storage and Analysis](#projects-about-data-storage-and-analysis)
-    - [Database and Caching Platform](#database-and-caching-platform)
-    - [Database](#database)
-    - [Memory Database](#memory-database)
-    - [Graph Database](#graph-database)
-    - [Database Engine](#database-engine)
-    - [Cache](#cache)
-    - [NoSQL Database](#nosql-database)
-    - [Time Series Database](#time-series-database)
-    - [JSON Storage](#json-storage)
-    - [OLAP - Data Warehouse](#olap-data-warehouse)
-    - [Search](#search)
-    - [Text Processing](#text-processing)
-    - [Crawler](#crawler)
-    - [Recommender System](#recommender-system)
-    - [Big Data](#big-data)
-    - [Distributed Realtime Computation System](#distributed-realtime-computation-system)
-    - [Data Visualization](#data-visualization)
-    - [Workflow Management](#workflow-management)
-    - [Log Process](#log-process)
+1. [Projects about Data Storage and Analysis](#projects-about-data-storage-and-analysis)
+    1. [Database and Caching Platform](#database-and-caching-platform)
+    2. [Database](#database)
+    3. [Memory Database](#memory-database)
+    4. [Graph Database](#graph-database)
+    5. [Database Engine](#database-engine)
+    6. [Cache](#cache)
+    7. [NoSQL Database](#nosql-database)
+    8. [Time Series Database](#time-series-database)
+    9. [JSON Storage](#json-storage)
+    10. [OLAP - Data Warehouse](#olap-data-warehouse)
+    11. [Search](#search)
+    12. [Text Processing](#text-processing)
+    13. [Crawler](#crawler)
+    14. [Recommender System](#recommender-system)
+    15. [Big Data](#big-data)
+    16. [Distributed Realtime Computation System](#distributed-realtime-computation-system)
+    17. [Data Visualization](#data-visualization)
+    18. [Workflow Management](#workflow-management)
+    19. [Log Process](#log-process)
 
 <!-- /TOC -->
 
@@ -111,9 +111,6 @@
     - [InfluxDB](https://github.com/influxdata/influxdb): Scalable datastore for metrics, events, and real-time analytics
     - [Chronograf](https://github.com/influxdata/chronograf): Chronograf is an open-source web application written in Go and React.js that provides the tools to visualize your monitoring data and easily create alerting and automation rule
     - [Kapacitor](https://github.com/influxdata/kapacitor): Open source framework for processing, monitoring, and alerting on time series data
-- [Go: Prometheus](http://prometheus.io/): An open-source service monitoring system and time series database.
-    - [Thanos](https://github.com/improbable-eng/thanos): Highly available Prometheus setup with long term storage capabilities.
-    - [Grafana](http://grafana.org/): Grafana is a leading open source application for visualizing large-scale measurement data.
 - [Riak TS](http://basho.com/products/riak-ts/)
 
 reference:
