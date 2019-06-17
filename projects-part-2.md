@@ -1,25 +1,25 @@
 <!-- TOC -->
 
-- [Projects about Distributed Architecture](#projects-about-distributed-architecture)
-    - [Open Platform](#open-platform)
-    - [Distributed Application Framework](#distributed-application-framework)
-    - [Data Exchange Format](#data-exchange-format)
-    - [RPC](#rpc)
-    - [Service Bus](#service-bus)
-    - [Messsage Queue](#messsage-queue)
-    - [Job Schedule](#job-schedule)
-    - [Load Balance](#load-balance)
-    - [API Gateway](#api-gateway)
-    - [API Proxy](#api-proxy)
-    - [Reverse Proxy](#reverse-proxy)
-    - [Distributed File System](#distributed-file-system)
-    - [Configuration Management](#configuration-management)
-    - [Service Discovery, Name Service](#service-discovery-name-service)
-    - [DNS Server](#dns-server)
-    - [Circuit Breaker](#circuit-breaker)
-    - [Distributed Tracing](#distributed-tracing)
-    - [GraphQL](#graphql)
-    - [Other](#other)
+1. [Projects about Distributed Architecture](#projects-about-distributed-architecture)
+    1. [Open Platform](#open-platform)
+    2. [Distributed Application Framework](#distributed-application-framework)
+    3. [Data Exchange Format](#data-exchange-format)
+    4. [RPC](#rpc)
+    5. [Service Bus](#service-bus)
+    6. [Messsage Queue](#messsage-queue)
+    7. [Job Schedule](#job-schedule)
+    8. [Load Balance](#load-balance)
+    9. [API Gateway](#api-gateway)
+    10. [API Proxy](#api-proxy)
+    11. [Reverse Proxy](#reverse-proxy)
+    12. [Distributed File System](#distributed-file-system)
+    13. [Configuration Management](#configuration-management)
+    14. [Service Discovery, Name Service](#service-discovery-name-service)
+    15. [DNS Server](#dns-server)
+    16. [Circuit Breaker](#circuit-breaker)
+    17. [Distributed Tracing](#distributed-tracing)
+    18. [GraphQL](#graphql)
+    19. [Other](#other)
 
 <!-- /TOC -->
 
@@ -225,7 +225,7 @@ large-scale private cloud infrastructure. Minio is widely deployed across the wo
 
 ## GraphQL
 
-- [GraphQL](https://www.apollographql.com/): Do GraphQL Right
+- [Apollo GraphQL](https://www.apollographql.com/): Do GraphQL Right
 
 ## Other
 
