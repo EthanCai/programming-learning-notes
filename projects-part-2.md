@@ -1,27 +1,24 @@
-<!-- TOC -->
+- [Projects about Distributed Architecture](#Projects-about-Distributed-Architecture)
+  - [Open Platform](#Open-Platform)
+  - [Distributed Application Framework](#Distributed-Application-Framework)
+  - [Data Exchange Format](#Data-Exchange-Format)
+  - [RPC](#RPC)
+  - [Service Bus](#Service-Bus)
+  - [Messsage Queue](#Messsage-Queue)
+  - [Job Schedule](#Job-Schedule)
+  - [Load Balance](#Load-Balance)
+  - [API Gateway](#API-Gateway)
+  - [API Proxy](#API-Proxy)
+  - [Reverse Proxy](#Reverse-Proxy)
+  - [Distributed File System](#Distributed-File-System)
+  - [Configuration Management](#Configuration-Management)
+  - [Service Discovery, Name Service](#Service-Discovery-Name-Service)
+  - [DNS Server](#DNS-Server)
+  - [Circuit Breaker](#Circuit-Breaker)
+  - [Distributed Tracing](#Distributed-Tracing)
+  - [GraphQL](#GraphQL)
+  - [Other](#Other)
 
-1. [Projects about Distributed Architecture](#projects-about-distributed-architecture)
-    1. [Open Platform](#open-platform)
-    2. [Distributed Application Framework](#distributed-application-framework)
-    3. [Data Exchange Format](#data-exchange-format)
-    4. [RPC](#rpc)
-    5. [Service Bus](#service-bus)
-    6. [Messsage Queue](#messsage-queue)
-    7. [Job Schedule](#job-schedule)
-    8. [Load Balance](#load-balance)
-    9. [API Gateway](#api-gateway)
-    10. [API Proxy](#api-proxy)
-    11. [Reverse Proxy](#reverse-proxy)
-    12. [Distributed File System](#distributed-file-system)
-    13. [Configuration Management](#configuration-management)
-    14. [Service Discovery, Name Service](#service-discovery-name-service)
-    15. [DNS Server](#dns-server)
-    16. [Circuit Breaker](#circuit-breaker)
-    17. [Distributed Tracing](#distributed-tracing)
-    18. [GraphQL](#graphql)
-    19. [Other](#other)
-
-<!-- /TOC -->
 
 # Projects about Distributed Architecture
 
@@ -91,11 +88,18 @@
   - [Kafka Manager](https://github.com/yahoo/kafka-manager): A tool for managing Apache Kafka
   - [confluent](https://www.confluent.io/product/confluent-open-source/): A developer-optimized distribution of Apache Kafka
 - [Java: RocketMQ](https://rocketmq.apache.org/): Apache RocketMQ™ is an open source distributed messaging and streaming data platform.
-- [Java: Apache ActiveMQ](http://activemq.apache.org/): Apache ActiveMQ ™ is the most popular and powerful open source messaging and Integration Patterns server. Apache ActiveMQ is fast, supports many Cross Language Clients and Protocols, comes with easy to use Enterprise Integration Patterns and many advanced features while fully supporting JMS 1.1 and J2EE 1.4\. Apache ActiveMQ is released under the Apache 2.0 License.
+- [Java: ActiveMQ](http://activemq.apache.org/): Apache ActiveMQ ™ is the most popular and powerful open source messaging and Integration Patterns server. Apache ActiveMQ is fast, supports many Cross Language Clients and Protocols, comes with easy to use Enterprise Integration Patterns and many advanced features while fully supporting JMS 1.1 and J2EE 1.4\. Apache ActiveMQ is released under the Apache 2.0 License.
+- [Java: Apache Pulsar](https://pulsar.apache.org/en/): Pulsar is a distributed pub-sub messaging platform with a very flexible messaging model and an intuitive client API.
 - [Go: NATS](https://nats.io/): NATS is an open-source, cloud-native messaging system. In addition to functioning as the “nervous system” for the Apcera platform, companies like Baidu, Siemens, VMware, HTC, and Ericsson rely on NATS for its highly performant and resilient messaging capabilities.
 - [Go: NSQ](https://github.com/bitly/nsq): NSQ is a realtime distributed messaging platform designed to operate at scale, handling billions of messages per day.
 - [Go: rmq](https://github.com/adjust/rmq): rmq is short for Redis message queue. It's a message queue system written in Go and backed by Redis. It's similar to redismq, but implemented independently with a different interface in mind.
 - [Node: kue](https://github.com/Automattic/kue): Kue is a priority job queue backed by redis, built for node.js.
+
+Open Messaging:
+
+- [OpenMessaging](http://openmessaging.cloud/): Messaging and Streaming products have been widely used in modern architecture and data processing, for decoupling, queuing, buffering, ordering, replicating, etc. But when data transfers across different messaging and streaming platforms, the compatibility problem arises, which always means much additional work. Although JMS was a good solution during the past decade, it is limited in java environment, lacks specified guidelines for load balance/fault-tolerance, administration, security, and streaming feature, which make it not good at satisfying modern cloud-oriented messaging and streaming applications.
+  - [解读OpenMessaging开源项目，阿里巴巴发起首个分布式消息领域的国际标准](http://jm.taobao.org/2017/10/18/20171018/)
+  - [OPENMESSAGING DOMAIN ARCHITECTURE](http://openmessaging.cloud/design/2018/03/28/openmessaging-domain-architecture-v0.3/)
 
 ## Job Schedule
 
