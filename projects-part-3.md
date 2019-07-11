@@ -233,3 +233,4 @@ In a fast, simple, yet extensible way.
 - [Greylog](https://www.graylog.org/): Free and open source log management
 - [Logspout](https://github.com/gliderlabs/logspout): Log routing for Docker container logs
 - [Rsyslog](https://github.com/rsyslog/rsyslog): Rsyslog is a rocket-fast system for log processing.
+- [Syslog-ng](https://www.syslog-ng.com/)
