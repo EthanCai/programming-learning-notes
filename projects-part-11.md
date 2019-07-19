@@ -1,9 +1,9 @@
 <!-- TOC -->
 
-- [Projects about Office Applications](#projects-about-office-applications)
-    - [Mail](#mail)
-    - [BPM](#bpm)
-- [参考](#参考)
+- [Projects about Office Applications](#Projects-about-Office-Applications)
+  - [Mail](#Mail)
+  - [BPM](#BPM)
+- [参考](#%E5%8F%82%E8%80%83)
 
 <!-- /TOC -->
 
@@ -18,4 +18,6 @@
 
 # 参考
 
+- [List of BPMN Engines](https://wiki2.org/en/List_of_BPMN_2.0_engines)
 - [Awesome Workflow Engine](https://github.com/meirwah/awesome-workflow-engines)
+- [Workflow Patterns](http://www.workflowpatterns.com/)

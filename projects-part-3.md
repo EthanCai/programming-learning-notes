@@ -16,7 +16,7 @@
   - [Big Data](#Big-Data)
   - [Distributed Realtime Computation System](#Distributed-Realtime-Computation-System)
   - [Data Visualization](#Data-Visualization)
-  - [Scientific Workflow System](#Scientific-Workflow-System)
+  - [Workflow System](#Workflow-System)
   - [Log Process](#Log-Process)
 
 
@@ -220,15 +220,28 @@ In a fast, simple, yet extensible way.
 - [Apache Zeppelin](http://www.zepl.com/): A web-based notebook that enables interactive data analytics. You can make beautiful data-driven, interactive and collaborative documents with SQL, Scala and more.
 - [Kibana](https://www.elastic.co/products/kibana): Kibana 是一个为 Logstash 和 ElasticSearch 提供的日志分析的 Web 接口。可使用它对日志进行高效的搜索、可视化、分析等各种操作
 
-## Scientific Workflow System
+## Workflow System
 
 - [Java: Airflow](https://github.com/airbnb/airflow): a workflow management platform
 - [Java: Azkaban](https://azkaban.github.io/): Azkaban is a batch workflow job scheduler created at LinkedIn to run Hadoop jobs. Azkaban resolves the ordering through job dependencies and provides an easy to use web user interface to maintain and track your workflows.
+- [Java: Rundeck](http://rundeck.org/index.html): job scheduler and runbook automation
+- [Go: Argo](https://github.com/argoproj/argo): Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes. Argo Workflows is implemented as a Kubernetes CRD (Custom Resource Definition).
+- [dotNET: Wexflow](https://github.com/aelassas/Wexflow): Wexflow aims to make automations, workflow processes, long-running processes and interactions between systems, applications and folks easy, straightforward and clean. The communication between systems or applications becomes easy through this powerful workflow engine.
+- [dotNET: Workflow Engine](https://workflowengine.io/): Workflow Engine is a perfect solution if you are dealing with business entities life cycle management in a project.Using embedded drag&drop designer you can create processes in your system and manage your workflows via simple API.
+
+Library:
+
 - [Go: SciPipe](https://github.com/scipipe/scipipe): SciPipe is a library for writing Scientific Workflows, sometimes also called "pipelines", in the Go programming language.
+- [Python: luigi](https://github.com/spotify/luigi): Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in.
+- [dotNET: Workflow-core](https://github.com/danielgerlag/workflow-core): Lightweight workflow engine for .NET Standard
 
 Common Workflow Language:
 
 - [Common Workflow Language](https://www.commonwl.org/): The Common Workflow Language (CWL) is a specification for describing analysis workflows and tools in a way that makes them portable and scalable across a variety of software and hardware environments, from workstations to cluster, cloud, and high performance computing (HPC) environments. CWL is designed to meet the needs of data-intensive science, such as Bioinformatics, Medical Imaging, Astronomy, Physics, and Chemistry.
+
+参考：
+
+- [Awesome Workflow Engines](https://github.com/meirwah/awesome-workflow-engines)
 
 ## Log Process
 
