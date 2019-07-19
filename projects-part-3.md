@@ -16,7 +16,7 @@
   - [Big Data](#Big-Data)
   - [Distributed Realtime Computation System](#Distributed-Realtime-Computation-System)
   - [Data Visualization](#Data-Visualization)
-  - [Workflow Management](#Workflow-Management)
+  - [Scientific Workflow System](#Scientific-Workflow-System)
   - [Log Process](#Log-Process)
 
 
@@ -220,10 +220,11 @@ In a fast, simple, yet extensible way.
 - [Apache Zeppelin](http://www.zepl.com/): A web-based notebook that enables interactive data analytics. You can make beautiful data-driven, interactive and collaborative documents with SQL, Scala and more.
 - [Kibana](https://www.elastic.co/products/kibana): Kibana 是一个为 Logstash 和 ElasticSearch 提供的日志分析的 Web 接口。可使用它对日志进行高效的搜索、可视化、分析等各种操作
 
-## Workflow Management
+## Scientific Workflow System
 
 - [Java: Airflow](https://github.com/airbnb/airflow): a workflow management platform
 - [Java: Azkaban](https://azkaban.github.io/): Azkaban is a batch workflow job scheduler created at LinkedIn to run Hadoop jobs. Azkaban resolves the ordering through job dependencies and provides an easy to use web user interface to maintain and track your workflows.
+- [Go: SciPipe](https://github.com/scipipe/scipipe): SciPipe is a library for writing Scientific Workflows, sometimes also called "pipelines", in the Go programming language.
 
 Common Workflow Language:
 
