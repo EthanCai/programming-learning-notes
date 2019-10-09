@@ -1,34 +1,35 @@
 <!-- TOC -->
 
 - [Projects about Application Software Development](#projects-about-application-software-development)
-    - [Compiler](#compiler)
-    - [REPL](#repl)
-    - [Language Converter & Interpreter](#language-converter-&-interpreter)
-    - [Debugger](#debugger)
-    - [Analyzer](#analyzer)
-    - [Profiling](#profiling)
-    - [Web Servers & Application Servers](#web-servers-&-application-servers)
-    - [Application Frameworks](#application-frameworks)
-    - [Template Engine](#template-engine)
-    - [GUI Framework](#gui-framework)
-    - [Asynchronous Programming Framework](#asynchronous-programming-framework)
-    - [Web Socket](#web-socket)
-    - [Network](#network)
-    - [Server Framework](#server-framework)
-    - [Thread & Coroutine](#thread-&-coroutine)
-    - [Reflect & IoC](#reflect-&-ioc)
-    - [Logging](#logging)
-    - [Data Access](#data-access)
-    - [Serialization & Deserialization](#serialization-&-deserialization)
-    - [Command Line](#command-line)
-    - [File](#file)
-    - [Image Processing](#image-processing)
-    - [Audio & Video](#audio-&-video)
-    - [Computer Vision](#computer-vision)
-    - [Authentication & Authorization](#authentication-&-authorization)
-    - [Office Documents](#office-documents)
-    - [Instant Communication](#instant-communication)
-    - [Misc Libraries](#misc-libraries)
+  - [Compiler](#compiler)
+  - [REPL](#repl)
+  - [Language Converter & Interpreter](#language-converter--interpreter)
+  - [Debugger](#debugger)
+  - [Analyzer](#analyzer)
+  - [Profiling](#profiling)
+  - [Web Servers & Application Servers](#web-servers--application-servers)
+  - [Application Frameworks](#application-frameworks)
+  - [Template Engine](#template-engine)
+  - [GUI Framework](#gui-framework)
+  - [Asynchronous Programming Framework](#asynchronous-programming-framework)
+  - [Web Socket](#web-socket)
+  - [Network](#network)
+  - [Server Framework](#server-framework)
+  - [Thread & Coroutine](#thread--coroutine)
+  - [Reflect & IoC](#reflect--ioc)
+  - [Logging](#logging)
+  - [Data Access](#data-access)
+  - [Serialization & Deserialization](#serialization--deserialization)
+  - [Command Line](#command-line)
+  - [File](#file)
+  - [Image Processing](#image-processing)
+  - [Audio & Video](#audio--video)
+  - [Computer Vision](#computer-vision)
+  - [Authentication & Authorization](#authentication--authorization)
+  - [Office Documents](#office-documents)
+  - [Instant Communication](#instant-communication)
+  - [Expression Evaluator](#expression-evaluator)
+  - [Misc Libraries](#misc-libraries)
 
 <!-- /TOC -->
 
@@ -313,6 +314,13 @@ References:
 
 - [heim](https://github.com/euphoria-io/heim): A real-time community platform
 - [Mattermost](https://github.com/mattermost/platform): Mattermost is an open-source team communication service. It brings team messaging and file sharing into one place, accessible across PCs and phones, with archiving and search.
+
+## Expression Evaluator
+
+- [Go: evaluator](https://github.com/nullne/evaluator)
+- [Go: gval](https://github.com/PaesslerAG/gval)
+- [Go: govaluate](https://github.com/Knetic/govaluate)
+- [Go: expr](https://github.com/antonmedv/expr)
 
 ## Misc Libraries
 
