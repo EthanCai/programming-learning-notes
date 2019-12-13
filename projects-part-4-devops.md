@@ -21,9 +21,6 @@
   - [Infrastructure Management](#infrastructure-management)
   - [OS Configuration Management](#os-configuration-management)
   - [Terminal](#terminal)
-  - [Engineering Platform](#engineering-platform)
-  - [Kanban - Issue Management](#kanban---issue-management)
-  - [Bug Management](#bug-management)
   - [Container](#container)
   - [Virtualization](#virtualization)
   - [Serverless](#serverless)
@@ -235,24 +232,6 @@ wrk is a modern HTTP benchmarking tool capable of generating significant load wh
 - [Golang: GoTTY](https://github.com/yudai/gotty): Share your terminal as a web application
 - [Golang: s](https://github.com/zquestz/s): Open a web search in your terminal.
 
-## Engineering Platform
-
-- [PHP: phabricator](https://github.com/phacility/phabricator): Open software engineering platform and fun adventure game 
-
-## Kanban - Issue Management
-
-- [Taiga.io](https://github.com/taigaio): Your Agile, Free and Open Source Project Management Tool
-- [kanboard](https://github.com/kanboard/kanboard): Kanban project management software
-- [wekan](https://github.com/wekan/wekan): The open-source Trello-like kanban (built with Meteor)
-- [LeanLabs - GitLab Kanban Board](http://kanban.leanlabs.io/): Free, open source, self-hosted, Kanban board for GitLab issues
-- [huboard](https://github.com/huboard/huboard): Kanban board for github issues
-
-## Bug Management
-
-- [BugZilla](http://www.bugzilla.org/): Bugzilla is server software designed to help you manage software development.
-- [Mantis Bug Tracker](http://www.mantisbt.org/index.php): MantisBT makes collaboration with team members & clients easy, fast, and professional
-- [BugTracker.NET](http://ifdefined.com/bugtrackernet.html): BugTracker.NET is a free, open-source, web-based bug tracking and general purpose issue tracking application. It is in daily use by thousands of development, customer support, and help desk teams around the world.
-- [BugNET](http://www.bugnetproject.com/): An open source issue tracking & project management application
 
 ## Container
 

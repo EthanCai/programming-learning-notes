@@ -4,7 +4,7 @@
   - [Data Exchange Format](#data-exchange-format)
   - [RPC](#rpc)
   - [Service Bus](#service-bus)
-  - [Messsage Queue](#messsage-queue)
+  - [Message Queue](#message-queue)
   - [Job Schedule](#job-schedule)
   - [Load Balance](#load-balance)
   - [API Gateway](#api-gateway)
@@ -75,7 +75,7 @@
 - [.NET: Rebus](https://github.com/rebus-org/Rebus): Rebus is a lean service bus implementation for .NET, similar in nature to NServiceBus and MassTransit, only leaner
 - [.NET: Shuttle-ESB](http://shuttle.github.io/shuttle-esb/): A highly configurable free open-source enterprise service bus that provides you with a mechanism to create Autonomous Business Components that are loosely coupled. This enables you to develop and deploy specific business functionality that can be independently versioned.
 
-## Messsage Queue
+## Message Queue
 
 - [C++: ZeroMQ](http://zeromq.org/): ZeroMQ (also known as ØMQ, 0MQ, or zmq) looks like an embeddable networking library but acts like a concurrency framework. It gives you sockets that carry atomic messages across various transports like in-process, inter-process, TCP, and multicast. You can connect sockets N-to-N with patterns like fan-out, pub-sub, task distribution, and request-reply. It's fast enough to be the fabric for clustered products. Its asynchronous I/O model gives you scalable multicore applications, built as asynchronous message-processing tasks. It has a score of language APIs and runs on most operating systems
     - [C#: NetMQ](https://github.com/zeromq/netmq): NetMQ is 100% native C# port of ZeroMQ

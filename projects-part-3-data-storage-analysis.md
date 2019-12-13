@@ -100,6 +100,8 @@
 
 ## Time Series Database
 
+- [Go: Prometheus](http://prometheus.io/): An open-source service monitoring system and time series database.
+- [Apache IoTDB](https://iotdb.apache.org/#/): Apache IoTDB (incubating) (Database for Internet of Things) is an integrated data management engine designed for timeseries data. It provides users with services for data collection, storage and analysis. 
 - [Timescaledb](https://github.com/timescale/timescaledb): TimescaleDB is an open-source database designed to make SQL scalable for time-series data. It is engineered up from PostgreSQL, providing automatic partitioning across time and space (partitioning key), as well as full SQL support.
 - [PipelineDB](https://www.pipelinedb.com/): High-performance time-series aggregation for PostgreSQL. An open-source PostgreSQL extension that runs SQL queries continuously on streams, incrementally storing results in tables.
 - InfluxData Open Source Platform
