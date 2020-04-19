@@ -4,7 +4,6 @@
   - [Memory Database](#memory-database)
   - [Graph Database](#graph-database)
   - [Database Engine](#database-engine)
-  - [Cache](#cache)
   - [NoSQL Database](#nosql-database)
   - [Time Series Database](#time-series-database)
   - [JSON Storage](#json-storage)
@@ -18,6 +17,7 @@
   - [Data Visualization](#data-visualization)
   - [Workflow System](#workflow-system)
   - [Log Process](#log-process)
+  - [Notebook](#notebook)
 
 
 # Projects about Data Storage and Analysis
@@ -70,20 +70,6 @@
 - [XtraDB](https://en.wikipedia.org/wiki/XtraDB): Percona XtraDB is a storage engine for the MariaDB and Percona Server databases, and is intended as a drop-in replacement to InnoDB, which is one of the default engines available on the MySQL database.
 - [Berkerly DB](http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html): 介绍见[这里](https://en.wikipedia.org/wiki/Berkeley_DB)
 - [Tokyo Cabinet](http://fallabs.com/tokyocabinet/): Tokyo Cabinet is a library of routines for managing a database. The database is a simple data file containing records, each is a pair of a key and a value. Every key and value is serial bytes with variable length. Both binary data and character string can be used as a key and a value. There is neither concept of data tables nor data types. Records are organized in hash table, B+ tree, or fixed-length array.
-
-## Cache
-
-- [C: Redis](http://redis.io/): Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs.
-    - [codis](https://github.com/CodisLabs/codis): Proxy based Redis cluster solution supporting pipeline and scaling dynamically
-    - [twemproxy](https://github.com/twitter/twemproxy): A fast, light-weight proxy for memcached and redis
-    - [redis-cerberus](https://github.com/HunanTV/redis-cerberus): A Redis cluster proxy.
-    - [Corvus](https://github.com/eleme/corvus): A fast and lightweight Redis Cluster Proxy for Redis 3.0
-    - [CacheCloud](https://github.com/sohutv/cachecloud):  CacheCloud提供一个Redis云管理平台：实现多种类型(Redis Standalone、Redis Sentinel、Redis Cluster)自动部署、解决Redis实例碎片化现象、提供完善统计、监控、运维功能、减少运维成本和误操作，提高机器的利用率，提供灵活的伸缩性，提供方便的接入客户端。
-- [Pika](https://github.com/Qihoo360/pika): Pika is a nosql compatible with redis, it is developed by Qihoo's DBA and infrastructure team
-- [C: Memcached](http://memcached.org/): Free & open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load. Memcached is an in-memory key-value store for small chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page rendering. Memcached is simple yet powerful. Its simple design promotes quick deployment, ease of development, and solves many problems facing large data caches. Its API is available for most popular languages.
-- [Java: Infinispan](http://infinispan.org): Infinispan is a distributed in-memory key/value data store with optional schema, available under the Apache License 2.0. It can be used both as an embedded Java library and as a language-independent service accessed remotely over a variety of protocols (HotRod, REST, Memcached and WebSockets). It offers advanced functionality such as transactions, events, querying and distributed processing.
-- [Go: Groupcahe](https://github.com/golang/groupcache): groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
-- [Java: Hazelcast](https://github.com/hazelcast/hazelcast): Hazelcast is a clustering and highly scalable data distribution platform.
 
 ## NoSQL Database
 
@@ -229,7 +215,6 @@ In a fast, simple, yet extensible way.
 - [Java: Rundeck](http://rundeck.org/index.html): job scheduler and runbook automation
 - [Go: Argo](https://github.com/argoproj/argo): Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes. Argo Workflows is implemented as a Kubernetes CRD (Custom Resource Definition).
 - [dotNET: Wexflow](https://github.com/aelassas/Wexflow): Wexflow aims to make automations, workflow processes, long-running processes and interactions between systems, applications and folks easy, straightforward and clean. The communication between systems or applications becomes easy through this powerful workflow engine.
-- [dotNET: Workflow Engine](https://workflowengine.io/): Workflow Engine is a perfect solution if you are dealing with business entities life cycle management in a project.Using embedded drag&drop designer you can create processes in your system and manage your workflows via simple API.
 - [Python: Perfect](https://github.com/PrefectHQ/prefect): Prefect is a new workflow management system, designed for modern infrastructure and powered by the open-source Prefect Core workflow engine. Users organize Tasks into Flows, and Prefect takes care of the rest.
 
 Library:
@@ -242,9 +227,6 @@ Common Workflow Language:
 
 - [Common Workflow Language](https://www.commonwl.org/): The Common Workflow Language (CWL) is a specification for describing analysis workflows and tools in a way that makes them portable and scalable across a variety of software and hardware environments, from workstations to cluster, cloud, and high performance computing (HPC) environments. CWL is designed to meet the needs of data-intensive science, such as Bioinformatics, Medical Imaging, Astronomy, Physics, and Chemistry.
 
-参考：
-
-- [Awesome Workflow Engines](https://github.com/meirwah/awesome-workflow-engines)
 
 ## Log Process
 
@@ -255,3 +237,10 @@ Common Workflow Language:
 - [Logspout](https://github.com/gliderlabs/logspout): Log routing for Docker container logs
 - [Rsyslog](https://github.com/rsyslog/rsyslog): Rsyslog is a rocket-fast system for log processing.
 - [Syslog-ng](https://www.syslog-ng.com/)
+
+
+
+## Notebook
+
+- [Jupyter](https://jupyter.org/): The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
+- [PolyNote](https://polynote.org/): The polyglot notebook with first-class Scala support.

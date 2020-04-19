@@ -9,6 +9,7 @@
   - [Load Balance](#load-balance)
   - [API Gateway](#api-gateway)
   - [API Proxy](#api-proxy)
+  - [GraphQL](#graphql)
   - [Reverse Proxy](#reverse-proxy)
   - [Distributed File System](#distributed-file-system)
   - [Configuration Management](#configuration-management)
@@ -16,7 +17,7 @@
   - [DNS Server](#dns-server)
   - [Circuit Breaker](#circuit-breaker)
   - [Distributed Tracing](#distributed-tracing)
-  - [GraphQL](#graphql)
+  - [Cache](#cache)
   - [Other](#other)
 
 
@@ -163,6 +164,10 @@ Open Messaging:
 - [C++: Envoy](https://github.com/lyft/envoy): C++ L7 proxy and communication bus
 - [Scala: linkerd](https://linkerd.io/): Modern RPC proxy for microservices
 
+## GraphQL
+
+- [Apollo GraphQL](https://www.apollographql.com/): Do GraphQL Right
+
 ## Reverse Proxy
 
 - [Nginx](http://wiki.nginx.org/Main): Nginx (pronounced engine-x) is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
@@ -195,6 +200,7 @@ large-scale private cloud infrastructure. Minio is widely deployed across the wo
 - [XDiamond](https://github.com/hengyunabc/xdiamond): 全局配置中心，存储应用的配置项，解决配置混乱分散的问题。名字来源于淘宝的开源项目diamond，前面加上一个字母X以示区别。
 - [archaius](https://github.com/Netflix/archaius): Library for configuration management API
 
+
 ## Service Discovery, Name Service
 
 - [Apache Zookeeper](http://zookeeper.apache.org/): ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. All of these kinds of services are used in some form or another by distributed applications. Each time they are implemented there is a lot of work that goes into fixing the bugs and race conditions that are inevitable. Because of the difficulty of implementing these kinds of services, applications initially usually skimp on them ,which make them brittle in the presence of change and difficult to manage. Even when done correctly, different implementations of these services lead to management complexity when the applications are deployed.Application tracing system for Go, based on Google's Dapper.
@@ -219,7 +225,6 @@ large-scale private cloud infrastructure. Minio is widely deployed across the wo
 - [C#: Hystrix.NET](https://hystrixnet.codeplex.com): Hystrix.NET is a C# port of Hystrix, which is a latency and fault tolerance library for complex distributed systems.
 - [Sentinel](https://github.com/alibaba/Sentinel): A lightweight flow-control library providing high-available protection and monitoring
 
-
 ## Distributed Tracing
 
 - [Open Tracing](http://opentracing.io/): Consistent, expressive, vendor-neutral APIs for distributed tracing and context propagation
@@ -228,9 +233,19 @@ large-scale private cloud infrastructure. Minio is widely deployed across the wo
 - [Jaeger](https://github.com/uber/jaeger): Jaeger, a Distributed Tracing System
   - [Jaeger-client-go](https://github.com/uber/jaeger-client-go): Jaeger Bindings for Go OpenTracing API.
 
-## GraphQL
+## Cache
 
-- [Apollo GraphQL](https://www.apollographql.com/): Do GraphQL Right
+- [C: Redis](http://redis.io/): Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs.
+    - [codis](https://github.com/CodisLabs/codis): Proxy based Redis cluster solution supporting pipeline and scaling dynamically
+    - [twemproxy](https://github.com/twitter/twemproxy): A fast, light-weight proxy for memcached and redis
+    - [redis-cerberus](https://github.com/HunanTV/redis-cerberus): A Redis cluster proxy.
+    - [Corvus](https://github.com/eleme/corvus): A fast and lightweight Redis Cluster Proxy for Redis 3.0
+    - [CacheCloud](https://github.com/sohutv/cachecloud):  CacheCloud提供一个Redis云管理平台：实现多种类型(Redis Standalone、Redis Sentinel、Redis Cluster)自动部署、解决Redis实例碎片化现象、提供完善统计、监控、运维功能、减少运维成本和误操作，提高机器的利用率，提供灵活的伸缩性，提供方便的接入客户端。
+- [Pika](https://github.com/Qihoo360/pika): Pika is a nosql compatible with redis, it is developed by Qihoo's DBA and infrastructure team
+- [C: Memcached](http://memcached.org/): Free & open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load. Memcached is an in-memory key-value store for small chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page rendering. Memcached is simple yet powerful. Its simple design promotes quick deployment, ease of development, and solves many problems facing large data caches. Its API is available for most popular languages.
+- [Go: Groupcahe](https://github.com/golang/groupcache): groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
+- [Java: Hazelcast](https://github.com/hazelcast/hazelcast): Hazelcast is a clustering and highly scalable data distribution platform.
+- [Java: Infinispan](http://infinispan.org): Infinispan is a distributed in-memory key/value data store with optional schema, available under the Apache License 2.0. It can be used both as an embedded Java library and as a language-independent service accessed remotely over a variety of protocols (HotRod, REST, Memcached and WebSockets). It offers advanced functionality such as transactions, events, querying and distributed processing.
 
 ## Other
 
