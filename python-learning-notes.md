@@ -1,26 +1,25 @@
 <!-- TOC -->
 
-- [如何搭建开发环境](#如何搭建开发环境)
-    - [安装Python](#安装python)
-        - [使用pyenv管理多个版本的python](#使用pyenv管理多个版本的python)
-    - [编辑器和IDE](#编辑器和ide)
-    - [包管理机制](#包管理机制)
-        - [安装pipenv](#安装pipenv)
-    - [编译运行](#编译运行)
-        - [以交互方式执行Python代码](#以交互方式执行python代码)
-        - [运行Python代码脚本](#运行python代码脚本)
-    - [打包和发布](#打包和发布)
-- [关注的Python Module](#关注的python-module)
-    - [Math](#math)
-    - [Software Test](#software-test)
-    - [Network](#network)
-    - [Development Framework](#development-framework)
-    - [RESTful API Client](#restful-api-client)
-    - [Natural Language Processing](#natural-language-processing)
-    - [Language](#language)
-    - [IoT](#iot)
-- [学习书籍](#学习书籍)
-- [参考](#参考)
+- [如何搭建开发环境](#%e5%a6%82%e4%bd%95%e6%90%ad%e5%bb%ba%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83)
+  - [安装Python](#%e5%ae%89%e8%a3%85python)
+    - [使用pyenv管理多个版本的python](#%e4%bd%bf%e7%94%a8pyenv%e7%ae%a1%e7%90%86%e5%a4%9a%e4%b8%aa%e7%89%88%e6%9c%ac%e7%9a%84python)
+  - [包管理机制](#%e5%8c%85%e7%ae%a1%e7%90%86%e6%9c%ba%e5%88%b6)
+    - [安装pipenv](#%e5%ae%89%e8%a3%85pipenv)
+  - [编译运行](#%e7%bc%96%e8%af%91%e8%bf%90%e8%a1%8c)
+    - [以交互方式执行Python代码](#%e4%bb%a5%e4%ba%a4%e4%ba%92%e6%96%b9%e5%bc%8f%e6%89%a7%e8%a1%8cpython%e4%bb%a3%e7%a0%81)
+    - [运行Python代码脚本](#%e8%bf%90%e8%a1%8cpython%e4%bb%a3%e7%a0%81%e8%84%9a%e6%9c%ac)
+  - [打包和发布](#%e6%89%93%e5%8c%85%e5%92%8c%e5%8f%91%e5%b8%83)
+- [关注的Python Module](#%e5%85%b3%e6%b3%a8%e7%9a%84python-module)
+  - [Math](#math)
+  - [Software Test](#software-test)
+  - [Network](#network)
+  - [Development Framework](#development-framework)
+  - [RESTful API Client](#restful-api-client)
+  - [Natural Language Processing](#natural-language-processing)
+  - [Language](#language)
+  - [IoT](#iot)
+- [学习书籍](#%e5%ad%a6%e4%b9%a0%e4%b9%a6%e7%b1%8d)
+- [参考](#%e5%8f%82%e8%80%83)
 
 <!-- /TOC -->
 
@@ -60,20 +59,6 @@ pyenv does...
 ```
 
 如何使用见 https://github.com/pyenv/pyenv
-
-
-## 编辑器和IDE
-
-(参考了https://wiki.python.org/moin/IntegratedDevelopmentEnvironments)
-
-下面列出了，我倾向使用和正在使用的编辑软件和IDE：
-
-- [Vim](http://www.vim.org/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Emacs](http://www.gnu.org/software/emacs/)
-- [Atom](https://atom.io/)
-- [PyCharm](https://www.jetbrains.com/pycharm/)
-- 如果想把xcode作为Python的IDE，可以参考[这篇文章](http://blog.netsh.org/posts/xcode-python_1846.netsh.html)。
 
 
 ## 包管理机制
