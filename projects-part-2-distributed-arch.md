@@ -7,8 +7,7 @@
   - [Message Queue](#message-queue)
   - [Job Schedule](#job-schedule)
   - [Load Balance](#load-balance)
-  - [API Gateway](#api-gateway)
-  - [API Proxy](#api-proxy)
+  - [API Gateway && API Proxy](#api-gateway--api-proxy)
   - [GraphQL](#graphql)
   - [Reverse Proxy](#reverse-proxy)
   - [Distributed File System](#distributed-file-system)
@@ -18,6 +17,7 @@
   - [Circuit Breaker](#circuit-breaker)
   - [Distributed Tracing](#distributed-tracing)
   - [Cache](#cache)
+  - [Database Driver](#database-driver)
   - [Other](#other)
 
 
@@ -148,7 +148,9 @@ Open Messaging:
 - [Balance](http://www.inlab.de/balance.html): Balance is a simple but powerful generic TCP proxy with round-robin load balancing and failover mechanisms. Its behavior can be controlled at runtime using a simple command line syntax. Balance supports IPv6 on the listening side, which makes it a very useful tool for IPv6 migration of IPv4 only services and servers.
 - [Pen](http://siag.nu/pen/): Pen is a load balancer for "simple" TCP-based protocols such as HTTP or SMTP. It allows several servers to appear as one to the outside. It automatically detects servers that are down and distributes clients among the available servers. This gives high availability and scalable performance.
 
-## API Gateway
+## API Gateway && API Proxy
+
+API gateway: 
 
 - [C: Nginx](https://github.com/nginx/nginx): a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
   - [Nginx Wiki](http://wiki.nginx.org/Main)
@@ -159,7 +161,7 @@ Open Messaging:
     - [Documents](https://tyk.io/tyk-documentation/concepts/)
 - [Go: KrakenD](http://www.krakend.io/): KrakenD aggregates and manipulates multiple data sources to provide you with exactly the API your end-user products need while offering a premium user experience and brutal performance.
 
-## API Proxy
+API Proxy:
 
 - [C++: Envoy](https://github.com/lyft/envoy): C++ L7 proxy and communication bus
 - [Scala: linkerd](https://linkerd.io/): Modern RPC proxy for microservices
@@ -246,6 +248,11 @@ large-scale private cloud infrastructure. Minio is widely deployed across the wo
 - [Go: Groupcahe](https://github.com/golang/groupcache): groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
 - [Java: Hazelcast](https://github.com/hazelcast/hazelcast): Hazelcast is a clustering and highly scalable data distribution platform.
 - [Java: Infinispan](http://infinispan.org): Infinispan is a distributed in-memory key/value data store with optional schema, available under the Apache License 2.0. It can be used both as an embedded Java library and as a language-independent service accessed remotely over a variety of protocols (HotRod, REST, Memcached and WebSockets). It offers advanced functionality such as transactions, events, querying and distributed processing.
+
+
+## Database Driver
+
+- [ShardingSphere](https://shardingsphere.apache.org/): Apache ShardingSphere is an open-source ecosystem consisted of a set of distributed database middleware solutions, including 3 independent products, Sharding-JDBC, Sharding-Proxy & Sharding-Sidecar (Planning). They all provide functions of data sharding, distributed transaction and database orchestration, applicable in a variety of situations such as Java isomorphism, heterogeneous language and cloud native.
 
 ## Other
 

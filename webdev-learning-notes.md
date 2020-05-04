@@ -296,6 +296,7 @@ Blog：
 - [Simple Dashboard Admin](https://github.com/start-angular/SB-Admin-BS4-Angular-4)
 - [ng-admin](https://github.com/marmelab/ng-admin)
 - [CoreUI](http://coreui.io/)
+- [Sleek Dashboard](https://github.com/tafcoder/sleek-dashboard): Free Bootstrap 4 Admin Template and UI Kit 
 
 **References:**
 

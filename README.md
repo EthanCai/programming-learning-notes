@@ -150,6 +150,7 @@ To know about:
   - [Java SE](http://www.oracle.com/technetwork/java/javase/overview/index.html)
   - [Scala](http://www.scala-lang.org/)
   - [Groovy](http://groovy-lang.org/)
+  - [AviatorScript](https://github.com/killme2008/aviator): AviatorScript 是一门高性能、轻量级寄宿于 JVM 之上的脚本语言
   - [Clojure](https://clojure.org/)
 - Guide & News
   - [Java EE Platform Specification](https://github.com/javaee/javaee-spec)
