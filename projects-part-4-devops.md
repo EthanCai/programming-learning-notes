@@ -155,6 +155,7 @@
 
 - [Postman](https://www.getpostman.com/)
 - [yapi](https://github.com/YMFE/yapi)
+- [Insomnia Designer](https://insomnia.rest/)
 
 ## Performance Testing
 
