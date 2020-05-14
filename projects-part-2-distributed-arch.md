@@ -112,6 +112,8 @@ Open Messaging:
   - [C#: Quartz.Net](https://github.com/quartznet/quartznet): Quartz.NET is a pure .NET library written in C# and is a port of very popular open source Java job scheduling framework, Quartz.
 - [Java: rundeck](http://rundeck.org/index.html): job scheduler and runbook automation
 - [Java: schedulix - open source enterprise job scheduling](https://github.com/schedulix/schedulix): schedulix is an open source enterprise job scheduling system.
+- [XXL-job](https://github.com/xuxueli/xxl-job): XXL-JOB是一个分布式任务调度平台
+  - [XXL开源社区](https://www.xuxueli.com/index.html)
 - [C#: FluentScheduler](https://github.com/jgeurts/FluentScheduler): A task scheduler that uses fluent interface to configure schedules. Useful for running cron jobs/automated tasks from your application.
 - [C#: Hangfire](https://github.com/HangfireIO/Hangfire): Incredibly easy way to perform fire-and-forget, delayed and recurring tasks inside ASP.NET applications
 - [Ruby: resque-schedule](https://github.com/resque/resque-scheduler): A light-weight job scheduling system built on top of resque
@@ -150,7 +152,7 @@ Open Messaging:
 
 ## API Gateway && API Proxy
 
-API gateway: 
+API gateway:
 
 - [C: Nginx](https://github.com/nginx/nginx): a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
   - [Nginx Wiki](http://wiki.nginx.org/Main)
