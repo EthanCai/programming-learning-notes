@@ -238,7 +238,7 @@ Common Workflow Language:
 - [Logspout](https://github.com/gliderlabs/logspout): Log routing for Docker container logs
 - [Rsyslog](https://github.com/rsyslog/rsyslog): Rsyslog is a rocket-fast system for log processing.
 - [Syslog-ng](https://www.syslog-ng.com/)
-
+- [vector](https://vector.dev/): A lightweight and ultra-fast tool for building observability pipelines
 
 
 ## Notebook
