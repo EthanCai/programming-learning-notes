@@ -304,6 +304,7 @@ Blog：
 - [Koa](http://koajs.com/)
   - [ThinkJS](https://thinkjs.org/): base on Koa 2.x
 - [strapi](http://strapi.io/)
+- [Loopback](https://loopback.io/): A brand new LoopBack core to deliver great extensibility and flexibility written in TypeScript/ES2017.
 - [Micro](https://github.com/zeithq/micro): Async HTTP microservices
 
 ## Job Schedule
