@@ -22,6 +22,7 @@
 - [技术大会介绍和资料](./tech-conference.md)
 - [技术论文](./papers.md)
 
+
 -------------------------------------------------------------------------------
 
 # Fundamental Knowledge
@@ -45,6 +46,7 @@
 - Hypermedia
   - [IPFS](http://ipfs.io): The InterPlanetary File System (IPFS) is a new hypermedia distribution protocol, addressed by content and identities. IPFS enables the creation of completely distributed applications. It aims to make the web faster, safer, and more open.
 
+
 -------------------------------------------------------------------------------
 
 # Product Design
@@ -63,6 +65,7 @@
 
 - [系统设计学习笔记](./system-design-reference.md)
 
+
 -------------------------------------------------------------------------------
 
 # Programming
@@ -79,22 +82,26 @@ To master:
 
 - Golang
 - Python
-  - Julia
   - R
-- C
-  - Rust
+  - Julia
+- JavaScript
+  - TypeScript
+- Rust
+  - C
   - C++
+- Java
+  - Scala
+- Ruby
 - .NET
   - C#
   - F#
-- Java
 
 To know about:
 
-- PHP
 - Common Lisp
 - https://picolisp.com/
 - https://nim-lang.org/
+- PHP
 
 ### Golang
 
@@ -113,27 +120,46 @@ To know about:
   - [GoCover](https://gocover.io/): GoCover.io offers the code coverage of any golang package as a service.
   - [Go Report Card](https://goreportcard.com/): A web application that generates a report on the quality of an open source go project.
 
-### Python
+### Python & R & Julia
+
+Python:
 
 - Language References
-  - Python
-    - [Official Website](https://www.python.org/)
-    - [Python Package Index](https://pypi.python.org/pypi)
-  - [Julia](https://julialang.org/)
-  - [R](https://www.r-project.org/)
+  - [Python](https://www.python.org/)
+  - [Intel Distribution for Python](https://software.intel.com/content/www/us/en/develop/tools/distribution-for-python.html): Accelerate Python* and speed up core computational packages with this performance-oriented distribution.
+  - [Pypy](https://www.pypy.org/): A fast, compliant alternative implementation of Python
+- Package
+  - [Python Package Index](https://pypi.python.org/pypi)
 - Guide & News
   - [Python Packaging User Guide](https://packaging.python.org/)
 - Tools
-  - [Intel Distribution for Python](https://software.seek.intel.com/python-distribution)
+  - pyenv
+  - Anaconda
 
-### C
+R:
+
+- Language References
+  - [R](https://www.r-project.org/)
+
+Julia:
+
+- Language References
+  - [Julia](https://julialang.org/)
+
+### Rust & C & C++
+
+Rust:
+
+- Language References
+  - [Rust](https://www.rust-lang.org/en-US/)
+
+C & C++:
 
 - Language References
   - [C语言学习笔记](./c-learning-notes.md)
   - [C Course](http://www.geeksforgeeks.org/c/)
   - [C++ Course](http://www.geeksforgeeks.org/c-plus-plus/)
   - [cppreference](http://en.cppreference.com/w/)
-  - [Rust](https://www.rust-lang.org/en-US/)
 - Guide & News
   - [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
   - [Linux Kernel Coding Style](https://www.kernel.org/doc/html/latest/process/coding-style.html)
@@ -144,25 +170,42 @@ To know about:
   - [Clang](http://clang.llvm.org/): The goal of the Clang project is to create a new C based language front-end: C, C++, Objective C/C++, OpenCL C and others for the LLVM compiler. You can get and build the source today. C/C++, OpenCL C and others for the LLVM compiler. You can get and build the source today.
   - [CMake](https://cmake.org/): CMake is an open-source, cross-platform family of tools designed to build, test and package software.
 
-### Java
+### Java & Scala & Groovy
+
+Java:
 
 - Language References
   - [Java SE](http://www.oracle.com/technetwork/java/javase/overview/index.html)
-  - [Scala](http://www.scala-lang.org/)
-  - [Groovy](http://groovy-lang.org/)
-  - [AviatorScript](https://github.com/killme2008/aviator): AviatorScript 是一门高性能、轻量级寄宿于 JVM 之上的脚本语言
-  - [Clojure](https://clojure.org/)
 - Guide & News
   - [Java EE Platform Specification](https://github.com/javaee/javaee-spec)
   - [阿里巴巴Java开发手册](./file/阿里巴巴Java开发手册v1.3.0.pdf)
   - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
   - [Java World](https://www.javaworld.com/)
 
+Scala:
+
+- Language References
+  - [Scala](http://www.scala-lang.org/)
+  - [Groovy](http://groovy-lang.org/)
+
+Groovy:
+
+- Language References
+  - [Groovy](http://groovy-lang.org/)
+
+Other:
+
+- Language References
+  - [AviatorScript](https://github.com/killme2008/aviator): AviatorScript 是一门高性能、轻量级寄宿于 JVM 之上的脚本语言
+  - [Clojure](https://clojure.org/)
+
+
 ### .NET
+
+C#:
 
 - Language References
   - [Official Home of .NET on GitHub](https://github.com/microsoft/dotnet)
-  - [Magic F#](./magic-fsharp.md)
 - Guide & News
   - [NET设计规范：约定、惯用法与模式](http://book.douban.com/subject/4231292/)
   - [C# Coding Conventions](https://msdn.microsoft.com/en-us/library/ff926074.aspx)
@@ -171,6 +214,11 @@ To know about:
 - Tools
   - [Awesome dotNET](https://github.com/quozd/awesome-dotnet)
   - [Mono Projects](https://github.com/mono)
+
+F#:
+
+- Language References
+  - [Magic F#](./magic-fsharp.md)
 
 ### PHP
 
@@ -196,6 +244,7 @@ To know about:
 
 ![](assets/a12e552f4bd0332daf28385d9e614efe.png)
 
+
 -------------------------------------------------------------------------------
 
 # DevOps
@@ -206,6 +255,7 @@ To know about:
 - [Logging best practices](http://dev.splunk.com/view/logging-best-practices/SP-CAAADP6)
 - [Open Tracing Project](http://opentracing.io/): Consistent, expressive, vendor-neutral APIs for distributed tracing and context propagation
 
+
 -------------------------------------------------------------------------------
 
 # Data & Insight & Intelligence
@@ -213,6 +263,7 @@ To know about:
 数据收集、存储、处理、分析相关
 
 - [Bad Data Guide](https://github.com/Quartz/bad-data-guide): An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.
+
 
 -------------------------------------------------------------------------------
 
