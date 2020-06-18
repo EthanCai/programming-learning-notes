@@ -170,6 +170,11 @@ C & C++:
   - [Clang](http://clang.llvm.org/): The goal of the Clang project is to create a new C based language front-end: C, C++, Objective C/C++, OpenCL C and others for the LLVM compiler. You can get and build the source today. C/C++, OpenCL C and others for the LLVM compiler. You can get and build the source today.
   - [CMake](https://cmake.org/): CMake is an open-source, cross-platform family of tools designed to build, test and package software.
 
+Other:
+
+- Language References
+  - [Gravity](https://github.com/marcobambini/gravity): Gravity is a powerful, dynamically typed, lightweight, embeddable programming language written in C without any external dependencies (except for stdlib). It is a class-based concurrent scripting language with modern Swift-like syntax.
+
 ### Java & Scala & Groovy
 
 Java:
