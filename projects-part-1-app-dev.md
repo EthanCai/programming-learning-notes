@@ -188,6 +188,7 @@ References:
 - [C++: Mars](https://github.com/Tencent/mars): Mars is a cross-platform network component developed by WeChat.
 - [Go: kcptun](https://github.com/xtaci/kcptun): an extremely simple & fast udp tunnel based on kcp protocol
 	- [Go: kcp-go](https://github.com/xtaci/kcp-go): A full-featured reliable UDP communication library
+- [Go: TCPx](https://github.com/fwhezfwhez/tcpx): a cross-language tcp framwork in golang
 - [Go: goflyway](https://github.com/coyove/goflyway): HTTP tunnel in Go
 - [Go: gorequest](https://github.com/parnurzeal/gorequest): Simplified HTTP client ( inspired by nodejs SuperAgent )
 - [GO: DNS library](https://github.com/miekg/dns): DNS library in Go
