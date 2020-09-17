@@ -18,7 +18,7 @@
   - [Gather System Information](#gather-system-information)
   - [Process Supervisor](#process-supervisor)
   - [User Behavior Collection & Analysis](#user-behavior-collection--analysis)
-  - [Infrastructure Management](#infrastructure-management)
+  - [Workload/Job Management](#workloadjob-management)
   - [OS Configuration Management](#os-configuration-management)
   - [Terminal](#terminal)
   - [Container](#container)
@@ -217,11 +217,12 @@ wrk is a modern HTTP benchmarking tool capable of generating significant load wh
 - [tracking.js](http://trackingjs.com/): The tracking.js library brings different computer vision algorithms and techniques into the browser environment. By using modern HTML5 specifications, we enable you to do real-time color tracking, face detection and much more — all that with a lightweight core (~7 KB) and intuitive interface.
 
 
-## Infrastructure Management
+## Workload/Job Management
 
 - [C++: Apache Mesos](http://mesos.apache.org/): Apache Mesos abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively.
 - [Scala: Marathon](https://mesosphere.github.io/marathon/): A cluster-wide init and control system for services in cgroups or Docker containers
 - [Go: hashicorp/Nomad](https://github.com/hashicorp/nomad): Nomad is a cluster manager, designed for both long lived services and short lived batch processing workloads. Developers use a declarative job specification to submit work, and Nomad ensures constraints are satisfied and resource utilization is optimized by efficient task packing
+- [C: SLurm](https://slurm.schedmd.com/overview.html): Slurm is an open source, fault-tolerant, and highly scalable cluster management and job scheduling system for large and small Linux clusters. Slurm requires no kernel modifications for its operation and is relatively self-contained. As a cluster workload manager, Slurm has three key functions. First, it allocates exclusive and/or non-exclusive access to resources (compute nodes) to users for some duration of time so they can perform work. Second, it provides a framework for starting, executing, and monitoring work (normally a parallel job) on the set of allocated nodes. Finally, it arbitrates contention for resources by managing a queue of pending work.
 
 ## OS Configuration Management
 
