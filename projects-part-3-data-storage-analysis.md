@@ -97,6 +97,7 @@
     - [Chronograf](https://github.com/influxdata/chronograf): Chronograf is an open-source web application written in Go and React.js that provides the tools to visualize your monitoring data and easily create alerting and automation rule
     - [Kapacitor](https://github.com/influxdata/kapacitor): Open source framework for processing, monitoring, and alerting on time series data
 - [Riak TS](http://basho.com/products/riak-ts/)
+- [TDengine](https://github.com/taosdata/TDengine): An open-source big data platform designed and optimized for the Internet of Things (IoT).
 
 reference:
 
