@@ -114,7 +114,8 @@ Open Messaging:
   - [C#: Quartz.Net](https://github.com/quartznet/quartznet): Quartz.NET is a pure .NET library written in C# and is a port of very popular open source Java job scheduling framework, Quartz.
 - [Java: rundeck](http://rundeck.org/index.html): job scheduler and runbook automation
 - [Java: schedulix - open source enterprise job scheduling](https://github.com/schedulix/schedulix): schedulix is an open source enterprise job scheduling system.
-- [XXL-job](https://github.com/xuxueli/xxl-job): XXL-JOB是一个分布式任务调度平台
+- [Java: DolphinScheduler](https://github.com/apache/dolphinscheduler): DolphinScheduler is a distributed and extensible workflow scheduler platform with powerful DAG visual interfaces, dedicated to solving complex job dependencies in the data pipeline and providing various types of jobs available out of the box.
+- [Java: XXL-job](https://github.com/xuxueli/xxl-job): XXL-JOB是一个分布式任务调度平台
   - [XXL开源社区](https://www.xuxueli.com/index.html)
 - [C#: FluentScheduler](https://github.com/jgeurts/FluentScheduler): A task scheduler that uses fluent interface to configure schedules. Useful for running cron jobs/automated tasks from your application.
 - [C#: Hangfire](https://github.com/HangfireIO/Hangfire): Incredibly easy way to perform fire-and-forget, delayed and recurring tasks inside ASP.NET applications
