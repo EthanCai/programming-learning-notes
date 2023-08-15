@@ -119,6 +119,8 @@ To know about:
   - [JSON to Go](https://mholt.github.io/json-to-go/)
   - [GoCover](https://gocover.io/): GoCover.io offers the code coverage of any golang package as a service.
   - [Go Report Card](https://goreportcard.com/): A web application that generates a report on the quality of an open source go project.
+- References
+  - [Awesome Go](https://github.com/avelino/awesome-go): A curated list of awesome Go frameworks, libraries and software
 
 ### Python & R & Julia
 
