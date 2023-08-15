@@ -3,11 +3,11 @@
 - [Projects about Application Software Development](#projects-about-application-software-development)
   - [Compiler](#compiler)
   - [REPL](#repl)
-  - [Language Converter & Interpreter](#language-converter--interpreter)
+  - [Language Converter \& Interpreter](#language-converter--interpreter)
   - [Debugger](#debugger)
   - [Analyzer](#analyzer)
   - [Profiling](#profiling)
-  - [Web Servers & Application Servers](#web-servers--application-servers)
+  - [Web Servers \& Application Servers](#web-servers--application-servers)
   - [Application Frameworks](#application-frameworks)
   - [Template Engine](#template-engine)
   - [GUI Framework](#gui-framework)
@@ -15,17 +15,17 @@
   - [Web Socket](#web-socket)
   - [Network](#network)
   - [Server Framework](#server-framework)
-  - [Thread & Coroutine](#thread--coroutine)
-  - [Reflect & IoC](#reflect--ioc)
+  - [Thread \& Coroutine](#thread--coroutine)
+  - [Reflect \& IoC](#reflect--ioc)
   - [Logging](#logging)
   - [Data Access](#data-access)
-  - [Serialization & Deserialization](#serialization--deserialization)
+  - [Serialization \& Deserialization](#serialization--deserialization)
   - [Command Line](#command-line)
   - [File](#file)
   - [Image Processing](#image-processing)
-  - [Audio & Video](#audio--video)
+  - [Audio \& Video](#audio--video)
   - [Computer Vision](#computer-vision)
-  - [Authentication & Authorization](#authentication--authorization)
+  - [Authentication \& Authorization](#authentication--authorization)
   - [Office Documents](#office-documents)
   - [Instant Communication](#instant-communication)
   - [Expression Evaluator](#expression-evaluator)
@@ -114,6 +114,7 @@ Application Frameworks:
 - [Java: Vert.x](http://vertx.io): Vert.x is a tool-kit for building reactive applications on the JVM.
 - [Java: Netty](http://netty.io/): Netty is a NIO client server framework which enables quick and easy development of network applications such as protocol servers and clients. It greatly simplifies and streamlines network programming such as TCP and UDP socket server.
 	- [Java: Mina](https://mina.apache.org/mina-project/index.html): Apache MINA is a network application framework which helps users develop high performance and high scalability network applications easily. It provides an abstract ·event-driven · asynchronous API over various transports such as TCP/IP and UDP/IP via Java NIO.
+- [C++: SeaStar](https://seastar.io/): SeaStar is an event-driven framework allowing you to write non-blocking, asynchronous code in a relatively straightforward manner (once understood). It is based on futures.
 
 ## Template Engine
 
